@@ -36,9 +36,11 @@ body{
     transition: top .2s linear,left .2s linear,opacity .2s linear;
 }
 .icons {
-    font-family: 'medium-icons';
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
     font-weight: normal;
+    width: 0.875rem;
+    display: inline-block;
+    height: 0.875rem;
     font-style: normal;
     speak: none;
     text-decoration: none;
@@ -106,7 +108,7 @@ body{
     letter-spacing: -0.02em;
     font-style: normal;
     display: block;
-    padding: 0 1.7rem 0 2.5rem;
+    padding: 0 2rem 0 2rem;
     height: 42px;
     line-height: 45px;
     font-size: 14px;
@@ -115,11 +117,11 @@ body{
     text-align: left;
 }
 .site-nav-title{
-    font-size: 14px;
+    font-size: 12px;
     color: #fff;
-    padding-left: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    padding: 0 2rem 0 2rem;
+    height: 2.5rem;
+    line-height: 3.5rem;
 }
 .site-nav-list-item-btn:hover{
     background-color: #000!important;
@@ -131,6 +133,9 @@ body{
     top: 0;
     bottom: 0;
     padding: 0 16px 0 6px;
+}
+.site-nav-list-bottom{
+    margin-top: 2rem;
 }
 .surface {
     top: 0;
@@ -199,6 +204,10 @@ body{
     background: #b18247;
     border: 1px solid #b18247;
     color: #fff;
+}
+.my-icon-home{
+    background: url("../images/index-little-tag.png") center no-repeat;
+    background-size: 0.875rem 0.875rem;
 }
 
 @media (max-width: 767px){

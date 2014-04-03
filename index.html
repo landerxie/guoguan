@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>国馆-中国道</title>
+    <meta name="viewport" charset="utf-8" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+</head>
+<body>
+    <nav class="site-nav" tabindex="-1">
+        <div class="site-nav-logo icons-logo-circle distraction-free-component" id="open-nav-button" data-action="open-nav">
+            <span class="icons ">
+                
+                <span class="screen-reader-text">guoguan site navigation
+                </span>
+            </span>
+            <div class="site-nav-activity-flag"></div>
+        </div>
+        <div class="site-nav-scrollable-container" id="site-nav-scrollable-container">
+            <ul class="site-nav-list">
+                <li class="site-nav-list-item navigable-list-item">
+                    <a class="site-nav-list-item-btn" title="Go home" href="/" tabindex="-1">
+                        <span class="icons icon-home"></span>国馆首页
+                    </a>
+                </li>
+            </ul>
+            <div class="site-nav-title">
+                国馆应用
+            </div>
+            <ul class="site-nav-list">
+                <li class="site-nav-list-item navigable-list-item">
+                    <a class="site-nav-list-item-btn" title="Go home" href="/" tabindex="-1">
+                        <span class="icons icon-book"></span>新文化杂志
+                    </a>
+                </li>
+                <li class="site-nav-list-item navigable-list-item">
+                    <a class="site-nav-list-item-btn" title="Collections" href="/collections" tabindex="-1">
+                        <span class="icons icon-bell-alt"></span>下一小时
+                    </a>
+                </li>
+                <li class="site-nav-list-item navigable-list-item">
+                    <a class="site-nav-list-item-btn" title="Sign in with Twitter" data-action="sign-in-with-twitter" href="/m/account/authenticate-twitter" tabindex="-1">
+                    <span class="icons icon-play-circle"></span>国馆电台
+                    </a>
+                </li>
+                <li class="site-nav-list-item navigable-list-item">
+                    <a class="site-nav-list-item-btn" title="Sign in with Twitter" data-action="sign-in-with-twitter" href="/m/account/authenticate-twitter" tabindex="-1">
+                        <span class="icons icon-glass"></span>文化测试
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="site-container" id="site-container">
+        <div class="surface" style="visibility: visible">
+            <div class="site-focus">
+                <div class="site-content">
+                        <div class="site-middle-button">
+                            <p class="button"><a class="btn btn-default btn-lg" role="button">了解中国道</a></p>
+                            <p class="button" style="margin-left: 10px"><a class="btn btn-default btn-lg" role="button">进入官网</a></p>
+                        </div>
+                </div>
+            </div>
+
+            <footer class="footer footer-fixed footer-promotional btn-set layout-single-column">
+                <a class="btn btn-link" title="">国馆首页</a>
+                <a class="btn btn-link" title="" href="">每日一文</a>
+                <a class="btn btn-link" title="" href="">国馆电台</a>
+            </footer>
+        </div>
+
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+
+    <![endif]-->
+<script>
+    var isHiden = true; /*控制切换菜单*/
+
+    /*弹出左侧栏*/
+    $(document).ready(function(){
+        $('#open-nav-button').click(openLeftNav);
+        $('#site-container').click(function(){
+            if(!isHiden){
+                openLeftNav();
+            } else {
+                return;
+            }
+        });
+        document.body.addEventListener('touchmove', function (event) {
+            event.preventDefault();
+        }, false);
+    });
+    function openLeftNav() {
+        console.log("1111");
+        if(isHiden){
+            $('#site-nav-scrollable-container').animate({left:'+=12rem'},100);//菜单块向右移动
+            $('#site-container').animate({left:'+=12rem'},100);//菜单块向右移动
+            $('#open-nav-button').animate({left:'+=12rem'},100);//菜单块向右移动
+            $("#open-nav-button").css("display","none");
+        }else{
+            $('#site-nav-scrollable-container').animate({left:'-=12rem'},100); //菜单块向左移动
+            $('#site-container').animate({left:'-=12rem'},100); //菜单块向左移动
+            $('#open-nav-button').animate({left:'-=12rem'},100); //菜单块向左移动
+            $("#open-nav-button").fadeIn(1000);
+        }
+        isHiden = !isHiden;
+    }
+
+</script>
+</body>
+</html>

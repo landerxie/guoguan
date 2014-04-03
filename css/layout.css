@@ -118,10 +118,13 @@ body{
 }
 .site-nav-title{
     font-size: 12px;
-    color: #fff;
+    color: #323232;
     padding: 0 2rem 0 2rem;
     height: 2.5rem;
     line-height: 3.5rem;
+}
+.color-grey{
+    color: #b3b3b1 ;
 }
 .site-nav-list-item-btn:hover{
     background-color: #000!important;

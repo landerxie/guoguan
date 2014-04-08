@@ -38,9 +38,11 @@ body{
 .icons {
     margin-right: 0.3rem;
     font-weight: normal;
-    width: 0.875rem;
+    width: 1.2rem;
     display: inline-block;
-    height: 0.875rem;
+    vertical-align: middle;
+    margin-top: -0.2rem;
+    height: 1.2rem;
     font-style: normal;
     speak: none;
     text-decoration: none;
@@ -104,7 +106,6 @@ body{
     color: #b3b3b1;
 }
 .site-nav-list-item-btn {
-    font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
     letter-spacing: -0.02em;
     font-style: normal;
     display: block;
@@ -210,7 +211,7 @@ body{
 }
 .my-icon-home{
     background: url("../images/index-little-tag.png") center no-repeat;
-    background-size: 0.875rem 0.875rem;
+    background-size: 1.2rem 1.2rem;
 }
 
 @media (max-width: 767px){

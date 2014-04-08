@@ -294,6 +294,21 @@ input[type="radio"] { margin-top:6px; }
 .register-style-choose{
     margin-left:20.666666%
 }
+.glyphicon-ok-circle{
+    color: #02b913;
+}
+.glyphicon-remove-circle{
+    color: #ff0000;
+}
+.color-404040{
+    color:#404040
+}
+.bg-color-e6e6e6{
+    background-color: #e6e6e6;
+}
+.border-d0d0d0{
+    border:1px solid #d0d0d0;
+}
 @media (max-width: 767px){
    .form-label{display: none}
     .btn{margin-top:10px}

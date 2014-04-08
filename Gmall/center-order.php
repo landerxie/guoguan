@@ -35,10 +35,11 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="center-logo"><a href=""><img src="img/logo.png" /></a></div>
+
   <div class="bgbox" style="background-image: url(images/center-bg.jpg);">
     <div class="bgbox-cover" style="background-image: url(images/center-bg-cover.jpg);"></div>
   </div>
+   <div class="container" style="position:relative"><div class="center-logo"><a href=""><img src="img/logo-heng.png" /></a></div></div>
   <div class="content VIPbox">
     <!-- C内容-->
  <div class="container">
@@ -48,7 +49,7 @@
       <div class="VIP-head text-center">
        <span><img src="images/head.png" class="img-responsive"/></span>
       </div>
-      <h1 class=" mt20 text-center">TYXQ-H</h1>
+      <h1 class=" mt20 text-center">千颂伊</h1>
       <div class="row status-bar">
        <div class="col-md-8 col-md-offset-2">
         <div class="pt40 clearfix">
@@ -61,11 +62,11 @@
         <div class="pt20 clearfix">
         <span class="pull-left mr10">订单中心：</span>
         <div  class="pull-left">
-        <a href="" class="gray">未付款订单</a>
+        <a href="" >未付款订单</a>
         <span class="ml20 mr20 gray">|</span>
-        <a href="" >已付款订单</a>
+        <a href="" class="gray">已付款订单</a>
         <span class="ml20 mr20 gray">|</span>
-        <a href="" >已关闭订单</a>
+        <a href="" class="gray">已关闭订单</a>
         </div>
         </div>
         <div class="pt20 clearfix">
@@ -84,7 +85,7 @@
      
   <!--未付款订单组-->
   <div class="panel">
-    <div class="VIP-title gray"><b>未付款订单</b></div>
+    <div class="VIP-title"><b>未付款订单</b></div>
     <ul class="screenNav clearfix" id="myTab">
   <li>筛选：</li>                    
   <li class="active"><a href="#tabOne" data-toggle="tab">全部</a></li> 
@@ -96,9 +97,9 @@
 <div class="tab-content">
   <div class="tab-pane fade in active" id="tabOne">
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：223456754323</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div  class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4 color-404040">订单号：223456754323</div>
+         <div class="text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -109,7 +110,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -117,21 +118,21 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
           </tbody>
         </table>
       </div> 
-        <div class="line-t pb20 pt20 text-right" >
-        <div class="inline-black mr20">共：<span class="hover">4,000.00元</span></div>
+        <div class="line-t pb40 pt20 text-right" >
+        <div class="inline-black mr20">共：<span class="hover"><strong><strong>4,000.00元</strong></strong></span></div>
         <button type="button" class="btn btn-default btn-xs">去支付</button>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>
       </div><!--/.-->
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：223456754323</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4 color-404040">订单号：223456754323</div>
+         <div class=" text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -142,7 +143,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -150,7 +151,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -158,13 +159,13 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
           </tbody>
         </table>
       </div> 
-        <div class="line-t pb20 pt20 text-right" >
-        <div class="inline-black mr20">共：<span class="hover">4,000.00元</span></div>
+        <div class="line-t pb40 pt20 text-right" >
+        <div class="inline-black mr20">共：<span class="hover"><strong>4,000.00元</strong></span></div>
         <button type="button" class="btn btn-default btn-xs">去支付</button>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>
@@ -173,9 +174,9 @@
   </div><!--/.tabOne-->
   <div class="tab-pane fade" id="tabTwo">
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：12345667778</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4">订单号：12345667778</div>
+         <div class=" text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -186,7 +187,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -194,21 +195,21 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
           </tbody>
         </table>
       </div> 
-        <div class="line-t pb20 pt20 text-right" >
-        <div class="inline-black mr20">共：<span class="hover">4,000.00元</span></div>
+        <div class="line-t pb40 pt20 text-right" >
+        <div class="inline-black mr20">共：<span class="hover"><strong>4,000.00元</strong></span></div>
         <button type="button" class="btn btn-default btn-xs">去支付</button>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>
       </div><!--/.-->
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：12345667778</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4">订单号：12345667778</div>
+         <div class=" text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -235,13 +236,13 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
           </tbody>
         </table>
       </div> 
-        <div class="line-t pb20 pt20 text-right" >
-        <div class="inline-black mr20">共：<span class="hover">4,000.00元</span></div>
+        <div class="line-t pb40 pt20 text-right" >
+        <div class="inline-black mr20">共：<span class="hover"><strong>4,000.00元</strong></span></div>
         <button type="button" class="btn btn-default btn-xs">去支付</button>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>
@@ -250,9 +251,9 @@
   </div><!--/.tabTwo-->
   <div class="tab-pane fade" id="tabThree">
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：98765432</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4">订单号：98765432</div>
+         <div class=" text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -276,16 +277,16 @@
           </tbody>
         </table>
       </div> 
-        <div class="line-t pb20 pt20 text-right" >
+        <div class="line-t pb40 pt20 text-right" >
         <div class="inline-black mr20">共：<span class="hover">5,000.00元</span></div>
         <button type="button" class="btn btn-default btn-xs">去支付</button>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>
       </div><!--/.-->
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：98765432</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4">订单号：98765432</div>
+         <div class=" text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -317,8 +318,8 @@
           </tbody>
         </table>
       </div> 
-        <div class="line-t pb20 pt20 text-right" >
-        <div class="inline-black mr20">共：<span class="hover">4,000.00元</span></div>
+        <div class="line-t pb40 pt20 text-right" >
+        <div class="inline-black mr20">共：<span class="hover"><strong>4,000.00元</strong></span></div>
         <button type="button" class="btn btn-default btn-xs">去支付</button>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>

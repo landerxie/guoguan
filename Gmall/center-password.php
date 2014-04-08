@@ -34,10 +34,10 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="center-logo"><a href=""><img src="img/logo.png" /></a></div>
   <div class="bgbox" style="background-image: url(images/center-bg.jpg);">
     <div class="bgbox-cover" style="background-image: url(images/center-bg-cover.jpg);"></div>
   </div>
+   <div class="container" style="position:relative"><div class="center-logo"><a href=""><img src="img/logo-heng.png" /></a></div></div>
   <div class="content VIPbox">
     <!-- C内容-->
  <div class="container">
@@ -47,7 +47,7 @@
       <div class="VIP-head text-center">
        <span><img src="images/head.png" class="img-responsive"/></span>
       </div>
-      <h1 class=" mt20 text-center">TYXQ-H</h1>
+      <h1 class=" mt20 text-center">千颂伊</h1>
       <div class="row status-bar">
        <div class="col-md-8 col-md-offset-2">
         <div class="pt40 clearfix">
@@ -60,7 +60,7 @@
         <div class="pt20 clearfix">
         <span class="pull-left mr10">订单中心：</span>
         <div  class="pull-left">
-        <a href="" class="gray">未付款订单</a>
+        <a href="">未付款订单</a>
         <span class="ml20 mr20 gray">|</span>
         <a href="" >已付款订单</a>
         <span class="ml20 mr20 gray">|</span>
@@ -83,10 +83,10 @@
      
   <!--我的收藏组-->
   <div class="panel">
-    <div class="VIP-title gray"><b>找回密码</b></div>
+    <div class="VIP-title"><b>找回密码</b></div>
 <form role="form" >
 <div class="row mt20">
-  <div class="col-sm-6 col-sm-offset-3">
+  <div class="col-sm-6">
   <div class="form-group mt10">
     <label for="exampleInputEmail1">旧密码</label>
     <input type="text" class="form-control" placeholder="请输入旧密码">
@@ -95,12 +95,12 @@
   <div class="form-group mt20">
     <label for="exampleInputPassword1">新密码</label>
     <input type="password" class="form-control error"  placeholder="请输入新密码">
-    <div class="tips error-tips">*请正确填写</div>
+    <div class="tips error-tips">请正确填写</div>
   </div>
   <div class="form-group mt20">
     <label for="exampleInputFile">确认新密码</label>
     <input type="password" class="form-control error"  placeholder="请再次输入新密码">
-    <div class="tips error-tips">*密码不一致，请重新填写</div>
+    <div class="tips error-tips">密码不一致，请重新填写</div>
   </div>
         <button type="submit" class="btn btn-default btn-md mt20">确认</button>
       </div>

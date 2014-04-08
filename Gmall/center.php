@@ -38,10 +38,10 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="center-logo"><a href=""><img src="img/logo.png" /></a></div>
   <div class="bgbox" style="background-image: url(images/center-bg.jpg);">
     <div class="bgbox-cover" style="background-image: url(images/center-bg-cover.jpg);"></div>
   </div>
+   <div class="container" style="position:relative"><div class="center-logo"><a href=""><img src="img/logo-heng.png" /></a></div></div>
   <div class="content VIPbox">
     <!-- C内容-->
  <div class="container">
@@ -89,12 +89,12 @@
  <div class="panel-group" id="accordion">
   <!--未付款订单组-->
   <div class="panel">
-    <div class="VIP-title gray" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne"><b>未付款订单</b><i class="open"></i></div>
-    <div id="collapseOne" class="panel-collapse collapse in ">
+    <div class="VIP-title " data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne"><b>未付款订单</b><i class="open"></i></div>
+    <div id="collapseOne" class="panel-collapse collapse in mt20">
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：223456754323</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4">订单号：223456754323</div>
+         <div class="text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -125,9 +125,9 @@
         </div>
       </div><!--/.-->
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：223456754323</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4">订单号：223456754323</div>
+         <div class="text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -170,12 +170,12 @@
   <!--/.组-->
   <!--最近已付款的订单组-->
   <div class="panel">
-    <div class="VIP-title gray" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo"><b>最近已付款的订单</b><i></i></div>
-    <div id="collapseTwo" class="panel-collapse collapse ">
+    <div class="VIP-title " data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo"><b>最近已付款的订单</b><i></i></div>
+    <div id="collapseTwo" class="panel-collapse collapse mt20">
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：223456754323</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4">订单号：223456754323</div>
+         <div class="text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -205,9 +205,9 @@
         </div>
       </div><!--/.-->
       <div class="panel-body">
-        <div class="row p10">
-         <div class="col-sm-6 h4">订单号：223456754323</div>
-         <div class="col-sm-6 text-right order-time">2014/01/13/17:23</div>
+        <div class="order-row p10 bg-color-e6e6e6">
+         <div class="col-sm-4">订单号：223456754323</div>
+         <div class="text-right order-time">2014/01/13/17:23</div>
         </div>
         <div class="table-responsive">
         <table class="table" >
@@ -250,7 +250,7 @@
   <!--/.组-->
   <!--我的购物车组-->
   <div class="panel">
-    <div class="VIP-title gray" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree"><b>我的购物车</b><i></i></div>
+    <div class="VIP-title " data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree"><b>我的购物车</b><i></i></div>
     <div id="collapseThree" class="panel-collapse collapse">
       <div class="row mt20">
        <div class="col-xs-6 "><p class="h2">我的购物车</p></div>
@@ -340,7 +340,7 @@
   <!--/.组-->
   <!--我的收藏组-->
   <div class="panel">
-    <div class="VIP-title gray" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour"><b>我的收藏</b><i></i></div>
+    <div class="VIP-title " data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour"><b>我的收藏</b><i></i></div>
     <div id="collapseFour" class="panel-collapse collapse ">
       <div class="collect row mt20">
        <div class="col-xs-6 "><p class="h2">我的收藏</p></div>

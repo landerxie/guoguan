@@ -32,19 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="center.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="center.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/center.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="9" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.21683967" vertical-offset="971" max-vertical-offset="8322">
+            <state line="45" column="2" selection-start="1596" selection-end="1729" vertical-scroll-proportion="-15.88" vertical-offset="458" max-vertical-offset="8322">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="center-address.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="center-address.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/center-address.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="9" selection-start="2056" selection-end="2056" vertical-scroll-proportion="-3.58" vertical-offset="904" max-vertical-offset="5054">
+            <state line="98" column="98" selection-start="3712" selection-end="3712" vertical-scroll-proportion="0.33333334" vertical-offset="1573" max-vertical-offset="5054">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="center-collect.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/center-collect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="9" selection-start="2056" selection-end="2056" vertical-scroll-proportion="-3.58" vertical-offset="923" max-vertical-offset="4161">
+            <state line="38" column="18" selection-start="1256" selection-end="1256" vertical-scroll-proportion="-12.32" vertical-offset="414" max-vertical-offset="4161">
               <folding />
             </state>
           </provider>
@@ -131,14 +131,14 @@
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/center-address.php" />
-        <option value="$PROJECT_DIR$/center-collect.php" />
         <option value="$PROJECT_DIR$/center-order.php" />
         <option value="$PROJECT_DIR$/center-order2.php" />
         <option value="$PROJECT_DIR$/center-order3.php" />
         <option value="$PROJECT_DIR$/center-orderinfo.php" />
         <option value="$PROJECT_DIR$/center-password.php" />
         <option value="$PROJECT_DIR$/center.php" />
+        <option value="$PROJECT_DIR$/center-collect.php" />
+        <option value="$PROJECT_DIR$/center-address.php" />
       </list>
     </option>
   </component>
@@ -189,48 +189,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Gmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,20 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/center-address.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="9" selection-start="2056" selection-end="2056" vertical-scroll-proportion="-3.58" vertical-offset="904" max-vertical-offset="5054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/center-collect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="9" selection-start="2056" selection-end="2056" vertical-scroll-proportion="-3.58" vertical-offset="923" max-vertical-offset="4161">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/center-order.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="9" selection-start="2123" selection-end="2123" vertical-scroll-proportion="-3.58" vertical-offset="942" max-vertical-offset="6612">
@@ -455,7 +399,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/center.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="9" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.21683967" vertical-offset="971" max-vertical-offset="8322">
+        <state line="45" column="2" selection-start="1596" selection-end="1729" vertical-scroll-proportion="-15.88" vertical-offset="458" max-vertical-offset="8322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center-collect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="18" selection-start="1256" selection-end="1256" vertical-scroll-proportion="-12.32" vertical-offset="414" max-vertical-offset="4161">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center-address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="98" selection-start="3712" selection-end="3712" vertical-scroll-proportion="0.33333334" vertical-offset="1573" max-vertical-offset="5054">
           <folding />
         </state>
       </provider>

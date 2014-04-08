@@ -37,10 +37,10 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="center-logo"><a href=""><img src="img/logo.png" /></a></div>
   <div class="bgbox" style="background-image: url(images/center-bg.jpg);">
     <div class="bgbox-cover" style="background-image: url(images/center-bg-cover.jpg);"></div>
   </div>
+   <div class="container" style="position:relative"><div class="center-logo"><a href=""><img src="img/logo-heng.png" /></a></div></div>
   <div class="content VIPbox">
     <!-- C内容-->
  <div class="container">
@@ -63,7 +63,7 @@
         <div class="pt20 clearfix">
         <span class="pull-left mr10">订单中心：</span>
         <div  class="pull-left">
-        <a href="" class="gray">未付款订单</a>
+        <a href="">未付款订单</a>
         <span class="ml20 mr20 gray">|</span>
         <a href="" >已付款订单</a>
         <span class="ml20 mr20 gray">|</span>
@@ -86,7 +86,7 @@
      
   <!--我的收藏组-->
   <div class="panel">
-    <div class="VIP-title gray"><b>我的收藏</b></div>
+    <div class="VIP-title"><b>我的收藏</b></div>
       <div class="collect row mt20">
        <div class=" col-xs-6 col-sm-3 ">
         <div class="view">

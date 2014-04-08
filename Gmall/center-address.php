@@ -36,10 +36,10 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="center-logo"><a href=""><img src="img/logo.png" /></a></div>
   <div class="bgbox" style="background-image: url(images/center-bg.jpg);">
     <div class="bgbox-cover" style="background-image: url(images/center-bg-cover.jpg);"></div>
   </div>
+   <div class="container" style="position:relative"><div class="center-logo"><a href=""><img src="img/logo-heng.png" /></a></div></div>
   <div class="content VIPbox">
     <!-- C内容-->
  <div class="container">
@@ -62,7 +62,7 @@
         <div class="pt20 clearfix">
         <span class="pull-left mr10">订单中心：</span>
         <div  class="pull-left">
-        <a href="" class="gray">未付款订单</a>
+        <a href="">未付款订单</a>
         <span class="ml20 mr20 gray">|</span>
         <a href="" >已付款订单</a>
         <span class="ml20 mr20 gray">|</span>
@@ -85,7 +85,7 @@
      
   <!--我的收藏组-->
   <div class="panel">
-    <div class="VIP-title gray"><b>收货地址</b></div>
+    <div class="VIP-title"><b>收货地址</b></div>
         <div class="row cart-address mt20">
         <!-- 一组-->
          <div class="col-sm-4">
@@ -96,7 +96,7 @@
            </div>
            <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
            <div class="p10 clearfix">
-            <div class="pull-left selectIcon text-left">使用</div>
+            <div class="pull-left icon-ok-circle text-left" style="color:#02b913; font-size:20px"></div>
             <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
            </div>
            </div>

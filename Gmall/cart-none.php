@@ -29,7 +29,7 @@
        <div class="row mt40">
          <div class="col-sm-6 cart-none-Icon"><img src="img/cart.png"></div>
          <div class="col-sm-4 cart-none-text">
-          <h1 class="cart-none mt40"><b>您的购物车还是空的赶紧行动吧！</b></h1>
+          <h3 class="cart-none mt40"><b>您的购物车还是空的赶紧行动吧！</b></h3>
            <a href="" class="btn btn-default btn-icon-right mt20">去购物 <span class="glyphicon glyphicon-chevron-right"></span></a>
           </div>
        </div>

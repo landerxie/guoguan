@@ -11,6 +11,8 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/base.css"/>
 <link rel="stylesheet" type="text/css" href="css/Gstyle.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
 <!--[if lt IE 9]>
     <script src="/js/html5shiv.js"></script>
     <script src="/js/respond.min.js"></script>
@@ -42,7 +44,7 @@ $(function() {/*单选项*/
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
      <form class="form-horizontal" role="form">
-        <h1 class=" font text-center line-b pt40 pb30"><b>收货地址</b></h1>
+        <h2 class=" font text-center line-b pt40 pb30"><b>收货地址</b></h2>
         <div class="row cart-address mt20">
         <!-- 一组-->
          <div class="col-sm-3">
@@ -53,7 +55,7 @@ $(function() {/*单选项*/
            </div>
            <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
            <div class="p10 clearfix">
-            <div class="pull-left selectIcon text-left">使用</div>
+            <div class="pull-left icon-ok-circle text-left" style="color:#02b913; font-size:20px"></div>
             <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
            </div>
            </div>
@@ -111,38 +113,38 @@ $(function() {/*单选项*/
          </button>
         </div>
         <!--组-->
-        <div class="cart-form-title line-b pb20 mt40" ><b class="f-st gray">支付及配送方式</b></div>
+        <div class="cart-form-title line-b pb20 mt40" ><b>支付及配送方式</b></div>
            <div class="p10">
            <div class="mt20 mb20">
            <div class="radio">
             <label>
-               <input type="radio" name="paytype" checked> 在线支付
+               <input type="radio" name="paytype" checked class="mt2"> 在线支付
             </label>
             </div>
             </div>
            <div class="radio mt20">
             <label>
-               <input type="radio" name="paytype"> 上门自取
+               <input type="radio" name="paytype" class="mt2"> 上门自取
             </label>
             </div>
            </div>
         <!-- /.组-->
         <!--组-->
-        <div class="cart-form-title line-b pb20 mt30" ><b class="f-st gray">送货时间</b></div>
+        <div class="cart-form-title line-b pb20 mt30" ><b>送货时间</b></div>
            <div class="p10">
            <div class="mt20">
            <div class="radio-inline mr50">
-               <input type="radio" name="Invoice" checked> 不开发票
+               <input type="radio" name="Invoice" checked class="mt2"> 不开发票
             </div>
            <div class="radio-inline">
-               <input type="radio" name="Invoice" > 普通发票
+               <input type="radio" name="Invoice" class="mt2"> 普通发票
             </div>
             </div>
             <div class="form-group mt20">
               <label class=" pull-left control-label">&nbsp;&nbsp;发票抬头：</label>
               <div class="col-xs-12 col-sm-10 clearfix">
-              <div class=" pull-left radio-inline mr20"><input type="radio" name="unit" checked> 不开发票 </div>
-              <div class=" pull-left radio-inline mr10"><input type="radio" name="unit" > 普通发票</div>
+              <div class=" pull-left radio-inline mr20"><input type="radio" name="unit" checked class="mt2"> 不开发票 </div>
+              <div class=" pull-left radio-inline mr10"><input type="radio" name="unit" class="mt2"> 普通发票</div>
               <div class=" pull-left gray form-control-static">(请确认单位名称正确,以免因名称错误耽搁您的报销)</div>
              </div>
             </div>
@@ -157,7 +159,7 @@ $(function() {/*单选项*/
            </div>
         <!-- /.组-->
         <!--组-->
-        <div class="cart-form-title line-b pb20 mt30" ><b class="f-st gray">商品清单</b></div>
+        <div class="cart-form-title line-b pb20 mt30" ><b>商品清单</b></div>
         <div class="table-responsive">
         <table class="table bordernone" >
           <thead>
@@ -190,14 +192,14 @@ $(function() {/*单选项*/
         <!--组-->
         <div class="line-t pb20 mt30" >
          <div class="pr10 cart-form-total">
-           <div class="pt20 text-right ">共1件<br>金额合计：4,000.00元<br>运费：10元</div>
-           <div class="pt20 text-right">共&nbsp;<span class="hover">4,000.00元</span></div>
+           <div class="pt20 text-right ">共1件<br>运费：10元</div>
+           <div class=" text-right">金额合计:&nbsp;<span class="hover"><strong>4,000.00元</strong></span></div>
          </div>
         </div>
         <!--组-->
         <!--组-->
         <div class="line-t pb20 pt40 text-right" >
-        <button type="button" class="btn btn-gray mt10">继续购物</button>
+        <button type="button" class="btn btn-default btn-icon-right mt10">继续购物</button>
         <button type="submit" class="btn btn-default btn-icon-right mt10">提交，并去结账 <span class="glyphicon glyphicon-chevron-right"></span></button>
         </div>
         <!--组-->
@@ -214,7 +216,7 @@ $(function() {/*单选项*/
       <form class="form-horizontal" role="form">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h1 class="mt20 text-center" >添加收货地址</h1>
+        <h4 class="mt20 text-center" >添加收货地址</h4>
       </div>
       <div class="modal-body">
             <div class="form-group">

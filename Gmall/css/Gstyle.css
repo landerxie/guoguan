@@ -92,9 +92,9 @@ text-align:center;
 .cart-adr-list.selected a, .cart-adr-list:hover a { color:#b18247; }
 .selectIcon { display:none; width:18px; height:18px; background:url(../img/okIcon.png) no-repeat; text-indent:-999em; overflow:hidden; }
 .cart-adr-list.selected .selectIcon { display:block; }
-.cart-form-title { font-size:30px; }
+.cart-form-title { font-size:18px; }
 .cart-form-total { font-size:14px; line-height:30px; }
-.cart-form-total span { font-size:24px; }
+.cart-form-total span { font-size:20px; }
 .Icon-border { display:inline-block; border:1px solid #ccc; }
 .radio-cart { display:inline-block; cursor:pointer; white-space:nowrap; }
 .radio-cart input[type="radio"] { margin-top:0px; }

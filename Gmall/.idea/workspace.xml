@@ -23,6 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="cart-none.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cart-none.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="6" selection-start="757" selection-end="764" vertical-scroll-proportion="-13.4" vertical-offset="26" max-vertical-offset="893">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart-pay.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cart-pay.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="30" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.4429066" vertical-offset="775" max-vertical-offset="2204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="center-password.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/center-password.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,10 +59,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="center-address.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="center-address.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/center-address.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="98" selection-start="3712" selection-end="3712" vertical-scroll-proportion="0.33333334" vertical-offset="1573" max-vertical-offset="5054">
+            <state line="106" column="30" selection-start="3974" selection-end="3974" vertical-scroll-proportion="-17.64" vertical-offset="1573" max-vertical-offset="5054">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="63" selection-start="668" selection-end="668" vertical-scroll-proportion="-9.64" vertical-offset="25" max-vertical-offset="2147">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart-form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cart-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="98" selection-start="5753" selection-end="5753" vertical-scroll-proportion="-12.32" vertical-offset="2466" max-vertical-offset="5605">
               <folding />
             </state>
           </provider>
@@ -53,61 +89,27 @@
       <file leaf-file-name="center-collect.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/center-collect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="18" selection-start="1256" selection-end="1256" vertical-scroll-proportion="-12.32" vertical-offset="414" max-vertical-offset="4161">
+            <state line="13" column="1" selection-start="556" selection-end="675" vertical-scroll-proportion="-9.88" vertical-offset="0" max-vertical-offset="4161">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="center-order.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/center-order.php">
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="9" selection-start="2123" selection-end="2123" vertical-scroll-proportion="-3.58" vertical-offset="942" max-vertical-offset="6612">
-              <folding />
+            <state line="276" column="30" selection-start="14146" selection-end="14146" vertical-scroll-proportion="0.0" vertical-offset="5011" max-vertical-offset="6365">
+              <folding>
+                <marker date="1396949025583" expanded="true" signature="1664:1705" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="center-order2.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/center-order2.php">
+      <file leaf-file-name="Gstyle.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/Gstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="9" selection-start="2120" selection-end="2120" vertical-scroll-proportion="-3.58" vertical-offset="904" max-vertical-offset="6498">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="center-order3.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/center-order3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="9" selection-start="2120" selection-end="2120" vertical-scroll-proportion="-3.58" vertical-offset="904" max-vertical-offset="6460">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="center-orderinfo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/center-orderinfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="9" selection-start="2117" selection-end="2117" vertical-scroll-proportion="-3.58" vertical-offset="904" max-vertical-offset="3914">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="237" selection-start="1300" selection-end="1606" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="28215">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="109" selection-start="3407" selection-end="3694" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7771">
+            <state line="96" column="36" selection-start="6038" selection-end="6038" vertical-scroll-proportion="0.0" vertical-offset="1311" max-vertical-offset="3021">
               <folding />
             </state>
           </provider>
@@ -123,12 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/common/header-simple.php" />
-        <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/css/center.css" />
-        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/center-order.php" />
@@ -137,8 +133,14 @@
         <option value="$PROJECT_DIR$/center-orderinfo.php" />
         <option value="$PROJECT_DIR$/center-password.php" />
         <option value="$PROJECT_DIR$/center.php" />
-        <option value="$PROJECT_DIR$/center-collect.php" />
         <option value="$PROJECT_DIR$/center-address.php" />
+        <option value="$PROJECT_DIR$/center-collect.php" />
+        <option value="$PROJECT_DIR$/cart.php" />
+        <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/css/Gstyle.css" />
+        <option value="$PROJECT_DIR$/cart-form.php" />
+        <option value="$PROJECT_DIR$/cart-none.php" />
+        <option value="$PROJECT_DIR$/cart-pay.php" />
       </list>
     </option>
   </component>
@@ -189,6 +191,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Gmall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gmall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gmall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,53 +317,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7926" selection-start="8160" selection-end="8160" vertical-scroll-proportion="-7.6" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="2019" selection-end="2019" vertical-scroll-proportion="0.0" vertical-offset="343" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/header-simple.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="65" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/center.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="43" selection-start="4177" selection-end="4177" vertical-scroll-proportion="-15.96" vertical-offset="1596" max-vertical-offset="2641">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="258" column="73" selection-start="13438" selection-end="13438" vertical-scroll-proportion="0.0" vertical-offset="4441" max-vertical-offset="6346">
-          <folding>
-            <marker date="1396940719807" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/goods.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="7" selection-start="6855" selection-end="6855" vertical-scroll-proportion="0.0" vertical-offset="3947" max-vertical-offset="4826">
-          <folding>
-            <marker date="1395719526359" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1395719526359" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="237" selection-start="1300" selection-end="1606" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="28215">
@@ -404,16 +373,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/center-collect.php">
+    <entry file="file://$PROJECT_DIR$/center-address.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="18" selection-start="1256" selection-end="1256" vertical-scroll-proportion="-12.32" vertical-offset="414" max-vertical-offset="4161">
+        <state line="106" column="30" selection-start="3974" selection-end="3974" vertical-scroll-proportion="-17.64" vertical-offset="1573" max-vertical-offset="5054">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/center-address.php">
+    <entry file="file://$PROJECT_DIR$/center-collect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="98" selection-start="3712" selection-end="3712" vertical-scroll-proportion="0.33333334" vertical-offset="1573" max-vertical-offset="5054">
+        <state line="13" column="1" selection-start="556" selection-end="675" vertical-scroll-proportion="-9.88" vertical-offset="0" max-vertical-offset="4161">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="63" selection-start="668" selection-end="668" vertical-scroll-proportion="-9.64" vertical-offset="25" max-vertical-offset="2147">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="276" column="30" selection-start="14146" selection-end="14146" vertical-scroll-proportion="0.0" vertical-offset="5011" max-vertical-offset="6365">
+          <folding>
+            <marker date="1396949025583" expanded="true" signature="1664:1705" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Gstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="36" selection-start="6038" selection-end="6038" vertical-scroll-proportion="0.0" vertical-offset="1311" max-vertical-offset="3021">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="98" selection-start="5753" selection-end="5753" vertical-scroll-proportion="-12.32" vertical-offset="2466" max-vertical-offset="5605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart-none.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="757" selection-end="764" vertical-scroll-proportion="-13.4" vertical-offset="26" max-vertical-offset="893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart-pay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="30" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.4429066" vertical-offset="775" max-vertical-offset="2204">
           <folding />
         </state>
       </provider>

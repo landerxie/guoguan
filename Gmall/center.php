@@ -11,6 +11,8 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/base.css"/>
 <link rel="stylesheet" type="text/css" href="css/center.css"/>
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
 <!--[if lt IE 9]>
     <script src="/js/html5shiv.js"></script>
     <script src="/js/respond.min.js"></script>
@@ -51,14 +53,14 @@
       <div class="VIP-head text-center">
        <span><img src="images/head.png" class="img-responsive"/></span>
       </div>
-      <h1 class=" mt20 text-center">TYXQ-H</h1>
+      <h1 class=" mt20 text-center">千颂伊</h1>
       <div class="row status-bar">
        <div class="col-md-8 col-md-offset-2">
         <div class="pt40 clearfix">
         <span class="pull-left mr10">账户安全：</span>
         <div  class="pull-left">
-         <span class="mr20"><span class=" hover glyphicon glyphicon-remove-circle"></span> <a href="">邮箱验证</a></span>
-         <span class="mr20"><span class=" hover glyphicon glyphicon-ok-circle"></span> <a href="">手机验证</a></span>
+         <span class="mr20 gray"><span class="glyphicon icon-envelope"></span> <a href="" class="gray">邮箱验证</a></span>
+         <span class="mr20"><span class="glyphicon icon-mobile-phone" style="font-size:18px"></span> <a href="">手机验证</a></span>
         </div>
         </div>
         <div class="pt20 clearfix">
@@ -105,7 +107,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -113,13 +115,13 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
           </tbody>
         </table>
       </div> 
         <div class="line-t pb20 pt20 text-right" >
-        <div class="inline-black mr20">共：<span class="hover">4,000.00元</span></div>
+        <div class="inline-black mr20">共：<span class="hover"><strong>4,000.00元</strong></span></div>
         <button type="button" class="btn btn-default btn-xs">去支付</button>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>
@@ -138,7 +140,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -146,7 +148,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -154,13 +156,13 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
           </tbody>
         </table>
       </div> 
         <div class="line-t pb20 pt20 text-right" >
-        <div class="inline-black mr20">共：<span class="hover">4,000.00元</span></div>
+        <div class="inline-black mr20">共：<span class="hover"><strong>4,000.00元</strong></span></div>
         <button type="button" class="btn btn-default btn-xs">去支付</button>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>
@@ -186,7 +188,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -194,13 +196,13 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
           </tbody>
         </table>
       </div> 
         <div class="line-t pb20 pt20 text-right" >
-        <div class="inline-black mr20">共：<span class="hover">4,000.00元</span></div>
+        <div class="inline-black mr20">共：<span class="hover"><strong>4,000.00元</strong></span></div>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>
       </div><!--/.-->
@@ -218,7 +220,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -226,7 +228,7 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
             <tr align="center" >
               <td width="15%" valign="middle"><a href=""><img src="images/img.jpg" width="60" height="60" class="img-circle"></a></td>
@@ -234,13 +236,13 @@
               <td width="10%" valign="middle">x1</td>
               <td width="15%" valign="middle">等待付款</td>
               <td width="15%" valign="middle">在线付款</td>
-              <td width="22%" valign="middle"> 单价：  ¥12379.00</td>
+              <td width="22%" valign="middle"> 单价：  <strong class="color-404040">¥12379.00</strong></td>
             </tr>
           </tbody>
         </table>
       </div> 
         <div class="line-t pb20 pt20 text-right" >
-        <div class="inline-black mr20">共：<span class="hover">4,000.00元</span></div>
+        <div class="inline-black mr20">共：<span class="hover"><strong>4,000.00元</strong></span></div>
         <button type="button" class="btn btn-default btn-xs">去支付</button>
         <button type="submit" class="btn btn-default btn-xs mr10">订单详情</button>
         </div>

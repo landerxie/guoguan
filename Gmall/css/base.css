@@ -246,7 +246,7 @@ input[type="radio"] { margin-top:6px; }
 .modal-content { box-shadow: none; }
 .modal-footer { text-align: center; }
 /*表单验证*/
-.form-control.error { border-color:#a94442; box-shadow:none;/*inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(204, 102, 102, 0.6)*/ }
+.form-control.error { border-color:red; box-shadow:none;/*inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(204, 102, 102, 0.6)*/ }
 .tips { font-size:12px; display:inline-block; color:#000000; }
 .tips.error-tips { color:red; }
 .tips.succ-tips { width:24px; height:34px; background:url(../img/succ.jpg) center no-repeat; }

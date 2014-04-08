@@ -11,6 +11,8 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/base.css"/>
 <link rel="stylesheet" type="text/css" href="css/center.css"/>
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
 <!--[if lt IE 9]>
     <script src="/js/html5shiv.js"></script>
     <script src="/js/respond.min.js"></script>
@@ -53,8 +55,8 @@
         <div class="pt40 clearfix">
         <span class="pull-left mr10">账户安全：</span>
         <div  class="pull-left">
-         <span class="mr20"><span class=" hover glyphicon glyphicon-remove-circle"></span> <a href="">邮箱验证</a></span>
-         <span class="mr20"><span class=" hover glyphicon glyphicon-ok-circle"></span> <a href="">手机验证</a></span>
+         <span class="mr20 gray"><span class="glyphicon icon-envelope"></span> <a href="" class="gray">邮箱验证</a></span>
+         <span class="mr20"><span class="glyphicon icon-mobile-phone" style="font-size:18px"></span> <a href="">手机验证</a></span>
         </div>
         </div>
         <div class="pt20 clearfix">

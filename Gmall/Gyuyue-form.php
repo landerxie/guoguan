@@ -51,13 +51,13 @@
 <?php include'common/header-simple.php'?>
 <!-- H头部结束-->
 <!-- C内容-->
-<div class="container Gyuyue-Form mt160">
+<div class="container Gyuyue-Form mt160 yuyue-form-bg">
   <div class="row">
-    <div class="font font-lg text-center" id="Gyuyue-Formheader">填写预约信息</div>
+    <div class="font font-lg text-center fs24" id="Gyuyue-Formheader">填写预约信息</div>
        <div class="col-xs-12 col-md-10 col-md-offset-1">
       <form class="form-horizontal" role="form">
-    <div class="form-item">
-    <div class="font font-md">请务必填写您的真实信息，购买时使用此信息验证您的身份</div>
+    <div class="form-item border-none">
+    <div class="font form-group line-b"><h4>请务必填写您的真实信息，购买时使用此信息验证您的身份</h4></div>
     <div class="form-group">
     <label class="control-label">真实姓名：</label>
     <div class="col-xs-10 col-md-5">
@@ -79,8 +79,8 @@
     </div>
    </div><!--form-group -->
   </div><!--form-item -->
-    <div class="form-item">
-    <div class="font font-md">请填写您的详细地址，地址提交后不能更改</div>
+    <div class="form-item border-none">
+    <div class="font form-group line-b"><h4>请填写您的详细地址，地址提交后不能更改</h4></div>
     <div class="form-group">
     <label class="control-label">您的地址：</label>
 									    <div class="col-sm-2">
@@ -109,7 +109,7 @@
 											  <option>4</option>
 											  <option>5</option>
 											</select>
-									</div> 
+									</div>
     <!--<div class="col-xs-10 col-md-5"> -->
     <!--按钮组-->
       <!--<div class="btn-group">
@@ -165,28 +165,28 @@
     </div>
    </div><!--form-group -->
   </div><!--form-item -->
-    <div class="form-item">
-    <div class="font font-md">您的购买意向</div>
+    <div class="form-item border-none">
+    <div class="font form-group line-b"><h4>您的购买意向</h4></div>
     <div class="radio">
      <label>
      <input type="radio"  name="buyyx" checked >
-     <span class="font18">自己购买</span>
+     <span class="fs14">自己购买</span>
      </label>
    </div>
     <div class="radio">
      <label>
      <input type="radio"  name="buyyx" >
-     <span class="font18">送礼赠人</span>
+     <span class="fs14">送礼赠人</span>
      </label>
    </div>
   </div><!--form-item -->
-    <div class="form-item">
+    <div class="form-item border-none">
     <div class="form-Yzm form-control-xs">
      <input type="text" class="form-control"  placeholder="请填写验证码">
-     <span class="form-Yzmimg"><a href="#"><img src="img/Yzm.jpg" height="34" align="absmiddle"></a><span class="font18">点击图片刷新验证码</span></span>
+     <span class="form-Yzmimg"><a href="#"><img src="img/Yzm.jpg" height="34" align="absmiddle"></a><span class="fs14">点击图片刷新验证码</span></span>
      </div>
   <div class="checkbox">
-  <label class="font18">
+  <label class="fs14">
     <input type="checkbox" value="">
          我已阅读并同意&nbsp;&nbsp;<a href="" class="focus">《国馆预约/购买协议》</a>&nbsp;&nbsp;及地址不可更改相关条件  
      </label>
@@ -198,7 +198,7 @@
     </div>
 </div><!--form-item -->
 </form>
-      <div class="Tsap font18">温馨提示
+      <div class="Tsap fs14">温馨提示
 请确认您的预约信息，提交后将不可能更改。预约并不代表购买成功，请在开放购买时准时访问。数量有限，先到先得。</div>
       </div>
   </div>

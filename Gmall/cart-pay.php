@@ -41,43 +41,48 @@ $(function() {/*单选项*/
 <div class="container ptonav">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <form class="form-horizontal" role="form">
-        <!-- 组-->
-        <div class=" mt40 pb20 line-b">
-           <p>订单：54678654345678</p>
-           <p class="mt5">总计：<span class=" hover h3"><strong>4000.00</strong></span> 元</p>
-           <p class="mt10">配送：周杰伦/15912345678/燕玲路金燕大厦502室/不限送货时间/不开发票</p>
-         </div>
-        <!-- /.组-->
-        <!-- 组-->
-        <div class=" mt40 pb20">
-           <h3 class="gray">配送及支付方式</h3>
-           <div class="mt20 mb20">
-            <span class="radio-cart"><input type="radio" checked ><span class="ml10 Icon-border"><img src="img/Icon-zfb.jpg" /></span></span>
-            <span class="ml20">大额支付推荐使用支付宝快捷支付</span>
-           </div>
-         </div>
-        <!-- /.组-->
-        <!-- 组-->
-        <div class=" mt20 pb20">
-           <div class="mb20">
-            <span class="radio-cart mt20 mr50"><input type="radio" checked ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
-            <span class="radio-cart mt20 mr50"><input type="radio"  ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
-            <span class="radio-cart mt20 mr50"><input type="radio"  ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
-            <span class="radio-cart mt20 mr50"><input type="radio"  ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
-            <span class="radio-cart mt20 mr50"><input type="radio"  ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
-           </div>
-         </div>
-        <!-- /.组-->
-        <!--组-->
-        <div class="line-t pb20 pt40 text-right" >
-        <button type="button" class="btn btn-default btn-icon-right mt10">修改订单</button>
-        <button type="submit" class="btn btn-default btn-icon-right mt10" data-toggle="modal" data-target="#myModal">
-          去支付<span class="glyphicon glyphicon-chevron-right"></span>
-         </button>
+     <div class="cart-form-title">
+          <span>选择支付方式</span>
+     </div>
+     <div class="cart-form-body">
+          <form class="form-horizontal" role="form">
+            <!-- 组-->
+            <div class=" mt20 pb20 line-b fs14">
+               <p>订单：54678654345678</p>
+               <p class="mt5">总计：<span class=" hover h3"><strong>4000.00</strong></span> 元</p>
+               <p class="mt10">配送：周杰伦/15912345678/燕玲路金燕大厦502室/不限送货时间/不开发票</p>
+             </div>
+            <!-- /.组-->
+            <!-- 组-->
+            <div class=" mt40">
+               <h3 class="gray">配送及支付方式</h3>
+               <div class="mt20 mb20">
+                <span class="radio-cart"><input type="radio" checked ><span class="ml10 Icon-border"><img src="img/Icon-zfb.jpg" /></span></span>
+                <span class="ml20">大额支付推荐使用支付宝快捷支付</span>
+               </div>
+             </div>
+            <!-- /.组-->
+            <!-- 组-->
+            <div class=" mt20 pb20">
+               <div class="mb20">
+                <span class="radio-cart mt20 mr50"><input type="radio" checked ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
+                <span class="radio-cart mt20 mr50"><input type="radio"  ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
+                <span class="radio-cart mt20 mr50"><input type="radio"  ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
+                <span class="radio-cart mt20 mr50"><input type="radio"  ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
+                <span class="radio-cart mt20 mr50"><input type="radio"  ><span class="ml10 Icon-border"><img src="img/Icon-Icbc.jpg" /></span></span>
+               </div>
+             </div>
+            <!-- /.组-->
+            <!--组-->
+            <div class="line-t pb20 pt40 text-right" >
+            <button type="button" class="btn btn-default btn-icon-right mt10">修改订单</button>
+            <button type="submit" class="btn btn-default btn-icon-right mt10" data-toggle="modal" data-target="#myModal">
+              去支付<span class="glyphicon glyphicon-chevron-right"></span>
+             </button>
+            </div>
+            <!--/.组-->
+            </form>
         </div>
-        <!--/.组-->
-        </form>
     </div>
   </div>
 </div>

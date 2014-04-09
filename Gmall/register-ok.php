@@ -30,11 +30,11 @@
     <div class="regok-header" >
       <h1 class="font text-center">账户注册成功</h1>
     </div>
-    <div class="regok-body text-center">
+    <div class="regok-body text-center font18">
      系统将在5秒后返回注册前的页面，如果没有请点击手动跳转
     </div>
     <div class="regok-footer text-center" >
-       <a href="" class="focus">返回登陆页</a>
+       <a href="" class="focus fs14">返回登陆页</a>
        </div>
     </div>
   </div><!--/.regByEmail-->

@@ -27,11 +27,11 @@
 <!-- C内容-->
 <div class="container">
    <div class="GyuyueCenter section">
-    <h1 class="font font-lg">对不起，此品售馨了</h1>
+    <h1 class="font font-lg fs36">对不起，此品暂时缺货</h1>
     <!--<img src="img/font-yuyueNone.png" class="font-img" > -->
     <p class="txt">都是我不好，人太疯狂，就太少。（预告：下一轮将于6月12日开启）</p>
     <div >
-     <a href="" class="Gbtn Gyuyue-Nonebtn">返回活动首页<span>></span></a>
+     <a href="" class="Gbtn Gyuyue-Nonebtn focus fs14 mt20" >返回活动首页<span>></span></a>
     </div>
    </div>
 </div>

@@ -27,7 +27,7 @@
 <!-- C内容-->
 <div class="container">
    <div class="GyuyueCenter section">
-    <h1 class="font font-lg">恭喜您！</h1>
+    <h1 class="font font-lg fs36">恭喜您！</h1>
     <!--<img src="img/font-yuyueOK.png" class="font-img"> -->
     <p class="Htxt">成功预约1月21日开放购买</p>
     <p class="txt">您已具备国馆XX产品购买资格<br>请于1月21日中午12点准时前往国馆官网购买。</p>
@@ -37,7 +37,7 @@
     </a>
  -->   
      <a href="javascript:;" class="btn btn-default btn-icon-right" >
-      <i class="h2">分享给好友</i> <span class="glyphicon glyphicon-chevron-right"></span>
+      <i>分享给好友</i> <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
  </div>
    </div>

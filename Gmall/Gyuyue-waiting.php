@@ -27,7 +27,7 @@
 <!-- C内容-->
 <div class="container">
    <div class="GyuyueCenter section">
-    <h1 class="font font-lg">正在排队，请稍后噢！</h1>
+    <h1 class="font font-lg fs36">正在排队，请稍后噢！</h1>
     <!--<img src="img/font-waiting.png" class="font-img" > -->
     <p class="txt">抱歉，由于访问人数太多导致服务器压力山大，请您耐心等候，<br>我们将在稍后告诉您排队结果。</p>
    </div>

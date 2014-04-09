@@ -27,7 +27,7 @@
 <!-- C内容-->
 <div class="container">
    <div class="GyuyueCenter section">
-    <h1 class="font font-lg">噢~您掉队了</h1>
+    <h1 class="font font-lg fs36">噢~您掉队了</h1>
     <!--<img src="img/font-fallbehind.png" class="font-img" > -->
     <p class="txt">由于队列太拥挤了，您掉队了。</p>
    </div>

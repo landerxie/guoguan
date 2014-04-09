@@ -31,10 +31,10 @@
     <p class="txt">预约专场与2014年1月21号 中午12：00 开抢离抢购开始还剩：04小时20分20秒</p>
     <div>
      <a href="javascript:;" class="btn btn-default btn-icon-right" >
-      <i class="h2">立即抢购</i> <span class="glyphicon glyphicon-chevron-right"></span>
+      <i>立即抢购</i> <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
      <a href="javascript:;" class="btn btn-default btn-icon-right" >
-      <i class="h2">商品详情</i> <span class="glyphicon glyphicon-chevron-right"></span>
+      <i>商品详情</i> <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
     </div>
    </div>

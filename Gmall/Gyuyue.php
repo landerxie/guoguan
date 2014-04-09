@@ -33,10 +33,10 @@
     <p class="txt">预约专场于2014年1月21号 中午12：00 开抢限售5000款</p>
     <div><!--<a href="" class="Gbtn Gbtn-buynow">马上预约<span>></span></a><a href="" class="Gbtn">商品详情<span>></span></a> -->
      <a href="javascript:;" class="btn btn-default btn-icon-right" >
-      <i class="h2">马上预约</i> <span class="glyphicon glyphicon-chevron-right"></span>
+      <i>马上预约</i> <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
      <a href="javascript:;" class="btn btn-default btn-icon-right" >
-      <i class="h2">商品详情</i> <span class="glyphicon glyphicon-chevron-right"></span>
+      <i>商品详情</i> <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
     </div>
    </div>

@@ -44,95 +44,102 @@ $(function() {/*单选项*/
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
      <form class="form-horizontal" role="form">
-        <h2 class=" font text-center line-b pt40 pb30"><b>收货地址</b></h2>
-        <div class="row cart-address mt20">
-        <!-- 一组-->
-         <div class="col-sm-3">
-          <div class="cart-adr-list selected">
-           <div class="p10 clearfix">
-             <span class="pull-left text-left">周杰伦</span>
-             <span class="pull-right text-right">13111236549</span>
-           </div>
-           <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
-           <div class="p10 clearfix">
-            <div class="pull-left icon-ok-circle text-left" style="color:#02b913; font-size:20px"></div>
-            <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
-           </div>
-           </div>
+         <div class="cart-form-title">
+            <span>收货地址</span>
          </div>
-         <!-- /.一组-->
-        <!-- 一组-->
-         <div class="col-sm-3">
-          <div class="cart-adr-list">
-           <div class="p10 clearfix">
-             <span class="pull-left text-left">周杰伦</span>
-             <span class="pull-right text-right">13111236549</span>
-           </div>
-           <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
-           <div class="p10 clearfix">
-            <div class="pull-left selectIcon">使用</div>
-            <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
-           </div>
-           </div>
-         </div>
-         <!-- /.一组-->
-        <!-- 一组-->
-         <div class="col-sm-3">
-          <div class="cart-adr-list">
-           <div class="p10 clearfix">
-             <span class="pull-left text-left">周杰伦</span>
-             <span class="pull-right text-right">13111236549</span>
-           </div>
-           <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
-           <div class="p10 clearfix">
-            <div class="pull-left selectIcon">使用</div>
-            <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
-           </div>
-           </div>
-         </div>
-         <!-- /.一组-->
-        <!-- 一组-->
-         <div class="col-sm-3">
-          <div class="cart-adr-list">
-           <div class="p10 clearfix">
-             <span class="pull-left text-left">周杰伦</span>
-             <span class="pull-right text-right">13111236549</span>
-           </div>
-           <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
-           <div class="p10 clearfix">
-            <div class="pull-left selectIcon">使用</div>
-            <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
-           </div>
-           </div>
-         </div>
-         <!-- /.一组-->
+         <div class="cart-form-body mb50">
+                    <div class="row cart-address mt20">
+                    <!-- 一组-->
+                     <div class="col-sm-3">
+                      <div class="cart-adr-list selected">
+                       <div class="p10 clearfix">
+                         <span class="pull-left text-left">周杰伦</span>
+                         <span class="pull-right text-right">13111236549</span>
+                       </div>
+                       <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
+                       <div class="p10 clearfix">
+                        <div class="pull-left icon-ok-circle text-left" style="color:#02b913; font-size:20px"></div>
+                        <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
+                       </div>
+                       </div>
+                     </div>
+                     <!-- /.一组-->
+                    <!-- 一组-->
+                     <div class="col-sm-3">
+                      <div class="cart-adr-list">
+                       <div class="p10 clearfix">
+                         <span class="pull-left text-left">周杰伦</span>
+                         <span class="pull-right text-right">13111236549</span>
+                       </div>
+                       <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
+                       <div class="p10 clearfix">
+                        <div class="pull-left selectIcon">使用</div>
+                        <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
+                       </div>
+                       </div>
+                     </div>
+                     <!-- /.一组-->
+                    <!-- 一组-->
+                     <div class="col-sm-3">
+                      <div class="cart-adr-list">
+                       <div class="p10 clearfix">
+                         <span class="pull-left text-left">周杰伦</span>
+                         <span class="pull-right text-right">13111236549</span>
+                       </div>
+                       <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
+                       <div class="p10 clearfix">
+                        <div class="pull-left selectIcon">使用</div>
+                        <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
+                       </div>
+                       </div>
+                     </div>
+                     <!-- /.一组-->
+                    <!-- 一组-->
+                     <div class="col-sm-3">
+                      <div class="cart-adr-list">
+                       <div class="p10 clearfix">
+                         <span class="pull-left text-left">周杰伦</span>
+                         <span class="pull-right text-right">13111236549</span>
+                       </div>
+                       <div class="p10"> 广州市天河区燕岭路120号金燕大厦502<br>(510630)</div>
+                       <div class="p10 clearfix">
+                        <div class="pull-left selectIcon">使用</div>
+                        <div class="pull-right text-right"><a href="">编辑</a>&nbsp;&nbsp;<a href="">删除</a></div>
+                       </div>
+                       </div>
+                     </div>
+                     <!-- /.一组-->
+                    </div>
+                    <div class="mt30 mb10">
+                     <button type="submit" class="btn btn-default btn-icon-left"  data-toggle="modal" data-target="#myModal">
+                      <span class="glyphicon glyphicon-plus"></span>使用新地址
+                     </button>
+                    </div>
+                    <!--组-->
         </div>
-        <div class="mt30 mb10">
-         <button type="submit" class="btn btn-default btn-icon-left"  data-toggle="modal" data-target="#myModal">
-          <span class="glyphicon glyphicon-plus"></span>使用新地址
-         </button>
-        </div>
-        <!--组-->
-        <div class="cart-form-title line-b pb20 mt40" ><b>支付及配送方式</b></div>
-           <div class="p10">
-           <div class="mt20 mb20">
-           <div class="radio">
-            <label>
-               <input type="radio" name="paytype" checked class="mt2"> 在线支付
-            </label>
+        <div class="cart-form-title" >支付及配送方式</div>
+            <div class="cart-form-body mb50">
+               <div>
+               <div class=" mb20">
+                   <div class="radio">
+                    <label>
+                       <input type="radio" name="paytype" checked class="mt2"> 在线支付
+                    </label>
+                    </div>
+                </div>
+               <div class="radio mt20">
+                <label>
+                   <input type="radio" name="paytype" class="mt2"> 上门自取
+                </label>
+                </div>
+               </div>
             </div>
-            </div>
-           <div class="radio mt20">
-            <label>
-               <input type="radio" name="paytype" class="mt2"> 上门自取
-            </label>
-            </div>
-           </div>
         <!-- /.组-->
         <!--组-->
-        <div class="cart-form-title line-b pb20 mt30" ><b>送货时间</b></div>
+        <div class="cart-form-title" >送货时间</div>
+        <div class="cart-form-body mb50">
            <div class="p10">
-           <div class="mt20">
+           <div>
            <div class="radio-inline mr50">
                <input type="radio" name="Invoice" checked class="mt2"> 不开发票
             </div>
@@ -157,52 +164,55 @@ $(function() {/*单选项*/
               <div class="col-xs-6 form-control-static">购买商品明细</div>
             </div>
            </div>
+        </div>
         <!-- /.组-->
         <!--组-->
-        <div class="cart-form-title line-b pb20 mt30" ><b>商品清单</b></div>
-        <div class="table-responsive">
-        <table class="table bordernone" >
-          <thead>
-            <tr>
-              <th width="40%"><span class="ml20">商品</span></th>
-              <th width="15%" class="text-center">商品编号</th>
-              <th width="15%" class="text-center">单价</th>
-              <th width="15%" class="text-center">数量</th>
-              <th width="15%" class="text-center">小计</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr align="center">
-              <td>
-              <div class="clearfix">
-              <div class="pull-left pt10">
-               <a href="">国馆酒HT87990090（经典装）</a>
-              </div>
-              </div>
-              </td>
-              <td><div class="pt10">HT87990090</div></td>
-              <td><div class="pt10">2000元</div></td>
-              <td><div class="pt5 col-sm-8 col-sm-offset-2"><input type="text" class="form-control text-center" value="1"></div></td>
-              <td><div class="pt10 hover">2000元</div></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>  
-        <!-- /.组-->
-        <!--组-->
-        <div class="line-t pb20 mt30" >
-         <div class="pr10 cart-form-total">
-           <div class="pt20 text-right ">共1件<br>运费：10元</div>
-           <div class=" text-right">金额合计:&nbsp;<span class="hover"><strong>4,000.00元</strong></span></div>
-         </div>
+        <div class="cart-form-title" >商品清单</div>
+        <div class="cart-form-body mb50">
+            <div class="table-responsive">
+            <table class="table bordernone" >
+              <thead>
+                <tr>
+                  <th width="40%"><span class="ml20">商品</span></th>
+                  <th width="15%" class="text-center">商品编号</th>
+                  <th width="15%" class="text-center">单价</th>
+                  <th width="15%" class="text-center">数量</th>
+                  <th width="15%" class="text-center">小计</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr align="center">
+                  <td>
+                  <div class="clearfix">
+                  <div class="pull-left pt10">
+                   <a href="">国馆酒HT87990090（经典装）</a>
+                  </div>
+                  </div>
+                  </td>
+                  <td><div class="pt10">HT87990090</div></td>
+                  <td><div class="pt10">2000元</div></td>
+                  <td><div class="pt5 col-sm-8 col-sm-offset-2"><input type="text" class="form-control text-center" value="1"></div></td>
+                  <td><div class="pt10 hover">2000元</div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+            <!-- /.组-->
+            <!--组-->
+            <div class="line-t pb20 mt30" >
+             <div class="pr10 cart-form-total">
+               <div class="pt20 text-right ">共1件<br>运费：10元</div>
+               <div class=" text-right">金额合计:&nbsp;<span class="hover"><strong>4,000.00元</strong></span></div>
+             </div>
+            </div>
+            <!--组-->
+            <!--组-->
+            <div class="line-t pb20 pt40 text-right" >
+            <button type="button" class="btn btn-default btn-icon-right mt10">继续购物</button>
+            <button type="submit" class="btn btn-default btn-icon-right mt10">提交，并去结账 <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </div>
+            <!--组-->
         </div>
-        <!--组-->
-        <!--组-->
-        <div class="line-t pb20 pt40 text-right" >
-        <button type="button" class="btn btn-default btn-icon-right mt10">继续购物</button>
-        <button type="submit" class="btn btn-default btn-icon-right mt10">提交，并去结账 <span class="glyphicon glyphicon-chevron-right"></span></button>
-        </div>
-        <!--组-->
         </form>
     </div>
   </div>

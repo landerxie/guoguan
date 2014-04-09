@@ -26,13 +26,13 @@
 <!-- C内容-->
 <div class="container">
    <div class="GyuyueCenter section">
-    <h1 class="font font-lg">恭喜！您抢购成功</h1>
+    <h1 class="font font-lg fs36">恭喜！您抢购成功</h1>
     <!--<img src="img/font-BuyOK.png" class="font-img" > -->
     <p class="txt">请在4小时内完成支付，不然订单会自动取消喔~</p>
     <div class="mt60">
-     <!--<a href="" class="Gbtn Gyuyue-Nonebtn">立即支付<span>></span></a> -->
+     <!--<a href="" class="btn btn-default btn-icon-right">立即支付<span></span></a> -->
      <a href="javascript:;" class="btn btn-default btn-icon-right" >
-      <i class="h2">立即支付</i> <span class="glyphicon glyphicon-chevron-right"></span>
+      <i>立即支付</i> <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
     </div>
    </div>

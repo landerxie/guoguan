@@ -12,7 +12,24 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
 </head>
+<style>
+    #message{
+    width:300px;
+    height:200px;
+    overflow:hidden;
+    display:none;
+    border:1px solid #000;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background:#C4D79B;
+        }
+</style>
 <body>
+<div id="message">
+    <!--消息框的内容-->
+</div>
+
     <nav class="site-nav" tabindex="-1">
         <div class="site-nav-logo icons-logo-circle distraction-free-component" id="open-nav-button" data-action="open-nav">
             <span class="icons-logo-content">国</span>
@@ -107,6 +124,20 @@
     <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
 
     <![endif]-->
+
+
+    <script>
+        $(document).ready(function(){
+            if(window.name==""){//第一次打开网页
+                var mes=$("#message");//获取id="message"的div对象
+                mes.slideDown(1000).fadeOut(10000);
+                window.name="mytest";//随便给name赋一个值，这个值只要窗口不关闭，就一直不变
+            }
+        });
+    </script>
+
+
+
 <script>
     var isHiden = true; /*控制切换菜单*/
 

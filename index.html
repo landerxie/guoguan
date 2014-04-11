@@ -199,11 +199,27 @@
     function sss() {
         var guideHandleImg = document.getElementById("guide-handle-img");
         guideHandleImg.style.display = "block";
+        fade(guideHandleImg);
     }
 
     function closeGuideImg(){
         var guideHandleImg = document.getElementById("guide-handle-img");
         guideHandleImg.style.display = "none";
+    }
+
+    function fade(element) {
+        var op = 1;  // initial opacity
+        setTimeout(function(){
+            var timer = setInterval(function () {
+                if (op <= 0.1){
+                    clearInterval(timer);
+                    element.style.display = 'none';
+                }
+                element.style.opacity = op;
+                element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+                op -= op * 0.1;
+            }, 50);
+        },5000);
     }
 </script>
 </body>

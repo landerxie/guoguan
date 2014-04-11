@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    $("#share-to-sina-button").css("position","relative").css("left","50%").css("margin-left","-44.5px");
+
     $("#share-to-sina-button").click(function(){
         if(is_weixin()){
             //微信浏览器
@@ -16,6 +18,7 @@ $(document).ready(function(){
             return
         }
         else{
+
             var content_t = "#每日一文# 门前  -   @顾城 @国馆";
             var content_p = "http://img.guoguan.com/images/201404/1396554514850740305.jpg";
             window._bd_share_config={"common":{"bdSnsKey":{"tsina":"2106128267","tqq":"101030289"},"bdText":content_t,"bdMini":"2","bdMiniList":false,"bdPic":content_p,"bdStyle":"1","bdSize":"24"},"share":{"bdSize":16},"image":{"viewList":["qzone","tsina","douban","tqq","renren","weixin"],"viewText":"推荐给朋友","viewSize":"24"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","douban","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];

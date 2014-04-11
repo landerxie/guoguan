@@ -190,7 +190,7 @@ body{
     display:table-cell;
     margin-bottom: 1rem;
 }
-.icons-logo-circle{
+/*.icons-logo-circle{
     background-color: rgba(139,115,86,0.8);
     border-radius: 1.5rem;
     -moz-border-radius: 1.5rem;
@@ -198,9 +198,14 @@ body{
     -o-border-radius: 1.5rem;
     border:2px solid;
     border-color: rgba(246,233,217,0.7);
+}*/
+.icons-logo-circle{
+    background: url("../images/logo-circle-two.png");
+    background-size: 3rem 3rem;
 }
 .icons-logo-circle:hover{
-    background-color: rgba(139,115,86,1);
+    background: url("../images/logo-circle-two-hover.png");
+    background-size: 3rem 3rem;
 }
 .icons-logo-content{
     height: 3rem;
@@ -265,6 +270,18 @@ body{
 .my-icon-home{
     background: url("../images/index-little-tag.png") center no-repeat;
     background-size: 1.2rem 1.2rem;
+}
+
+#guide-handle-img{
+    z-index: 999;
+    color: #fff;
+    display: none;
+    font-size: 53px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 52px;
+    left: 12px;
 }
 
 @media (max-width: 767px){

@@ -23,14 +23,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="10" selection-start="4816" selection-end="4816" vertical-scroll-proportion="0.7361111" vertical-offset="1150" max-vertical-offset="2850">
+            <state line="88" column="39" selection-start="4277" selection-end="4277" vertical-scroll-proportion="-11.892858" vertical-offset="1339" max-vertical-offset="3249">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productDetail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="3" selection-start="435" selection-end="494" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="2945">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="option.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/option.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.39721254" vertical-offset="0" max-vertical-offset="1463">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="27" selection-start="32" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1482">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,7 +66,7 @@
       <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="17" selection-start="505" selection-end="505" vertical-scroll-proportion="-18.24" vertical-offset="0" max-vertical-offset="4883">
+            <state line="255" column="13" selection-start="6304" selection-end="6304" vertical-scroll-proportion="0.0" vertical-offset="4314" max-vertical-offset="5396">
               <folding />
             </state>
           </provider>
@@ -75,14 +103,15 @@
         <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/layout.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/option.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1367" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -110,6 +139,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,6 +169,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gmall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gmall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -190,14 +266,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../123" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
@@ -278,14 +353,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1367" y="1" width="1918" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18506835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -312,31 +387,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="33" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="2793" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/medium.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="121868" selection-start="121868" selection-end="121868" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="0" selection-start="5394" selection-end="5747" vertical-scroll-proportion="0.0" vertical-offset="3554" max-vertical-offset="4446" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1805" column="0" selection-start="25844" selection-end="25869" vertical-scroll-proportion="0.0" vertical-offset="34295" max-vertical-offset="135337" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.scrollpath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="232" column="30" selection-start="6939" selection-end="6946" vertical-scroll-proportion="0.0" vertical-offset="3684" max-vertical-offset="11781" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="18" selection-start="338" selection-end="338" vertical-scroll-proportion="0.38636363" vertical-offset="0" max-vertical-offset="17952" />
@@ -357,11 +407,6 @@
         <state line="40" column="28" selection-start="1952" selection-end="1958" vertical-scroll-proportion="0.0" vertical-offset="2954" max-vertical-offset="3570" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1326" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6953" />
@@ -372,11 +417,6 @@
         <state line="0" column="121868" selection-start="121868" selection-end="121868" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="67" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="2945" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="303" column="0" selection-start="3928" selection-end="3928" vertical-scroll-proportion="0.0" vertical-offset="5662" max-vertical-offset="135337">
@@ -384,20 +424,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="27" selection-start="32" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="505" selection-end="505" vertical-scroll-proportion="-18.24" vertical-offset="0" max-vertical-offset="4883">
+        <state line="255" column="13" selection-start="6304" selection-end="6304" vertical-scroll-proportion="0.0" vertical-offset="4314" max-vertical-offset="5396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/center.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="263" column="25" selection-start="12602" selection-end="12602" vertical-scroll-proportion="1.1521739" vertical-offset="3990" max-vertical-offset="8322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/center-address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="841" selection-end="847" vertical-scroll-proportion="0.41304347" vertical-offset="0" max-vertical-offset="5054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="435" selection-end="494" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="2945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/story.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="25" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.0" vertical-offset="2546" max-vertical-offset="3420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/password-forgot2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="7" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="10" selection-start="4816" selection-end="4816" vertical-scroll-proportion="0.7361111" vertical-offset="1150" max-vertical-offset="2850">
+        <state line="88" column="39" selection-start="4277" selection-end="4277" vertical-scroll-proportion="-11.892858" vertical-offset="1339" max-vertical-offset="3249">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/option.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.39721254" vertical-offset="0" max-vertical-offset="1463">
+          <folding />
         </state>
       </provider>
     </entry>

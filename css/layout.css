@@ -205,7 +205,7 @@ body{
 }
 .icons-logo-content{
     height: 3rem;
-    line-height: 3rem;
+    line-height: 2.7rem;
     text-align: center;
     color: #ae9e8d;
 }
@@ -235,6 +235,33 @@ body{
     background: #b18247;
     border: 1px solid #b18247;
     color: #fff;
+}
+#weixin-guide{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/guide.png");
+    background-size: 26.5rem 26.5rem;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}
+#mobile-guide{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/mobile-guide.png");
+    background-size: 26.5rem 26.5rem;
+    background-repeat: no-repeat;
+    background-position:bottom ;
+    z-index: 9999;
+}
+.share-cover{
+    position: absolute;
+    display: none;
+    z-index: 99;
+    background: rgba(0,0,0,0.7) ;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 .my-icon-home{
     background: url("../images/index-little-tag.png") center no-repeat;

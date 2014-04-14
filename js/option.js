@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $("#share-to-sina-button").css("position","relative").css("left","50%").css("margin-left","-61.5px");
+    /*$("#share-to-sina-button").css("position","relative").css("left","50%").css("margin-left","-61.5px");*/
 
     $("#share-to-sina-button").click(function(){
         if(is_weixin()){

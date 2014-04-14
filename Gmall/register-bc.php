@@ -210,6 +210,8 @@
 </div>
 </div><!-- container -->
 <!-- C内容结束-->
-
+<!-- F底部-->
+<?php include'common/footer.php'?>
+<!-- F底部结束-->
 </body>
 </html>

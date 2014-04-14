@@ -196,6 +196,9 @@
       </div>
       </form>
     </div><!-- /.modal-content -->
+    <!-- F底部-->
+    <?php include'common/footer.php'?>
+    <!-- F底部结束-->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 

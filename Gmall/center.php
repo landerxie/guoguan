@@ -48,7 +48,7 @@
     <!-- C内容-->
  <div class="container">
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2 mb20">
      <div class="VIP-top">
       <div class="VIP-head text-center">
        <span><img src="images/head.png" class="img-responsive"/></span>
@@ -427,7 +427,11 @@
  </div>
  <!-- container --> 
 <!-- C内容结束-->
+<!-- F底部-->
+<?php include'common/footer.php'?>
+<!-- F底部结束-->
  </div><!-- /.content-->
 </div><!-- /.wrap-->
+
 </body>
 </html>

@@ -267,6 +267,9 @@
 
 </div><!-- /.modal  -->
 <!-- W 弹窗-->
+<!-- F底部-->
+<?php include'common/footer.php'?>
+<!-- F底部结束-->
 
 </body>
 </html>

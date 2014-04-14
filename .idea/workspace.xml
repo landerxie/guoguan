@@ -23,68 +23,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="center-password.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gmall/center-password.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="279" selection-start="5398" selection-end="5398" vertical-scroll-proportion="0.36134455" vertical-offset="1599" max-vertical-offset="4389">
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animations.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/animations.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="312" column="32" selection-start="5764" selection-end="5777" vertical-scroll-proportion="0.0" vertical-offset="5643" max-vertical-offset="21489">
+            <state line="200" column="17" selection-start="7300" selection-end="7300" vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="4009">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productDetail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/productDetail.html">
+      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gmall/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="435" selection-end="494" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="2945">
+            <state line="274" column="13" selection-start="11745" selection-end="11745" vertical-scroll-proportion="0.0" vertical-offset="4428" max-vertical-offset="5358">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="option.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/option.js">
+      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gmall/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="48" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1406">
+            <state line="259" column="13" selection-start="8969" selection-end="8969" vertical-scroll-proportion="0.0" vertical-offset="4124" max-vertical-offset="5073">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
+      <file leaf-file-name="register-bc.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gmall/register-bc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="27" selection-start="32" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1482">
+            <state line="214" column="13" selection-start="7132" selection-end="7132" vertical-scroll-proportion="0.0" vertical-offset="3288" max-vertical-offset="4218">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gmall/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="33" selection-start="258" selection-end="258" vertical-scroll-proportion="-5.32" vertical-offset="0" max-vertical-offset="5738">
+            <state line="80" column="13" selection-start="3045" selection-end="3045" vertical-scroll-proportion="0.0" vertical-offset="723" max-vertical-offset="1672">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
+      <file leaf-file-name="login-other.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gmall/login-other.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="303" column="0" selection-start="3928" selection-end="3928" vertical-scroll-proportion="0.0" vertical-offset="5662" max-vertical-offset="135337">
+            <state line="84" column="13" selection-start="3489" selection-end="3489" vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1748">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gyuyue-begin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gmall/Gyuyue-begin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1463">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gyuyue.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gmall/Gyuyue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="13" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1501">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gyuyue-form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gmall/Gyuyue-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="271" column="13" selection-start="9733" selection-end="9733" vertical-scroll-proportion="0.0" vertical-offset="4371" max-vertical-offset="5320">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gmall/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="2513" selection-start="2743" selection-end="2747" vertical-scroll-proportion="0.22248244" vertical-offset="0" max-vertical-offset="854">
               <folding />
             </state>
           </provider>
@@ -100,27 +123,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/productDetail.html" />
-        <option value="$PROJECT_DIR$/js/medium.js" />
-        <option value="$PROJECT_DIR$/test/test.html" />
-        <option value="$PROJECT_DIR$/test/myScript.js" />
-        <option value="$PROJECT_DIR$/css/medium.css" />
-        <option value="$PROJECT_DIR$/css/base.css" />
-        <option value="$PROJECT_DIR$/reg-activation.html" />
-        <option value="$PROJECT_DIR$/register.html" />
-        <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/js/option.js" />
-        <option value="$PROJECT_DIR$/css/layout.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Gmall/cart-pay.php" />
+        <option value="$PROJECT_DIR$/Gmall/center.php" />
+        <option value="$PROJECT_DIR$/Gmall/center-address.php" />
+        <option value="$PROJECT_DIR$/Gmall/center-collect.php" />
+        <option value="$PROJECT_DIR$/Gmall/center-order.php" />
+        <option value="$PROJECT_DIR$/Gmall/center-order2.php" />
+        <option value="$PROJECT_DIR$/Gmall/center-order3.php" />
+        <option value="$PROJECT_DIR$/Gmall/center-orderinfo.php" />
+        <option value="$PROJECT_DIR$/Gmall/center-password.php" />
+        <option value="$PROJECT_DIR$/Gmall/user.php" />
+        <option value="$PROJECT_DIR$/Gmall/register.php" />
+        <option value="$PROJECT_DIR$/Gmall/register-bc.php" />
+        <option value="$PROJECT_DIR$/Gmall/login.php" />
+        <option value="$PROJECT_DIR$/Gmall/login-other.php" />
+        <option value="$PROJECT_DIR$/Gmall/Gyuyue.php" />
+        <option value="$PROJECT_DIR$/Gmall/Gyuyue-form.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1367" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -148,7 +174,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,6 +230,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Gmall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -243,6 +282,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,18 +292,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../123" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -274,15 +306,19 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -299,6 +335,10 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <list size="0" />
@@ -330,14 +370,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1367" y="1" width="1918" height="1038" extended-state="0" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18506835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -364,109 +404,115 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/jquery.scrollpath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="232" column="30" selection-start="6939" selection-end="6946" vertical-scroll-proportion="0.0" vertical-offset="3684" max-vertical-offset="11781" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="559" column="0" selection-start="8664" selection-end="8664" vertical-scroll-proportion="0.33279222" vertical-offset="9298" max-vertical-offset="15623" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.easing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="28" selection-start="1952" selection-end="1958" vertical-scroll-proportion="0.0" vertical-offset="2954" max-vertical-offset="3570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6953" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/medium.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="121868" selection-start="121868" selection-end="121868" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="303" column="0" selection-start="3928" selection-end="3928" vertical-scroll-proportion="0.0" vertical-offset="5662" max-vertical-offset="135337">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gmall/center.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="25" selection-start="12602" selection-end="12602" vertical-scroll-proportion="1.1521739" vertical-offset="3990" max-vertical-offset="8322">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gmall/center-address.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="46" selection-start="841" selection-end="847" vertical-scroll-proportion="0.41304347" vertical-offset="0" max-vertical-offset="5054">
+        <state line="258" column="17" selection-start="9905" selection-end="9905" vertical-scroll-proportion="0.0" vertical-offset="4124" max-vertical-offset="5111">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gmall/story.php">
+    <entry file="file://$PROJECT_DIR$/Gmall/center-collect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="25" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.0" vertical-offset="2546" max-vertical-offset="3420">
+        <state line="212" column="13" selection-start="6213" selection-end="6213" vertical-scroll-proportion="0.0" vertical-offset="3269" max-vertical-offset="4218">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gmall/password-forgot2.php">
+    <entry file="file://$PROJECT_DIR$/Gmall/center-order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
+        <state line="341" column="13" selection-start="16211" selection-end="16211" vertical-scroll-proportion="0.0" vertical-offset="5720" max-vertical-offset="6669">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productDetail.html">
+    <entry file="file://$PROJECT_DIR$/Gmall/center-order2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="435" selection-end="494" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="2945">
+        <state line="334" column="13" selection-start="15793" selection-end="15793" vertical-scroll-proportion="0.0" vertical-offset="5606" max-vertical-offset="6555">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/Gmall/center-order3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="32" selection-start="5764" selection-end="5777" vertical-scroll-proportion="0.0" vertical-offset="5643" max-vertical-offset="21489">
+        <state line="333" column="13" selection-start="15711" selection-end="15711" vertical-scroll-proportion="0.0" vertical-offset="5568" max-vertical-offset="6517">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/Gmall/center-orderinfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="27" selection-start="32" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1482">
+        <state line="199" column="13" selection-start="7423" selection-end="7423" vertical-scroll-proportion="0.0" vertical-offset="3022" max-vertical-offset="3971">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/option.js">
+    <entry file="file://$PROJECT_DIR$/Gmall/center-password.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="48" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1406">
+        <state line="200" column="17" selection-start="7300" selection-end="7300" vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="4009">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/Gmall/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="258" selection-end="258" vertical-scroll-proportion="-5.32" vertical-offset="0" max-vertical-offset="5738">
+        <state line="274" column="13" selection-start="11745" selection-end="11745" vertical-scroll-proportion="0.0" vertical-offset="4428" max-vertical-offset="5358">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Gmall/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="279" selection-start="5398" selection-end="5398" vertical-scroll-proportion="0.36134455" vertical-offset="1599" max-vertical-offset="4389">
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="259" column="13" selection-start="8969" selection-end="8969" vertical-scroll-proportion="0.0" vertical-offset="4124" max-vertical-offset="5073">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/register-bc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="13" selection-start="7132" selection-end="7132" vertical-scroll-proportion="0.0" vertical-offset="3288" max-vertical-offset="4218">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="13" selection-start="3045" selection-end="3045" vertical-scroll-proportion="0.0" vertical-offset="723" max-vertical-offset="1672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/login-other.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="13" selection-start="3489" selection-end="3489" vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/Gyuyue-begin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/Gyuyue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="13" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1501">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/Gyuyue-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="271" column="13" selection-start="9733" selection-end="9733" vertical-scroll-proportion="0.0" vertical-offset="4371" max-vertical-offset="5320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gmall/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2513" selection-start="2743" selection-end="2747" vertical-scroll-proportion="0.22248244" vertical-offset="0" max-vertical-offset="854">
+          <folding />
         </state>
       </provider>
     </entry>

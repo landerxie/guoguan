@@ -270,6 +270,8 @@
     </div><!-- /.密码修改成功 -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
+<!-- F底部-->
+<?php include'common/footer.php'?>
+<!-- F底部结束-->
 </body>
 </html>

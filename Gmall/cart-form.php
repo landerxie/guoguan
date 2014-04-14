@@ -295,6 +295,10 @@ $(function() {/*单选项*/
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+<!-- F底部-->
+<?php include'common/footer.php'?>
+<!-- F底部结束-->
  
 </body>
 </html>

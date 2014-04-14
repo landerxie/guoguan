@@ -90,7 +90,18 @@ background:#000; position: absolute; top:0; left:0; -ms-filter: "progid:DXImageT
 .Gnav { width:100%; position:relative; text-align:center; }
 .Gnav li { position:relative; z-index:10; height:32px; line-height:32px; font-size:16px; display:inline-block; margin:0 10px; }
 .Gnav li.current a, .Gnav li a:hover { text-decoration:none; color:#b18247; }
-.Gnav li i { line-height:12px; padding:2px; position:absolute; top:-10px; right:0; font-size:12px; color:#fff; background:#ff0000; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.Gnav li i { line-height: 12px;
+    padding: 1px;
+    position: absolute;
+    top: -7px;
+    right: 0;
+    font-size: 10px;
+    color: #fff;
+    background: #ff0000;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+ }
 .Gnav li.Glogo-lg { display:none; }
 .Gnav li.back { margin:0; width: 9px; height: 32px; z-index: 8; position: absolute; top:0; border-bottom: 2px solid #b18247; }
 .footer { position:static; margin-top:20px; font-size:12px; color:#999; border-bottom:5px solid #b18247; }

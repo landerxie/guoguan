@@ -18,7 +18,7 @@
     <ul class="Gnav clearfix" id="Gnav">
       <li><a href="#">首页</a></li>
       <li><a href="#">中国道</a></li>
-      <li><a href="#">福禄八骏<i>新品</i></a></li>
+      <li><a href="#">福禄八骏<i>new</i></a></li>
       <li class="Glogo-lg"><a href="#"><img src="img/Glogo-lg.png" /></a></li>
       <li><a href="#">品牌故事</a></li>
       <li><a href="#">注册/登陆</a></li>

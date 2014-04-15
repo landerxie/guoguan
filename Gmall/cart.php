@@ -22,11 +22,11 @@
 </head>
 <body>
 <!-- H头部-->
-<?php include'common/header-simple.php'?>
+<?php include'common/header.php'?>
 
 <!-- H头部结束--> 
 <!-- C内容-->
-<div class="container ptonav">
+<div class="container ptonav bg-color-fff">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
         <div class="cart-form-title">
@@ -41,7 +41,6 @@
                   <th width="50%" class="text-center">商品</th>
                   <th width="12%" class="text-center">单价</th>
                   <th width="12%" class="text-center">数量</th>
-                  <th width="12%" class="text-center">小计</th>
                   <th width="14%" class="text-center">操作</th>
                 </tr>
               </thead>
@@ -49,56 +48,56 @@
                 <tr align="center">
                   <td>
                   <div class="clearfix">
-                  <div class="p10 pull-left">
+                  <div class="p10 pull-left  cart-product-img">
                    <a href=""><img src="images/img.jpg" width="100" height="100"></a>
                   </div>
-                  <div class="pull-left pt10">
-                   <a href="">国馆酒HT87990090（经典装）</a>
+                  <div class="pull-left line-height-100 tl-left">
+                   <a href="">国馆-中国道</a>
+                   <span class="product-muse-detail">大师之作，国馆首款收藏级文化白酒</span>
                   </div>
                   </div>
                   </td>
                   <td><div class="pt10">2000元</div></td>
-                  <td><div class="pt5"><input type="text" class="form-control text-center" value="1"></div></td>
-                  <td><div class="pt10 hover">2000元</div></td>
+                  <td>
+                      <div class="pt5 width160">
+                        <div class="minus-button icon-minus"></div>
+                        <input type="text" class="form-control form-control-number text-center" value="1">
+                        <div class="plus-button icon-plus"></div>
+                      </div>
+                  </td>
                   <td><div class="pt10"><a href="" class="hover">删除</a></div></td>
                 </tr>
                 <tr align="center">
                   <td>
                   <div class="clearfix">
-                  <div class="p10 pull-left">
+                  <div class="p10 pull-left cart-product-img">
                    <a href=""><img src="images/img.jpg" width="100" height="100"></a>
                   </div>
-                  <div class="pull-left pt10">
-                   <a href="">国馆酒HT87990090（经典装）</a>
+                  <div class="tl-left pull-left line-height-100">
+                   <a href="">国馆-中国道</a>
+                     <span class="product-muse-detail">大师之作，国馆首款收藏级文化白酒</span>
                   </div>
                   </div>
                   </td>
                   <td><div class="pt10">2000元</div></td>
-                  <td><div class="pt5"><input type="text" class="form-control text-center" value="1"></div></td>
-                  <td><div class="pt10 hover">2000元</div></td>
+                  <td>
+                      <div class="pt5 width160">
+                       <div class="minus-button icon-minus"></div>
+                        <input type="text" class="form-control form-control-number text-center" value="1">
+                        <div class="plus-button icon-plus"></div>
+                      </div>
+                  </td>
                   <td><div class="pt10"><a href="" class="hover">删除</a></div></td>
                 </tr>
               </tbody>
             </table>
           </div>
-            <div class="line-t line-b row p20">
+            <div class="line-t row p20">
               <div class="col-sm-6">
-
-               <div class="checkbox ">
-                <label class="prompt">
-                   <input type="checkbox"> +19元得小礼物
-                </label>
-                </div>
-               <div class="checkbox">
-                <label class="prompt">
-                   <input type="checkbox"> +49元全球限量经典版酒杯
-                </label>
-                </div>
               </div>
-              <div class="col-sm-6 text-right pt40"><span class="h5">共计：</span><font class="hover h2"> 4,000 元</font></div>
+              <div class="col-sm-6 text-right pr0"><span class="h5">共计：</span><font class="hover h3 "> 4,000 元</font></div>
              </div>
-            <div class="text-right pt40 pb40" >
-            <button type="button" class="btn btn-default btn-icon-right ">继续选购</button>
+            <div class="text-right pb40" >
             <button type="submit" class="btn btn-default btn-icon-right">去结算 <span class="glyphicon glyphicon-chevron-right"></span></button>
             </div>
           </form>
@@ -109,7 +108,6 @@
 <!-- container --> 
 <!-- C内容结束-->
 <!-- F底部-->
-<?php include'common/footer.php'?>
 <!-- F底部结束-->
 </body>
 </html>

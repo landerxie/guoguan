@@ -34,7 +34,7 @@
    function SinglenavFixed(){
 	var w = window,doc = document,$navbarwrap = $(".navbarwrap"),$SingleGnavId = $("#SingleGnavId"),$top = $navbarwrap.offset().top,$SingleGnav = $("#SingleGnav");
 	$(w).scroll( function() {
-		if ($(doc).scrollTop()>$top) {
+		if ($(doc).scrollTop()> 400) {
 			$SingleGnavId.addClass("productDetail-nav-bg");
 			$SingleGnavId.css("position","fixed").css("top",0);
 			}

@@ -18,8 +18,8 @@ a img { border:0; }
 table { border-collapse: collapse; border-spacing: 0; }
 label { font-weight:normal; }
 /*全局a的颜色*/
-a { text-decoration:none; color:#333; }
-a { text-decoration:none; color:#333; }
+a { text-decoration:none; color:#777; }
+a { text-decoration:none; color:#777; }
 a.gray999:hover, a:hover { text-decoration:underline; color:#b18247; }
 a:focus, a:active, a.gray:hover { color:#b18247; }
 .hover { color:#b18247; }
@@ -57,13 +57,14 @@ background:#000; position: absolute; top:0; left:0; -ms-filter: "progid:DXImageT
 .fl { float:left; }
 .fr { float:right; }
 /*全站样式配置结束*/
-.navbar { width:100%; background:rgba(236, 236, 236, 0.8); margin:0; border-bottom:1px solid #d0d0d0; }
+.navbar { width:100%; background:rgba(255, 255, 255, 1); margin:0; border-bottom:1px solid #d0d0d0; }
 .navbar.navbar-default { -webkit-transition: all 2.0s ease; -moz-transition: all 2s ease; -ms-transition: all 2s ease; -o-transition: all 2s ease; transition: all 2.0s ease; padding:10px 0; }
 .navbar.navbar-guoguan { border:none; padding:0; }
 .navbar-guoguan .navbar-toggle { margin-top:15px; border-color:#b18247; }
 .navbar-guoguan .navbar-toggle .icon-bar { background-color:#b18247; }
 .navbar-guoguan .navbar-header { width:100%; }
-.logo { height:40px; margin:10px 15px; max-height:100%; max-width:100%; }
+.logo {height:40px; margin:10px 15px; max-height:100%; max-width:100%; }
+.new-logo{height: 60px; width: 80px}
 .Glogo { width:auto; float:left; margin-left:10px; background:rgba(255, 255, 255, 0.8); position:relative; z-index:100; }
 .header-Icon { text-align:center; }
 .header-Icon .hd-Icon { position: relative; display:inline-block; }
@@ -85,9 +86,13 @@ background:#000; position: absolute; top:0; left:0; -ms-filter: "progid:DXImageT
 .header-Icon .hd-Icon li a { color:#999; }
 .header-Icon .hd-Icon li a:hover { color:#b18247; }
 #GGweixinBox { position:fixed; top:50px; right:20px; display:none; z-index:10004; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
-.navbar-collapse { padding-top:10px; }
+.navbar-collapse {border-bottom: 1px solid #d0d0d0;}
 .navbar-collapse.in { overflow-y:visible; }
-.Gnav { width:100%; position:relative; text-align:center; }
+.Gnav { width: 1170px;
+    margin: 0 auto;
+    height: 86px;
+    line-height: 86px;
+    position: relative;}
 .Gnav li { position:relative; z-index:10; height:32px; line-height:32px; font-size:16px; display:inline-block; margin:0 10px; }
 .Gnav li.current a, .Gnav li a:hover { text-decoration:none; color:#b18247; }
 .Gnav li i { line-height: 12px;
@@ -156,7 +161,6 @@ text-align:left;
 margin:0 20px;
 }
  .navbar.navbar-guoguan.navbar-fixed-top {
-padding-top:18px;
 }
 }
 .register-form-bg{

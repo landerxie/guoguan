@@ -15,12 +15,12 @@ $(function(){/*导航悬浮*/
 	$navbarwrap.height($navbar.height());
 	$(doc).scroll( function() { 
 		if ($(doc).scrollTop()>$top) {
-			$navbar.addClass("navbar-fixed-top");
+			//$navbar.addClass("navbar-fixed-top");
 			$logolg.css("display","inline-block");
 			$(".current").trigger("mouseover");/*滑动对齐*/
 			}
 		else{
-			$navbar.removeClass("navbar-fixed-top");
+			//$navbar.removeClass("navbar-fixed-top");
 			$logolg.hide();
 			$(".current").trigger("mouseover");/*滑动对齐*/
 			}

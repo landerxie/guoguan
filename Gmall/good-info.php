@@ -22,14 +22,7 @@
  <script type="text/javascript" src="js/bootstrap.min.js"></script>
  <script type="text/javascript" >
  $(function(){
-	 /*导航下滑线*/
-       $("#Gnav,#SingleGnav").lavaLamp({
-                fx: "backout", 
-                speed: 700,
-                click: function(event, menuItem) {
-                    return false;
-                }
-				})
+
 	/*导航切换*/
 	  $("#SingleGnav li").click(function(){
 		   var i = $(this).index();
@@ -39,13 +32,15 @@
             });
    /*导航悬浮*/
    function SinglenavFixed(){
-	var w = window,doc = document,$navbarwrap = $(".navbarwrap"),$SingleGnavId = $("#SingleGnavId"),$top = $navbarwrap.offset().top;
-	$(w).scroll( function() { 
+	var w = window,doc = document,$navbarwrap = $(".navbarwrap"),$SingleGnavId = $("#SingleGnavId"),$top = $navbarwrap.offset().top,$SingleGnav = $("#SingleGnav");
+	$(w).scroll( function() {
 		if ($(doc).scrollTop()>$top) {
-			$SingleGnavId.addClass("navbar-fixed-top");
+			$SingleGnavId.addClass("productDetail-nav-bg");
+			$SingleGnavId.css("position","fixed").css("top",0);
 			}
 		else {
-			$SingleGnavId.removeClass("navbar-fixed-top");
+			$SingleGnavId.removeClass("productDetail-nav-bg");
+			$SingleGnavId.css("position","static");
 			}
 	});
 	}
@@ -59,15 +54,15 @@
 		   a.each(function(){
 		    var h = document.body.clientHeight,s = $(document).scrollTop(),$this = $(this),o = $this.offset().top;
 			if(s>o-h){
-			    $this.addClass("gg-animation-active");	
+			    $this.addClass("gg-animation-active");
 				}
-			})	
+			})
 		}
 	productshow();
 		$(window).scroll(function(){
 					productshow();
 		  })
-		 
+
 		$(window).resize(function(){
              productshow();
         })
@@ -80,10 +75,11 @@
 <!-- H头部结束--> 
 <!-- C内容-->
 <div class="single-hd-wrap">
-   <div class="single-hd" id="SingleGnavId">
+   <div class="single-hd navbar-fixed-top" id="SingleGnavId">
    <div class="container goodnav">
    <div class="row">
-    <ul class="SingleGnav clearfix" id="SingleGnav">
+    <ul class="SingleGnav" id="SingleGnav">
+       <span class="product-detail-zhongguodao"></span>
        <li class="tab current"><a href="#">概述</a></li>
        <li class="tab"><a href="#">详细参数</a></li>
        <li class="tab"><a href="#">外观与工艺</a></li>
@@ -98,7 +94,7 @@
   </div>
  </div>
 <div class="single-info">
-<div class="good-infoban"><img src="images/infoimg1.png" class="img-responsive"></div>
+<div class="good-infoban" style="margin-top: -42px;"><img src="images/infoimg1.png" class="img-responsive"></div>
    <div class="container single mt40">
     <div class="row">
        <h2>概述</h2>

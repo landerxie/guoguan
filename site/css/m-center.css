@@ -18,9 +18,7 @@
     font-size: 2rem;
     color: #e4e4e4;
 }
-.m-center-partOne ul li:last-child{
-    border-bottom: none;
-}
+
 .m-center-partOne ul li>div:first-child{
     margin-left: 1rem;
     display: inline-block;
@@ -30,6 +28,13 @@
     color: #565656;
     background-color: #fff;
     border-radius: 0.416666rem;
-    border-bottom: 0.2rem solid #d0d0d0;
+    border-bottom: 0.1rem solid #d0d0d0;
 
+}
+.m-center-login-button{
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 60%;
+    padding-top: 18%;
+    font-weight: bold;
 }

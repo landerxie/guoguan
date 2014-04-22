@@ -88,3 +88,11 @@
     background: #f8f8f8;
     border-radius: 0.416666rem;
 }
+.m-order-unpay{
+    color: red;
+    margin-left: 1rem;
+}
+.m-order-payed{
+    color: #00a74b;
+    margin-left: 1rem;
+}

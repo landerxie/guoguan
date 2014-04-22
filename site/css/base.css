@@ -6,7 +6,6 @@
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
     color:black;
-    background:white;
     font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/
 }
 body {font-size: 1.4rem;/*1.4 × 10px = 14px */
@@ -137,6 +136,7 @@ a{color: #565656;}
 .fs16{font-size: 1.6rem}
 .border-bottom-d0d0d0{border-bottom: #d0d0d0;}
 .inlinebl{display: inline-block}
+.mt1{margin-top:1rem!important; }
 /* nav头部  */
 nav{height: 4rem; line-height: 4rem; background-color: #f4f4f4; text-align: center}
 .icon-home-appearance{

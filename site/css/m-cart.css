@@ -90,9 +90,50 @@
 }
 .m-order-unpay{
     color: red;
-    margin-left: 1rem;
 }
 .m-order-payed{
     color: #00a74b;
-    margin-left: 1rem;
+}
+.m-order-detail-content{
+    background-color: #fff;
+    box-shadow: 0px 1px 1px #d0d0d0;
+    margin-top: 0!important;
+    height: 29rem;
+    border-bottom-left-radius: 0.416666rem;
+    border-bottom-right-radius: 0.416666rem;
+}
+.m-order-detail-partOne{
+    color: #565656;
+    position: relative;
+    border-bottom: 1px dashed #d0d0d0;
+    height: 6.8rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+.m-order-detail-name{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+.m-order-delete{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: #858688;
+    font-size: 2.4rem;
+}
+.order-title-label{
+    font-weight: bold;
+    width: 6rem;
+    display: inline-block;
+}
+.m-order-detail-partTwo{
+    color: #565656;
+    position: relative;
+    border-bottom: 1px dashed #d0d0d0;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 0.8rem;
 }

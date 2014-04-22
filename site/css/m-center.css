@@ -3,3 +3,33 @@
     height: 17rem;
     margin-top:1rem;
 }
+.m-center-partOne ul li{
+    display: inline-block;
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    position: relative;
+    border-bottom: 0.1rem solid #d0d0d0;
+}
+.m-center-partOne ul li>div:last-child{
+    position: absolute;
+    right: 1rem;
+    top: 1.2rem;
+    font-size: 2rem;
+    color: #e4e4e4;
+}
+.m-center-partOne ul li:last-child{
+    border-bottom: none;
+}
+.m-center-partOne ul li>div:first-child{
+    margin-left: 1rem;
+    display: inline-block;
+    width: 1.5rem;
+}
+.m-center-partOne ul {
+    color: #565656;
+    background-color: #fff;
+    border-radius: 0.416666rem;
+    border-bottom: 0.2rem solid #d0d0d0;
+
+}

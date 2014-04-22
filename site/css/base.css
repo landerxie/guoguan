@@ -84,7 +84,7 @@ sub {
 }
 /* 让链接在 hover 状态下显示下划线 */
 a:hover {
-    text-decoration:underline;
+    text-decoration:none;
 }
 /* 默认不显示下划线，保持页面简洁 */
 ins,a {
@@ -94,6 +94,7 @@ ins,a {
 a:focus,*:focus {
     outline:none;
 }
+a{color: #565656;}
 /* 清除浮动 */
 .clearfix:before,.clearfix:after {
     content:"";
@@ -135,6 +136,7 @@ a:focus,*:focus {
 .fs14{font-size: 1.4rem}
 .fs16{font-size: 1.6rem}
 .border-bottom-d0d0d0{border-bottom: #d0d0d0;}
+.inlinebl{display: inline-block}
 /* nav头部  */
 nav{height: 4rem; line-height: 4rem; background-color: #f4f4f4; text-align: center}
 .icon-home-appearance{

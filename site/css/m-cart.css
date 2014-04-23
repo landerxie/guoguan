@@ -137,3 +137,48 @@
     margin-top: 1rem;
     padding-bottom: 0.8rem;
 }
+.m-online-payOne{
+    height: 3.8rem;
+    color: #00a74b;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 3.8rem;
+    margin-left: 1.8rem;
+}
+.m-online-detail-content{
+    height: auto;
+    padding-bottom: 3rem;
+}
+.m-address-display{
+    width: auto;
+}
+.m-address-cart{
+    margin-bottom: 1rem;
+}
+.m-address-add-button{
+    height: 4rem;
+    line-height: 4rem;
+}
+.icon-angle-right-address{
+    height: 4rem;
+    line-height: 4rem;
+}
+.choose-checkout-style{
+    background-color: #fff;
+    border-radius: 0.416666rem;
+    border-bottom: 0.1rem solid #d0d0d0;
+    color: #565656;
+}
+.choose-checkout-style ul li{
+    padding:1rem;
+    border-bottom:0.1rem solid #d0d0d0;
+}
+.choose-checkout-style .select{
+    border: 0.1rem solid #f66900;
+    border-radius: 0.416666rem;
+}
+.m-choose-product-submit{
+    border: none;
+    width: 94%;
+    margin: 0 auto;
+}

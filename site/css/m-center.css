@@ -1,7 +1,8 @@
 .m-center-banner{
-    background: url("../image/1-2.png") center no-repeat;
+    background: url("../image/1-2.jpg") center no-repeat;
     height: 17rem;
     margin-top:1rem;
+    background-size: 100%;
 }
 .m-center-partOne ul li{
     display: inline-block;
@@ -33,7 +34,7 @@
 }
 .m-center-login-button{
     font-size: 2rem;
-    color: #fff;
+    color: #f66900;
     margin-left: 60%;
     padding-top: 18%;
     font-weight: bold;

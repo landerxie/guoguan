@@ -12,6 +12,7 @@ body {font-size: 14px;
     background-color:#ebebeb;
     height: 100%;
     width: 100%;
+    min-height: 40rem;
 }
 /* 内外边距通常让各个浏览器样式的表现位置不同 */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -136,11 +137,14 @@ a{color: #565656;}
 .fs16{font-size: 1.6rem}
 .border-bottom-d0d0d0{border-bottom: #d0d0d0;}
 .inlinebl{display: inline-block}
+.mt0{margin-top: 0!important;}
 .mt1{margin-top:1rem!important; }
 .mt3{margin-top:3rem!important;}
 .ml1{margin-left: 1rem!important;}
 .ml1-8{margin-left: 1.8rem!important;}
 .mb0-6{margin-bottom: 0.6rem!important;}
+.mb0{margin-bottom: 0!important;}
+.mb1{margin-bottom: 1rem!important;}
 .mb2{margin-bottom: 2rem!important;}
 .color-f66900{color: #f66900!important;}
 .width100{width: 100%!important;}

@@ -1,0 +1,18 @@
+.m-product-title{
+    font-size: 1.4rem;
+    color: #565656;
+    font-weight: bold;
+}
+.m-product-detail{
+    font-size: 1rem;
+    color: #858688;
+}
+.m-product-price{
+    color: #f66900;
+    font-weight: bold;
+}
+.m-product-content{
+    padding:1rem;
+    background-color: #fff;
+    margin-bottom:0.4rem;
+}

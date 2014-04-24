@@ -16,3 +16,22 @@
     background-color: #fff;
     margin-bottom:0.4rem;
 }
+/* tab切换页 */
+.etabs { margin: 0; padding: 0; }
+.tab { display: inline-block; zoom:1; *display:inline; border-bottom: none; text-align: center; width: 7rem; -moz-border-radius: 0.416rem 0.416rem 0 0; -webkit-border-radius: 0.416rem 0.416rem 0 0; }
+.tab a { line-height: 2.5rem; display: block; padding: 0 1rem; outline: none; }
+.tab.active { background: #fff; padding-top:0.4rem; position: relative;  border-color: #666; }
+.tab a.active { font-weight: bold; color: #f66900; text-decoration: none}
+.tab-container .panel-container { background: #fff; }
+.panel-container { margin-bottom: 1rem; min-height: 20rem}
+
+/*产品详情图片*/
+.product-detail-one{
+    margin-top:0.1rem;
+}
+.product-data-one{
+    margin-top:0.1rem;
+}
+.product-story-one{
+    margin-top:0.1rem;
+}

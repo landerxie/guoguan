@@ -172,6 +172,16 @@ nav{height: 4rem; line-height: 4rem; background-color: #f4f4f4; text-align: cent
     right: 0;
     top: 0;
 }
+.icon-user-appearance{
+    color: #5f6468!important;
+    font-size: 2rem;
+    height: 4rem!important;
+    line-height: 4rem!important;
+    width: 4rem!important;
+    position: absolute;
+    right: 4rem;
+    top: 0;
+}
 .head-title-appearance{
     color: #454545;
     display: inline-block;

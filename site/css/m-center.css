@@ -3,6 +3,7 @@
     height: 17rem;
     margin-top:1rem;
     background-size: 100%;
+    position: relative;
 }
 .m-center-partOne ul li{
     display: inline-block;
@@ -35,7 +36,8 @@
 .m-center-login-button{
     font-size: 2rem;
     color: #f66900;
-    margin-left: 60%;
-    padding-top: 18%;
     font-weight: bold;
+    position: absolute;
+    top: 40%;
+    right: 16%;
 }

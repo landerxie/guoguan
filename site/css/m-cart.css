@@ -94,6 +94,9 @@
 .m-order-payed{
     color: #00a74b;
 }
+.m-order-expired{
+    color: #c9c9c9;
+}
 .m-order-detail-content{
     background-color: #fff;
     box-shadow: 0px 1px 1px #d0d0d0;

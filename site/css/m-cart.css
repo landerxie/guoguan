@@ -22,7 +22,6 @@
     display: inline-block;
 }
 .m-choose-detail{
-    height: 6rem;
     width: 19rem;
     padding-left: 1rem;
     float: left;
@@ -55,6 +54,7 @@
     display: inline-block;
     color: #565656;
     font-size: 1.6rem;
+    float: left;
     font-weight: bold;
     padding-left: 1rem;
 }
@@ -62,9 +62,10 @@
     color: #f66900;
 }
 .m-button-check{
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
+    float: right;
+    margin-right: 1rem;
+    width: 9rem;
+    margin-top: -0.6rem;
 }
 .m-modify-text{
     padding:1rem
@@ -138,6 +139,7 @@
     margin-right: 0.8rem;
     font-size: 1rem;
     margin-top: 1rem;
+    line-height: 2rem;
     padding-bottom: 0.8rem;
 }
 .m-online-payOne{
@@ -215,4 +217,61 @@
 .submit-table-display ul li:last-child>div{
     color: #f66900;
 }
-
+.m-check-pay-area{
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    border-top: 0.1rem solid #d0d0d0;
+    padding-top: 1.5rem;
+}
+.m-shopping-cart-new{
+    margin-bottom: 6rem;
+}
+.m-shopping-cart-new ul li{border-bottom: 0.1rem solid #d0d0d0;
+}
+.m-shopping-cart-new ul li:last-child{border-bottom: none}
+.m-choose-product-new {
+    background-color: #fff;
+    min-height: 12.6rem;
+    height: auto;
+}
+.m-choose-product-new .m-choose-title{
+    font-size: 2rem;
+    margin-top: 0;
+    font-weight: bold;
+}
+.m-choose-product-new .m-choose-detail{
+    padding:1rem;
+    margin-left: 1rem;
+    width: 95%;
+    border-bottom: 0.1rem solid #d0d0d0;
+}
+.m-choose-product-new .m-choose-brief-detail{
+    font-size: 1.4rem;
+}
+.m-choose-detail-next{
+    float: right;
+    height: 11rem;
+}
+.icon-minus-adjust{
+    height: 6.3rem;
+    display: block;
+    background-color: #e4e4e4;
+    width: 6.3rem;
+    color: #565656;
+    line-height: 6.3rem;
+    text-align: center;
+}
+.icon-minus-adjust:active{
+    background-color: #d0d0d0;
+}
+.icon-minus-adjust:hover{
+    background-color: #d0d0d0;
+}
+.m-product-number{
+    border-bottom: none!important;
+    text-align: right;
+}
+.m-product-label{
+    min-width: 5rem;
+    display: inline-block;
+}

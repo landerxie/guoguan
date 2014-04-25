@@ -14,13 +14,13 @@
 .m-product-content{
     padding:1rem;
     background-color: #fff;
-    margin-bottom:0.4rem;
+    margin-bottom:0.6rem;
 }
 /* tab切换页 */
-.etabs { margin: 0; padding: 0; }
-.tab { display: inline-block; zoom:1; *display:inline; border-bottom: none; text-align: center; width: 7rem; -moz-border-radius: 0.416rem 0.416rem 0 0; -webkit-border-radius: 0.416rem 0.416rem 0 0; }
+.etabs { margin: 0; padding: 0; background-color: #fff;margin-bottom: 0rem;}
+.tab {display: inline-block; zoom:1; *display:inline; border-bottom: none; text-align: center; width: 7rem; border-right: 0.1rem solid #ebebeb; }
 .tab a { line-height: 2.5rem; display: block; padding: 0 1rem; outline: none; }
-.tab.active { background: #fff; padding-top:0.4rem; position: relative;  border-color: #666; }
+.tab.active { background: #fff; position: relative;  }
 .tab a.active { font-weight: bold; color: #f66900; text-decoration: none}
 .tab-container .panel-container { background: #fff; }
 .panel-container { margin-bottom: 1rem; min-height: 20rem}

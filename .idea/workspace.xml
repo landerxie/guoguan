@@ -23,82 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="m-shoppingCart.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="32" selection-start="3051" selection-end="3051" vertical-scroll-proportion="-19.413794" vertical-offset="1097" max-vertical-offset="1960">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#a#0;n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m-cart.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/css/m-cart.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="24" selection-start="2896" selection-end="2896" vertical-scroll-proportion="0.0" vertical-offset="2520" max-vertical-offset="5660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/css/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="1" selection-start="2797" selection-end="2797" vertical-scroll-proportion="-19.555555" vertical-offset="2432" max-vertical-offset="5240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m-product-detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/m-product-detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="788" selection-end="788" vertical-scroll-proportion="-10.344828" vertical-offset="120" max-vertical-offset="2340">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#3;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="m-address-confirm.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/m-address-confirm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="67" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-9.068966" vertical-offset="497" max-vertical-offset="1900">
+            <state line="7" column="17" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1805">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/test.html">
+      <file leaf-file-name="font-awesome-ie7.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/css/font-awesome-ie7.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="50" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1160">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7410">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m-product.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/css/m-product.css">
+      <file leaf-file-name="m-center.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/css/m-center.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="22" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+            <state line="35" column="14" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="912">
               <folding />
             </state>
           </provider>
@@ -107,25 +53,51 @@
       <file leaf-file-name="m-online-pay.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/m-online-pay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="1440">
+            <state line="44" column="0" selection-start="1829" selection-end="1829" vertical-scroll-proportion="-29.857143" vertical-offset="0" max-vertical-offset="1406">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m-shoppingCart.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="99" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.6666667" vertical-offset="232" max-vertical-offset="1900">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m-cart.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/css/m-cart.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="231" column="22" selection-start="4617" selection-end="4617" vertical-scroll-proportion="-6.2" vertical-offset="4234" max-vertical-offset="5643">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m-get-invoice.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="m-get-invoice.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/m-get-invoice.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="467" selection-end="467" vertical-scroll-proportion="0.23174971" vertical-offset="0" max-vertical-offset="863">
-              <folding />
+            <state line="25" column="12" selection-start="879" selection-end="879" vertical-scroll-proportion="-4.428571" vertical-offset="351" max-vertical-offset="1121">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m-order-detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/m-order-detail.html">
+      <file leaf-file-name="m-order-search.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/m-order-search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1480">
+            <state line="51" column="59" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-8.142858" vertical-offset="741" max-vertical-offset="1957">
               <folding />
             </state>
           </provider>
@@ -141,30 +113,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/site/m-center.html" />
-        <option value="$PROJECT_DIR$/site/m-checkout-choose.html" />
-        <option value="$PROJECT_DIR$/site/m-order-detail.html" />
-        <option value="$PROJECT_DIR$/site/m-order-search.html" />
-        <option value="$PROJECT_DIR$/site/m-order-submit.html" />
         <option value="$PROJECT_DIR$/site/m-shoppingCart-modify.html" />
-        <option value="$PROJECT_DIR$/site/m-shoucan.html" />
-        <option value="$PROJECT_DIR$/product/test.html" />
-        <option value="$PROJECT_DIR$/product/css/base.css" />
-        <option value="$PROJECT_DIR$/product/css/m-product.css" />
-        <option value="$PROJECT_DIR$/product/m-product-detail.html" />
+        <option value="$PROJECT_DIR$/site/m-center.html" />
+        <option value="$PROJECT_DIR$/site/m-address-admin.html" />
+        <option value="$PROJECT_DIR$/site/m-address-add.html" />
+        <option value="$PROJECT_DIR$/site/m-address-modify.html" />
+        <option value="$PROJECT_DIR$/site/img/m-checkout-choose.html" />
+        <option value="$PROJECT_DIR$/site/m-checkout-choose.html" />
         <option value="$PROJECT_DIR$/site/m-address-confirm.html" />
-        <option value="$PROJECT_DIR$/site/m-shoppingCart.html" />
-        <option value="$PROJECT_DIR$/site/css/m-cart.css" />
-        <option value="$PROJECT_DIR$/site/m-online-pay.html" />
+        <option value="$PROJECT_DIR$/site/m-order-submit.html" />
+        <option value="$PROJECT_DIR$/site/css/base.css" />
+        <option value="$PROJECT_DIR$/site/css/m-center.css" />
         <option value="$PROJECT_DIR$/site/m-get-invoice.html" />
+        <option value="$PROJECT_DIR$/site/m-order-search.html" />
+        <option value="$PROJECT_DIR$/site/m-online-pay.html" />
+        <option value="$PROJECT_DIR$/site/css/m-cart.css" />
+        <option value="$PROJECT_DIR$/site/m-shoppingCart.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,6 +164,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,7 +179,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -220,115 +203,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemId" value="guoguan" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -338,29 +217,35 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../jQuery实现全国省市区城市三级联动代码" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="last_opened_file_path" value="D:/jQuery实现全国省市区城市三级联动代码" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lander-qi\Desktop\Tauren\htdocs\guoguan-front\product\js" />
-      <recent name="C:\Users\Lander-qi\Desktop\Tauren\htdocs\guoguan-front\product\css" />
       <recent name="C:\Users\Lander-qi\Desktop\Tauren\htdocs\guoguan-front\site" />
       <recent name="C:\Users\Lander-qi\Desktop\Tauren\htdocs\guoguan-front\site\css" />
       <recent name="C:\Users\Lander-qi\Desktop\Tauren\htdocs\guoguan-front\css" />
+      <recent name="C:\Users\Lander-qi\Desktop\Tauren\htdocs\guoguan-front" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -371,19 +256,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -400,10 +281,6 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <list size="0" />
@@ -435,14 +312,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3351469" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1390625" sideWeight="0.7752443" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1566618" sideWeight="0.6648531" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -451,7 +329,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2247557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -469,127 +346,123 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/m-center.html">
+    <entry file="file://$PROJECT_DIR$/site/css/m-center.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="1400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/m-order-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="2060" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/m-order-submit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="1940" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/m-shoucan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="800">
+        <state line="8" column="16" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="874">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/m-shoppingCart-modify.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/m-checkout-choose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/m-order-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/css/m-product.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/m-product-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="788" selection-end="788" vertical-scroll-proportion="-10.344828" vertical-offset="120" max-vertical-offset="2340">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/m-address-confirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="67" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-9.068966" vertical-offset="497" max-vertical-offset="1900">
+        <state line="8" column="17" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/css/base.css">
+    <entry file="file://$PROJECT_DIR$/site/css/font-awesome-ie7.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="1" selection-start="2797" selection-end="2797" vertical-scroll-proportion="-19.555555" vertical-offset="2432" max-vertical-offset="5240">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7410">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
+    <entry file="file://$PROJECT_DIR$/site/css/m-center.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="32" selection-start="3051" selection-end="3051" vertical-scroll-proportion="-19.413794" vertical-offset="1097" max-vertical-offset="1960">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#1;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#a#0;n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/css/m-cart.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="24" selection-start="2896" selection-end="2896" vertical-scroll-proportion="0.0" vertical-offset="2520" max-vertical-offset="5660">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/m-online-pay.html">
+    <entry file="file://$PROJECT_DIR$/site/m-address-confirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="1440">
+        <state line="8" column="17" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/font-awesome-ie7.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/m-center.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/m-address-confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/m-address-confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/font-awesome-ie7.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/m-center.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="14" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="912">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/m-get-invoice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="467" selection-end="467" vertical-scroll-proportion="0.23174971" vertical-offset="0" max-vertical-offset="863">
+        <state line="25" column="12" selection-start="879" selection-end="879" vertical-scroll-proportion="-4.428571" vertical-offset="351" max-vertical-offset="1121">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/m-order-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="59" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-8.142858" vertical-offset="741" max-vertical-offset="1957">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/m-online-pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1829" selection-end="1829" vertical-scroll-proportion="-29.857143" vertical-offset="0" max-vertical-offset="1406">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/m-cart.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="22" selection-start="4617" selection-end="4617" vertical-scroll-proportion="-6.2" vertical-offset="4234" max-vertical-offset="5643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="99" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.6666667" vertical-offset="232" max-vertical-offset="1900">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

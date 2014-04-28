@@ -2,51 +2,62 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <title>jquery 收缩展开效果</title>
     <script type="javascript" src="js/jquery-1.8.0.js"></script>
     <style>
-        /* 收缩展开效果 */
-        .text{line-height:22px;padding:0 6px;color:#666;}
-        .box h1{padding-left:10px;height:22px;line-height:22px;background:#f1f1f1;font-weight:bold;}
-        .box{position:relative;border:1px solid #e7e7e7;}
+        .spinner {
+            margin: 100px auto;
+            width: 70px;
+            height: 30px;
+            text-align: center;
+            font-size: 10px;
+        }
+        .spinner > div {
+            background-color: #f66900;
+            height: 100%;
+            width: 6px;
+            display: inline-block;
+
+            -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+            animation: stretchdelay 1.2s infinite ease-in-out;
+        }
+        .spinner .rect2 {
+            -webkit-animation-delay: -1.1s;
+            animation-delay: -1.1s;
+        }
+        .spinner .rect3 {
+            -webkit-animation-delay: -1.0s;
+            animation-delay: -1.0s;
+        }
+        .spinner .rect4 {
+            -webkit-animation-delay: -0.9s;
+            animation-delay: -0.9s;
+        }
+        .spinner .rect5 {
+            -webkit-animation-delay: -0.8s;
+            animation-delay: -0.8s;
+        }
+        @-webkit-keyframes stretchdelay {
+            0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+            20% { -webkit-transform: scaleY(1.0) }
+        }
+        @keyframes stretchdelay {
+            0%, 40%, 100% {
+                transform: scaleY(0.4);
+                -webkit-transform: scaleY(0.4);
+            }  20% {
+                   transform: scaleY(1.0);
+                   -webkit-transform: scaleY(1.0);
+               }
+        }
     </style>
 </head>
 <body>
-<script type="text/javascript">
-    // 收缩展开效果
-    $(document).ready(function(){
-        // $(".box h1").toggle(function(){
-        //   $(this).next(".text").animate({height: 'toggle', opacity: 'toggle'}, "slow");
-        //  },function(){
-//$(this).next(".text").animate({height: 'toggle', opacity: 'toggle'}, "slow");
-        //});
-        $("div.text").hide();//默认隐藏div，或者在样式表中添加.text{display:none}，推荐使用后者
-        $(".box h1").click(function(){
-            $(this).next(".text").slideToggle("slow");
-        })
-    });
-</script>
-<!-- 收缩展开效果 -->
-<div class="box">
-    <h1>收缩展开效果</h1>
-    <div class="text">
-        1<br />
-        2<br />
-        3<br />
-        4<br />
-        5<br />
-    </div>
+<div class="spinner">
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <div class="rect3"></div>
+    <div class="rect4"></div>
+    <div class="rect5"></div>
 </div>
-<br />
-
-<div class="box">
-    <h1>收缩展开效果</h1>
-    <div class="text">
-        1<br />
-        2<br />
-    </div>
-</div>
-<br>
-第一次运行请刷新一下页面。
 </body>
 </html>

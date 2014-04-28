@@ -9,7 +9,7 @@ html {
     font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/
 }
 body {font-size: 14px;
-    background-color:#ebebeb;
+    background-color:#f8f8f8;
     height: 100%;
     width: 100%;
     min-height: 40rem;
@@ -151,7 +151,7 @@ a{color: #565656;}
 .width98{width: 98%!important;}
 .width49{width: 49%!important;}
 /* nav头部  */
-nav{height: 4rem; line-height: 4rem; background-color: #f4f4f4; text-align: center}
+nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center; border-bottom: 0.1rem solid #d0d0d0;}
 .icon-home-appearance{
     color: #5f6468!important ;
     font-size: 2rem;

@@ -64,11 +64,22 @@
       <file leaf-file-name="m-shoppingCart.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="99" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.6666667" vertical-offset="232" max-vertical-offset="1900">
+            <state line="77" column="22" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.35992908" vertical-offset="1260" max-vertical-offset="1995">
               <folding>
                 <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#a#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="36" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.0" vertical-offset="2831" max-vertical-offset="4788">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +87,7 @@
       <file leaf-file-name="m-cart.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/css/m-cart.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="231" column="22" selection-start="4617" selection-end="4617" vertical-scroll-proportion="-6.2" vertical-offset="4234" max-vertical-offset="5643">
+            <state line="276" column="17" selection-start="5482" selection-end="5482" vertical-scroll-proportion="0.0" vertical-offset="5019" max-vertical-offset="5738">
               <folding />
             </state>
           </provider>
@@ -122,11 +133,11 @@
         <option value="$PROJECT_DIR$/site/m-checkout-choose.html" />
         <option value="$PROJECT_DIR$/site/m-address-confirm.html" />
         <option value="$PROJECT_DIR$/site/m-order-submit.html" />
-        <option value="$PROJECT_DIR$/site/css/base.css" />
         <option value="$PROJECT_DIR$/site/css/m-center.css" />
         <option value="$PROJECT_DIR$/site/m-get-invoice.html" />
         <option value="$PROJECT_DIR$/site/m-order-search.html" />
         <option value="$PROJECT_DIR$/site/m-online-pay.html" />
+        <option value="$PROJECT_DIR$/site/css/base.css" />
         <option value="$PROJECT_DIR$/site/css/m-cart.css" />
         <option value="$PROJECT_DIR$/site/m-shoppingCart.html" />
       </list>
@@ -312,7 +323,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="776" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="776" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -346,13 +357,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/css/m-center.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/m-address-confirm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="17" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
@@ -449,19 +453,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="36" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.0" vertical-offset="2603" max-vertical-offset="4788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/css/m-cart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="22" selection-start="4617" selection-end="4617" vertical-scroll-proportion="-6.2" vertical-offset="4234" max-vertical-offset="5643">
+        <state line="276" column="17" selection-start="5482" selection-end="5482" vertical-scroll-proportion="0.0" vertical-offset="5019" max-vertical-offset="5738">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="99" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.6666667" vertical-offset="232" max-vertical-offset="1900">
+        <state line="77" column="22" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.35992908" vertical-offset="1260" max-vertical-offset="1995">
           <folding>
             <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#a#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

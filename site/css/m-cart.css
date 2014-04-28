@@ -232,6 +232,7 @@
 .m-choose-product-new {
     background-color: #fff;
     height: 12.6rem;
+    border-bottom: 0.1rem solid #d0d0d0;
 }
 .m-choose-product-new .m-choose-title{
     font-size: 2rem;
@@ -241,7 +242,6 @@
 .m-choose-product-new .m-choose-detail{
     padding:1rem;
     width: 90%;
-    border-bottom: 0.1rem solid #d0d0d0;
 }
 .m-choose-product-new .m-choose-brief-detail{
     font-size: 1.4rem;
@@ -253,18 +253,16 @@
 .icon-minus-adjust{
     height: 6.3rem;
     display: block;
-    background-color: #e4e4e4;
+    background-color: #f66900;
     width: 6.3rem;
-    color: #565656;
+    color: #fff;
     line-height: 6.3rem;
     text-align: center;
 }
 .icon-minus-adjust:active{
     background-color: #d0d0d0;
 }
-.icon-minus-adjust:hover{
-    background-color: #d0d0d0;
-}
+
 .m-product-number{
     border-bottom: none!important;
     text-align: right;
@@ -280,12 +278,19 @@
     text-align: center;
     line-height: 5rem;
     color: #858688;
-    font-weight: bold;
     font-size: 2rem;
 }
 .delete-order-button:active{
     background-color: #d0d0d0;
 }
-.delete-order-button:hover{
-    background-color: #d0d0d0;
+
+.m-choose-product-address{
+    border-radius: 0;
+    border-bottom: 0.1rem solid #d0d0d0;
+}
+.m-choose-product-address li{
+    border-bottom: 0.1rem solid #d0d0d0;
+}
+.m-choose-product-address li:last-child{
+    border-bottom: none;
 }

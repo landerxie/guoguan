@@ -1,128 +1,52 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>jquery 收缩展开效果</title>
+    <script type="javascript" src="js/jquery-1.8.0.js"></script>
+    <style>
+        /* 收缩展开效果 */
+        .text{line-height:22px;padding:0 6px;color:#666;}
+        .box h1{padding-left:10px;height:22px;line-height:22px;background:#f1f1f1;font-weight:bold;}
+        .box{position:relative;border:1px solid #e7e7e7;}
+    </style>
 </head>
 <body>
-<script>
-var dataForWeixin={
-appId:"",
-MsgImg:"http://img1.faxinxila.net/images/share_msg.png",
-
-TLImg:"http://img1.faxinxila.net/images/share.png",
-
-url:"http://faxinxi.la/vote/1",
-
-title:"input title here",
-
-desc:"input description here",
-
-fakeid:"",
-
-callback:function(){}
-
-};
-
-(function(){
-
-var onBridgeReady=function(){
-
-WeixinJSBridge.on('menu:share:appmessage', function(argv){
-
-WeixinJSBridge.invoke('sendAppMessage',{
-
-"appid":dataForWeixin.appId,
-
-"img_url":dataForWeixin.MsgImg,
-
-"img_width":"120",
-
-"img_height":"120",
-
-"link":dataForWeixin.url,
-
-"desc":dataForWeixin.desc,
-
-"title":dataForWeixin.title
-
-}, function(res){(dataForWeixin.callback)();});
-
-});
-
-WeixinJSBridge.on('menu:share:timeline', function(argv){
-
-(dataForWeixin.callback)();
-
-WeixinJSBridge.invoke('shareTimeline',{
-
-"img_url":dataForWeixin.TLImg,
-
-"img_width":"120",
-
-"img_height":"120",
-
-"link":dataForWeixin.url,
-
-"desc":dataForWeixin.desc,
-
-"title":dataForWeixin.title
-
-}, function(res){});
-
-});
-
-WeixinJSBridge.on('menu:share:weibo', function(argv){
-
-WeixinJSBridge.invoke('shareWeibo',{
-
-"content":dataForWeixin.title,
-
-"url":dataForWeixin.url
-
-}, function(res){(dataForWeixin.callback)();});
-
-});
-
-WeixinJSBridge.on('menu:share:facebook', function(argv){
-
-(dataForWeixin.callback)();
-
-WeixinJSBridge.invoke('shareFB',{
-
-"img_url":dataForWeixin.TLImg,
-
-"img_width":"120",
-
-"img_height":"120",
-
-"link":dataForWeixin.url,
-
-"desc":dataForWeixin.desc,
-
-"title":dataForWeixin.title
-
-}, function(res){});
-
-});
-
-};
-
-if(document.addEventListener){
-
-document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
-
-}else if(document.attachEvent){
-
-document.attachEvent('WeixinJSBridgeReady'   , onBridgeReady);
-
-document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
-
-}
-
-})();
+<script type="text/javascript">
+    // 收缩展开效果
+    $(document).ready(function(){
+        // $(".box h1").toggle(function(){
+        //   $(this).next(".text").animate({height: 'toggle', opacity: 'toggle'}, "slow");
+        //  },function(){
+//$(this).next(".text").animate({height: 'toggle', opacity: 'toggle'}, "slow");
+        //});
+        $("div.text").hide();//默认隐藏div，或者在样式表中添加.text{display:none}，推荐使用后者
+        $(".box h1").click(function(){
+            $(this).next(".text").slideToggle("slow");
+        })
+    });
 </script>
-<div style="width: 300px; height: 300px; background: #000">
-    <a style="width: 100px; height: 100px ; display: block" href="http://service.weibo.com/share/share.php?url=http%3A%2F%2Fbox.guoguan.com%2F%230-tsina-1-40109-397232819ff9a47a7b7e80a40613cfe1&title=%E4%B8%AD%E5%9B%BD%E9%81%93%E6%98%AF%E5%9B%BD%E9%A6%86%E9%A6%96%E6%AC%BE%E6%94%B6%E8%97%8F%E7%BA%A7%E6%96%87%E5%8C%96%E7%99%BD%E9%85%92%EF%BC%8C%E5%A4%A7%E5%B8%88%E4%B9%8B%E4%BD%9C%EF%BC%8C%E6%98%AF%E9%80%81%E7%A4%BC%E7%9A%84%E7%BB%9D%E4%BD%B3%E9%80%89%E6%8B%A9%EF%BC%8C%E6%98%AF%E5%AE%A2%E5%8E%85%E7%9A%84%E8%A3%85B%E5%88%A9%E5%99%A8%EF%BC%8C%E6%98%AF%E4%B8%8D%E6%84%BF%E8%BD%BB%E6%98%93%E5%88%86%E4%BA%AB%E7%9A%84%E6%94%B6%E8%97%8F%E7%BA%A7%E5%A5%BD%E9%85%92%E3%80%82%E4%B8%AD%E5%9B%BD%E9%81%93%EF%BC%8C%E8%BF%99%E7%A7%8D%E9%85%92%EF%BC%8C%E4%BD%A0%E5%8F%AA%E4%BC%9A%E7%94%A8%E6%9D%A5%E6%8B%9B%E5%BE%85%E6%9C%80%E7%9F%A5%E5%BF%83%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%82%20%20-%20%40%E5%9B%BD%E9%A6%86&appkey=2106128267&pic=http%3A%2F%2Fbox.guoguan.com%2Ftopic%2Fopen%2Fimages%2Findex-focus-img.jpg&searchPic=false"></a>
+<!-- 收缩展开效果 -->
+<div class="box">
+    <h1>收缩展开效果</h1>
+    <div class="text">
+        1<br />
+        2<br />
+        3<br />
+        4<br />
+        5<br />
+    </div>
 </div>
+<br />
+
+<div class="box">
+    <h1>收缩展开效果</h1>
+    <div class="text">
+        1<br />
+        2<br />
+    </div>
+</div>
+<br>
+第一次运行请刷新一下页面。
 </body>
 </html>

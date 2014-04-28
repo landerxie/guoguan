@@ -11,7 +11,7 @@
     height: 4rem;
     line-height: 4rem;
     position: relative;
-    border-bottom: 0.1rem solid #d0d0d0;
+    border-bottom: 0.1rem solid #ebebeb;
 }
 .m-center-partOne ul li>div:last-child{
     position: absolute;
@@ -30,7 +30,7 @@
     color: #565656;
     background-color: #fff;
     border-radius: 0.416666rem;
-    border-bottom: 0.1rem solid #d0d0d0;
+    border-bottom: 0.1rem solid #ebebeb;
 
 }
 .m-center-login-button{

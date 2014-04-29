@@ -44,16 +44,20 @@
     <div class='panel-container'>
         <div id="tabs1-html">
             <div class="product-detail-one">
-                <img src="images/1-01.jpg" style="width: 100%">
+                <img class="lazy" src="images/grey.gif" data-original="images/1-01.jpg" style="width: 100%">
+                <noscript><img src="images/1-01.jpg" style="width: 100%"></noscript>
             </div>
             <div class="product-detail-two">
-                <img src="images/mitv-conc-01.jpg" style="width: 100%">
+                <img class="lazy" src="images/grey.gif" data-original="images/mitv-conc-01.jpg" style="width: 100%">
+                <noscript><img src="images/mitv-conc-01.jpg" style="width: 100%"></noscript>
             </div>
             <div class="product-detail-three">
-                <img src="images/mitv-cond-02.jpg" style="width: 100%">
+                <img class="lazy" src="images/grey.gif" data-original="images/mitv-cond-02.jpg" style="width: 100%">
+                <noscript><img src="images/mitv-cond-02.jpg" style="width: 100%"></noscript>
             </div>
             <div class="product-detail-four">
-                <img src="images/mitv-conf-01.jpg" style="width: 100%">
+                <img class="lazy" src="images/grey.gif" data-original="images/mitv-conf-01.jpg" style="width: 100%">
+                <noscript><img src="images/mitv-conf-01.jpg" style="width: 100%"></noscript>
             </div>
         </div>
 
@@ -113,8 +117,14 @@
     </div>
 </div>
 <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.lazyload.js" type="text/javascript"></script>
 <script src="js/jquery.hashchange.min.js" type="text/javascript"></script>
 <script src="js/jquery.easytabs.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function(){
+        $("img.lazy").lazyload();
+    });
+</script>
 <script type="text/javascript">
     $(document).ready( function() {
         $('#tab-container').easytabs();

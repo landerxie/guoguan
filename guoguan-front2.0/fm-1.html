@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+	    <!-- Meta, title, CSS, favicons, etc. -->
+	    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<meta name="description" content="">
+		<meta name="keywords" content="国馆,每日一文,生活方式">
+		<meta name="author" content="每天推送一片好文章，让文化温暖人心">
+
+		<title>国馆电台 - 国馆 | 让文化温暖人心</title>
+
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/css/base.css" rel="stylesheet">
+
+		<!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="assets/js/html5shiv.min.js"></script>
+		  <script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
+		<link rel="shortcut icon" href="">
+  </head>
+  <body class="flow-none">
+  	<div class="warp">
+  		<div class="warp-bg"  style="background-image:url('images/1.jpg')">
+		  	<div class="warp-bg-mask"></div>
+		</div>
+  		<div class="content">
+  			<nav class="navbar navbar-default navbar-fixed-top navbar-fm" role="navigation">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			      菜单
+			    </button>
+			    
+			    <a class="navbar-brand text-hide" href="#">国馆电台 - 让文化温暖人心<img src="assets/img/fmlogo.png"></a>
+			  </div>
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav navbar-right">			      
+				    <li><a href="#" >往期节目</a></li>
+				    <li><a href="#" >招募主播</a></li>
+				    <li><a href="#" target="_blank" >国馆官网</a></li>
+
+			    </ul>
+			  </div><!-- /.navbar-collapse -->
+
+			</nav>
+		  	<div class="container fmbox">
+		  		<div class="row">
+		  			<div class="col-md-6 col-md-offset-3">
+		  				<div class="pagecontent text-center">
+		  					<h1 class="">从前慢</h1>
+							<P>文：木心&nbsp;&nbsp;&nbsp;&nbsp;主播：晓优</P>
+							<p>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</p>
+		  				</div>
+
+		  				<div class="fmcontrol">
+
+							<div id="jp_container_1" class="jp-audio">
+							    <div class="jp-type-single">
+							      <div class="jp-gui jp-interface">
+							 		<div class="jp-progress">
+							          <div class="jp-seek-bar">
+							            <div class="jp-play-bar"></div>
+							          </div>
+							        </div>
+							        
+							      </div>
+							      
+							    </div>
+							</div>
+  							<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+  							<a href="#a" class="lyrics"><span class="glyphicon glyphicon-list-alt"></span></a>
+		  					<a href="javascript:;" id="play"><span class="glyphicon glyphicon-play"></span></a>
+		  					<a href="javascript:;" id="pause"><span class="glyphicon glyphicon-pause"></span></a>
+		  					<p class="currenttime"><span id="currentTime"></span> / <span id="duration"></span></p>
+							<a href="#a" ><span class="glyphicon glyphicon-step-forward"></span></a>
+							<div class="btn-group dropup">
+						        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-share"></span></button>
+						        <ul class="dropdown-menu" role="menu">
+						          <li><div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script></li>
+						        </ul>
+						    </div>
+						</div>
+						
+		  			</div>
+		  		</div>
+		  	</div>
+	  	</div>
+  	</div>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function(){
+	      $("#jquery_jplayer_1").jPlayer({
+	        ready: function () {
+	          $(this).jPlayer("setMedia", {
+	            m4a: "audio/fm.mp3",
+	            oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+	          }).jPlayer("play");
+	        },
+	        swfPath: "/js",
+	        supplied: "m4a, oga",
+	        cssSelectorAncestor: "",
+	        cssSelector: {
+	        play: "#play",
+	        pause: "#pause",
+	        currentTime: "#currentTime",
+	        duration: "#duration"
+	      }
+	      });
+	    });
+	</script>
+  </body>
+</html>

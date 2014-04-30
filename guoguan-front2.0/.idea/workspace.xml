@@ -48,7 +48,7 @@
       <file leaf-file-name="base.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="335" column="32" selection-start="9015" selection-end="9015" vertical-scroll-proportion="0.19163764" vertical-offset="6535" max-vertical-offset="17300">
+            <state line="337" column="22" selection-start="9069" selection-end="9069" vertical-scroll-proportion="0.23809524" vertical-offset="6535" max-vertical-offset="17300">
               <folding />
             </state>
           </provider>
@@ -169,7 +169,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../code" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -378,7 +378,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="335" column="32" selection-start="9015" selection-end="9015" vertical-scroll-proportion="0.19163764" vertical-offset="6535" max-vertical-offset="17300">
+        <state line="337" column="22" selection-start="9069" selection-end="9069" vertical-scroll-proportion="0.23809524" vertical-offset="6535" max-vertical-offset="17300">
           <folding />
         </state>
       </provider>

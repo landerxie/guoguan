@@ -281,19 +281,20 @@ a:hover {color:#333; text-decoration: underline;}
     display: none;
 }
 .banner-bg{
-    position: relative; background-image:url('../../images/bg99.jpg'); margin-top: 132px;
+    position: relative; background-image:url('../../images/bg99.jpg');
 }
 .banner-left-content{
     height: 40%;
-    top: 7rem;
+    width: 47%;
+    top: 18rem;
     position: absolute;
 }
 .banner-left-title{
 }
 .banner-left-bottom{
-    width: 70%;
+    width: 57%;
     margin: 0 auto;
-    margin-top: 28px;
+    margin-top: 61px;
 }
 .banner-left-bottom-core{
     display: inline-block;

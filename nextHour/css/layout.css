@@ -314,6 +314,11 @@ body{
 .share-zhongguodao-button{
     margin-bottom: 70px;
 }
+.white-dot{
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+}
 .site-title{
     margin-top: 20px;
     margin-left: 73px;
@@ -323,18 +328,28 @@ body{
     display: table;
     vertical-align: middle;
     margin: 0 auto;
+    width: 500px;
     text-align: center;
     color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);
 }
 .next-hour-time{
-    display: table-cell;
-    vertical-align: middle;
     padding:10px;
     width: 175px;
+    margin:0 auto;
     border: 1px solid #fff;
 }
 .next-hour-time-left{
 
+}
+.next-hour-time-left>span{
+    font-size: 12px;
+}
+.next-hour-time-right>span{
+    font-size: 12px;
 }
 .next-hour-time-middle{
     padding-top: 5px;
@@ -346,6 +361,10 @@ body{
 .next-hour-time-number{
     width: 60px;
     font-size: 40px;
+}
+.next-hour-big-title{
+    font-size: 40px;
+    margin-top: 25px;
 }
 @media (max-width: 767px){
 

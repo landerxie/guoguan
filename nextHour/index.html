@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html >
 <head>
-    <title>5月4日 国馆·中国道产品发布会 - 国馆</title>
+    <title>文化下一小时</title>
     <meta name="viewport" charset="utf-8" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="keywords" content="中国道,国馆,国馆网,国馆酒">
-    <meta name="description" content="中国道是国馆首款收藏级文化白酒，大师之作，是送礼的绝佳选择，是客厅的装B利器，是不愿轻易分享的收藏级好酒。中国道，这种酒，你只会用来招待最知心的朋友。">
+    <meta name="description" content="文化下一小时。">
     <!-- css style sheet -->
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -18,15 +18,12 @@
 
 
 </head>
-<body onclick="closeGuideImg()">
+<body >
     <div class="share-cover">
         <div class="share-guide" id="weixin-guide"></div>
         <div class="share-guide" id="mobile-guide"></div>
     </div>
     <nav class="site-nav" tabindex="-1">
-        <div id="guide-handle-img" class="slideExpandUp">
-            <i class='icon-hand-up'></i>
-        </div>
         <div class="site-nav-logo icons-logo-circle distraction-free-component" id="open-nav-button" data-action="open-nav">
             <!--<span class="icons-logo-content">国</span>-->
             <span class="icons ">
@@ -95,8 +92,8 @@
 
     <div class="index-login-register">
         <ul>
-            <li><a>登陆</a></li>
-            <li><a>注册</a></li>
+            <!--<li><a>登陆</a></li>-->
+            <li><a>投稿</a></li>
         </ul>
     </div>
 
@@ -105,7 +102,7 @@
             <div class="site-focus">
                 <div class="site-content">
                     <div class="site-title">
-                        <h4>文化下一小时</h4>
+                        <span>文化下一小时</span>
                     </div>
                     <div class="next-hour-content">
                         <div class="next-hour-time">
@@ -126,6 +123,11 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="next-hour-big-title">
+                            我当然也面临很多烦恼，只是我做出了合适的选择。
+                        </div>
+
                     </div>
                     <div class="site-middle-button" style="text-align: center">
                         <p class="button" style="margin-bottom: 50px"><a class="btn btn-default btn-lg " id="share-to-sina-button" role="button">分享赢中国道<i class="icon-chevron-right ml10"></i></a></p>
@@ -137,6 +139,9 @@
                 <a class="btn btn-link" title="">听个段子</a>
                 <a class="btn btn-link" title="" href="">来篇文章</a>
                 <a class="btn btn-link" title="" href="">月光宝盒</a>
+                <div class="floating" style="width: 100%;  margin-left:auto; margin-right:auto; margin-top:30px; margin-bottom:30px; color:#d0d0d0">
+                    <i class="icon-angle-down "></i>
+                </div>
             </footer>
         </div>
     </div>
@@ -180,65 +185,6 @@
         isHiden = !isHiden;
     }
 
-</script>
-<script type="text/javascript">
-    function setCookie(name,value,days){
-        var exp=new Date();
-        exp.setTime(exp.getTime() + days*24*60*60*1000);
-        var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));
-        document.cookie=name+"="+escape(value)+";expires="+exp.toGMTString();
-    }
-    function getCookie(name){
-        var arr=document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));
-        if(arr!=null){
-            return unescape(arr[2]);
-            return null;
-        }
-    }
-    function delCookie(name){
-        var exp=new Date();
-        exp.setTime(exp.getTime()-1);
-        var cval=getCookie(name);
-
-        if(cval!=null){
-
-            document.cookie=name+"="+cval+";expires="+exp.toGMTString();
-        }
-    }
-    function out(){
-
-        if(getCookie("out")!="yes"){
-
-            setCookie("out","yes",1);document.onLoad = sss();//sss()调用浮动层
-        }
-    }
-    out();
-
-    function sss() {
-        var guideHandleImg = document.getElementById("guide-handle-img");
-        guideHandleImg.style.display = "block";
-        fade(guideHandleImg);
-    }
-
-    function closeGuideImg(){
-        var guideHandleImg = document.getElementById("guide-handle-img");
-        guideHandleImg.style.display = "none";
-    }
-
-    function fade(element) {
-        var op = 1;  // initial opacity
-        setTimeout(function(){
-            var timer = setInterval(function () {
-                if (op <= 0.1){
-                    clearInterval(timer);
-                    element.style.display = 'none';
-                }
-                element.style.opacity = op;
-                element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-                op -= op * 0.1;
-            }, 50);
-        },5000);
-    }
 </script>
 </body>
 </html>

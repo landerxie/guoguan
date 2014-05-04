@@ -89,7 +89,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nextHour/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="40" selection-start="6932" selection-end="6932" vertical-scroll-proportion="0.23923445" vertical-offset="2640" max-vertical-offset="3900">
+            <state line="141" column="160" selection-start="6903" selection-end="6903" vertical-scroll-proportion="0.215311" vertical-offset="2640" max-vertical-offset="3900">
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -106,7 +106,7 @@
       <file leaf-file-name="animations.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nextHour/css/animations.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="791" column="32" selection-start="15471" selection-end="15471" vertical-scroll-proportion="0.0" vertical-offset="15420" max-vertical-offset="22620">
+            <state line="791" column="31" selection-start="15470" selection-end="15470" vertical-scroll-proportion="0.0" vertical-offset="15420" max-vertical-offset="22620">
               <folding />
             </state>
           </provider>
@@ -576,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nextHour/css/animations.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="791" column="32" selection-start="15471" selection-end="15471" vertical-scroll-proportion="0.0" vertical-offset="15420" max-vertical-offset="22620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="43" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.49411765" vertical-offset="360" max-vertical-offset="4880">
@@ -597,9 +590,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nextHour/css/animations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="791" column="31" selection-start="15470" selection-end="15470" vertical-scroll-proportion="0.0" vertical-offset="15420" max-vertical-offset="22620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nextHour/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="40" selection-start="6932" selection-end="6932" vertical-scroll-proportion="0.23923445" vertical-offset="2640" max-vertical-offset="3900">
+        <state line="141" column="160" selection-start="6903" selection-end="6903" vertical-scroll-proportion="0.215311" vertical-offset="2640" max-vertical-offset="3900">
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />

@@ -292,6 +292,7 @@ body{
     top: 52px;
     left: 12px;
 }
+.inlinebl{display: inline-block}
 .index-login-register{
     position: absolute;
     color: #fff;
@@ -317,6 +318,34 @@ body{
     margin-top: 20px;
     margin-left: 73px;
     color: #333;
+}
+.next-hour-content{
+    display: table;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.next-hour-time{
+    display: table-cell;
+    vertical-align: middle;
+    padding:10px;
+    width: 175px;
+    border: 1px solid #fff;
+}
+.next-hour-time-left{
+
+}
+.next-hour-time-middle{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.next-hour-time-right{
+
+}
+.next-hour-time-number{
+    width: 60px;
+    font-size: 40px;
 }
 @media (max-width: 767px){
 

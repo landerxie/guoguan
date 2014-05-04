@@ -172,14 +172,14 @@
     function openLeftNav() {
         console.log("1111");
         if(isHiden){
-            $('#site-nav-scrollable-container').animate({left:'+=12rem'},100);//菜单块向右移动
-            $('#site-container').animate({left:'+=12rem'},100);//菜单块向右移动
-            $('#open-nav-button').animate({left:'+=12rem'},100);//菜单块向右移动
+            $('#site-nav-scrollable-container').animate({left:'+=13rem'},100);//菜单块向右移动
+            $('#site-container').animate({left:'+=13rem'},100);//菜单块向右移动
+            $('#open-nav-button').animate({left:'+=13rem'},100);//菜单块向右移动
             $("#open-nav-button").css("display","none");
         }else{
-            $('#site-nav-scrollable-container').animate({left:'-=12rem'},100); //菜单块向左移动
-            $('#site-container').animate({left:'-=12rem'},100); //菜单块向左移动
-            $('#open-nav-button').animate({left:'-=12rem'},100); //菜单块向左移动
+            $('#site-nav-scrollable-container').animate({left:'-=13rem'},100); //菜单块向左移动
+            $('#site-container').animate({left:'-=13rem'},100); //菜单块向左移动
+            $('#open-nav-button').animate({left:'-=13rem'},100); //菜单块向左移动
             $("#open-nav-button").fadeIn(1000);
         }
         isHiden = !isHiden;

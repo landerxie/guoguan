@@ -62,7 +62,7 @@
       <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nextHour/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="337" column="0" selection-start="8043" selection-end="8043" vertical-scroll-proportion="0.0" vertical-offset="6120" max-vertical-offset="7700">
+            <state line="94" column="12" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="7700">
               <folding />
             </state>
           </provider>
@@ -77,6 +77,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="12" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.2600897" vertical-offset="1648" max-vertical-offset="6680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nextHour/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="160" selection-start="6903" selection-end="6903" vertical-scroll-proportion="0.215311" vertical-offset="2640" max-vertical-offset="3900">
+            <state line="167" column="34" selection-start="7705" selection-end="7705" vertical-scroll-proportion="-6.0" vertical-offset="3004" max-vertical-offset="3900">
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -132,12 +141,12 @@
         <option value="$PROJECT_DIR$/product/m-product-detail.html" />
         <option value="$PROJECT_DIR$/product/js/option.js" />
         <option value="$PROJECT_DIR$/product/index.html" />
-        <option value="$PROJECT_DIR$/product/css/layout.css" />
         <option value="$PROJECT_DIR$/product/css/base.css" />
         <option value="$PROJECT_DIR$/nextHour/css/base.css" />
-        <option value="$PROJECT_DIR$/nextHour/css/layout.css" />
         <option value="$PROJECT_DIR$/nextHour/css/animations.css" />
         <option value="$PROJECT_DIR$/nextHour/index.html" />
+        <option value="$PROJECT_DIR$/nextHour/css/layout.css" />
+        <option value="$PROJECT_DIR$/product/css/layout.css" />
       </list>
     </option>
   </component>
@@ -534,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="319" column="23" selection-start="7623" selection-end="7623" vertical-scroll-proportion="0.7309417" vertical-offset="5728" max-vertical-offset="6680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guoguan-front2.0/fm-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="20" selection-start="883" selection-end="883" vertical-scroll-proportion="-16.551723" vertical-offset="0" max-vertical-offset="2800">
@@ -569,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nextHour/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="337" column="0" selection-start="8043" selection-end="8043" vertical-scroll-proportion="0.0" vertical-offset="6120" max-vertical-offset="7700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="43" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.49411765" vertical-offset="360" max-vertical-offset="4880">
@@ -599,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nextHour/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="160" selection-start="6903" selection-end="6903" vertical-scroll-proportion="0.215311" vertical-offset="2640" max-vertical-offset="3900">
+        <state line="167" column="34" selection-start="7705" selection-end="7705" vertical-scroll-proportion="-6.0" vertical-offset="3004" max-vertical-offset="3900">
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -609,6 +604,20 @@
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nextHour/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="12" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="7700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="12" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.2600897" vertical-offset="1648" max-vertical-offset="6680">
+          <folding />
         </state>
       </provider>
     </entry>

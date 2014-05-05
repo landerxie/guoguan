@@ -11,6 +11,11 @@ $(document).ready(function(){
             $("#weixin-guide").css("display","block");
             $("#share-to-sina-button").css("display","inline-block");
             $("#share-to-sina-button-pc").css("display","none");
+
+            document.body.addEventListener('touchmove', function (event) {
+                event.preventDefault();
+            }, false);
+
             return
         }
     })

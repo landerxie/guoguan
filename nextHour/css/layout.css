@@ -6,9 +6,9 @@ body{
 pre {
     display: block;
     padding: 9.5px;
+    line-height: 25.888px;
     margin: 0 0 10px;
     font-size: 16px;
-    line-height: 1.428571429;
     color: #333;
     word-break: break-all;
     word-wrap: break-word;

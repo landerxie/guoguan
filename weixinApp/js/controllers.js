@@ -203,32 +203,78 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
 
 
     $scope.showResult = function(){
+            $(".share-cover").css("display","block");
+            $(".share-guide").css("display","none");
+            $("#weixin-guide").css("display","block");
             if(score >= 4 && score <=7){
-                $scope.action = "resultOne";
-                $scope.title = "您的酒量已击败全球10%的网友";
+                $("#weixin-guide").click(function(){
+                    $(".share-cover").css("display","none");
+                    $scope.action = "resultOne";
+                })
+
             } else if (score >= 8 && score <= 9)
             {
-                $scope.action = "resultTwo";
-                $scope.title = "您的酒量已击败全球36%的网友";
+                $("#weixin-guide").click(function(){
+                    $(".share-cover").css("display","none");
+                    $scope.action = "resultTwo";
+                })
             } else if (score >= 10 && score <= 11)
             {
-                $scope.action = "resultThree";
-                $scope.title = "您的酒量已击败全球51%的网友";
+                $("#weixin-guide").click(function(){
+                    $(".share-cover").css("display","none");
+                    $scope.action = "resultThree";
+                })
             } else if (score >= 12 && score <= 13)
             {
-                $scope.action = "resultFour";
-                $scope.title = "您的酒量已击败全球69%的网友";
+                $("#weixin-guide").click(function(){
+                    $(".share-cover").css("display","none");
+                    $scope.action = "resultFour";
+                })
             }
             else if (score >= 14 && score <= 15)
             {
-                $scope.action = "resultFive";
-                $scope.title = "您的酒量已击败全球82%的网友";
+                $("#weixin-guide").click(function(){
+                    $(".share-cover").css("display","none");
+                    $scope.action = "resultFive";
+                })
             }
             else
             {
-                $scope.action = "resultSix";
-                $scope.title = "您的酒量已击败全球96%的网友";
+                $("#weixin-guide").click(function(){
+                    $(".share-cover").css("display","none");
+                    $scope.action = "resultSix";
+                })
             }
+    }
+
+    $scope.closeCover = function(){
+        $(".share-cover").css("display","none");
+        if(score >= 4 && score <=7){
+                $scope.action = "resultOne";
+
+        } else if (score >= 8 && score <= 9)
+        {
+
+                $scope.action = "resultTwo";
+        } else if (score >= 10 && score <= 11)
+        {
+
+                $scope.action = "resultThree";
+        } else if (score >= 12 && score <= 13)
+        {
+
+                $scope.action = "resultFour";
+        }
+        else if (score >= 14 && score <= 15)
+        {
+
+                $scope.action = "resultFive";
+        }
+        else
+        {
+
+                $scope.action = "resultSix";
+        }
     }
 
     var dataForWeixin = {
@@ -277,6 +323,49 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
             document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
         }
     })();
+
+    var browser={
+        versions:function(){
+            var u = navigator.userAgent, app = navigator.appVersion;
+            return {         //移动终端浏览器版本信息
+                trident: u.indexOf('Trident') > -1, //IE内核
+                presto: u.indexOf('Presto') > -1, //opera内核
+                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+                iPad: u.indexOf('iPad') > -1, //是否iPad
+                webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+            };
+        }(),
+        language:(navigator.browserLanguage || navigator.language).toLowerCase()
+    }
+    /*document.writeln("语言版本: "+browser.language);
+     document.writeln(" 是否为移动终端: "+browser.versions.mobile);
+     document.writeln(" ios终端: "+browser.versions.ios);
+     document.writeln(" android终端: "+browser.versions.android);
+     document.writeln(" 是否为iPhone: "+browser.versions.iPhone);
+     document.writeln(" 是否iPad: "+browser.versions.iPad);
+     document.writeln(navigator.userAgent);*/
+
+    /*function is_weixin(){
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i)=="micromessenger") {
+            return true;
+        } else {
+            return false;
+        }
+    }*/
+    /*function clientBrowseCheck(){
+        if(is_weixin()){
+            //微信浏览器
+            $("#share-to-sina-button").css("display","inline-block");
+            $("#share-to-sina-button-pc").css("display","none");
+            return
+        }
+    }*/
 
 
 

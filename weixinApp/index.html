@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html ng-app="phonecatApp">
+<head>
+    <title>酒量排名大赛</title>
+    <meta name="viewport" charset="utf-8" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body ng-controller="PhoneListCtrl">
+
+<div class="share-cover">
+    <div class="share-guide" id="weixin-guide"></div>
+    <div class="share-guide" id="mobile-guide"></div>
+</div>
+
+<div class="part-one" ng-show="action == 'index'">
+    <h3 class="part-one-title">酒量排名大赛</h3>
+    <div class="part-one-content " style="padding-top: 0;">
+        已有32万网友参与测试！
+    </div>
+    <div class="part-one-banner"></div>
+    <div class="part-one-content">
+        人在江湖走，哪能不喝酒？俗话说小酒怡情，大酒伤身。快来看看你的酒量排名是多少吧！
+    </div>
+    <div class="content" ng-click="enterApp()">
+        <div class="m-button width100 enter-app-button">
+            <div class="m-button-content">
+                进入测试
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="part-two" style="display: none" ng-style="{display: action == 'itemOne' ? 'block' : 'none'}">
+    <div class="app-title-banner">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">酒量排名大赛</h3>
+        <div class="title-number">1/7</div>
+    </div>
+    <div class="content ">
+        <div class="item-title">{{item[0].name}}</div>
+        <div class="item-choose" ng-click="itemOneChoose(2)">{{item[0].choose[0].text}}</div>
+        <div class="item-choose" ng-click="itemOneChoose(1)">{{item[0].choose[1].text}}</div>
+    </div>
+</div>
+
+<div class="part-two" style="display: none" ng-style="{display: action == 'itemTwo' ? 'block' : 'none'}">
+    <div class="app-title-banner">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">酒量排名大赛</h3>
+        <div class="title-number">2/7</div>
+    </div>
+    <div class="content ">
+        <div class="item-title">{{item[1].name}}</div>
+        <div class="item-choose" ng-click="itemTwoChoose(1)">{{item[1].choose[0].text}}</div>
+        <div class="item-choose" ng-click="itemTwoChoose(2)">{{item[1].choose[1].text}}</div>
+        <div class="item-choose" ng-click="itemTwoChoose(3)">{{item[1].choose[2].text}}</div>
+        <div class="item-choose" ng-click="itemTwoChoose(3)">{{item[1].choose[3].text}}</div>
+        <div class="item-choose" ng-click="itemTwoChoose(2)">{{item[1].choose[4].text}}</div>
+    </div>
+</div>
+<div class="part-two"  style="display: none" ng-style="{display: action == 'itemThree' ? 'block' : 'none'}">
+    <div class="app-title-banner">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">酒量排名大赛</h3>
+        <div class="title-number">3/7</div>
+    </div>
+    <div class="content ">
+        <div class="item-title">{{item[2].name}}</div>
+        <div class="item-choose" ng-click="itemThreeChoose(2)">{{item[2].choose[0].text}}</div>
+        <div class="item-choose" ng-click="itemThreeChoose(1)">{{item[2].choose[1].text}}</div>
+        <div class="item-choose" ng-click="itemThreeChoose(2)">{{item[2].choose[2].text}}</div>
+        <div class="item-choose" ng-click="itemThreeChoose(3)">{{item[2].choose[3].text}}</div>
+        <div class="item-choose" ng-click="itemThreeChoose(4)">{{item[2].choose[4].text}}</div>
+    </div>
+</div>
+<div class="part-two" style="display: none" ng-style="{display: action == 'itemFour' ? 'block' : 'none'}">
+    <div class="app-title-banner">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">酒量排名大赛</h3>
+        <div class="title-number">4/7</div>
+    </div>
+    <div class="content ">
+        <div class="item-title">{{item[3].name}}</div>
+        <div class="item-choose" ng-click="itemFourChoose(2)">{{item[3].choose[0].text}}</div>
+        <div class="item-choose" ng-click="itemFourChoose(1)">{{item[3].choose[1].text}}</div>
+        <div class="item-choose" ng-click="itemFourChoose(2)">{{item[3].choose[2].text}}</div>
+        <div class="item-choose" ng-click="itemFourChoose(3)">{{item[3].choose[3].text}}</div>
+        <div class="item-choose" ng-click="itemFourChoose(2)">{{item[3].choose[4].text}}</div>
+    </div>
+</div>
+<div class="part-two" style="display: none" ng-style="{display: action == 'itemFive' ? 'block' : 'none'}">
+    <div class="app-title-banner">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">酒量排名大赛</h3>
+        <div class="title-number">5/7</div>
+    </div>
+    <div class="content ">
+        <div class="item-title">{{item[4].name}}</div>
+        <div class="item-choose" ng-click="itemFiveChoose(1)">{{item[4].choose[0].text}}</div>
+        <div class="item-choose" ng-click="itemFiveChoose(2)">{{item[4].choose[1].text}}</div>
+        <div class="item-choose" ng-click="itemFiveChoose(3)">{{item[4].choose[2].text}}</div>
+        <div class="item-choose" ng-click="itemFiveChoose(3)">{{item[4].choose[3].text}}</div>
+        <div class="item-choose" ng-click="itemFiveChoose(0)">{{item[4].choose[4].text}}</div>
+    </div>
+</div>
+<div class="part-two" style="display: none" ng-style="{display: action == 'itemSix' ? 'block' : 'none'}">
+    <div class="app-title-banner">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">酒量排名大赛</h3>
+        <div class="title-number">6/7</div>
+    </div>
+    <div class="content ">
+        <div class="item-title">{{item[5].name}}</div>
+        <div class="item-choose" ng-click="itemSixChoose(1)">{{item[5].choose[0].text}}</div>
+        <div class="item-choose" ng-click="itemSixChoose(2)">{{item[5].choose[1].text}}</div>
+        <div class="item-choose" ng-click="itemSixChoose(1)">{{item[5].choose[2].text}}</div>
+        <div class="item-choose" ng-click="itemSixChoose(2)">{{item[5].choose[3].text}}</div>
+        <div class="item-choose" ng-click="itemSixChoose(0)">{{item[5].choose[4].text}}</div>
+    </div>
+</div>
+<div class="part-two" style="display: none" ng-style="{display: action == 'itemSeven' ? 'block' : 'none'}">
+    <div class="app-title-banner">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">酒量排名大赛</h3>
+        <div class="title-number">7/7</div>
+    </div>
+    <div class="content ">
+        <div class="item-title">{{item[6].name}}</div>
+        <div class="item-choose" ng-click="itemSevenChoose(1)">{{item[6].choose[0].text}}</div>
+        <div class="item-choose" ng-click="itemSevenChoose(0)">{{item[6].choose[1].text}}</div>
+        <div class="item-choose" ng-click="itemSevenChoose(0)">{{item[6].choose[2].text}}</div>
+    </div>
+</div>
+
+<div class="part-two" style="display: none" ng-style="{display: action == 'resultPrevious' ? 'block' : 'none'}">
+    <div class="app-title-banner">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">酒量排名大赛</h3>
+    </div>
+    <div class="content">
+        <h3 class="part-one-title" style="text-align: center">结果居然是这样，惊呆了！</h3>
+        <div class="part-one-content" style="margin-top: 10rem">
+           晒晒你的酒量，让别人仰望一下
+        </div>
+        <div class="m-button width100 enter-app-button" id="share-to-sina-button" ng-click="showResult()">
+            <div class="m-button-content">
+                分享并查看结果
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--结果页-->
+<div class="result-one" style="display: none" ng-style="{display: action == 'resultOne' ? 'block' : 'none'}">
+   <div class="result-one-title">
+       <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">你的酒量击败全国</h3>
+       <div class="result-percent"><span class="result-percent-number">10%</span><span>网友</span></div>
+   </div>
+   <div class="part-one-content">
+       解析：你真不适合喝酒，真的，可能上辈子喝太多了，连这辈子的都喝了。不过你如果送酒给别人，这个情谊就比别人的都深厚。
+   </div>
+    <div class="content today-hot" >
+        <ul>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="result-one" style="display: none" ng-style="{display: action == 'resultTwo' ? 'block' : 'none'}">
+    <div class="result-one-title">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">你的酒量击败全国</h3>
+        <div class="result-percent"><span class="result-percent-number">36%</span><span>网友</span></div>
+    </div>
+    <div class="part-one-content">
+        解析：酒量还不错哦，微醉，脸红的比较多，打嗝开始有一股酒味了。偶尔会进入胡话阶段，能把半生不熟的人当成兄弟对待。不过更多的是点到为止，喝的不是酒，是情谊。
+    </div>
+    <div class="content today-hot" >
+        <ul>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="result-one" style="display: none" ng-style="{display: action == 'resultThree' ? 'block' : 'none'}">
+    <div class="result-one-title">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">你的酒量击败全国</h3>
+        <div class="result-percent"><span class="result-percent-number">51%</span><span>网友</span></div>
+    </div>
+    <div class="part-one-content">
+        解析：你的酒量进入了全国的平均水平，招架瓶酒还是游刃有余的。这样的人如果要锻炼酒量，勇气也是最大的，完全不去管醉后会怎样，就在这样“义无反顾”的状态下，他们的酒量慢慢的锻炼出来，可以喝倒更多的人！！
+    </div>
+    <div class="content today-hot" >
+        <ul>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="result-one"  style="display: none" ng-style="{display: action == 'resultFour' ? 'block' : 'none'}">
+    <div class="result-one-title">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">你的酒量击败全国</h3>
+        <div class="result-percent"><span class="result-percent-number">69%</span><span>网友</span></div>
+    </div>
+    <div class="part-one-content">
+        解析：哎呦，能喝点酒喔。你喝酒主要看心情，心情好的时候谁都没你的酒量好，甚至你都觉得自己要化身“酒神”了，因为眼看着自己一杯杯不同的酒下肚居然脸不红心不跳。酒量确实惊人！但是心情不好的时候可能就喝不了这么多啦！不过也要比一般人强哦！
+    </div>
+    <div class="content today-hot" >
+        <ul>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="result-one" style="display: none" ng-style="{display: action == 'resultFive' ? 'block' : 'none'}">
+    <div class="result-one-title">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">你的酒量击败全国</h3>
+        <div class="result-percent"><span class="result-percent-number">82%</span><span>网友</span></div>
+    </div>
+    <div class="part-one-content">
+        解析：这酒量没得说，不是酒仙也是酒鬼了。久经酒场的你喝起来不太经得住别人的劝，小心身子骨。虽然喝醉的次数也不少，可一说起跟你喝酒大家还是打心底里敬畏的。
+    </div>
+    <div class="content today-hot" >
+        <ul>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="result-one" style="display: none" ng-style="{display: action == 'resultSix' ? 'block' : 'none'}">
+    <div class="result-one-title">
+        <h3 class="part-one-title" style="color: #fff; padding-bottom: 0.4rem">你的酒量击败全国</h3>
+        <div class="result-percent"><span class="result-percent-number">96%</span><span>网友</span></div>
+    </div>
+    <div class="part-one-content">
+        解析：天啊，你能喝这么多！！！必须是酒神了！！！频频举杯的你能喝倒所有到场的朋友，自己却依旧面带桃花微微含笑，这就叫气魄！你喝酒从来不是孤独简陋的，就算一个人喝也要白酒配月光，可谓是“酒家”里面最讲究的一个。
+    </div>
+    <div class="content today-hot" >
+        <ul>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+            <li>
+                <img src="images/index-focus-img.jpg" height="50" width="50">这是一篇文章
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+<script src="js/jquery-1.8.0.js" type="text/javascript"></script>
+<script src="js/angular.min.js" type="text/javascript"></script>
+<script src="js/ngTap.js" type="text/javascript"></script>
+<script src="js/controllers.js" type="text/javascript"></script>
+<script src="js/option.js" type="text/javascript"></script>
+</html>

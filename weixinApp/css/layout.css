@@ -1,0 +1,109 @@
+.part-one-banner{
+    width: 100%;
+    margin-top: 1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: padding-bottom .1s;
+    -moz-transition: padding-bottom .1s;
+    -ms-transition: padding-bottom .1s;
+    -o-transition: padding-bottom .1s;
+    transition: padding-bottom .1s;
+    height: 200px;
+    background: url("../images/index-focus-img.jpg") no-repeat center #000;
+    background-size: cover;
+    z-index: 2;
+    background-position: center;
+    -webkit-moz-background-size: cover;
+    -moz-moz-background-size: cover;
+    -ms-moz-background-size: cover;
+    -o-moz-background-size: cover;
+    moz-background-size: cover;
+}
+.part-one-title{
+    font-size: 2.4rem;
+    padding: 1rem;
+    color: #565656;
+}
+.part-one-content{
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #9c9c9c;
+}
+.app-title-banner{
+    height: 6.4rem;
+    background-color: #00a0e9;
+    color: #fff;
+}
+.title-number{
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.item-title{
+    font-size: 1.8rem;
+    color: #565656;
+}
+.item-choose{
+    font-size: 1.4rem;
+    height: 2rem;
+    color: #565656;
+    line-height: 2rem;
+    border: 1px solid #00a0e9;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.416rem;
+}
+.result-one-title{
+    height: 18.4rem;
+    background-color: #00a0e9;
+    color: #fff;
+}
+.result-percent{
+    text-align: center;
+}
+.result-percent-number{
+    font-size: 13rem;
+}
+
+/*微信分享*/
+#weixin-guide{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/guide.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}
+#mobile-guide{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url("../images/mobile-guide.png");
+    background-size: 26.5rem 26.5rem;
+    background-repeat: no-repeat;
+    background-position:bottom ;
+    z-index: 9999;
+}
+.share-cover{
+    position: fixed;
+    display: none;
+    z-index: 99;
+    background: rgba(0,0,0,0.7) ;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.today-hot{
+    background-color: #fff;
+    padding:0.4rem;
+}
+.today-hot ul li {
+    line-height: 3rem;
+    margin:1rem;
+}
+.today-hot ul li img{
+    vertical-align: middle;
+    margin-right:0.6rem;
+}
+

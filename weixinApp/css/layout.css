@@ -100,7 +100,8 @@
 }
 .today-hot ul li {
     line-height: 3rem;
-    margin:1rem;
+    margin: 1rem;
+    text-align: center;
 }
 .today-hot ul li img{
     vertical-align: middle;

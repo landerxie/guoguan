@@ -6,6 +6,7 @@
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
     color:black;
+    height: 100%;
     font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/
 }
 body {font-size: 14px;
@@ -151,6 +152,7 @@ a{color: #565656;}
 .width100{width: 100%!important;}
 .width98{width: 98%!important;}
 .width49{width: 49%!important;}
+.tacenter{text-align: center;}
 /* nav头部  */
 nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center; border-bottom: 0.1rem solid #d0d0d0;}
 .icon-home-appearance{
@@ -207,7 +209,7 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
 }
 /* content */
 .content{
-    width: 95%;
+    width: 80%;
     margin:2rem auto 2rem auto;
 }
 /* button */
@@ -216,12 +218,12 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
     height: 4rem;
     text-align: center;
     min-width: 7rem;
-    background-color: #f66900;
+    background-color: #66c4ca;
     border-radius: 0.416666rem;
     color: #fff;
 }
 .m-button:active{
-    background-color: #f77f25;
+    background-color: #7df7ff;
 }
 .m-button-content{
     line-height: 4rem;

@@ -57,7 +57,7 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
         {
             "name":"你的父亲是否很能喝酒？",
             "choose": [{
-                "text":"A. 不知道",
+                "text":"A. 不喝",
                 "score":2
             },
                 {
@@ -198,57 +198,25 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
     }
     $scope.itemSevenChoose = function(item) {
         score += item;
-        $scope.action = "resultPrevious";
+        $(".show-result-class").css("display","none");
+        $(".loading-div").css("display","block");
+        setTimeout(function(){
+            $(".show-result-class-two").css("display","block");
+            $(".loading-div").css("display","none");
+        },3000);
     }
 
 
     $scope.showResult = function(){
-            $(".share-cover").css("display","block");
-            $(".share-guide").css("display","none");
-            $("#weixin-guide").css("display","block");
-            if(score >= 4 && score <=7){
-                $("#weixin-guide").click(function(){
-                    $(".share-cover").css("display","none");
-                    $scope.action = "resultOne";
-                })
-
-            } else if (score >= 8 && score <= 9)
-            {
-                $("#weixin-guide").click(function(){
-                    $(".share-cover").css("display","none");
-                    $scope.action = "resultTwo";
-                })
-            } else if (score >= 10 && score <= 11)
-            {
-                $("#weixin-guide").click(function(){
-                    $(".share-cover").css("display","none");
-                    $scope.action = "resultThree";
-                })
-            } else if (score >= 12 && score <= 13)
-            {
-                $("#weixin-guide").click(function(){
-                    $(".share-cover").css("display","none");
-                    $scope.action = "resultFour";
-                })
-            }
-            else if (score >= 14 && score <= 15)
-            {
-                $("#weixin-guide").click(function(){
-                    $(".share-cover").css("display","none");
-                    $scope.action = "resultFive";
-                })
-            }
-            else
-            {
-                $("#weixin-guide").click(function(){
-                    $(".share-cover").css("display","none");
-                    $scope.action = "resultSix";
-                })
-            }
+        $(".share-cover").css("display","block");
+        $(".share-guide").css("display","none");
+        $("#weixin-guide").css("display","block");
+        $(".loading-div").css("display","none");
     }
 
     $scope.closeCover = function(){
         $(".share-cover").css("display","none");
+        $(".show-result-class-two").css("display","none");
         if(score >= 4 && score <=7){
                 $scope.action = "resultOne";
 

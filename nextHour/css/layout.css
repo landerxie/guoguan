@@ -18,6 +18,112 @@ pre {
 .ml10{margin-left:10px!important;}
 .mr10{margin-right:10px!important;}
 .mr5{margin-right: 5px!important;}
+
+/*中国道*/
+.surface{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: padding-bottom .1s;
+    -moz-transition: padding-bottom .1s;
+    -ms-transition: padding-bottom .1s;
+    -o-transition: padding-bottom .1s;
+    transition: padding-bottom .1s;
+    height: 100%;
+    max-height: 900px;
+
+}
+.good-information1{
+    background: url("../images/222_02.jpg") no-repeat center #000;
+    height: 1126px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+.good-information2{
+    background: url("../images/222_03.jpg") no-repeat center #000;
+    position: relative;
+    height: 906px;
+    z-index: 2;
+    width: 100%;
+}
+.good-information3{
+    background: url("../images/222_04.jpg") no-repeat center;
+    position: relative;
+    height: 906px;
+    z-index: 2;
+    width: 100%;
+}
+.good-information4{
+    background: url("../images/222_05.jpg") no-repeat center;
+    height: 906px;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+.good-information5{
+    background: url("../images/222_06.jpg") no-repeat center;
+    height: 906px;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+.good-information6{
+    background: url("../images/222_07.jpg") no-repeat center;
+    height: 906px;
+    margin-top:-1px;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+.good-information7{
+    background: url("../images/222_08.jpg") no-repeat center;
+    height: 906px;
+    z-index: 2;
+    width: 100%;
+    position: relative;
+}
+.good-information8{
+    background: url("../images/222_09.jpg") no-repeat center;
+    height: 906px;
+    z-index: 2;
+    width: 100%;
+    position: relative;
+}
+.good-information9{
+    background: url("../images/222_10.jpg") no-repeat center;
+    height: 906px;
+    z-index: 2;
+    margin-top:-1px;
+    width: 100%;
+    position: relative;
+}
+.good-information10{
+    background: url("../images/222_11.jpg") no-repeat center;
+    height: 906px;
+    z-index: 2;
+    width: 100%;
+    position: relative;
+}
+.good-information11{
+    background: url("../images/222_12.jpg") no-repeat center;
+    height: 1049px;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+.good-information12{
+    background: url("../images/222_13.jpg") no-repeat center;
+    height: 2092px;
+    z-index: 2;
+    width: 100%;
+    margin-top:-1px;
+    position: relative;
+}
+
+.hidden{display: none;}
+
+/*下一小时*/
 .site-nav {
     position: absolute;
     top: 0;

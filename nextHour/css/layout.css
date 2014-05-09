@@ -342,6 +342,10 @@ pre {
 }
 .site-paper-content-position{
     width: 100%;
+    margin-bottom: 50px;
+    height: 300px;
+    padding-bottom: 66px;
+    background-color: #b4000a;
     position: absolute;
 }
 /*.icons-logo-circle{
@@ -514,9 +518,61 @@ pre {
     font-size: 40px;
     font-family:"Helvetica Neue",  Helvetica, "Microsoft Yahei", "Wenquanyi Micro Hei", Arial, sans-serif !important;
 }
+.displaybl{display: block!important;}
 .next-hour-big-title{
     font-size: 40px;
     margin-top: 25px;
+}
+.footer-content-title{
+    font-size:2.5rem;
+    margin-top: 40px;
+    text-align: center;
+    color: #ac9071;
+}
+.nav-top-bottom{
+    position: fixed;
+    right: 30px;
+    color: #fff;
+    z-index: 999;
+    bottom: 70px;
+}
+.under-qore-code{
+    text-align: center;
+    margin-top: 8px;
+    color: #ecd6d7;
+}
+.nav-button-style{
+    height: 50px!important;
+    text-align: center;
+    line-height: 50px!important;
+    width: 50px!important;
+}
+.bottom-fixed-nav{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    color: #ecd6d7;
+    background-color: #b4000a;
+    font-size: 14px;
+    position: fixed;
+    z-index: 99;
+    text-align: center;
+    bottom: 0;
+}
+.bottom-fixed-nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.bottom-fixed-nav ul li i{
+    font-size: 10px;
+    margin-left: 4px;
+}
+.bottom-fixed-nav ul li a:hover{
+    text-decoration: underline!important;
+}
+.bottom-fixed-nav ul li:first-child{
+    width:auto;
+    text-align: right;
 }
 @media (max-width: 767px){
 

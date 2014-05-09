@@ -231,20 +231,23 @@
     var isHiden = true; /*控制切换菜单*/
     $(document).ready(function(){
         /*弹出左侧栏*/
-        $('#open-nav-button').click(openLeftNav);
-        $('#site-container').click(function(){
+        $("#open-nav-button").on('click',function () {
+            openLeftNav();
+        });
+        $("#site-container").on('click',function () {
             if(!isHiden){
                 openLeftNav();
             } else {
                 return;
             }
         });
+
         document.body.addEventListener('touchmove', function (event) {
             event.preventDefault();
         }, false);
 
         /*滚动到文章*/
-        $("a.scroll-to-paper").click(function() {
+        $("a.scroll-to-paper").on('click',function () {
             $("html, body").animate({
                 scrollTop: $($(this).attr("href")).offset().top + "px"
             }, {
@@ -257,7 +260,6 @@
 
 
     function openLeftNav() {
-        console.log("1111");
         if(isHiden){
             $('.move-to-new-position').animate({left:'+=13rem'},100);//菜单块向右移动
             $("#open-nav-button").css("display","none");

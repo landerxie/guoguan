@@ -3,29 +3,6 @@ $(document).ready(function(){
 
     clientBrowseCheck();
 
-    $("#share-to-sina-button").click(function(){
-        if(is_weixin()){
-            //微信浏览器
-            $(".share-cover").css("display","block");
-            $(".share-guide").css("display","none");
-            $("#weixin-guide").css("display","block");
-            $("#share-to-sina-button").css("display","inline-block");
-            $("#share-to-sina-button-pc").css("display","none");
-
-            document.body.addEventListener('touchmove', function (event) {
-                event.preventDefault();
-            }, false);
-
-            return
-        }
-    })
-
-    $("#weixin-guide").click(function(){
-        $(".share-cover").css("display","none");
-    })
-    $("#mobile-guide").click(function(){
-        $(".share-cover").css("display","none");
-    })
 
 });
 
@@ -66,8 +43,16 @@ function is_weixin(){
 function clientBrowseCheck(){
     if(is_weixin()){
         //微信浏览器
-        $("#share-to-sina-button").css("display","inline-block");
-        $("#share-to-sina-button-pc").css("display","none");
+        window.location.href = "http://guoguan.com";
+        return
+    } else if(browser.versions.iPhone){
+        window.location.href = "http://mp.weixin.qq.com/s?__biz=MjM5ODc2ODY2NA==&mid=200322542&idx=1&sn=a87b8eba6ec74bf246efb187f8542d09&scene=1&from=singlemessage&isappinstalled=0#rd";
+        return
+    } else if (browser.versions.android){
+        window.location.href = "http://mp.weixin.qq.com/s?__biz=MjM5ODc2ODY2NA==&mid=200322542&idx=1&sn=a87b8eba6ec74bf246efb187f8542d09&scene=1&from=singlemessage&isappinstalled=0#rd";
+        return
+    }
+    else {
         return
     }
 }

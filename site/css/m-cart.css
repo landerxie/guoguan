@@ -75,14 +75,21 @@
     color: #f66900;
 }
 .m-modify-name{
+   display: inline-block;
     font-size: 1.4rem;
+    width: 7rem;
     color: #565656;
     font-weight: bold;
+}
+.m-modify-input{
+    display: inline-block;
+    width:72% ;
 }
 .m-modify-detail{
     font-size: 1rem;
     color: #858688;
 }
+
 .select-appearance{
     width: 100%;
     height: 3rem;

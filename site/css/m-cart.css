@@ -77,13 +77,13 @@
 .m-modify-name{
    display: inline-block;
     font-size: 1.4rem;
-    width: 7rem;
+    width: 8rem;
     color: #565656;
     font-weight: bold;
 }
 .m-modify-input{
     display: inline-block;
-    width:72% ;
+    width:70% ;
 }
 .m-modify-detail{
     font-size: 1rem;

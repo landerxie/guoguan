@@ -26,7 +26,7 @@
       <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/global/styles/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="37" selection-start="7752" selection-end="7752" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="7700">
+            <state line="298" column="29" selection-start="20080" selection-end="20080" vertical-scroll-proportion="0.0" vertical-offset="5870" max-vertical-offset="7920">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="16" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-18.451612" vertical-offset="66" max-vertical-offset="3542">
+            <state line="61" column="35" selection-start="2661" selection-end="2661" vertical-scroll-proportion="-21.225807" vertical-offset="684" max-vertical-offset="4576">
               <folding>
                 <element signature="n#style#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -74,6 +74,18 @@
                 <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#4;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#5;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#4;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#5;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,7 +94,7 @@
       <file leaf-file-name="slidenav.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/home/scripts/slidenav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="3" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+            <state line="22" column="23" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
               <folding>
                 <element signature="e#0#47#0" expanded="false" />
               </folding>
@@ -93,7 +105,7 @@
       <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="2255" selection-end="2255" vertical-scroll-proportion="-22.392857" vertical-offset="0" max-vertical-offset="1650">
+            <state line="27" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="-10.607142" vertical-offset="0" max-vertical-offset="1650">
               <folding />
             </state>
           </provider>
@@ -102,7 +114,7 @@
       <file leaf-file-name="billboard.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/home/styles/billboard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="25" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="2222">
+            <state line="44" column="17" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="2618">
               <folding />
             </state>
           </provider>
@@ -111,7 +123,7 @@
       <file leaf-file-name="home.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.07965616" vertical-offset="1313" max-vertical-offset="3058">
+            <state line="84" column="16" selection-start="3325" selection-end="3325" vertical-scroll-proportion="0.30659026" vertical-offset="1313" max-vertical-offset="3190">
               <folding />
             </state>
           </provider>
@@ -127,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/nextHour/css/layout.css" />
         <option value="$PROJECT_DIR$/nextHour/zhongguodao.html" />
         <option value="$PROJECT_DIR$/site/m-order-search.html" />
         <option value="$PROJECT_DIR$/site/css/base.css" />
@@ -137,10 +148,11 @@
         <option value="$PROJECT_DIR$/nextHour/js/controllers.js" />
         <option value="$PROJECT_DIR$/newIndex/global/scripts/controllers.js" />
         <option value="$PROJECT_DIR$/newIndex/home/scripts/autogallery_hero_gallery.js" />
-        <option value="$PROJECT_DIR$/newIndex/global/styles/base.css" />
-        <option value="$PROJECT_DIR$/newIndex/home/styles/billboard.css" />
         <option value="$PROJECT_DIR$/newIndex/test.html" />
         <option value="$PROJECT_DIR$/newIndex/home/scripts/slidenav.js" />
+        <option value="$PROJECT_DIR$/../../../index.html" />
+        <option value="$PROJECT_DIR$/newIndex/home/styles/billboard.css" />
+        <option value="$PROJECT_DIR$/newIndex/global/styles/base.css" />
         <option value="$PROJECT_DIR$/newIndex/index.html" />
         <option value="$PROJECT_DIR$/newIndex/home/styles/home.css" />
       </list>
@@ -198,6 +210,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="weixinApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,7 +477,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1916" y="-4" width="1088" height="1928" extended-state="7" />
+    <frame x="1916" y="-4" width="1088" height="1928" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -504,13 +530,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nextHour/zhongguodao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="19" selection-start="7244" selection-end="7244" vertical-scroll-proportion="-9.107142" vertical-offset="3098" max-vertical-offset="6226">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weixinApp/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="14" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="6046" max-vertical-offset="7634">
@@ -562,26 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/global/styles/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="37" selection-start="7752" selection-end="7752" vertical-scroll-proportion="0.0" vertical-offset="1929" max-vertical-offset="7700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/touchslider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="7094" selection-start="7189" selection-end="7200" vertical-scroll-proportion="0.05116279" vertical-offset="0" max-vertical-offset="1720">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/home/scripts/slidenav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="3" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,23 +595,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/home/scripts/slidenav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="23" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="515" selection-end="515" vertical-scroll-proportion="0.22929937" vertical-offset="0" max-vertical-offset="1760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/home/styles/billboard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="25" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="2222">
+        <state line="44" column="17" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="2618">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2255" selection-end="2255" vertical-scroll-proportion="-22.392857" vertical-offset="0" max-vertical-offset="1650">
+        <state line="27" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="-10.607142" vertical-offset="0" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/global/styles/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="298" column="29" selection-start="20080" selection-end="20080" vertical-scroll-proportion="0.0" vertical-offset="5870" max-vertical-offset="7920">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="16" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-18.451612" vertical-offset="66" max-vertical-offset="3542">
+        <state line="61" column="35" selection-start="2661" selection-end="2661" vertical-scroll-proportion="-21.225807" vertical-offset="684" max-vertical-offset="4576">
           <folding>
             <element signature="n#style#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -618,13 +644,25 @@
             <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#4;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#5;n#ul#0;n#div#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#4;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#5;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.07965616" vertical-offset="1313" max-vertical-offset="3058">
+        <state line="84" column="16" selection-start="3325" selection-end="3325" vertical-scroll-proportion="0.30659026" vertical-offset="1313" max-vertical-offset="3190">
           <folding />
         </state>
       </provider>

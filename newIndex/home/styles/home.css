@@ -1,4 +1,4 @@
-html, body { position:relative; z-index:1; min-width:1024px; height:100%; background:#977655; }
+html, body { position:relative; z-index:1; min-width:1024px; height:100%; background:#977655; overflow-x:hidden;}
 body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 
 #globalheader { z-index:9998; top:18px; margin:0 auto; }
@@ -35,7 +35,7 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 .promos ul li + li + li + li { margin-right:-.3%; *margin-right:-.5%; width:25.3%; }
 
 .promos ul li a { position:absolute; z-index:1; top:0; right:0; bottom:0; left:0; display:block; overflow:hidden; cursor:pointer; }
-.promos ul li + li a { border-left:2px solid #977655; }
+.promos ul li + li a { border-left:4px solid #977655; }
 
 .promos ul li a img { position:absolute; z-index:1; left:50%; margin-left:-182px; }
 .promos ul li .title{font-weight: bold; text-shadow: 1px 1px 1px #000; color: #fff; position: absolute; z-index: 2; text-align: center; width: 100%; font-size: 14px; height: 48px; line-height: 48px; bottom: 0; }
@@ -59,9 +59,10 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
     width: 1440px;
     background-color: rgba(151,118,85,0.3);
     height: 39px;
-    margin: 0 auto;
     z-index: 1111;
     position: absolute;
+    left: 50%;
+    margin-left: -720px;
 }
 .banner img { display:block; margin:0 auto; }
 
@@ -106,6 +107,11 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
     height: 4px ;
     background-color: #c7000b;
     position: absolute;
+}
+
+/*homebutton*/
+.purchase-button{
+
 }
 
 /* homefooter */

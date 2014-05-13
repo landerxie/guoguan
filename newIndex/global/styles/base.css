@@ -304,7 +304,12 @@ body.specs #main { font-size: 11px; line-height: 16px; }
 .button-content{
     line-height: 45px;
 }
-
+.button:hover{
+    background-color: #de030f;
+}
+.button:active{
+    background-color: #f10310;
+}
 /* promofooter */
 #promofooter { width:984px; margin:18px auto 0; padding-top:17px; background:url(http://images.apple.com/promos/images/promofooter_top.png) no-repeat; zoom:1; _background-image:url(http://images.apple.com/promos/images/promofooter_top.gif); }
 #promofooter #promos { width:980px; margin-bottom:0; padding:0 2px 4px; background:url(http://images.apple.com/promos/images/promofooter_bottom.png) no-repeat 0 100%; zoom:1; _background-image:url(http://images.apple.com/promos/images/promofooter_bottom.gif); }

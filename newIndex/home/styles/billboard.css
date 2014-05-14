@@ -1,4 +1,4 @@
-#billboard { position:absolute; top:53px; right:0; bottom:450px; left:0; overflow:hidden; }
+#billboard { position:absolute; top:53px; right:0; bottom:448px; left:0; overflow:hidden; }
 #billboard .hero { position:absolute; top:0; right:0; bottom:0; left:0; }
 
 /* billboard baseline */
@@ -41,8 +41,8 @@
 }
 #billboard .powerful .detail .detail-img{
     background:url("../../images/3_01.png") center top no-repeat;
-    width: 450px;
-    height: 390px;
+    width: 490px;
+    height: 384px;
 }
 #billboard .powerful #pagenavi a.active{
     background: url("../../images/dot_full.png") center top no-repeat !important;
@@ -72,18 +72,22 @@
     #billboard .powerful .title { margin-bottom:11px; }
     #billboard .powerful .title .small { display:none; }
     #billboard .powerful .title .large { display:block; }
+    #homefooter .left { float:left; clear:both; width:49%; padding-top:4.5em; text-align:left; }
+    #homefooter .right { float:right; width:auto; padding-top:4.5em; text-align:right; }
 }
 
 /* ipad landscape */
 @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
     #billboard { bottom:192px; }
     .promos { bottom:-10px; }
-    #homefooter { bottom:-100px; }
+    #homefooter { bottom:-256px; }
 
     #billboard .powerful { background-position:50% 52%; }
     #billboard .powerful .header { margin-top:-150px; }
     #billboard .powerful .title .small { display:block; }
     #billboard .powerful .title .medium { display:none; }
+    #homefooter .left { float:left; clear:both; width:49%; padding-top:4.5em; text-align:left; }
+    #homefooter .right { float:right; width:auto; padding-top:4.5em; text-align:right; }
 }
 
 /* iphone landscape */

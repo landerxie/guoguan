@@ -2,7 +2,6 @@
 var guoguanIndex = angular.module('guoguanIndex', []);
 
 guoguanIndex.controller('guoguanIndexCtrl', function ($scope) {
-    var score;
     $scope.title = "";
     $scope.action = "index";
     $scope.item = [
@@ -19,8 +18,5 @@ guoguanIndex.controller('guoguanIndexCtrl', function ($scope) {
             ]
         }
     ];
-
-
-
 });
 

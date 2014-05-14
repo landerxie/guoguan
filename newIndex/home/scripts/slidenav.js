@@ -6,6 +6,11 @@ $(function(){
     var current_nav_width = $current_nav.innerWidth();
     var current_nav_left = $current_nav.position().left;
 
+    $( window ).resize(function() {
+        current_nav_left = $current_nav.position().left;
+        $nav_animate_block.css({ width:current_nav_width, left:current_nav_left });
+    });
+
     var $nav_animate_block = $("#nav_animate_block"); //动画滑块
     $nav_animate_block.css({ width:current_nav_width, left:current_nav_left }); //初始状态下，动画滑块位置在current元素
 

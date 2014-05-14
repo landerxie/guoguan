@@ -26,7 +26,7 @@
       <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/global/styles/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="305" column="1" selection-start="20190" selection-end="20190" vertical-scroll-proportion="0.0" vertical-offset="5870" max-vertical-offset="8030">
+            <state line="224" column="14" selection-start="14143" selection-end="14143" vertical-scroll-proportion="0.0" vertical-offset="3428" max-vertical-offset="8030">
               <folding />
             </state>
           </provider>
@@ -41,21 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-1.8.0.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/jquery-1.8.0.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="15" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+            <state line="11" column="24" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
               <folding />
             </state>
           </provider>
@@ -64,7 +53,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newIndex/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="8" selection-start="5988" selection-end="5988" vertical-scroll-proportion="0.537923" vertical-offset="2686" max-vertical-offset="4642">
+            <state line="208" column="24" selection-start="8304" selection-end="8308" vertical-scroll-proportion="0.3544601" vertical-offset="4274" max-vertical-offset="7304">
               <folding>
                 <element signature="n#style#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -86,27 +75,31 @@
                 <element signature="n#style#0;n#a#3;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#4;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#5;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#a#0;n#li#0;n#ul#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#dd#0;n#a#0;n#dl#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#dd#0;n#a#0;n#dl#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slidenav.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newIndex/home/scripts/slidenav.js">
+      <file leaf-file-name="qore.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newIndex/qore.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="23" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-              <folding>
-                <element signature="e#0#47#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newIndex/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="-10.607142" vertical-offset="0" max-vertical-offset="1650">
+            <state line="6" column="35" selection-start="141" selection-end="141" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="352">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youku.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newIndex/youku.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="7" selection-start="421" selection-end="421" vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="484">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +107,7 @@
       <file leaf-file-name="billboard.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/home/styles/billboard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="17" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="2618">
+            <state line="37" column="23" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="2706">
               <folding />
             </state>
           </provider>
@@ -123,8 +116,31 @@
       <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="0" selection-start="4780" selection-end="4780" vertical-scroll-proportion="0.0" vertical-offset="1489" max-vertical-offset="3234">
+            <state line="143" column="0" selection-start="4839" selection-end="4839" vertical-scroll-proportion="0.0" vertical-offset="2813" max-vertical-offset="3806">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.fancybox-1.3.4.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/fancybox/jquery.fancybox-1.3.4.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="7125" max-vertical-offset="8008">
+              <folding>
+                <marker date="1289489920000" expanded="true" signature="6649:6684" placeholder="{...}" />
+                <marker date="1289489920000" expanded="true" signature="6776:7020" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.fancybox-1.3.4.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/fancybox/jquery.fancybox-1.3.4.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="41" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="25212">
+              <folding>
+                <marker date="1289489514000" expanded="false" signature="7616:7622" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,30 +155,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/site/m-order-search.html" />
-        <option value="$PROJECT_DIR$/site/css/base.css" />
         <option value="$PROJECT_DIR$/site/m-address-add.html" />
         <option value="$PROJECT_DIR$/site/css/m-cart.css" />
         <option value="$PROJECT_DIR$/nextHour/next-hour.html" />
         <option value="$PROJECT_DIR$/nextHour/js/controllers.js" />
-        <option value="$PROJECT_DIR$/newIndex/global/scripts/controllers.js" />
         <option value="$PROJECT_DIR$/newIndex/home/scripts/autogallery_hero_gallery.js" />
         <option value="$PROJECT_DIR$/newIndex/test.html" />
-        <option value="$PROJECT_DIR$/newIndex/home/scripts/slidenav.js" />
         <option value="$PROJECT_DIR$/../../../index.html" />
-        <option value="$PROJECT_DIR$/newIndex/home/styles/billboard.css" />
         <option value="$PROJECT_DIR$/site/m-order-detail.html" />
+        <option value="$PROJECT_DIR$/newIndex/home/scripts/slidenav.js" />
+        <option value="$PROJECT_DIR$/newIndex/global/scripts/controllers.js" />
+        <option value="$PROJECT_DIR$/newIndex/home/styles/billboard.css" />
         <option value="$PROJECT_DIR$/newIndex/global/styles/base.css" />
+        <option value="$PROJECT_DIR$/newIndex/youku.html" />
+        <option value="$PROJECT_DIR$/newIndex/qore.html" />
         <option value="$PROJECT_DIR$/newIndex/home/styles/home.css" />
         <option value="$PROJECT_DIR$/newIndex/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1916" />
+    <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1088" />
-    <option name="height" value="1928" />
+    <option name="width" value="1928" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -190,7 +206,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,7 +276,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="nextHour" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="newIndex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newIndex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,38 +430,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newIndex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fancybox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../touchslider-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../jquery.fancybox-1.3.4" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Tauren\htdocs\guoguan-front\nextHour\images" />
+      <recent name="C:\Users\Administrator\Desktop\Tauren\htdocs\guoguan-front\newIndex" />
       <recent name="C:\Users\Administrator\Desktop\Tauren\htdocs\guoguan-front\newIndex\global\scripts\lib" />
       <recent name="C:\Users\Administrator\Desktop\Tauren\htdocs\guoguan-front\newIndex\global\scripts" />
       <recent name="C:\Users\Administrator\Desktop\Tauren\htdocs\guoguan-front\nextHour\js" />
-      <recent name="C:\Users\Administrator\Desktop\Tauren\htdocs\guoguan-front\site\css" />
-      <recent name="C:\Users\Lander-qi\Desktop\Tauren\htdocs\guoguan-front\nextHour\js" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -421,15 +495,19 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -446,6 +524,10 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <list size="0" />
@@ -477,14 +559,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1916" y="-4" width="1088" height="1928" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21388888" sideWeight="0.9131157" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12083333" sideWeight="0.9131157" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08688434" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -513,9 +595,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21388888" sideWeight="0.9131157" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -530,23 +612,33 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nextHour/js/angular.min.js">
+    <entry file="file://$PROJECT_DIR$/../../../index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4664">
+        <state line="18" column="27" selection-start="515" selection-end="515" vertical-scroll-proportion="0.22929937" vertical-offset="0" max-vertical-offset="1760" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nextHour/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/site/m-order-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7634">
+        <state line="16" column="57" selection-start="690" selection-end="690" vertical-scroll-proportion="0.20536757" vertical-offset="0" max-vertical-offset="1714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/home/scripts/slidenav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="15" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="968">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nextHour/next-hour.html">
+    <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/jquery-1.8.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="502" selection-end="502" vertical-scroll-proportion="-3.142857" vertical-offset="66" max-vertical-offset="5676">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1767">
           <folding />
         </state>
       </provider>
@@ -558,90 +650,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/jquery-1.8.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1767">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/touchslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7094" selection-start="7189" selection-end="7200" vertical-scroll-proportion="0.05116279" vertical-offset="0" max-vertical-offset="1720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixinApp/wine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="354" column="0" selection-start="16540" selection-end="16740" vertical-scroll-proportion="0.7304551" vertical-offset="6536" max-vertical-offset="8250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/home/scripts/slidenav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="515" selection-end="515" vertical-scroll-proportion="0.22929937" vertical-offset="0" max-vertical-offset="1760">
+        <state line="11" column="24" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/home/styles/billboard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="2618">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="-10.607142" vertical-offset="0" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/m-order-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="57" selection-start="690" selection-end="690" vertical-scroll-proportion="0.20536757" vertical-offset="0" max-vertical-offset="1714">
+        <state line="37" column="23" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="2706">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/global/styles/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="1" selection-start="20190" selection-end="20190" vertical-scroll-proportion="0.0" vertical-offset="5870" max-vertical-offset="8030">
+        <state line="224" column="14" selection-start="14143" selection-end="14143" vertical-scroll-proportion="0.0" vertical-offset="3428" max-vertical-offset="8030">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/fancybox/jquery.fancybox-1.3.4.pack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1745">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/fancybox/jquery.fancybox-1.3.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="25212">
+          <folding>
+            <marker date="1289489514000" expanded="false" signature="7616:7622" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/fancybox/jquery.fancybox-1.3.4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8008">
+          <folding>
+            <marker date="1289489920000" expanded="true" signature="6649:6684" placeholder="{...}" />
+            <marker date="1289489920000" expanded="true" signature="6776:7020" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/youku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="421" selection-end="421" vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="484">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/qore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="141" selection-end="141" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="352">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="0" selection-start="4780" selection-end="4780" vertical-scroll-proportion="0.0" vertical-offset="1489" max-vertical-offset="3234">
+        <state line="143" column="0" selection-start="4839" selection-end="4839" vertical-scroll-proportion="0.0" vertical-offset="2813" max-vertical-offset="3806">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="8" selection-start="5988" selection-end="5988" vertical-scroll-proportion="0.537923" vertical-offset="2686" max-vertical-offset="4642">
+        <state line="208" column="24" selection-start="8304" selection-end="8308" vertical-scroll-proportion="0.3544601" vertical-offset="4274" max-vertical-offset="7304">
           <folding>
             <element signature="n#style#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -663,6 +747,9 @@
             <element signature="n#style#0;n#a#3;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#4;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#5;n#div#2;n#section#0;n#header#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#a#0;n#li#0;n#ul#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#dd#0;n#a#0;n#dl#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#dd#0;n#a#0;n#dl#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,4 @@
-html, body { position:relative; z-index:1; min-width:1024px; height:100%; background:#977655; overflow-x:hidden;}
+html, body { position:relative; z-index:1; min-width:1024px; height:100%; background:#89725c; overflow-x:hidden;}
 body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 
 #globalheader { z-index:9998; top:18px; margin:0 auto; }
@@ -56,6 +56,7 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 .banner {
     height:53px;
     width: 920px;
+    position: relative;
     margin: 0 auto;
 }
 .second-banner{
@@ -93,9 +94,12 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
     display: inline-block;
     float: right;
     margin-top: 20px;
+    position: absolute;
     height: 30px;
+    top: 0;
     line-height: 30px;
     font-size: 14px;
+    right: 0;
 }
 #nav_wrapper #nav_menu a {
     color: #000;
@@ -126,11 +130,11 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 }
 
 /* homefooter */
-#homefooter { position:absolute; z-index:1; right:0; bottom:0; left:0; margin:0; min-width:980px; width:100%;background-color: #333333; height: 244px; padding:0; color:#aaaaaa; font-size:.8334em; line-height:1.2; text-align:center; zoom:1; }
+#homefooter { position:absolute; z-index:1; right:0; bottom:0; left:0; margin:0; min-width:980px; width:100%;background-color: #333333; height: 244px; padding:0; color:#aaaaaa; font-size: 12px; line-height:1.2; text-align:center; zoom:1; }
 #homefooter .wrapper { margin:0 auto; width:980px; padding: 16em 0 0; }
 #homefooter .wrapper .bottom {border-bottom: 1px solid #4f4f4f;
     position: absolute;
-    top: 191px;
+    top: 198px;
     width: 100%;
     left: 0;}
 #homefooter .wrapper:after { content:'.'; display:block; visibility:hidden; clear:both; height:0; }
@@ -145,7 +149,11 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 #homefooter dl {
     width: 15%;
     float: left;
+    text-align: left;
     margin-top: 15px;
+}
+#homefooter dl:first-child{
+    margin-left: 100px;
 }
 #homefooter ul li{
     margin-top: 15px;

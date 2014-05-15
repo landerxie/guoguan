@@ -6,9 +6,9 @@
     <meta name="keywords" content="国馆中国道,国馆,国馆酒">
     <meta name="description" content="国馆·中国道，中国收藏级文化白酒，酿酒大师与艺术大师匠心之作。它开创性地将艺术和美酒跨界联姻，融为一体，是你收藏、送礼、品饮的绝佳选择。
 ">
-    <link href="global/styles/base.css" type="text/css" rel="stylesheet">
-    <link href="home/styles/home.css" type="text/css" rel="stylesheet">
-    <link href="home/styles/billboard.css" type="text/css" rel="stylesheet">
+    <link href="global/styles/base.css?v=00000001" type="text/css" rel="stylesheet">
+    <link href="home/styles/home.css?v=00000001" type="text/css" rel="stylesheet">
+    <link href="home/styles/billboard.css?v=00000001" type="text/css" rel="stylesheet">
     <link href="global/scripts/lib/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet">
 </head>
 <body ng-controller="guoguanIndexCtrl">
@@ -119,7 +119,7 @@
 <aside class="promos" data-hires="true" id="promos">
     <ul>
         <li>
-            <a class="promo1" id="youku-play" href="youku.html">
+            <a class="promo1" href="youku.html">
                 <img src="images/1_01.jpg" width="364" height="200" alt="中国道视频">
                 <img src="images/play_icon.png" width="60" height="60" style="position: absolute!important; left: 50%!important; margin-left:-30px!important; top: 50%; margin-top:-30px!important; ">
             </a>
@@ -146,7 +146,7 @@
 
         </li>
         <li>
-            <a class="promo4" id="qore-code-two" href="qore.html">
+            <a class="promo4 qore-code" href="qore.html">
                 <img src="images/1_04.jpg" width="364" height="200" alt="中国道" >
             </a>
             <div class="title">
@@ -247,9 +247,11 @@
         <div class="bottom">
         </div>
         <div class="clear left">
-            <a target="_blank" href="http://www.miitbeian.gov.cn" class="btn btn-link" rel="nofollow">
-                <p class="copyright">Copyright © 2014 备案号粤ICP备13087127号</p>
-            </a>
+                <p class="copyright">Copyright © 2014 国馆
+                    <a target="_blank" href="http://www.miitbeian.gov.cn" class="btn btn-link" rel="nofollow" title="粤ICP备13087127号">
+                        粤ICP备13087127号
+                    </a>
+                </p>
         </div><!--/bottom-->
         <!--
         <div class="right">
@@ -300,23 +302,13 @@
 </script>
 <script>
     $(document).ready(function() {
-        $("#youku-play").fancybox({
-            'width'				: 700,
-            'height'			: 700,
-            'autoScale'			: false,
-            'transitionIn'		: 'none',
-            'overlayOpacity'		: '1',
-            'overlayColor'		: '#fff',
-            'transitionOut'		: 'none',
-            'scrolling'		: 'no',
-            'type'				: 'iframe'
-        });
         $(".qore-code").fancybox({
             'width'				: 200,
             'height'			: 200,
             'autoScale'			: false,
-            'transitionIn'		: 'none',
-            'transitionOut'		: 'none',
+            'centerOnScroll'			: true,
+            'transitionIn'		: 'fade',
+            'transitionOut'		: 'fade',
             'scrolling'		: 'no',
             'type'				: 'iframe'
         });

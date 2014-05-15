@@ -72,7 +72,7 @@
     #billboard .powerful .title { margin-bottom:11px; }
     #billboard .powerful .title .small { display:none; }
     #billboard .powerful .title .large { display:block; }
-    #homefooter .left { float:left; clear:both; width:49%; padding-top:4.5em; text-align:left; }
+    #homefooter .left { float:left; clear:both; width:49%; padding-top:2.5em; text-align:left; }
     #homefooter .right { float:right; width:auto; padding-top:4.5em; text-align:right; }
 }
 
@@ -86,7 +86,7 @@
     #billboard .powerful .header { margin-top:-150px; }
     #billboard .powerful .title .small { display:block; }
     #billboard .powerful .title .medium { display:none; }
-    #homefooter .left { float:left; clear:both; width:49%; padding-top:4.5em; text-align:left; }
+    #homefooter .left { float:left; clear:both; width:49%; padding-top:2.5em; text-align:left; }
     #homefooter .right { float:right; width:auto; padding-top:4.5em; text-align:right; }
 }
 

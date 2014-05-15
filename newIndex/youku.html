@@ -12,7 +12,8 @@ left: 50%;
 -ms-transform: translate(-50%, -50%);
 -o-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);">
-    <img src="images/delete_sign.png" width="30" height="30" style="position: absolute; top:0; right: 0;">
+    <img src="images/delete_sign.png" width="30" height="30" style="position: absolute; top:0; right: 0; cursor: pointer" id="close">
+
     <div id="youkuplayer" style="width:860px; height: 484px; margin-top: 40px;">
     </div>
 </div>
@@ -32,6 +33,10 @@ transform: translate(-50%, -50%);">
          ? 'touchstart'
          : 'click';
  $('body').bind(hitEvent, function(event) {
+     window.location.href = "http://www.guoguan.com";
+     event.stopPropagation();
+ });
+ $('#close').bind(hitEvent, function(event) {
      window.location.href = "http://www.guoguan.com";
      event.stopPropagation();
  });

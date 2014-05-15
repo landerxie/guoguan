@@ -117,16 +117,9 @@ a.block em { color:#08c; cursor: pointer; }
 a.block:hover { text-decoration: none; }
 a.block:hover span,
 a.block:hover em { color: #08c; text-decoration: underline; }
-a.more, em.more, span.more { white-space: nowrap; padding-right: 10px; background: url(http://images.apple.com/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; cursor: pointer; zoom: 1; }
-a.morelarge, em.morelarge, span.morelarge { white-space:nowrap; padding-right:12px; background:url(http://images.apple.com/global/elements/arrows/morearrow_big_08c.gif) no-repeat 100% 50%; cursor:pointer; zoom:1; }
-a.lesslarge, em.lesslarge, span.lesslarge { white-space:nowrap; padding-left:12px; background:url(http://images.apple.com/global/elements/arrows/lessarrow_big_08c.gif) no-repeat 0 50%; cursor:pointer; zoom:1; }
 @media only screen {
-    a.more, em.more, span.more { background-image:url(./../elements/arrows/morearrow_08c.svg); }
-    a.morelarge, em.morelarge, span.morelarge { background-image:url(./../elements/arrows/morearrow_big_08c.svg); }
-    a.lesslarge, em.lesslarge, span.lesslarge { background-image:url(./../elements/arrows/lessarrow_big_08c.svg); }
+
 }
-a.external, em.external, span.external { white-space: nowrap; padding-right: 15px; background: url(http://images.apple.com/global/elements/icons/external10x10.gif) no-repeat 100% 49%; cursor: pointer; zoom: 1; }
-a[rel="external"] { white-space: nowrap; padding-right: 15px; background: url(http://images.apple.com/global/elements/icons/external10x10.gif) no-repeat 100% 49%; cursor: pointer; zoom: 1; }
 em.more, span.more, em.external, span.external { color:#08c; font-style: normal; cursor: pointer; }
 .nowrap { white-space:nowrap; }
 strong, b { font-weight: bold; }
@@ -168,7 +161,6 @@ ol.sosumi { margin-left: 0; padding-left: 2em; *padding-left: 2.2em; }
 .dot-nav li,
 .dot-nav li a { display:-moz-inline-stack; display:inline-block; *display:inline; *zoom:1; }
 .dot-nav li { position:relative; z-index:1; margin:0; width:13px; height:15px; overflow:hidden; }
-.dot-nav li a { position:absolute; z-index:1; width:13px; height:45px; top:0; left:0; cursor:pointer; text-indent:-1000em; background:url(http://images.apple.com/global/elements/buttons/dots_08c.png) no-repeat 0 0; behavior:url(/global/scripts/lib/ie7pngfix.htc); }
 .dot-nav li a:hover { top:-15px; }
 .dot-nav li a.active { cursor:default; top:-30px; }
 
@@ -226,7 +218,6 @@ body.specs #main { font-size: 11px; line-height: 16px; }
 #globalfooter ul.piped a.choose img { vertical-align: middle; margin-top: -5px; *position: relative; }
 
 /*--- Breadcrumbs (legacy) ---*/
-#globalfooter #breadcrumbs { font-size: 11px; color: #444; background: url(http://images.apple.com/global/elements/breadory/breadcrumb_bg.png) no-repeat; overflow: hidden; height: 36px; line-height: 34px; font-weight: bold; text-shadow: 0 1px 0 #fff; }
 #globalfooter #breadcrumbs a { color: #444; text-decoration: none; float: left; padding: 0 10px; margin-left: -10px; *position: relative; _cursor: hand; }
 #globalfooter #breadcrumbs a:hover { color: #333; text-decoration: none !important; }
 #globalfooter #breadcrumbs a.home { margin: 0; width: 15px; height: 0; padding-top: 36px; overflow: hidden; }
@@ -240,27 +231,6 @@ body.specs #main { font-size: 11px; line-height: 16px; }
 #globalfooter ol#breadcrumbs li.home { background: none; margin: 0; padding: 0; }
 #globalfooter ol#breadcrumbs li.home a { margin: 0; padding: 0 10px; width: 15px; text-indent: -9999px; overflow: hidden; }
 
-/*--- Directory Nav ---*/
-#directorynav { font-size: 11px; line-height:14px; padding-top:2px; background: url(http://images.apple.com/global/elements/breadory/directory_bg.png) repeat-y; border-top: 1px solid #ddd; float: left; width: 100%; margin-top: -4px; *position: relative; }
-#directorynav .column { width: 120px; padding: 9px 0 2px 18px; }
-#directorynav .column.last { float: left !important; padding-right: 0; }
-#directorynav h3 { color: #666; margin: 0; font-size: 1em; line-height: 14px; font-weight: bold; padding-bottom: 4px; }
-#directorynav h3.standalone { margin-bottom: 18px; }
-#directorynav a { color: #888; text-decoration: none; display: block; zoom: 1; }
-#directorynav h3.standalone a:link,
-#directorynav h3.standalone a:visited { color: #444; }
-#directorynav a:hover { color: #333 !important; text-decoration: none !important; }
-#directorynav .capbottom { clear: both; position: relative; top: 5px; _top: 12px; height: 5px; width: 980px; background: url(http://images.apple.com/global/elements/breadory/directory_capbg.png) no-repeat; }
-#directorynav ul { margin-bottom: 0; padding-bottom: 9px; }
-#directorynav ul li { padding-bottom: 4px; }
-#directorynav.ios .column,
-#directorynav.mac .column,
-#directorynav.ipod .column,
-#directorynav.ipodtouch .column,
-#directorynav.ipad .column,
-#directorynav.iphone .column,
-#directorynav.itunes .column { width: 190px; padding: 9px 0 0 54px; }
-
 /* BUTTONS - (U.S.) */
 .button{
     height: 45px;
@@ -272,6 +242,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
 }
 .button-content{
     line-height: 45px;
+    font-size: 14px;
 }
 .button:hover{
     background-color: #de030f;

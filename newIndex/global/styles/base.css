@@ -216,7 +216,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
 #globalfooter ul.piped a.contact_us { padding-right: 1.5em; border-right: 1px solid #d0d0d0; }
 #globalfooter ul.piped a.choose { margin-left: 0; border: 0; }
 #globalfooter ul.piped a.choose img { vertical-align: middle; margin-top: -5px; *position: relative; }
-
+.hidden{display: none}
 /*--- Breadcrumbs (legacy) ---*/
 #globalfooter #breadcrumbs a { color: #444; text-decoration: none; float: left; padding: 0 10px; margin-left: -10px; *position: relative; _cursor: hand; }
 #globalfooter #breadcrumbs a:hover { color: #333; text-decoration: none !important; }
@@ -244,6 +244,19 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     line-height: 45px;
     font-size: 14px;
 }
+.small-button{
+    height: 30px;
+    width: 90px;
+    background-color: #c7000b;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+.small-button-content{
+    line-height: 30px;
+    font-size: 12px;
+}
+
 .button:hover{
     background-color: #de030f;
 }

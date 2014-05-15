@@ -1,4 +1,4 @@
-html, body { position:relative; z-index:1; min-width:1024px; height:100%; background:#89725c; overflow-x:hidden;}
+html, body { position:relative; z-index:1; min-width:1024px; height:100%; background:#89725c;}
 body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 
 #globalheader { z-index:9998; top:18px; margin:0 auto; }
@@ -63,7 +63,7 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
     width: 1440px;
     background-color: rgba(151,118,85,0.3);
     height: 39px;
-    z-index: 990;
+    z-index: 3;
     position: absolute;
     left: 50%;
     margin-left: -720px;
@@ -88,7 +88,7 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
     display: inline-block;
     width: 74px;
     height: 53px;
-    margin-left: 310px;
+    margin-left: 460px;
 }
 #nav_wrapper {
     display: inline-block;
@@ -130,7 +130,7 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 }
 
 /* homefooter */
-#homefooter {margin-top:2px;  z-index:1; right:0; min-width:980px; width:100%; background-color: #333333; height: 244px; padding:0; color:#aaaaaa; font-size: 12px; line-height:1.2; text-align:center; zoom:1; }
+#homefooter {margin-top:2px;  z-index:1; right:0; min-width:980px; width:100%; background-color: #333333;  padding:0; padding-bottom: 17px; color:#aaaaaa; font-size: 12px; line-height:1.2; text-align:center; zoom:1; }
 #homefooter .wrapper { margin:0 auto; width:980px;}
 #homefooter .wrapper .bottom {border-bottom: 1px solid #4f4f4f;
     width: 100%;
@@ -146,7 +146,7 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 
 #homefooter .bottom{
     border-bottom: 1px solid #4f4f4f;
-    margin-top:5px;
+    margin-top:13px;
 }
 #homefooter dl {
     width: 15%;
@@ -179,6 +179,18 @@ body { min-height:1103px; *height:865px; /* max-height:1472px; */}
 }
 
 
+#nav_wrapper ul li{
+    display: inline-block;
+}
+
+#nav_wrapper ul{list-style:none;margin:0 auto; height:30px; }
+#nav_wrapper ul li{float:left;text-align:center;height:30px;line-height:30px;position:relative;z-index:10;}
+#nav_wrapper ul li a,ul li span,ul li span a{display:block;width:125px;}
+#nav_wrapper ul li>a{color:#000;}
+#nav_wrapper ul li span{display:none;position:absolute;top:30px; width: 82px;
+    background: #d9c6ae;
+    height: 67px;}
+#nav_wrapper ul li:hover span{display:block;}
 
 #billboard { min-width: 960px;
     max-width: 1440px;

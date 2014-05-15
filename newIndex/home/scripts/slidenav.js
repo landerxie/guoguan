@@ -15,7 +15,7 @@ $(function(){
     $nav_animate_block.css({ width:current_nav_width, left:current_nav_left }); //初始状态下，动画滑块位置在current元素
 
     // 鼠标进入a元素时触发动画事件
-    $("#nav_menu a").hover(function(){
+    /*$("#nav_menu a").hover(function(){
 
         var index = $(this).index();
         var $a_cur = $("#nav_menu").find("a").eq(index);//鼠标移动到的a元素
@@ -35,5 +35,5 @@ $(function(){
             width: current_nav_width,
             left: current_nav_left
         })
-    })
+    })*/
 });

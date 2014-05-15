@@ -21,12 +21,24 @@
             <div class="title"></div>
         </a>
         <div id="nav_wrapper">
-            <div id="nav_menu">
-                <a href="http://blog.guoguan.com/?p=131" target="_blank"  id="current_nav">品牌故事</a>
-                <a href="http://blog.guoguan.com/?p=151" target="_blank">顶级酒品</a>
-                <a href="http://www.guoguan.com/wenzhang/" target="_blank">文化应用</a>
-                <a href="http://blog.guoguan.com/?page_id=9" target="_blank">联系我们</a>
-            </div>
+            <ul id="nav_menu">
+                <li>
+                    <a href="http://blog.guoguan.com/?p=131" target="_blank"  id="current_nav">品牌故事</a>
+                </li>
+                <li>
+                    <a href="http://blog.guoguan.com/?p=151" target="_blank">顶级酒品</a>
+                </li>
+                <li>
+                    <a href="#" class="culture-app" target="_blank">文化应用</a>
+                        <span>
+                            <a href="http://www.guoguan.com/wenzhang/" target="_blank">每日一文</a>
+                            <a href="http://www.guoguan.com/fm/" target="_blank">国馆电台</a>
+                        </span>
+                </li>
+                <li>
+                    <a href="http://blog.guoguan.com/?page_id=9" target="_blank">联系我们</a>
+                </li>
+            </ul>
             <div id="nav_animate_block"></div>
         </div>
     </div>
@@ -230,13 +242,13 @@
             <a href="http://blog.guoguan.com/?p=188" target="_blank">
                 <dd>管理团队</dd>
             </a>
-            <a href="http://blog.guoguan.com/?p=131" target="_blank">
+            <a href="http://blog.guoguan.com/?p=151" target="_blank">
                 <dd>顶级好酒</dd>
             </a>
-            <a href="http://blog.guoguan.com/?p=131" target="_blank">
+            <a href="http://blog.guoguan.com/?p=170" target="_blank">
                 <dd>跨界大师合作</dd>
             </a>
-            <a href="http://blog.guoguan.com/?p=131" target="_blank">
+            <a href="http://blog.guoguan.com/?page_id=39" target="_blank">
                 <dd>工作机会</dd>
             </a>
         </dl>
@@ -303,9 +315,8 @@
     $(document).ready(function() {
         $(".qore-code").fancybox({
             'width'				: 200,
-            'height'			: 200,
+            'height'			: 260,
             'autoScale'			: false,
-            'centerOnScroll'			: true,
             'transitionIn'		: 'fade',
             'transitionOut'		: 'fade',
             'scrolling'		: 'no',

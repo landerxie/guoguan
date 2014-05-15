@@ -33,11 +33,11 @@ transform: translate(-50%, -50%);">
          ? 'touchstart'
          : 'click';
  $('body').bind(hitEvent, function(event) {
-     window.location.href = "http://www.guoguan.com";
+     history.back()
      event.stopPropagation();
  });
  $('#close').bind(hitEvent, function(event) {
-     window.location.href = "http://www.guoguan.com";
+     history.back()
      event.stopPropagation();
  });
  $('#popup').bind(hitEvent, function(event) {

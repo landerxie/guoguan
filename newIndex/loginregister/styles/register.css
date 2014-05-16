@@ -1,0 +1,31 @@
+.register-wrap{
+    background:url("../images/bg.jpg") center top no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.register-content{
+    width: 920px;
+    margin:0 auto;
+    position: relative;
+}
+.register-form{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 645px;
+    width: 281px;
+    background-color: #3a3a3a;
+    padding-left:44px;
+    padding-right: 44px;
+    background:rgba(58,58,58,0.5);
+    background:#3a3a3a 9;/*CSS Hack,只能对ie9以下浏览器ie6,ie7,ie8有效，否侧ie10,FF,Cherome会失去透明效果*/
+    filter:Alpha(opacity=50);/*只对ie7,ie8有效*/
+}
+.register-title{
+    font-size: 20px;
+    color: #b28850;
+    font-weight: normal;
+}
+.register-title-position{
+    margin-top: 144px;
+}

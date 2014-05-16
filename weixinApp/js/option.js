@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    /*$("#share-to-sina-button").css("position","relative").css("left","50%").css("margin-left","-61.5px");*/
+    /*$("#share-to-sina-button").styles("position","relative").styles("left","50%").styles("margin-left","-61.5px");*/
 
     clientBrowseCheck();
 

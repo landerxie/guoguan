@@ -329,8 +329,8 @@ nextHour.controller('nextHourCtrl', function ($scope) {
     /*function clientBrowseCheck(){
         if(is_weixin()){
             //微信浏览器
-            $("#share-to-sina-button").css("display","inline-block");
-            $("#share-to-sina-button-pc").css("display","none");
+            $("#share-to-sina-button").styles("display","inline-block");
+            $("#share-to-sina-button-pc").styles("display","none");
             return
         }
     }*/

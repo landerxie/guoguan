@@ -41,6 +41,10 @@ img.flushright { margin-right: -20px; }
 .shadow { -webkit-box-shadow: rgba(0,0,0,0.35) 0 1px 3px; -moz-box-shadow: rgba(0,0,0,0.35) 0 1px 3px; box-shadow: rgba(0,0,0,0.35) 0 1px 3px; }
 img.shadow { padding: 5px; background: #fff; margin-bottom: 2px; *border: 1px solid #e2e2e2; _position: relative; }
 
+.mt0{margin-top: 0!important;}
+.mt20{margin-top: 20px !important;}
+.fr{float: right}
+.fl{float: left}
 
 .callout { border-radius: 7px; -webkit-border-radius: 7px; -moz-border-radius: 7px; -o-border-radius: 7px; -khtml-border-radius: 7px; }
 
@@ -252,16 +256,48 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     text-align: center;
     color: #fff;
 }
+
+.shit-button{
+    height: 30px;
+    width: 113px;
+    background-color: #8c6d44;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+}
+
 .small-button-content{
     line-height: 30px;
     font-size: 12px;
 }
+
+
 
 .button:hover{
     background-color: #de030f;
 }
 .button:active{
     background-color: #f10310;
+}
+
+.shit-button:hover{
+    background-color: #b28850;
+}
+.shit-button:active{
+    background-color: #b28850;
+}
+
+/*input*/
+label{
+    color: #fff;
+}
+.input-area{
+    width: 100%;
+    margin-top: 8px;
+    height: 30px;
+    border-radius: 3px;
+    border:none;
+    background-color: #e8e8e8
 }
 
 /* PRINT */

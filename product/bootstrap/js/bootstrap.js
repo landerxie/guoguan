@@ -48,7 +48,7 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
     }
   }
 
-  // http://blog.alexmaccaw.com/css-transitions
+  // http://blog.alexmaccaw.com/styles-transitions
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false, $el = this
     $(this).one($.support.transition.end, function () { called = true })

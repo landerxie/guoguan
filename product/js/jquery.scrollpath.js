@@ -385,7 +385,7 @@
 		
 		// bg obrazek
 		/*console.log($("#bg"));
-		$("#bg").css({left: pathObject.getPathOffsetX(), top: pathObject.getPathOffsetY()});*/
+		$("#bg").styles({left: pathObject.getPathOffsetX(), top: pathObject.getPathOffsetY()});*/
 
 		$(".wrapper").css(style);
 		applyPrefix( style, "user-select", "none" );
@@ -399,7 +399,7 @@
 		canvas[ 0 ].width = pathObject.getPathWidth();
 		canvas[ 0 ].height = pathObject.getPathHeight();
 		
-		/*$(".wrapper").css({width: pathObject.getPathWidth(), height: pathObject.getPathHeight()})*/
+		/*$(".wrapper").styles({width: pathObject.getPathWidth(), height: pathObject.getPathHeight()})*/
 
 		drawCanvasPath( canvas[ 0 ].getContext( "2d" ), pathObject.getCanvasPath() );
 	}
@@ -604,7 +604,7 @@
 		return "";
 	}
 
-	/* Applied prefixed and unprefixed css values of a given property to a given object*/
+	/* Applied prefixed and unprefixed styles values of a given property to a given object*/
 	function applyPrefix( style, prop, value ) {
 		style[ PREFIX + prop ] = style[ prop ] = value;
 	}

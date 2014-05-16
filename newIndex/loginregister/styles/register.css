@@ -11,15 +11,14 @@
 .register-form{
     position: absolute;
     right: 0;
-    top: 0;
-    height: 645px;
-    width: 281px;
-    background-color: #3a3a3a;
+    top: 39px;
+    height: 650px;
+    width: 223px;
     padding-left:44px;
     padding-right: 44px;
-    background:rgba(58,58,58,0.5);
+    background:rgba(255,255,255,0.1);
     background:#3a3a3a 9;/*CSS Hack,只能对ie9以下浏览器ie6,ie7,ie8有效，否侧ie10,FF,Cherome会失去透明效果*/
-    filter:Alpha(opacity=50);/*只对ie7,ie8有效*/
+    filter:Alpha(opacity=10);/*只对ie7,ie8有效*/
 }
 .register-title{
     font-size: 20px;
@@ -27,7 +26,7 @@
     font-weight: normal;
 }
 .register-title-position{
-    margin-top: 144px;
+    margin-top: 40px;
 }
 .register-enter{
     border-top:1px dotted #4c4b4b;
@@ -43,14 +42,27 @@
 }
 .error-tips{
     background: url("../../images/error-bg.png") center top no-repeat;
-    width: 262px;
+    width: 236px;
     position: absolute;
     height: 80px;
     top: 5px;
-    left: -266px;
+    left: -239px;
     color: #fff;
 }
 .error-content{
     margin-left: 20px;
     margin-top:  10px;
+    width: 177px;
+}
+.secure-tips{
+    color: #d29f69;
+    margin-top: 50px;
+}
+.icon-lock{
+    background: url("../../images/lock.png") center no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -4px;
 }

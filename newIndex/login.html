@@ -51,13 +51,23 @@
         <div class="register-form">
             <h1 class="register-title register-title-position">登录</h1>
             <form>
-                <div>
+                <div class="error-father">
                     <label>手机号码：</label>
                     <input type="tel" class="input-area" placeholder="只支持大陆地区的手机号码">
+                    <div class="error-tips">
+                        <div class="error-content">
+                            手机号码错误
+                        </div>
+                    </div>
                 </div>
-                <div class="mt20">
+                <div class="mt20 error-father">
                     <label>密码：</label>
                     <input type="text" class="input-area" placeholder="6-12位">
+                    <div class="error-tips">
+                        <div class="error-content">
+                            密码错误
+                        </div>
+                    </div>
                 </div>
                 <div class="shit-button mt20 fr">
                     <div class="small-button-content">
@@ -65,6 +75,16 @@
                     </div>
                 </div>
             </form>
+
+            <div class="register-enter">
+                <h1 class="register-title mt20">注册</h1>
+                <div class="register-no-count">还没有国馆账户？点击下方按钮创建</div>
+                <div class="shit-button fr">
+                    <div class="small-button-content">
+                        创建账户
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

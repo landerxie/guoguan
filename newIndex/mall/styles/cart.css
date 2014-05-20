@@ -1,4 +1,4 @@
-body{
+html,body{
     background-color: #fff;
 }
 a:hover {text-decoration: none}
@@ -250,4 +250,39 @@ label.address-label{color: grey;
 }
 .m-order-zhedie {
     cursor: pointer;
+}
+.address-choose>li>div>span{
+    width: 50px;
+    display: inline-block;
+}
+.address-choose>li>div{
+    width: 316px;
+}
+.address-choose>li{
+    float: left;
+    padding:10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #d0d0d0;
+    width: 382px;
+    margin:10px;
+    position: relative;
+    height: 95px;
+}
+.address-choose>li.active{
+    border: 1px solid #ff0014;
+    box-shadow: 0px 0px 1px #ff0014;
+}
+.icon-edit-adjust{
+    position: absolute;
+    right: 20px;
+    top: 29px;
+    font-size: 12px;
+}
+.icon-remove-adjust{
+    position: absolute;
+    right: 20px;
+    top: 53px;
+    font-size: 12px;
 }

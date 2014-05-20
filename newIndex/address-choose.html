@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>国馆购物车</title>
+    <title>国馆购物车地址</title>
     <meta name="viewport" charset="utf-8" content="width=1024">
-    <meta name="keywords" content="国馆购物车">
-    <meta name="description" content="国馆购物车">
+    <meta name="keywords" content="国馆购物车地址">
+    <meta name="description" content="国馆购物车地址">
     <link href="global/styles/base.css?v=00000001" type="text/css" rel="stylesheet">
     <link href="home/styles/home.css?v=00000001" type="text/css" rel="stylesheet">
     <link href="mall/styles/cart.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="global/styles/font-awesome.min.css">
     <link rel="stylesheet" href="global/styles/font-awesome-ie7.min.css">
 </head>
-<body>
+<body style="height: 1250px;">
 <!--head-->
 <div id="homenav">
     <div class="banner">
@@ -25,7 +25,7 @@
             <ul id="nav_menu">
                 <li>
                     <a href="index.html">
-                    首页
+                        首页
                     </a>
                 </li>
                 <li>
@@ -44,14 +44,21 @@
                 <li>
                     <a href="http://blog.guoguan.com/?page_id=9" target="_blank">联系我们</a>
                 </li>
+                <li>
+                    <a href="#" class="culture-app" target="_blank">我的账号</a>
+                        <span>
+                            <a href="http://www.guoguan.com/wenzhang/" target="_blank">注册/登录</a>
+                            <a href="http://www.guoguan.com/fm/" target="_blank">购物车</a>
+                            <a href="http://www.guoguan.com/fm/" target="_blank">订单查询</a>
+                        </span>
+                </li>
             </ul>
-           <!-- <div id="nav_animate_block"></div>-->
+            <!-- <div id="nav_animate_block"></div>-->
         </div>
     </div>
     <div class="second-banner">
     </div>
 </div>
-
 
 <!--content-->
 <div class="mall-content">
@@ -63,18 +70,66 @@
         </div>-->
         <ul class="shopcartstep clearfix">
             <li class="complete"><span>1</span>我的购物车</li>
-            <li><span>2</span>填写核对订单信息</li>
+            <li class="complete"><span>2</span>填写核对订单信息</li>
             <li><span>3</span>成功提交订单</li>
         </ul>
         <div class="clear"></div>
+        <h2 class="order-title">选择收货地址</h2>
+
+        <!--表单-->
+        <ul class="address-choose">
+            <li class="active">
+                <div>
+                    <span>姓名：</span>唐国栋
+                </div>
+                <div>
+                    <span>地址：</span>广东省广州市天河区建滔广场6楼整层6楼整层
+                </div>
+                <div>
+                    <span>手机：</span>18602336699
+                </div>
+                <a href="#">
+                    <span class=" icon-edit-adjust">修改</span>
+                </a>
+                <a href="#" >
+                    <span class=" icon-remove-adjust">删除</span>
+                </a>
+            </li>
+            <li>
+                <div>
+                    <span>姓名：</span>唐国栋
+                </div>
+                <div>
+                    <span>地址：</span>广东省广州市天河区建滔广场6楼整层6楼整层
+                </div>
+                <div>
+                    <span>手机：</span>18602336699
+                </div>
+                <a href="#">
+                    <span class=" icon-edit-adjust">修改</span>
+                </a>
+                <a href="#" >
+                    <span class=" icon-remove-adjust">删除</span>
+                </a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+        <div class="cart-content " style="margin-top: 40px; padding-bottom: 50px">
+            <a href="address.html">
+                <button class="square-button fr" style="margin-right: 20px">新增地址</button>
+            </a>
+        </div>
+
+
+
         <ul>
             <li>
                 <ul>
                     <li>商品</li>
                     <li>品名</li>
+                    <li>单价</li>
                     <li>数量</li>
-                    <li>金额</li>
-                    <li class="cart-last-li">操作</li>
+                    <li class="cart-last-li">小计</li>
                 </ul>
             </li> <!--购物车head-->
 
@@ -90,27 +145,20 @@
                         <div class="product-detail">
                             大师跨界之作
                         </div>
-                        <div class="product-price">
-                             2,399
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="icon-minus icon-minus-plus" style="margin-right:5px">
-                            </i>
-                        </a>
-                        <input class="input-number" type="text">
-                        <a href="#">
-                            <i class="icon-plus icon-minus-plus" style="margin-left:5px">
-                            </i>
-                        </a>
                     </li>
                     <li>
                         <div class="product-price mt0" >
                             2,399
                         </div>
                     </li>
-                    <li class="cart-last-li">删除</li>
+                    <li>
+                        <div>2</div>
+                    </li>
+                    <li class="cart-last-li">
+                        <div class="product-price mt0" >
+                            5,399
+                        </div>
+                    </li>
                 </ul>
             </li>
             <li>
@@ -125,27 +173,20 @@
                         <div class="product-detail">
                             大师跨界之作
                         </div>
-                        <div class="product-price">
-                             2,399
-                        </div>
                     </li>
-                    <li>
-                        <a href="#">
-                            <i class="icon-minus icon-minus-plus" style="margin-right:5px">
-                            </i>
-                        </a>
-                        <input class="input-number" type="text">
-                        <a href="#">
-                            <i class="icon-plus icon-minus-plus" style="margin-left:5px">
-                            </i>
-                        </a>
-                    </li>
-                    <li>
+                   <li>
                         <div class="product-price mt0" >
                             2,399
                         </div>
                     </li>
-                    <li class="cart-last-li">删除</li>
+                    <li>
+                        <div>2</div>
+                    </li>
+                    <li class="cart-last-li">
+                        <div class="product-price mt0" >
+                            5,399
+                        </div>
+                    </li>
                 </ul>
             </li>
         </ul>
@@ -170,9 +211,8 @@
         </div>
     </div>
     <div class="cart-content " style="margin-top: 50px; padding-bottom: 100px">
-        <button class="empty-square-button fl" style="margin-left: 20px">继续选购</button>
-        <a href="address-choose.html">
-            <button class="square-button fr" style="margin-right: 20px">下一步</button>
+        <a href="pay.html">
+            <button class="square-button fr" style="margin-right: 20px">提交订单</button>
         </a>
     </div>
 </div>
@@ -294,6 +334,5 @@
 
     </div><!--/wrapper-->
 </div>
-
 </body>
 </html>

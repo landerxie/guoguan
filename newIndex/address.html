@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>国馆购物车地址</title>
+    <meta name="viewport" charset="utf-8" content="width=1024">
+    <meta name="keywords" content="国馆购物车地址">
+    <meta name="description" content="国馆购物车地址">
+    <link href="global/styles/base.css?v=00000001" type="text/css" rel="stylesheet">
+    <link href="home/styles/home.css?v=00000001" type="text/css" rel="stylesheet">
+    <link href="mall/styles/cart.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="global/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="global/styles/font-awesome-ie7.min.css">
+</head>
+<body style="height: 1250px;">
+<!--head-->
+<div id="homenav">
+    <div class="banner">
+        <a href="http://www.guoguan.com">
+            <div class="logo"></div>
+        </a>
+        <a href="">
+            <div class="title"></div>
+        </a>
+        <div id="nav_wrapper">
+            <ul id="nav_menu">
+                <li>
+                    <a href="index.html">
+                        首页
+                    </a>
+                </li>
+                <li>
+                    <a href="http://blog.guoguan.com/?p=131" target="_blank"  id="current_nav">品牌故事</a>
+                </li>
+                <li>
+                    <a href="http://blog.guoguan.com/?p=151" target="_blank">顶级酒品</a>
+                </li>
+                <li>
+                    <a href="#" class="culture-app" target="_blank">文化应用</a>
+                        <span>
+                            <a href="http://www.guoguan.com/wenzhang/" target="_blank">每日一文</a>
+                            <a href="http://www.guoguan.com/fm/" target="_blank">国馆电台</a>
+                        </span>
+                </li>
+                <li>
+                    <a href="http://blog.guoguan.com/?page_id=9" target="_blank">联系我们</a>
+                </li>
+                <li>
+                    <a href="#" class="culture-app" target="_blank">我的账号</a>
+                        <span>
+                            <a href="http://www.guoguan.com/wenzhang/" target="_blank">注册/登录</a>
+                            <a href="http://www.guoguan.com/fm/" target="_blank">购物车</a>
+                            <a href="http://www.guoguan.com/fm/" target="_blank">订单查询</a>
+                        </span>
+                </li>
+            </ul>
+            <!-- <div id="nav_animate_block"></div>-->
+        </div>
+    </div>
+    <div class="second-banner">
+    </div>
+</div>
+
+<!--content-->
+<div class="mall-content">
+    <div class="cart-content">
+        <div class="clear"></div>
+        <!--<div class="cart-title">
+            我的购物车
+            <span>2件商品</span>
+        </div>-->
+        <ul class="shopcartstep clearfix">
+            <li class="complete"><span>1</span>我的购物车</li>
+            <li class="complete"><span>2</span>填写核对订单信息</li>
+            <li><span>3</span>成功提交订单</li>
+        </ul>
+        <div class="clear"></div>
+        <h2 class="order-title">收货人信息</h2>
+
+        <!--表单-->
+        <form>
+            <div class="address-input-area">
+                <label class="address-label">收件人</label>
+                <input class="address-input" placeholder="请填写收件人姓名">
+                <span class="required_mark">*</span>
+                <span class="error_msg" style="display: inline-block;">请填写正确的收件人姓名</span>
+            </div>
+            <div class="address-input-area mt20">
+                <label class="address-label">手机</label>
+                <input class="address-input" placeholder="请输入11位手机号码">
+                <span class="required_mark">*</span>
+                <span class="error_msg" style="display: inline-block;">请填写正确的手机号</span>
+            </div>
+            <div class="address-input-area mt20">
+                <label class="address-label">地址</label>
+                <select class="simuselect">
+                    <option>省份/直辖市</option>
+                    <option>湖南</option>
+                    <option>广州</option>
+                </select>
+                <select class="simuselect width95">
+                    <option>城市</option>
+                    <option>湖南</option>
+                    <option>广州</option>
+                </select>
+                <select class="simuselect width95">
+                    <option>区/县</option>
+                    <option>湖南</option>
+                    <option>广州</option>
+                </select>
+            </div>
+            <div class="address-input-area mt20">
+                <label class="address-label">详细街道地址</label>
+                <input class="address-input" placeholder="请输入详细街道地址">
+                <span class="required_mark">*</span>
+                <span class="error_msg" style="display: inline-block;">请详细填写地址信息</span>
+            </div>
+            <div class="address-input-area mt20">
+                <label class="address-label">邮编</label>
+                <input class="address-input" placeholder="请输入6位邮编">
+                <span class="required_mark">*</span>
+                <span class="error_msg" style="display: inline-block;"></span>
+            </div>
+            <div class="address-input-area mt20">
+                <label class="address-label">备注</label>
+                <input class="address-input">
+            </div>
+        </form>
+
+        <ul>
+            <li>
+                <ul>
+                    <li>商品</li>
+                    <li>品名</li>
+                    <li>数量</li>
+                    <li>金额</li>
+                    <li class="cart-last-li">小计</li>
+                </ul>
+            </li> <!--购物车head-->
+
+            <li>
+                <ul>
+                    <li>
+                        <img src="img/product.jpg" width="150" height="100">
+                    </li>
+                    <li>
+                        <div class="product-title">
+                            国馆 · 中国道
+                        </div>
+                        <div class="product-detail">
+                            大师跨界之作
+                        </div>
+                        <div class="product-price">
+                             2,399
+                        </div>
+                    </li>
+                    <li>
+                        <div>2</div>
+                    </li>
+                    <li>
+                        <div class="product-price mt0" >
+                            2,399
+                        </div>
+                    </li>
+                    <li class="cart-last-li">
+                        <div class="product-price mt0" >
+                            5,399
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <img src="img/product.jpg" width="150" height="100">
+                    </li>
+                    <li>
+                        <div class="product-title">
+                            国馆 · 中国道
+                        </div>
+                        <div class="product-detail">
+                            大师跨界之作
+                        </div>
+                        <div class="product-price">
+                             2,399
+                        </div>
+                    </li>
+                    <li>
+                        <div>2</div>
+                    </li>
+                    <li>
+                        <div class="product-price mt0" >
+                            2,399
+                        </div>
+                    </li>
+                    <li class="cart-last-li">
+                        <div class="product-price mt0" >
+                            5,399
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="cart-board">
+        <div class="cart-content mt0">
+            <div class="cart-board-left">
+                小结信息
+            </div>
+            <div class="cart-board-right">
+                <ul>
+                    <li>订单商品总金额</li>
+                    <li>实际支付运费</li>
+                    <li style="font-size: 16px; font-weight:bold">订单总计</li>
+                </ul>
+                <ul class="cart-board-number">
+                    <li> 2,399</li>
+                    <li> 0</li>
+                    <li class="cart-board-number-white"> 2,399</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cart-content " style="margin-top: 50px; padding-bottom: 100px">
+        <a href="pay.html">
+            <button class="square-button fr" style="margin-right: 20px">提交订单</button>
+        </a>
+    </div>
+</div>
+
+
+<!--footer-->
+<div id="homefooter" class="mt0" data-hires="true">
+    <div>
+        <dl>
+            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
+                <dt>国馆中国道</dt>
+                <dd>
+                    <a href="http://weibo.com/guoguan5000" target="_blank">
+                        <img src="images/sina-icon.png" style="margin-left: -10px;">
+                    </a>
+                    <a href="qore.html" class="qore-code" >
+                        <img src="images/weixin.png" style="width: 25px; height: 18px; vertical-align: middle; margin-top: -20px;">
+                    </a>
+                </dd>
+            </a>
+        </dl>
+        <dl>
+            <a href="http://www.guoguan.com/wenzhang/" target="_blank">
+                <dt>每日一文</dt>
+            </a>
+            <a href="http://www.guoguan.com/fm/" target="_blank">
+                <dt>国馆电台</dt>
+            </a>
+        </dl>
+        <dl>
+            <a href="http://weibo.com/guoguan5000" target="_blank">
+                <dt>动态</dt>
+            </a>
+            <a href="http://weibo.com/guoguan5000" target="_blank">
+                <dd>新浪微博</dd>
+            </a>
+        </dl>
+        <dl>
+            <a href="http://blog.guoguan.com/?page_id=9" target="_blank">
+                <dt>联系我们</dt>
+            </a>
+            <!--<a href="#" target="_blank">
+                <dd>商业合作</dd>
+            </a>
+            <a href="#" target="_blank">
+                <dd>品牌合作</dd>
+            </a>
+            <a href="#" target="_blank">
+                <dd>媒体报道</dd>
+            </a>
+            <a href="#" target="_blank">
+                <dd>拜访国馆</dd>
+            </a>-->
+        </dl>
+        <dl>
+            <a href="qore.html" class="qore-code">
+                <dt>购买</dt>
+            </a>
+            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
+                <dd>国馆中国道</dd>
+            </a>
+            <!-- <a href="#" target="_blank">
+                 <dd>个人订购</dd>
+             </a>
+             <a href="#" target="_blank">
+                 <dd>企业团购</dd>
+             </a>
+             <a href="#" target="_blank">
+                 <dd>成为会员</dd>
+             </a>-->
+        </dl>
+        <dl>
+            <a href="http://blog.guoguan.com/?page_id=30" target="_blank">
+                <dt>关于国馆</dt>
+            </a>
+            <a href="http://blog.guoguan.com/?p=131" target="_blank">
+                <dd>品牌故事</dd>
+            </a>
+            <a href="http://blog.guoguan.com/?p=188" target="_blank">
+                <dd>管理团队</dd>
+            </a>
+            <a href="http://blog.guoguan.com/?p=151" target="_blank">
+                <dd>顶级好酒</dd>
+            </a>
+            <a href="http://blog.guoguan.com/?p=170" target="_blank">
+                <dd>跨界大师合作</dd>
+            </a>
+            <a href="http://blog.guoguan.com/?page_id=39" target="_blank">
+                <dd>工作机会</dd>
+            </a>
+        </dl>
+    </div>
+    <div class="clear"></div>
+    <div class="bottom">
+    </div>
+    <div class="wrapper">
+        <div class="clear left">
+            <p class="copyright">Copyright © 2014 国馆
+                <a target="_blank" href="http://www.miitbeian.gov.cn" class="btn btn-link" rel="nofollow" title="粤ICP备13087127号">
+                    粤ICP备13087127号
+                </a>
+            </p>
+        </div><!--/bottom-->
+        <!--
+        <div class="right">
+            <ul class="piped">
+                <li class="first">
+                    <a href="#">隐私协议</a>
+                </li>
+                <li>
+                    <a href="#">服务政策</a>
+                </li>
+                <li>
+                    <a href="#">联系我们</a>
+                </li>
+            </ul>
+        </div>
+        -->
+
+    </div><!--/wrapper-->
+</div>
+</body>
+</html>

@@ -87,14 +87,14 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
     display: inline-block;
     width: 74px;
     height: 53px;
-    margin-left: 460px;
+    margin-left: 350px;
 }
 #homenav .banner .title:hover{
     background:url("../../images/zhongguodao-red.png") center top no-repeat;
     display: inline-block;
     width: 74px;
     height: 53px;
-    margin-left: 460px;
+    margin-left: 350px;
 }
 #nav_wrapper {
     display: inline-block;
@@ -197,7 +197,7 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
 #nav_wrapper ul li span{display:none;position:absolute;top:30px; width: 82px;
     border-top: 3px solid #c7000b;
     background: #d9c6ae;
-    height: 67px;}
+    min-height: 67px;}
 #nav_wrapper ul li:hover span{display:block;}
 
 #billboard { min-width: 960px;

@@ -246,7 +246,7 @@
 }
 .m-choose-product-new .m-choose-detail{
     padding:1rem;
-    width: 90%;
+    width: auto;
 }
 .m-choose-product-new .m-choose-brief-detail{
     font-size: 1.4rem;
@@ -275,7 +275,7 @@
     position: absolute;
     bottom: 1rem;
     padding:0!important;
-    left:  -7rem;
+    left:  -8rem;
 }
 .m-product-label{
     min-width: 5rem;

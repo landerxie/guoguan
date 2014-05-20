@@ -5,6 +5,7 @@ fieldset,iframe { border: none; }
 caption,th { text-align: left; }
 table { border-collapse: collapse; border-spacing: 0; }
 article,aside,footer,header,hgroup,nav,section,figure,figcaption { display: block; }
+button{border:none}
 
 /* LAYOUT */
 html { background-color:#fff; }
@@ -43,8 +44,12 @@ img.shadow { padding: 5px; background: #fff; margin-bottom: 2px; *border: 1px so
 
 .mt0{margin-top: 0!important;}
 .mt20{margin-top: 20px !important;}
+.width95{width: 95px !important;}
 .fr{float: right}
 .fl{float: left}
+.color-f66900 {
+    color: #f66900!important;
+}
 
 .callout { border-radius: 7px; -webkit-border-radius: 7px; -moz-border-radius: 7px; -o-border-radius: 7px; -khtml-border-radius: 7px; }
 
@@ -271,6 +276,34 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     font-size: 12px;
 }
 
+.square-button{
+    color: #fff;
+    height: 37px;
+    width: 170px;
+    background-color: #e60012;
+}
+.square-button:hover{
+    background-color: #ff0014;
+}
+.square-button:active{
+    background-color: #e60012;
+}
+.empty-square-button{
+    height: 37px;
+    width: 170px;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+.empty-square-button:hover{
+    background-color: #ff0014;
+    border:none ;
+    color: #fff;
+}
+.empty-square-button:active{
+    background-color: #e60012;
+    border:none ;
+    color: #fff;
+}
 
 
 .button:hover{
@@ -298,6 +331,11 @@ label{
     border-radius: 3px;
     border:none;
     background-color: #e8e8e8
+}
+
+.mall-content{
+    width: 960px;
+    margin: 0 auto ;
 }
 
 /* PRINT */

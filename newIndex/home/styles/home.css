@@ -117,6 +117,9 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
     text-decoration: none;
     border-bottom: 3px solid #c7000b;
 }
+#nav_wrapper #nav_menu>li >a.current{
+    border-bottom: 3px solid #c7000b;
+}
 #nav_animate_block{
     height: 4px ;
     background-color: #c7000b;

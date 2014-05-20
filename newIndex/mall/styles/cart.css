@@ -42,6 +42,9 @@ a:hover {text-decoration: none}
 .product-title{
     font-size: 18px;
 }
+.product-title a {
+    color: #333!important;
+}
 .product-detail{
     font-size: 12px;
     margin-top: 2px;

@@ -23,28 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newIndex/global/styles/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="13" selection-start="2768" selection-end="2768" vertical-scroll-proportion="0.0" vertical-offset="657" max-vertical-offset="7832">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cart.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/mall/styles/cart.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="284" column="13" selection-start="5274" selection-end="5274" vertical-scroll-proportion="0.0" vertical-offset="5630" max-vertical-offset="6446">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order-payed.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newIndex/order-payed.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="42" selection-start="9133" selection-end="9133" vertical-scroll-proportion="0.0" vertical-offset="3482" max-vertical-offset="8008">
+            <state line="44" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="6512">
               <folding />
             </state>
           </provider>
@@ -83,7 +65,7 @@
       <file leaf-file-name="cart.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="31" selection-start="6212" selection-end="6212" vertical-scroll-proportion="-71.19355" vertical-offset="1599" max-vertical-offset="4180">
+            <state line="94" column="30" selection-start="3229" selection-end="3229" vertical-scroll-proportion="-10.419354" vertical-offset="1745" max-vertical-offset="4180">
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#1;n#li#2;n#ul#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -101,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address-choose.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="address-choose.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/address-choose.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="29" selection-start="3032" selection-end="3032" vertical-scroll-proportion="0.3923567" vertical-offset="462" max-vertical-offset="4048">
+            <state line="188" column="25" selection-start="6544" selection-end="6544" vertical-scroll-proportion="-18.451612" vertical-offset="2574" max-vertical-offset="4048">
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -121,10 +103,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="zhongguodao.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newIndex/zhongguodao.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="33" selection-start="5734" selection-end="5734" vertical-scroll-proportion="-7.806452" vertical-offset="2970" max-vertical-offset="7216">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zhongguodao.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newIndex/zhongguodao/styles/zhongguodao.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="154" column="11" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.75735295" vertical-offset="2770" max-vertical-offset="3586">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="315" column="28" selection-start="11242" selection-end="11242" vertical-scroll-proportion="-4.032258" vertical-offset="6255" max-vertical-offset="7040">
+            <state line="32" column="20" selection-start="1256" selection-end="1256" vertical-scroll-proportion="96.03226" vertical-offset="3681" max-vertical-offset="7040">
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -132,6 +139,8 @@
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,7 +158,7 @@
       <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="13" selection-start="3594" selection-end="3594" vertical-scroll-proportion="0.0" vertical-offset="2156" max-vertical-offset="5588">
+            <state line="120" column="0" selection-start="4032" selection-end="4032" vertical-scroll-proportion="0.0" vertical-offset="2156" max-vertical-offset="5654">
               <folding />
             </state>
           </provider>
@@ -165,12 +174,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/site/css/m-cart.css" />
-        <option value="$PROJECT_DIR$/newIndex/home/styles/home.css" />
-        <option value="$PROJECT_DIR$/newIndex/index.html" />
         <option value="$PROJECT_DIR$/newIndex/login.html" />
         <option value="$PROJECT_DIR$/newIndex/register.html" />
-        <option value="$PROJECT_DIR$/newIndex/zhongguodao.html" />
         <option value="$PROJECT_DIR$/site/css/pay.html" />
         <option value="$PROJECT_DIR$/newIndex/pay.html" />
         <option value="$PROJECT_DIR$/newIndex/pay-success.html" />
@@ -179,8 +184,12 @@
         <option value="$PROJECT_DIR$/newIndex/loginregister/styles/register.css" />
         <option value="$PROJECT_DIR$/newIndex/cart.html" />
         <option value="$PROJECT_DIR$/newIndex/address.html" />
-        <option value="$PROJECT_DIR$/newIndex/mall/styles/cart.css" />
         <option value="$PROJECT_DIR$/newIndex/address-choose.html" />
+        <option value="$PROJECT_DIR$/newIndex/mall/styles/cart.css" />
+        <option value="$PROJECT_DIR$/newIndex/home/styles/home.css" />
+        <option value="$PROJECT_DIR$/newIndex/index.html" />
+        <option value="$PROJECT_DIR$/newIndex/zhongguodao.html" />
+        <option value="$PROJECT_DIR$/newIndex/zhongguodao/styles/zhongguodao.css" />
       </list>
     </option>
   </component>
@@ -342,6 +351,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="newIndex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newIndex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhongguodao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -660,20 +691,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newIndex/pay-success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="46" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.0" vertical-offset="1584" max-vertical-offset="4884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/global/scripts/lib/jquery.easytabs.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="9376" selection-end="9376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="176">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/pay.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="12" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0" vertical-offset="1386" max-vertical-offset="5016">
@@ -714,36 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="13" selection-start="3594" selection-end="3594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/loginregister/styles/register.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="29" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1826">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="31" selection-start="6212" selection-end="6212" vertical-scroll-proportion="-71.19355" vertical-offset="1599" max-vertical-offset="4180">
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#li#2;n#ul#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#ul#0;n#li#2;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#li#2;n#ul#0;n#li#2;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,30 +764,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="315" column="28" selection-start="11242" selection-end="11242" vertical-scroll-proportion="-4.032258" vertical-offset="6255" max-vertical-offset="7040">
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/mall/styles/cart.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="13" selection-start="5274" selection-end="5274" vertical-scroll-proportion="0.0" vertical-offset="5630" max-vertical-offset="6446">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/address-choose.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="29" selection-start="3032" selection-end="3032" vertical-scroll-proportion="0.3923567" vertical-offset="462" max-vertical-offset="4048">
+        <state line="188" column="25" selection-start="6544" selection-end="6544" vertical-scroll-proportion="-18.451612" vertical-offset="2574" max-vertical-offset="4048">
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -809,6 +779,76 @@
             <element signature="n#style#0;n#img#0;n#a#0;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/mall/styles/cart.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="6512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="30" selection-start="3229" selection-end="3229" vertical-scroll-proportion="-10.419354" vertical-offset="1745" max-vertical-offset="4180">
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#li#2;n#ul#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#ul#0;n#li#2;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#li#2;n#ul#0;n#li#2;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="4032" selection-end="4032" vertical-scroll-proportion="0.0" vertical-offset="2156" max-vertical-offset="5654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/zhongguodao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="33" selection-start="5734" selection-end="5734" vertical-scroll-proportion="-7.806452" vertical-offset="2970" max-vertical-offset="7216">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="20" selection-start="1256" selection-end="1256" vertical-scroll-proportion="96.03226" vertical-offset="3681" max-vertical-offset="7040">
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#dd#0;n#a#0;n#dl#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/zhongguodao/styles/zhongguodao.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="11" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.75735295" vertical-offset="2770" max-vertical-offset="3586">
+          <folding />
         </state>
       </provider>
     </entry>

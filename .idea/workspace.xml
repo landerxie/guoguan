@@ -26,7 +26,7 @@
       <file leaf-file-name="cart.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newIndex/mall/styles/cart.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="166" column="17" selection-start="2923" selection-end="2923" vertical-scroll-proportion="0.25268176" vertical-offset="3228" max-vertical-offset="7106">
+            <state line="165" column="17" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.49264705" vertical-offset="3228" max-vertical-offset="7348">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="pay.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/pay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="40" selection-start="3569" selection-end="3569" vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="4994">
+            <state line="74" column="36" selection-start="2913" selection-end="2913" vertical-scroll-proportion="-13.67742" vertical-offset="1204" max-vertical-offset="4972">
               <folding />
             </state>
           </provider>
@@ -62,9 +62,10 @@
       <file leaf-file-name="address.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/address.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="44" selection-start="3407" selection-end="3407" vertical-scroll-proportion="-15.806452" vertical-offset="434" max-vertical-offset="2244">
+            <state line="131" column="37" selection-start="5304" selection-end="5304" vertical-scroll-proportion="-41.064518" vertical-offset="619" max-vertical-offset="2266">
               <folding>
                 <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
@@ -88,7 +89,7 @@
       <file leaf-file-name="cart.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="24" selection-start="2162" selection-end="2162" vertical-scroll-proportion="-22.161291" vertical-offset="655" max-vertical-offset="6974">
+            <state line="56" column="26" selection-start="1990" selection-end="1990" vertical-scroll-proportion="-18.612904" vertical-offset="655" max-vertical-offset="6974">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -119,8 +120,12 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="20" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="7590">
-              <folding />
+            <state line="31" column="20" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-12.064516" vertical-offset="308" max-vertical-offset="6930">
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,22 +157,22 @@
         <option value="$PROJECT_DIR$/newIndex/index.html" />
         <option value="$PROJECT_DIR$/newIndex/zhongguodao.html" />
         <option value="$PROJECT_DIR$/newIndex/zhongguodao/styles/zhongguodao.css" />
-        <option value="$PROJECT_DIR$/newIndex/pay.html" />
         <option value="$PROJECT_DIR$/product/m-product-detail.html" />
         <option value="$PROJECT_DIR$/newIndex/tiaozhuan.html" />
         <option value="$PROJECT_DIR$/newIndex/cart-empty.html" />
         <option value="$PROJECT_DIR$/newIndex/cart.html" />
         <option value="$PROJECT_DIR$/newIndex/global/styles/base.css" />
         <option value="$PROJECT_DIR$/newIndex/address.html" />
+        <option value="$PROJECT_DIR$/newIndex/pay.html" />
         <option value="$PROJECT_DIR$/newIndex/mall/styles/cart.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1916" />
+    <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1088" />
-    <option name="height" value="1928" />
+    <option name="width" value="1928" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -598,17 +603,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1916" y="-4" width="1088" height="1928" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.9557277" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1328125" sideWeight="0.9133261" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.044272274" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08667389" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -693,23 +698,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="7590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/zhongguodao/styles/zhongguodao.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="133" column="1" selection-start="2937" selection-end="2937" vertical-scroll-proportion="0.0" vertical-offset="2770" max-vertical-offset="3586">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="40" selection-start="3569" selection-end="3569" vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="4994">
           <folding />
         </state>
       </provider>
@@ -733,6 +724,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/global/styles/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="7920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/product/m-product-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="65" selection-start="2009" selection-end="2009" vertical-scroll-proportion="-4.709677" vertical-offset="1042" max-vertical-offset="4048">
@@ -742,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="24" selection-start="2162" selection-end="2162" vertical-scroll-proportion="-22.161291" vertical-offset="655" max-vertical-offset="6974">
+        <state line="56" column="26" selection-start="1990" selection-end="1990" vertical-scroll-proportion="-18.612904" vertical-offset="655" max-vertical-offset="6974">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -760,18 +758,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/global/styles/base.css">
+    <entry file="file://$PROJECT_DIR$/newIndex/pay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="7920">
+        <state line="74" column="36" selection-start="2913" selection-end="2913" vertical-scroll-proportion="-13.67742" vertical-offset="1204" max-vertical-offset="4972">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="20" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-12.064516" vertical-offset="308" max-vertical-offset="6930">
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/address.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="44" selection-start="3407" selection-end="3407" vertical-scroll-proportion="-15.806452" vertical-offset="434" max-vertical-offset="2244">
+        <state line="131" column="37" selection-start="5304" selection-end="5304" vertical-scroll-proportion="-41.064518" vertical-offset="619" max-vertical-offset="2266">
           <folding>
             <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
@@ -779,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/mall/styles/cart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="17" selection-start="2923" selection-end="2923" vertical-scroll-proportion="0.25268176" vertical-offset="3228" max-vertical-offset="7106">
+        <state line="165" column="17" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.49264705" vertical-offset="3228" max-vertical-offset="7348">
           <folding />
         </state>
       </provider>

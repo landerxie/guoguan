@@ -43,14 +43,14 @@
                 <li>
                     <a href="http://blog.guoguan.com/?page_id=9" target="_blank">联系我们</a>
                 </li>
-                <li>
+               <!-- <li>
                     <a href="#" class="culture-app" target="_blank">我的账号</a>
                         <span>
                             <a href="http://www.guoguan.com/wenzhang/" target="_blank">注册/登录</a>
                             <a href="http://www.guoguan.com/fm/" target="_blank">购物车</a>
                             <a href="http://www.guoguan.com/fm/" target="_blank">订单查询</a>
                         </span>
-                </li>
+                </li>-->
             </ul>
             <!-- <div id="nav_animate_block"></div>-->
         </div>
@@ -63,49 +63,107 @@
     <div class="swipe">
         <ul id="slide">
             <li style='display:block'>
-                <img src="images/banner_01.jpg" >
+                <div class="index-banner-1">
+                    <div class="purchase">
+                        <div class="detail">
+                            <div class="detail-img-1"></div>
+                            <a href="qore.html" class="qore-code" >
+                                <div class="button purchase-button">
+                                    <div class="button-content">点击购买</div>
+                                </div>
+                            </a>
+                            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
+                                <div class="get-more">
+                                    了解更多 >
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </li>
             <li style='display:none;'>
-                <img src="images/banner_02.jpg" >
+                <div class="index-banner-2">
+                    <div class="purchase">
+                        <div class="detail">
+                            <div class="detail-img-2"></div>
+                            <a href="qore.html" class="qore-code" >
+                                <div class="button purchase-button">
+                                    <div class="button-content">点击购买</div>
+                                </div>
+                            </a>
+                            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
+                                <div class="get-more">
+                                    了解更多 >
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </li>
             <li style='display:none;'>
-                <img src="images/banner_03.jpg" >
+                <div class="index-banner-3">
+                    <div class="purchase">
+                        <div class="detail">
+                            <div class="detail-img-3"></div>
+                            <a href="qore.html" class="qore-code" >
+                                <div class="button purchase-button">
+                                    <div class="button-content">点击购买</div>
+                                </div>
+                            </a>
+                            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
+                                <div class="get-more">
+                                    了解更多 >
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </li>
             <li style='display:block'>
-                <img src="images/banner_04.jpg" >
+                <div class="index-banner-4">
+                    <div class="purchase">
+                        <div class="detail">
+                            <div class="detail-img-4"></div>
+                            <a href="qore.html" class="qore-code" >
+                                <div class="button purchase-button">
+                                    <div class="button-content">点击购买</div>
+                                </div>
+                            </a>
+                            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
+                                <div class="get-more">
+                                    了解更多 >
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </li>
             <li style='display:none;'>
-                <img src="images/banner_05.jpg" >
-            </li>
-            <li style='display:none;'>
-                <img src="images/banner_06.jpg" >
+                <div class="index-banner-5">
+                    <div class="purchase">
+                        <div class="detail">
+                            <div class="detail-img-5"></div>
+                            <a href="qore.html" class="qore-code" >
+                                <div class="button purchase-button">
+                                    <div class="button-content">点击购买</div>
+                                </div>
+                            </a>
+                            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
+                                <div class="get-more">
+                                    了解更多 >
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </li>
         </ul>
     </div>
-    <div class="purchase">
-        <div class="detail">
-            <div class="detail-img"></div>
-            <a href="qore.html" class="qore-code" >
-                <div class="button purchase-button">
-                    <div class="button-content">点击购买</div>
-                </div>
-            </a>
-            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
-                <div class="get-more">
-                    了解更多 >
-                </div>
-            </a>
-        </div>
+
     </div>
 
     <div id="pagenavi">
         <a href="#" class="active" style=" background: url('images/dot_empty.png') center top no-repeat;
-        background-size: 10px 10px;
-        display: inline-block;
-        height: 10px;
-        margin-right: 10px;
-        width: 10px;"></a>
-        <a href="#" style=" background: url('images/dot_empty.png') center top no-repeat;
         background-size: 10px 10px;
         display: inline-block;
         height: 10px;
@@ -323,6 +381,13 @@
         active=index;
         as[active].className='active';
     }});
+
+    $("#slide li").hover(function(){
+        t4.pause();
+    },function(){
+        t4.play();
+    })
+
 </script>
 <script>
     $(document).ready(function() {

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>国馆购物车</title>
+    <title>国馆</title>
     <meta name="viewport" charset="utf-8" content="width=1024">
-    <meta name="keywords" content="国馆购物车">
-    <meta name="description" content="国馆购物车">
+    <meta name="keywords" content="国馆">
+    <meta name="description" content="国馆">
     <link href="global/styles/base.css?v=00000001" type="text/css" rel="stylesheet">
     <link href="home/styles/home.css?v=00000001" type="text/css" rel="stylesheet">
     <link href="mall/styles/cart.css" type="text/css" rel="stylesheet">
@@ -25,7 +25,7 @@
             <ul id="nav_menu">
                 <li>
                     <a href="index.html">
-                    首页
+                        首页
                     </a>
                 </li>
                 <li>
@@ -44,152 +44,36 @@
                 <li>
                     <a href="http://blog.guoguan.com/?page_id=9" target="_blank">联系我们</a>
                 </li>
+                <li>
+                    <a href="#" class="culture-app" target="_blank">我的账号</a>
+                        <span>
+                            <a href="http://www.guoguan.com/wenzhang/" target="_blank">注册/登录</a>
+                            <a href="http://www.guoguan.com/fm/" target="_blank">购物车</a>
+                            <a href="http://www.guoguan.com/fm/" target="_blank">订单查询</a>
+                        </span>
+                </li>
             </ul>
-           <!-- <div id="nav_animate_block"></div>-->
+            <!-- <div id="nav_animate_block"></div>-->
         </div>
     </div>
     <div class="second-banner">
     </div>
 </div>
 
-
 <!--content-->
 <div class="mall-content">
-    <!--购物车为空时显示-->
-    <div class="cart-empty"  style="display: none">
-        <div class="cart-empty-left">
-            <h1>你的购物车还是空的赶紧行动吧！</h1>
-            <a href="#">
-                <button class="square-button" style="margin-right: 20px">马上去购物</button>
-            </a>
-
+    <div class="cart-content">
+        <div class="un-success" >
+            <h2>订单支付失败！</h2>
         </div>
-        <div class="cart-empty-right">
 
-        </div>
-    </div>
-
-    <!--有商品显示-->
-    <div class="cart-has-something">
-        <div class="cart-content">
-            <div class="clear"></div>
-            <ul class="shopcartstep clearfix">
-                <li class="complete"><span>1</span>我的购物车</li>
-                <li><span>2</span>填写核对订单信息</li>
-                <li><span>3</span>成功提交订单</li>
-            </ul>
-            <div class="clear"></div>
-            <ul>
-                <li>
-                    <ul>
-                        <li>商品</li>
-                        <li>品名</li>
-                        <li>数量</li>
-                        <li>金额</li>
-                        <li class="cart-last-li">操作</li>
-                    </ul>
-                </li> <!--购物车head-->
-
-                <li>
-                    <ul>
-                        <li>
-                            <img src="img/product.jpg" width="150" height="100">
-                        </li>
-                        <li>
-                            <div class="product-title">
-                                国馆 · 中国道
-                            </div>
-                            <div class="product-detail">
-                                大师跨界之作
-                            </div>
-                            <div class="product-price">
-                                2,399
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-minus icon-minus-plus" style="margin-right:5px">
-                                </i>
-                            </a>
-                            <input class="input-number" type="text">
-                            <a href="#">
-                                <i class="icon-plus icon-minus-plus" style="margin-left:5px">
-                                </i>
-                            </a>
-                        </li>
-                        <li>
-                            <div class="product-price mt0" >
-                                2,399
-                            </div>
-                        </li>
-                        <li class="cart-last-li">删除</li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>
-                            <img src="img/product.jpg" width="150" height="100">
-                        </li>
-                        <li>
-                            <div class="product-title">
-                                国馆 · 中国道
-                            </div>
-                            <div class="product-detail">
-                                大师跨界之作
-                            </div>
-                            <div class="product-price">
-                                2,399
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-minus icon-minus-plus" style="margin-right:5px">
-                                </i>
-                            </a>
-                            <input class="input-number" type="text">
-                            <a href="#">
-                                <i class="icon-plus icon-minus-plus" style="margin-left:5px">
-                                </i>
-                            </a>
-                        </li>
-                        <li>
-                            <div class="product-price mt0" >
-                                2,399
-                            </div>
-                        </li>
-                        <li class="cart-last-li">删除</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="cart-board">
-            <div class="cart-content mt0">
-                <div class="cart-board-left">
-                    小结信息
-                </div>
-                <div class="cart-board-right">
-                    <ul>
-                        <li>订单商品总金额</li>
-                        <li>实际支付运费</li>
-                        <li style="font-size: 16px; font-weight:bold">订单总计</li>
-                    </ul>
-                    <ul class="cart-board-number">
-                        <li> 2,399</li>
-                        <li> 0</li>
-                        <li class="cart-board-number-white"> 2,399</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="cart-content " style="margin-top: 50px; padding-bottom: 100px">
-            <button class="empty-square-button fl" style="margin-left: 20px">继续选购</button>
-            <a href="address-choose.html">
-                <button class="square-button fr" style="margin-right: 20px">下一步</button>
+            <a href="#">
+                <button class="square-button fr" style="margin-right: 20px">返回首页</button>
             </a>
         </div>
     </div>
 </div>
-
 
 <!--footer-->
 <div id="homefooter" class="mt0" data-hires="true">
@@ -307,6 +191,5 @@
 
     </div><!--/wrapper-->
 </div>
-
 </body>
 </html>

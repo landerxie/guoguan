@@ -164,6 +164,8 @@ label.address-label{color: grey;
 .simuselect {
     position: relative;
     background-color: #f9f9f9;
+    min-width: 97px;
+    width: auto;
     padding: 7px 5px;
     border: 1px solid #e3e5e6;
     border-radius: 2px 2px 2px 2px;
@@ -288,4 +290,29 @@ label.address-label{color: grey;
     right: 20px;
     top: 53px;
     font-size: 12px;
+}
+.un-success{
+    margin:40px auto 40px auto ;
+    text-align: center;
+}
+.cart-empty {
+    height: 300px;
+    width: 500px;
+    margin: 200px auto 100px auto;
+}
+.cart-empty-left{
+    width: 232px;
+    display: inline-block;
+}
+.cart-empty-left h1{
+    font-weight: normal;
+}
+.cart-empty-right{
+    background: url("../../img/cart.png") center top no-repeat;
+    width: 218px;
+    height: 247px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -50px;
+    margin-left: 30px;
 }

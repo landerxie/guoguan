@@ -44,7 +44,6 @@ img.shadow { padding: 5px; background: #fff; margin-bottom: 2px; *border: 1px so
 
 .mt0{margin-top: 0!important;}
 .mt20{margin-top: 20px !important;}
-.width95{width: 95px !important;}
 .fr{float: right}
 .fl{float: left}
 .color-f66900 {
@@ -245,6 +244,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     height: 45px;
     width: 170px;
     background-color: #c7000b;
+    cursor: pointer;
     border-radius: 5px;
     text-align: center;
     color: #fff;
@@ -259,6 +259,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     background-color: #c7000b;
     border-radius: 5px;
     text-align: center;
+    cursor: pointer;
     color: #fff;
 }
 
@@ -268,6 +269,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     background-color: #8c6d44;
     border-radius: 3px;
     text-align: center;
+    cursor: pointer;
     color: #fff;
 }
 
@@ -280,6 +282,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     color: #fff;
     height: 37px;
     width: 170px;
+    cursor: pointer;
     background-color: #e60012;
 }
 .square-button:hover{
@@ -291,6 +294,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
 .empty-square-button{
     height: 37px;
     width: 170px;
+    cursor: pointer;
     background-color: transparent;
     border: 1px solid #000;
 }

@@ -1,0 +1,324 @@
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>杜蕾斯『大胆说爱，枕边测试』</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="http://cdnmaster.com/sitemaster/sm.js"></script><script src="//hm.baidu.com/hm.js?e8b28dbb3ecbd69a269a3fa7dc79a164"></script><script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <link href="/static/durexsaylove/com.min.css?v=3" type="text/css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/animate.css/3.1.0/animate.min.css" rel="stylesheet">
+    <script type="text/javascript">
+        var dataForWeixin={
+            appId:	"",
+            img:	"http://pillowtalk.durex.com.cn/static/durexsaylove/wxshare.jpg",
+            url:	"http://pillowtalk.durex.com.cn/minisite",
+            title:	"你和Ta在爱爱沟通默契度有多少？快来测测吧！",
+            desc:	"原来我和Ta在爱爱中的默契度是这样的，快来测测你的吧！",
+            fakeid:	"",
+        };
+        (function(){
+            var onBridgeReady=function(){
+                // 发送给好友;
+                WeixinJSBridge.on('menu:share:appmessage', function(argv){
+                    WeixinJSBridge.invoke('sendAppMessage',{
+                        "appid":		dataForWeixin.appId,
+                        "img_url":		dataForWeixin.img,
+                        "img_width":	"120",
+                        "img_height":	"120",
+                        "link":				dataForWeixin.url,
+                        "desc":				dataForWeixin.desc,
+                        "title":			dataForWeixin.title
+                    }, function(res){});
+                });
+                // 分享到朋友圈;
+                WeixinJSBridge.on('menu:share:timeline', function(argv){
+                    WeixinJSBridge.invoke('shareTimeline',{
+                        "img_url":dataForWeixin.img,
+                        "img_width":"120",
+                        "img_height":"120",
+                        "link":dataForWeixin.url,
+                        "desc":dataForWeixin.desc,
+                        "title":dataForWeixin.title
+                    }, function(res){});
+                });
+                // 分享到微博;
+                WeixinJSBridge.on('menu:share:weibo', function(argv){
+                    WeixinJSBridge.invoke('shareWeibo',{
+                        "content":dataForWeixin.title+' '+dataForWeixin.url,
+                        "url":dataForWeixin.url
+                    }, function(res){});
+                });
+                // 分享到Facebook
+                WeixinJSBridge.on('menu:share:facebook', function(argv){
+                    WeixinJSBridge.invoke('shareFB',{
+                        "img_url":dataForWeixin.img,
+                        "img_width":"120",
+                        "img_height":"120",
+                        "link":dataForWeixin.url,
+                        "desc":dataForWeixin.desc,
+                        "title":dataForWeixin.title
+                    }, function(res){});
+                });
+            };
+            if(document.addEventListener){
+                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+            }else if(document.attachEvent){
+                document.attachEvent('WeixinJSBridgeReady'   , onBridgeReady);
+                document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
+            }
+        })();
+        $(function() {
+            $("#wxhelp").click(function(){
+                $(this).hide();
+                $(".black").width(1).height(1);
+                return false;
+            });
+            $("#shareWx").click(function(){
+                $(".black").width($(window).width()).height($(document).height());
+                $("#wxhelp").show();
+                return false;
+            });
+        });
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?e8b28dbb3ecbd69a269a3fa7dc79a164";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+
+        //admaster
+        var _smq = _smq || [];
+        _smq.push(['_setAccount', '406d89d', new Date()]);
+        _smq.push(['pageview']);
+
+        (function() {
+            var sm = document.createElement('script'); sm.type = 'text/javascript'; sm.async = true;
+            sm.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdnmaster.com/sitemaster/sm.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sm, s);
+        })();
+
+        //ga
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-29156015-1']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <style id="clearly_highlighting_css" type="text/css">/* selection */ html.clearly_highlighting_enabled ::-moz-selection { background: rgba(246, 238, 150, 0.99); } html.clearly_highlighting_enabled ::selection { background: rgba(246, 238, 150, 0.99); } /* cursor */ html.clearly_highlighting_enabled {    /* cursor and hot-spot position -- requires a default cursor, after the URL one */    cursor: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--cursor.png") 14 16, text; } /* highlight tag */ em.clearly_highlight_element {    font-style: inherit !important; font-weight: inherit !important;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow.png");    background-repeat: repeat-x; background-position: top left; background-size: 100% 100%; } /* the delete-buttons are positioned relative to this */ em.clearly_highlight_element.clearly_highlight_first { position: relative; } /* delete buttons */ em.clearly_highlight_element a.clearly_highlight_delete_element {    display: none; cursor: pointer;    padding: 0; margin: 0; line-height: 0;    position: absolute; width: 34px; height: 34px; left: -17px; top: -17px;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite.png"); background-repeat: no-repeat; background-position: 0px 0px; } em.clearly_highlight_element a.clearly_highlight_delete_element:hover { background-position: -34px 0px; } /* retina */ @media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {    em.clearly_highlight_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png"); }    em.clearly_highlight_element a.clearly_highlight_delete_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite@2x.png"); background-size: 68px 34px; } } </style><link type="text/css" rel="stylesheet" href="chrome-extension://imamemhokkdleoelohnmkimbmpfglcil/css/capture.css"><style id="huaban_Style">#huaban_Container {font-family: 'helvetica neue', arial, sans-serif; position: absolute; padding-top: 37px; z-index: 100000002; top: 0; left: 0; background-color: transparent; opacity: 1;hasLayout:-1;}#huaban_Overlay {position: fixed; z-index: 100000001; top: 0; right: 0; bottom: 0; left: 0; background-color: #f2f2f2; opacity: .95;}* html #huaban_Overlay {position: absolute;}#huaban_Control {position:relative; z-index: 100000; float: left; background-color: #fcf9f9; border: solid #ccc; border-width: 0 1px 1px 0; height: 200px; width: 200px; opacity: 1;}* html #huaban_Control {position:static;}#huaban_Control img {position: relative; padding: 0; display: block; margin: 82px auto 0; -ms-interpolation-mode: bicubic;}#huaban_Control a {position: fixed; z-index: 10001; right: 0; top: 0; left: 0; height: 24px; padding: 12px 0 0; text-align: center; font-size: 14px; line-height: 1em; text-shadow: 0 1px #fff; color: #211922; font-weight: bold; text-decoration: none; background: #fff url(http://huaban.com/img/fullGradient07Normal.png) 0 0 repeat-x; border-bottom: 1px solid #ccc; -mox-box-shadow: 0 0 2px #d7d7d7; -webkit-box-shadow: 0 0 2px #d7d7d7;}* html #huaban_Control a {position: absolute; width: 100%;}#huaban_Control a:hover {color: #fff; text-decoration: none; background-color: #1389e5; border-color: #1389e5; text-shadow: 0 -1px #46A0E6;}#huaban_Control a:active {height: 23px; padding-top: 13px; background-color: #211922; border-color: #211922; background-image: url(http://huaban.com/img/fullGradient07Inverted.png); text-shadow: 0 -1px #211922;}.huabanImagePreview {position: relative; padding: 0; margin: 0; float: left; background-color: #fff; border: solid #e7e7e7; border-width: 0 1px 1px 0; height: 200px; width: 200px; opacity: 1; z-index: 10002; text-align: center; overflow:hidden;}.huabanImagePreview .huabanVideoIcon {position:absolute;display:block;top:0;left:0;width:100%;height:100%;background:url(http://huaban.com/img/media_video.png) center center no-repeat;}.huabanImagePreview .huabanImg {border: none; height: 200px; width: 200px; opacity: 1; padding: 0; position: absolute; top: 0; left: 0;}.huabanImagePreview .huabanImg a {margin: 0; padding: 0; position: absolute; top: 0; bottom: 0; right: 0; left: 0; display: block; text-align: center;  z-index: 1;}.huabanImagePreview .huabanImg a:hover {background-color: #fcf9f9; border: none;}.huabanImagePreview .huabanImg .ImageToPin {max-height: 200px; max-width: 200px; width: auto !important; height: auto !important;}.huabanImagePreview img.huaban_PinIt {border: none; position: absolute; top: 82px; left: 42px; display: none; padding: 0; background-color: transparent; z-index: 100;}.huabanImagePreview strong {text-indent: -9999px; position: absolute; top: 82px; display: none; height: 32px; background: url(http://huaban.com/img/bm_pin_sprite.png?20120918) no-repeat 0 0;}.huabanImagePreview strong.huaban_ThunderPin {width: 24px; left: 52px; background-position: 0 0;}.huabanImagePreview strong.huaban_ThunderPin:hover {background-position: 0 -50px;}.huabanImagePreview strong.huaban_ThunderPin:active {background-position: 0 -100px;}.huabanImagePreview strong.huaban_Pin {width: 72px; left: 75px; background-position: -40px 0;}.huabanImagePreview strong.huaban_Pin:hover {background-position: -40px -50px;}.huabanImagePreview strong.huaban_Pin:active {background-position: -40px -100px;}.huabanImagePreview img.huaban_vidind {border: none; position: absolute; top: 75px; left: 75px; padding: 0; background-color: transparent; z-index: 99;}.huabanDimensions { color: #000; position: relative; margin-top: 180px; text-align: center; font-size: 10px; z-index:10003; display: inline-block; background: white; border-radius: 4px; padding: 0 2px;}#huaban_Button, #huaban_Button *, #huaban_Container, #huaban_Container * { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; -ms-box-sizing: content-box; box-sizing: content-box;}#huaban_Button { display: none; position: absolute; z-index: 999999999 !important; color: #211922; text-shadow: 0 1px #eaeaea; font: 12px/1 'Helvetica Neue',Helvetica,Arial,Sans-serif; text-align: center; padding: 0; margin: 0; cursor: pointer;}#huaban_Button a {text-decoration: none; color: #211922; display: inline-block; text-align: center; line-height: 14px; height: 14px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; cursor: pointer; position: absolute; top: 0; left: 0; height: 14px; margin: 0 2px; padding: 5px 8px; border: 1px solid #555; border: 1px solid rgba(140, 126, 126, .5); background-color: #fff;}#huaban_Button a:hover {text-decoration: none; background-image: -webkit-linear-gradient(top, #fefeff, #efefef); background-image: -moz-linear-gradient(top, #fefeff, #efefef); box-shadow: inset 0 1px rgba(255,255,255,0.35), 0 1px 1px rgba(35,24,24,0.75); -o-box-shadow: inset 0 1px rgba(255,255,255,0.35), 0 1px 1px rgba(35,24,24,0.75); -ms-box-shadow: inset 0 1px rgba(255,255,255,0.35), 0 1px 1px rgba(35,24,24,0.75); -moz-box-shadow: inset 0 1px rgba(255,255,255,0.35), 0 1px 1px rgba(35,24,24,0.75); -webkit-box-shadow: inset 0 1px rgba(255,255,255,0.35), 0 1px 1px rgba(35,24,24,0.75);}#huaban_Button a:active {text-decoration: none; background-image: -webkit-linear-gradient(top, #fefeff, #efefef); background-image: -moz-linear-gradient(top, #fefeff, #efefef); box-shadow: inset 0 1px 2px rgba(34,25,25,0.25), 0 0 1px rgba(232,230,230,0.5); -o-box-shadow: inset 0 1px 2px rgba(34,25,25,0.25), 0 0 1px rgba(232,230,230,0.5); -ms-box-shadow: inset 0 1px 2px rgba(34,25,25,0.25), 0 0 1px rgba(232,230,230,0.5); -moz-box-shadow: inset 0 1px 2px rgba(34,25,25,0.25), 0 0 1px rgba(232,230,230,0.5); -webkit-box-shadow: inset 0 1px 2px rgba(34,25,25,0.25), 0 0 1px rgba(232,230,230,0.5);}#huaban_Button a strong {position: relative; line-height: 12px;}#huaban_Button a.thunderpin {margin-right: 0; border-right: none; width: 14px; padding: 5px 0 5px 4px; border-top-right-radius: 0; border-bottom-right-radius: 0; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 0; -moz-border-top-right-radius: 0; -moz-border-bottom-right-radius: 0; -ms-border-top-right-radius: 0; -ms-border-bottom-right-radius: 0; -o-border-top-right-radius: 0; -o-border-bottom-right-radius: 0;}#huaban_Button a.thunderpin em {background: url(http://huaban.com/img/ActionIcons10.png?20120801) no-repeat -30px 0; position: relative; display: inline-block; width: 10px; height: 10px; top: 1px; left: -2px;}#huaban_Button a.thunderpin:hover em {background-image-postion: -30px -10px;}#huaban_Button a.thunderpin:active em {background-image-postion: -30px -20px;}#huaban_Button a.pin {left: 20px; width: 64px; margin-left: 0; *margin-left: -2px; border-top-left-radius: 0; border-bottom-left-radius: 0; -webkit-border-top-left-radius: 0; -webkit-border-bottom-left-radius: 0; -moz-border-top-left-radius: 0; -moz-border-bottom-left-radius: 0; -ms-border-top-left-radius: 0; -ms-border-bottom-left-radius: 0; -o-border-top-left-radius: 0; -o-border-bottom-left-radius: 0;}.huaban_thunder_tip {position: absolute; z-index: 999999999 !important; background: #000; background: rgba(0,0,0,0.5); color: white; line-height: 16px; padding: 5px; border-radius: 2px; margin-left: 2px; }.huaban_thunder_tip a {text-shadow: none; cursor: pointer; padding: 0 4px; margin: 0 2px; color: white; font-size: 13px; background: rgba(255, 255, 255, 0.4); }.huaban_thunder_tip a:hover {color: #B90000; background: white; text-decoration: none; }.huabanImagePreview .huaban_thunder_tip {line-height: 12px; padding: 8px 10px; font-size: 14px; top: 50%; left: 50%; margin-left: -48px; margin-top: -18px;}.huabanImagePreview .huaban_thunder_tip_warning {left: 48px; height: auto; text-align: left;}.huaban_thunder_tip_success {color: #fff;font-weight: bold;}.huaban_thunder_tip p {font-weight: normal; margin-top: 2px; margin-bottom: 0; padding-left: 20px; text-align: left;}.huaban_thunder_tip a {color: #fff;}.huaban_thunder_tip_failed {height: 32px; font-weight: bold; color: #fff;background: #c90000; background: rgba(201, 0, 0, .5); }.huaban_thunder_tip_failed p {margin: 0 2px; font-weight: normal; font-size: 12px;}.huaban_thunder_tip span { padding-left: 22px; position: relative;}.huaban_thunder_tip_warning span {display: block; line-height: 18px;}.huaban_thunder_tip span em { background: url(http://huaban.com/img/bm_pin_sprite.png?20120918) no-repeat 0px -150px; display: inline-block; height: 16px; width: 16px; position: absolute; left: 0; top: 50%; margin-top: -8px;}.huaban_thunder_tip_success span em { background: url(http://huaban.com/img/bm_pin_sprite.png?20120918) no-repeat 0px -150px;}.huaban_thunder_tip_warning span em { top: 9px; left: 0px; background: url(http://huaban.com/img/bm_pin_sprite.png?20120918) no-repeat -80px -150px;}.huaban_thunder_tip_failed span em { background: url(http://huaban.com/img/bm_pin_sprite.png?20120918) no-repeat -40px -150px;}.huaban_thunder_tip_ing span em { background: url(http://huaban.com/img/thunder_motion.gif) no-repeat 2px 2px;}.huabanImagePreview .huaban_thunder_tip_failed {width: 140px; margin-left: -80px; margin-top: -26px;}.huabanImagePreview .huaban_thunder_tip_success {width: 88px; margin-left: -52px; margin-top: -26px;}.huabanImagePreview .huaban_thunder_tip_ing {width: 72px;}.huabanImagePreview .huaban_thunder_tip_success p, .huabanImagePreview .huaban_thunder_tip_failed p {margin-top: 9px; font-size: 12px; display: block;}</style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style></head>
+<body huaban_collector_injected="true"><div id="main">
+    <div class="process">
+        <div class="line"></div>
+        <span class="on"></span>
+        <span class="on"></span>
+        <span class="on"></span>
+        <span class="on"></span>
+        <span class="on"></span>
+        <span class="on"></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div id="qalogo"><img src="/static/durexsaylove/qalogo.png" data-pinit="registered"></div>
+    <form method="post" enctype="multipart/form-data">
+
+        <div id="question12" class="question showhide" qcount="0" qid="12" style="display: none;">
+            <!-- style="background-image: url(/static/durexsaylove/bigbg0.png);top: 17%;left: 10%;background-repeat: no-repeat;background-position: 31% 25%;background-image:url(/static/durexsaylove/qabg0_12.png);"-->
+            <div id="quesbg" style="top: 17%;left: 10%;background-repeat: no-repeat;background-position: 31% 25%;background-image:url(/static/durexsaylove/qabg0_12.png);"><img src="/static/durexsaylove/bigbg0.png" data-pinit="registered"></div>
+            <div class="qtitle">你对他自慰这件事的看法？</div>
+            <div class="opt" id="opt12">
+                <div class="answer0" '=""><label class="qopt" for="opt12_0"><input name="answer[12]" type="radio" value="0" id="opt12_0" class="radio"> A.  无所谓 </label></div><div class="answer1" '=""><label class="qopt" for="opt12_1"><input name="answer[12]" type="radio" value="1" id="opt12_1" class="radio"> B.  不允许 </label></div><div class="answer2" '=""><label class="qopt" for="opt12_2"><input name="answer[12]" type="radio" value="2" id="opt12_2" class="radio"> C.  放着我来 </label></div><div class="answer3" '=""><label class="qopt" for="opt12_3"><input name="answer[12]" type="radio" value="3" id="opt12_3" class="radio"> D.  XXX已送 </label></div>
+</div>
+<div class="submitbox">
+    <button class="btn" type="button" value="12"><img src="/static/durexsaylove/submit0.png"></button>
+    <input class="qid" name="qid[]" value="12" type="hidden">
+</div>
+</div>
+
+<div id="question9" class="question showhide" qcount="1" qid="9" style="display: none;">
+    <!-- style="background-image: url(/static/durexsaylove/bigbg0.png);top: 10%;left: -100%;background-repeat: no-repeat;background-position: 101% 39%;background-image:url(/static/durexsaylove/qabg0_9.png);"-->
+    <div id="quesbg" style="top: 10%;left: -100%;background-repeat: no-repeat;background-position: 101% 39%;background-image:url(/static/durexsaylove/qabg0_9.png);"><img src="/static/durexsaylove/bigbg0.png" data-pinit="registered"></div>
+    <div class="qtitle">爱爱之后，你最想跟他聊点什么？</div>
+    <div class="opt" id="opt9">
+        <div class="answer0" '=""><label class="qopt" for="opt9_0"><input name="answer[9]" type="radio" value="0" id="opt9_0" class="radio"> A.  感受如何 </label></div><div class="answer1" '=""><label class="qopt" for="opt9_1"><input name="answer[9]" type="radio" value="1" id="opt9_1" class="radio"> B.  再来一次吗 </label></div><div class="answer2" '=""><label class="qopt" for="opt9_2"><input name="answer[9]" type="radio" value="2" id="opt9_2" class="radio"> C.  技术讨论 </label></div><div class="answer3" '=""><label class="qopt" for="opt9_3"><input name="answer[9]" type="radio" value="3" id="opt9_3" class="radio"> D.  要不要去微信杜蕾斯官方商城补点货 </label></div>
+</div>
+<div class="submitbox">
+    <button class="btn" type="button" value="9"><img src="/static/durexsaylove/submit0.png"></button>
+    <input class="qid" name="qid[]" value="9" type="hidden">
+</div>
+</div>
+
+<div id="question7" class="question showhide" qcount="2" qid="7" style="display: none;">
+    <!-- style="background-image: url(/static/durexsaylove/bigbg0.png);top: 9%;left: 20%;background-repeat: no-repeat;background-position: 18% 71%;background-image:url(/static/durexsaylove/qabg0_7.png);"-->
+    <div id="quesbg" style="top: 9%;left: 20%;background-repeat: no-repeat;background-position: 18% 71%;background-image:url(/static/durexsaylove/qabg0_7.png);"><img src="/static/durexsaylove/bigbg0.png" data-pinit="registered"></div>
+    <div class="qtitle">爱爱时你如何判断自己爽不爽？</div>
+    <div class="opt" id="opt7">
+        <div class="answer0" '=""><label class="qopt" for="opt7_0"><input name="answer[7]" type="radio" value="0" id="opt7_0" class="radio"> A.  频率 </label></div><div class="answer1" '=""><label class="qopt" for="opt7_1"><input name="answer[7]" type="radio" value="1" id="opt7_1" class="radio"> B.  脸色 </label></div><div class="answer2" '=""><label class="qopt" for="opt7_2"><input name="answer[7]" type="radio" value="2" id="opt7_2" class="radio"> C.  流量 </label></div><div class="answer3" '=""><label class="qopt" for="opt7_3"><input name="answer[7]" type="radio" value="3" id="opt7_3" class="radio"> D.  楼道的灯是否亮了 </label></div>
+</div>
+<div class="submitbox">
+    <button class="btn" type="button" value="7"><img src="/static/durexsaylove/submit0.png"></button>
+    <input class="qid" name="qid[]" value="7" type="hidden">
+</div>
+</div>
+
+<div id="question2" class="question showhide" qcount="3" qid="2" style="display: none;">
+    <!-- style="background-image: url(/static/durexsaylove/bigbg0.png);top: 25%;left: -40%;background-repeat: no-repeat;background-position: 60% 43%;background-image:url(/static/durexsaylove/qabg0_2.png);"-->
+    <div id="quesbg" style="top: 25%;left: -40%;background-repeat: no-repeat;background-position: 60% 43%;background-image:url(/static/durexsaylove/qabg0_2.png);"><img src="/static/durexsaylove/bigbg0.png" data-pinit="registered"></div>
+    <div class="qtitle">你和他接吻的时候头习惯向哪边歪？</div>
+    <div class="opt" id="opt2">
+        <div class="answer0" '=""><label class="qopt" for="opt2_0"><input name="answer[2]" type="radio" value="0" id="opt2_0" class="radio"> A.  左 </label></div><div class="answer1" '=""><label class="qopt" for="opt2_1"><input name="answer[2]" type="radio" value="1" id="opt2_1" class="radio"> B.  右 </label></div><div class="answer2" '=""><label class="qopt" for="opt2_2"><input name="answer[2]" type="radio" value="2" id="opt2_2" class="radio"> C.  上 </label></div><div class="answer3" '=""><label class="qopt" for="opt2_3"><input name="answer[2]" type="radio" value="3" id="opt2_3" class="radio"> D.  头顶朝下 </label></div>
+</div>
+<div class="submitbox">
+    <button class="btn" type="button" value="2"><img src="/static/durexsaylove/submit0.png"></button>
+    <input class="qid" name="qid[]" value="2" type="hidden">
+</div>
+</div>
+
+<div id="question17" class="question showhide" qcount="4" qid="17" style="display: none;">
+    <!-- style="background-image: url(/static/durexsaylove/bigbg0.png);top: 14%;left: -25%;background-repeat: no-repeat;background-position: 81% 50%;background-image:url(/static/durexsaylove/qabg0_17.png);"-->
+    <div id="quesbg" style="top: 14%;left: -25%;background-repeat: no-repeat;background-position: 81% 50%;background-image:url(/static/durexsaylove/qabg0_17.png);"><img src="/static/durexsaylove/bigbg0.png" data-pinit="registered"></div>
+    <div class="qtitle">你身上的敏感部位是？</div>
+    <div class="opt" id="opt17">
+        <div class="answer0" '=""><label class="qopt" for="opt17_0"><input name="answer[17]" type="radio" value="0" id="opt17_0" class="radio"> A.  耳垂 </label></div><div class="answer1" '=""><label class="qopt" for="opt17_1"><input name="answer[17]" type="radio" value="1" id="opt17_1" class="radio"> B.  大腿内侧 </label></div><div class="answer2" '=""><label class="qopt" for="opt17_2"><input name="answer[17]" type="radio" value="2" id="opt17_2" class="radio"> C.  脚趾 </label></div><div class="answer3" '=""><label class="qopt" for="opt17_3"><input name="answer[17]" type="radio" value="3" id="opt17_3" class="radio"> D.  腰下三寸 </label></div>
+</div>
+<div class="submitbox">
+    <button class="btn" type="button" value="17"><img src="/static/durexsaylove/submit0.png"></button>
+    <input class="qid" name="qid[]" value="17" type="hidden">
+</div>
+</div>
+
+<div id="question11" class="question showhide" qcount="5" qid="11" style="display: none;">
+    <!-- style="background-image: url(/static/durexsaylove/bigbg0.png);top: 7%;left: -10%;background-repeat: no-repeat;background-position: 33% 39%;background-image:url(/static/durexsaylove/qabg0_11.png);"-->
+    <div id="quesbg" style="top: 7%;left: -10%;background-repeat: no-repeat;background-position: 33% 39%;background-image:url(/static/durexsaylove/qabg0_11.png);"><img src="/static/durexsaylove/bigbg0.png" data-pinit="registered"></div>
+    <div class="qtitle">你穿什么让他觉得更性感？</div>
+    <div class="opt" id="opt11">
+        <div class="answer0" '=""><label class="qopt" for="opt11_0"><input name="answer[11]" type="radio" value="0" id="opt11_0" class="radio"> A.  脚踝系红绳 </label></div><div class="answer1" '=""><label class="qopt" for="opt11_1"><input name="answer[11]" type="radio" value="1" id="opt11_1" class="radio"> B.  只穿内衣 </label></div><div class="answer2" '=""><label class="qopt" for="opt11_2"><input name="answer[11]" type="radio" value="2" id="opt11_2" class="radio"> C.  光身穿男款白衬衫 </label></div><div class="answer3" '=""><label class="qopt" for="opt11_3"><input name="answer[11]" type="radio" value="3" id="opt11_3" class="radio"> D.  啥也不穿 </label></div>
+</div>
+<div class="submitbox">
+    <button class="btn" type="button" value="11"><img src="/static/durexsaylove/submit0.png"></button>
+    <input class="qid" name="qid[]" value="11" type="hidden">
+</div>
+</div>
+
+<div id="question13" class="question showquesition" qcount="6" qid="13" style="display: block;">
+    <!-- style="background-image: url(/static/durexsaylove/bigbg0.png);top: 7%;left: -50%;background-repeat: no-repeat;background-position: 83% 67%;background-image:url(/static/durexsaylove/qabg0_13.png);"-->
+    <div id="quesbg" style="top: 7%;left: -50%;background-repeat: no-repeat;background-position: 83% 67%;background-image:url(/static/durexsaylove/qabg0_13.png);"><img src="/static/durexsaylove/bigbg0.png" data-pinit="registered"></div>
+    <div class="qtitle">以下几种物品，你更乐意选择哪一个？</div>
+    <div class="opt" id="opt13">
+        <div class="answer0" '=""><label class="qopt" for="opt13_0"><input name="answer[13]" type="radio" value="0" id="opt13_0" class="radio"> A.  震震棒 </label></div><div class="answer1" '=""><label class="qopt" for="opt13_1"><input name="answer[13]" type="radio" value="1" id="opt13_1" class="radio"> B.  跳蛋 </label></div><div class="answer2" '=""><label class="qopt" for="opt13_2"><input name="answer[13]" type="radio" value="2" id="opt13_2" class="radio"> C.  快感增强液 </label></div><div class="answer3" '=""><label class="qopt" for="opt13_3"><input name="answer[13]" type="radio" value="3" id="opt13_3" class="radio"> D.  绳 </label></div>
+</div>
+<div class="submitbox">
+    <button class="btn" type="button" value="13"><img src="/static/durexsaylove/submit0.png"></button>
+    <input class="qid" name="qid[]" value="13" type="hidden">
+</div>
+</div>
+
+<div id="question5" class="question" qcount="7" qid="5">
+    <!-- style="background-image: url(/static/durexsaylove/bigbg0.png);top: 19%;left: -20%;background-repeat: no-repeat;background-position: 58% 1%;background-image:url(/static/durexsaylove/qabg0_5.png);"-->
+    <div id="quesbg" style="top: 19%;left: -20%;background-repeat: no-repeat;background-position: 58% 1%;background-image:url(/static/durexsaylove/qabg0_5.png);"><img src="/static/durexsaylove/bigbg0.png" data-pinit="registered"></div>
+    <div class="qtitle">你喜欢他在爱爱的时候发出怎样的声音？</div>
+    <div class="opt" id="opt5">
+        <div class="answer0" '=""><label class="qopt" for="opt5_0"><input name="answer[5]" type="radio" value="0" id="opt5_0" class="radio"> A.  静音 </label></div><div class="answer1" '=""><label class="qopt" for="opt5_1"><input name="answer[5]" type="radio" value="1" id="opt5_1" class="radio"> B.  Oh yeah </label></div><div class="answer2" '=""><label class="qopt" for="opt5_2"><input name="answer[5]" type="radio" value="2" id="opt5_2" class="radio"> C.  啊啊啊啊 </label></div><div class="answer3" '=""><label class="qopt" for="opt5_3"><input name="answer[5]" type="radio" value="3" id="opt5_3" class="radio"> D.  雅蠛蝶 </label></div>
+</div>
+<div class="submitbox">
+    <button class="btn" type="button" value="5"><img src="/static/durexsaylove/submit0.png"></button>
+    <input class="qid" name="qid[]" value="5" type="hidden">
+</div>
+</div>
+
+</form>
+</div>
+<style type="text/css"></style>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".question:first").show().addClass("showquesition");
+        $(".question input").click(function(){
+            e = $(this).parents(".question").find(".btn");
+            e.click();
+
+            //统计代码
+            var q=$(this).parents(".question").attr("qid");
+            //var qid=q.substr(-1,1);
+            var a=$(this).val();
+            _hmt.push(['_trackEvent', '答题记录', q+"/"+a ]);
+        });
+        $(".question").bind("webkitTransitionEnd",function(evt){
+
+            // console.log($(evt.target).is(".question"),$(evt.target).is(".iwanthide"),$(evt.target).parents(".iwanthide").length>0);
+            if($(evt.target).is(".answer3") && $(evt.target).parents(".iwanthide").length>0){
+                $(".question:visible").addClass("fadeout");
+            }
+            t = $(evt.target).is(".question") && $(evt.target).is(".iwanthide");
+            if (t) {
+
+                e = $(".fadeout").next()
+                $(".fadeout").hide().removeClass("fadeout iwanthide")
+                e.removeClass("showhide").show();
+
+                setTimeout(function(){
+                    e.addClass("showquesition");
+                },1);
+            }
+        });
+    });
+    $(function() {
+        //setInterval("flash()",500);
+        // alert($(".question :first"));
+        var data = {};
+        $(".btn").click(function() {
+            var qid = $(this).attr("value");
+            var val = $("input[name='answer[" + qid + "]']:checked").val();
+
+            if (val == undefined) {
+                alert("请先选择答案哦！");
+                return false;
+            } else {
+                var current = $(this).parents(".question");
+                var count = current.attr("qcount");
+                data['q' + qid] = val;
+                if (count < 7) {
+                    // now = $(".question:visible").next();
+                    $(".process span").eq($(".question:visible").index()).addClass("on");
+                    $(".question:visible").removeClass("showquesition").addClass('showhide iwanthide');
+                    // now.removeClass("showhiden").addClass("showquesition");
+
+                    // $("form").animate({
+                    //     "margin-top": -(parseInt(count) + parseInt(1)) * 1250
+                    // }, 500, function() {
+                    //     //console.log(data.length);
+                    // });
+                } else {
+                    $(".process span").eq($(".question:visible").index()).addClass("on");
+                    $.ajax({
+                        //contentType:"multipart/form-data",
+                        url: "/minisite/update",
+                        type: "POST",
+                        dataType: "json",
+                        data: data,
+                        success: function(r) {
+                            if (r.code == 1) {
+                                window.location.href = '/minisite/result/'+r.id;
+                            }
+                        }
+                    });
+                }
+            }
+        });
+    });
+
+    function flash(){
+        var btn=$(".btn img");
+        if(btn.hasClass("flashs")){
+            btn.css({"width":"100%"}).removeClass("flashs");
+        }else{
+            btn.css({"width":"90%"}).addClass("flashs");
+        }
+    }
+</script>
+<div class="black"></div>
+<div id="wxhelp"><img src="/static/durexsaylove/{wxalert}.png" alt="wxhelp"></div>
+

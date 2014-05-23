@@ -23,17 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="present.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="present.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixinApp/present/present.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="506" column="128" selection-start="23953" selection-end="23953" vertical-scroll-proportion="-5.584507" vertical-offset="15890" max-vertical-offset="17006">
+            <state line="16" column="26" selection-start="533" selection-end="533" vertical-scroll-proportion="-0.0" vertical-offset="352" max-vertical-offset="17006">
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -50,6 +67,7 @@
                 <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,42 +78,66 @@
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,16 +146,7 @@
       <file leaf-file-name="option.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixinApp/present/js/option.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="33" selection-start="2625" selection-end="2625" vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="1672">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wine.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixinApp/wine/wine.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="231" column="10" selection-start="10471" selection-end="10471" vertical-scroll-proportion="-17.258064" vertical-offset="4547" max-vertical-offset="8250">
+            <state line="24" column="2" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1672">
               <folding />
             </state>
           </provider>
@@ -122,7 +155,7 @@
       <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixinApp/present/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="20" selection-start="3487" selection-end="3487" vertical-scroll-proportion="0.0" vertical-offset="3315" max-vertical-offset="5918">
+            <state line="135" column="16" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.0" vertical-offset="2970" max-vertical-offset="5830">
               <folding />
             </state>
           </provider>
@@ -131,7 +164,7 @@
       <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixinApp/present/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="18" selection-start="4326" selection-end="4326" vertical-scroll-proportion="0.0" vertical-offset="4422" max-vertical-offset="5962">
+            <state line="223" column="20" selection-start="4471" selection-end="4471" vertical-scroll-proportion="0.0" vertical-offset="4502" max-vertical-offset="5984">
               <folding />
             </state>
           </provider>
@@ -140,7 +173,25 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixinApp/present/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="305" column="45" selection-start="9282" selection-end="9282" vertical-scroll-proportion="0.0" vertical-offset="6318" max-vertical-offset="7348">
+            <state line="241" column="18" selection-start="6433" selection-end="6433" vertical-scroll-proportion="0.0" vertical-offset="4934" max-vertical-offset="7348">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="31" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.0" vertical-offset="1361" max-vertical-offset="5808">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="12" selection-start="4472" selection-end="4472" vertical-scroll-proportion="2.6410255" vertical-offset="726" max-vertical-offset="6930">
               <folding />
             </state>
           </provider>
@@ -149,7 +200,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="392" column="31" selection-start="14688" selection-end="14688" vertical-scroll-proportion="-27.903225" vertical-offset="7209" max-vertical-offset="8470">
+            <state line="250" column="40" selection-start="10092" selection-end="10092" vertical-scroll-proportion="-14.419354" vertical-offset="4503" max-vertical-offset="8470">
               <folding />
             </state>
           </provider>
@@ -192,13 +243,13 @@
         <option value="$PROJECT_DIR$/weixinApp/present.html" />
         <option value="$PROJECT_DIR$/newIndex/global/styles/base.css" />
         <option value="$PROJECT_DIR$/newIndex/order-payed.html" />
-        <option value="$PROJECT_DIR$/newIndex/index.html" />
-        <option value="$PROJECT_DIR$/newIndex/home/styles/home.css" />
         <option value="$PROJECT_DIR$/weixinApp/present/css/base.css" />
         <option value="$PROJECT_DIR$/weixinApp/present/js/option.js" />
         <option value="$PROJECT_DIR$/weixinApp/present/css/layout.css" />
-        <option value="$PROJECT_DIR$/weixinApp/present/js/controllers.js" />
         <option value="$PROJECT_DIR$/weixinApp/present/present.html" />
+        <option value="$PROJECT_DIR$/newIndex/index.html" />
+        <option value="$PROJECT_DIR$/newIndex/home/styles/home.css" />
+        <option value="$PROJECT_DIR$/weixinApp/present/js/controllers.js" />
       </list>
     </option>
   </component>
@@ -411,131 +462,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mall" />
+              <option name="myItemId" value="zhongguodao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newIndex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newIndex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newIndex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newIndex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newIndex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guoguan-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newIndex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -604,8 +535,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../touchslider-master" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -617,6 +548,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -627,19 +566,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -656,10 +591,6 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <list size="0" />
@@ -692,13 +623,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2359375" sideWeight="0.81906825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15364583" sideWeight="0.81906825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18093175" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -725,21 +656,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newIndex/address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="18" selection-start="3664" selection-end="3664" vertical-scroll-proportion="0.0" vertical-offset="2002" max-vertical-offset="5764" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixinApp/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="31" selection-start="17712" selection-end="17712" vertical-scroll-proportion="-5.677419" vertical-offset="2442" max-vertical-offset="7260" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoguan-front2.0/assets/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="508" column="8" selection-start="6306" selection-end="6306" vertical-scroll-proportion="0.35897437" vertical-offset="10868" max-vertical-offset="156706" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/css/m-cart.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4910715" vertical-offset="1336" max-vertical-offset="8228" />
@@ -752,84 +668,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/tiaozhuan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="8" selection-start="2484" selection-end="2484" vertical-scroll-proportion="-16.32258" vertical-offset="924" max-vertical-offset="4400">
-          <folding />
-        </state>
+        <state line="65" column="8" selection-start="2484" selection-end="2484" vertical-scroll-proportion="-16.32258" vertical-offset="924" max-vertical-offset="4400" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/order-payed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="45" selection-start="3511" selection-end="3511" vertical-scroll-proportion="0.38732395" vertical-offset="1518" max-vertical-offset="8118">
-          <folding />
-        </state>
+        <state line="84" column="45" selection-start="3511" selection-end="3511" vertical-scroll-proportion="0.38732395" vertical-offset="1518" max-vertical-offset="8118" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/global/styles/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="24" selection-start="11113" selection-end="11113" vertical-scroll-proportion="0.17780295" vertical-offset="4463" max-vertical-offset="7942">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="11" selection-start="7045" selection-end="7045" vertical-scroll-proportion="0.9467724" vertical-offset="4488" max-vertical-offset="6798">
-          <folding />
-        </state>
+        <state line="210" column="24" selection-start="11113" selection-end="11113" vertical-scroll-proportion="0.17780295" vertical-offset="4463" max-vertical-offset="7942" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixinApp/wine/wine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="10" selection-start="10471" selection-end="10471" vertical-scroll-proportion="-17.258064" vertical-offset="4547" max-vertical-offset="8250">
+        <state line="231" column="10" selection-start="10471" selection-end="10471" vertical-scroll-proportion="1.2476525" vertical-offset="4019" max-vertical-offset="8250">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixinApp/present/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="18" selection-start="4326" selection-end="4326" vertical-scroll-proportion="0.0" vertical-offset="4422" max-vertical-offset="5962">
+        <state line="223" column="20" selection-start="4471" selection-end="4471" vertical-scroll-proportion="0.0" vertical-offset="4502" max-vertical-offset="5984">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixinApp/present/js/option.js">
+    <entry file="file://$PROJECT_DIR$/newIndex/store.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="33" selection-start="2625" selection-end="2625" vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="1672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="392" column="31" selection-start="14688" selection-end="14688" vertical-scroll-proportion="-27.903225" vertical-offset="7209" max-vertical-offset="8470">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="865">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixinApp/present/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="20" selection-start="3487" selection-end="3487" vertical-scroll-proportion="0.0" vertical-offset="3315" max-vertical-offset="5918">
+        <state line="135" column="16" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.0" vertical-offset="939" max-vertical-offset="5830">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixinApp/present/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/newIndex/address-choose.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="45" selection-start="9282" selection-end="9282" vertical-scroll-proportion="0.0" vertical-offset="6318" max-vertical-offset="7348">
+        <state line="115" column="26" selection-start="4100" selection-end="4100" vertical-scroll-proportion="0.0" vertical-offset="2530" max-vertical-offset="7942">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixinApp/present/present.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="506" column="128" selection-start="23953" selection-end="23953" vertical-scroll-proportion="-5.584507" vertical-offset="15890" max-vertical-offset="17006">
+        <state line="16" column="26" selection-start="533" selection-end="533" vertical-scroll-proportion="-0.0" vertical-offset="352" max-vertical-offset="17006">
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -846,6 +759,7 @@
             <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -856,43 +770,102 @@
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#4;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#a#0;n#ul#0;n#div#4;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#a#0;n#ul#0;n#div#4;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinApp/present/js/option.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="2" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="250" column="40" selection-start="10092" selection-end="10092" vertical-scroll-proportion="-14.419354" vertical-offset="4503" max-vertical-offset="8470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="31" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.0" vertical-offset="1361" max-vertical-offset="5808">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinApp/present/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="18" selection-start="6433" selection-end="6433" vertical-scroll-proportion="0.0" vertical-offset="4934" max-vertical-offset="7348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex/home/styles/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="12" selection-start="4472" selection-end="4472" vertical-scroll-proportion="2.6410255" vertical-offset="726" max-vertical-offset="6930">
+          <folding />
         </state>
       </provider>
     </entry>

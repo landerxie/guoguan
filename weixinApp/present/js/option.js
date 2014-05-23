@@ -3,14 +3,14 @@ $(document).ready(function(){
 
     clientBrowseCheck();
 
-    $("#share-to-sina-button").click(function(){
+    $(".share-to-sina-button").click(function(){
         if(is_weixin()){
             //微信浏览器
             $(".share-cover").css("display","block");
             $(".share-guide").css("display","none");
             $("#weixin-guide").css("display","block");
-            $("#share-to-sina-button").css("display","inline-block");
-            $("#share-to-sina-button-pc").css("display","none");
+            $(".share-to-sina-button").css("display","inline-block");
+            $(".share-to-sina-button-pc").css("display","none");
             return
         }
     })
@@ -61,11 +61,11 @@ function is_weixin(){
 function clientBrowseCheck(){
     if(is_weixin()){
         //微信浏览器
-        $("#bdsharebuttonbox").css("display","none");
+        $(".pc-share").css("display","none");
         $(".weixin-banner").css("display","block");
         return
     } else{
-        $("#share-to-sina-button").css("display","none");
+        $(".weixin-share").css("display","none");
         $(".pc-banner").css("display","block");
     }
 }

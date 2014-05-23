@@ -41,7 +41,7 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
 .promos ul li + li a { border-left:2px solid #977655; }
 
 .promos ul li a img { position:absolute; z-index:1; left:50%; margin-left:-182px; }
-.promos ul li .title{font-weight: bold; text-shadow: 1px 1px 1px #000; color: #fff; position: absolute; z-index: 2; text-align: center; width: 100%; font-size: 14px; height: 48px; line-height: 48px; bottom: 0; }
+.promos ul li .title{font-weight: bold; text-shadow: 1px 1px 1px #000; color: #fff; position: absolute; z-index: 2;  *+left:0; text-align: center; width: 100%; font-size: 14px; height: 48px; line-height: 48px; bottom: 0; }
 .promos ul li a.left img { left:0; }
 .promos ul li a.right img { right:0; left:auto; }
 
@@ -107,6 +107,7 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
     height: 158px;
     width: 115px;
     position: absolute;
+    left: 0;
     z-index: 999;
 }
 #homenav .banner .title{
@@ -129,6 +130,7 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
     margin-top: 20px;
     position: absolute;
     height: 30px;
+    *+width:480px!important;
     top: 0;
     line-height: 30px;
     font-size: 14px;
@@ -221,12 +223,14 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
 }
 
 #nav_wrapper ul{list-style:none;margin:0 auto; height:30px; }
-#nav_wrapper ul li{float:left;text-align:center;height:30px;line-height:30px;position:relative;z-index:10;}
+#nav_wrapper ul li{float:left;text-align:center;height:30px;line-height:30px;position:relative;z-index:10; *+height:200px!important;}
 #nav_wrapper ul li a,ul li span,ul li span a{display:block;width:125px;}
 #nav_wrapper ul li>a{color:#000;}
 #nav_wrapper ul li span{display:none;position:absolute;top:30px; width: 82px;
     border-top: 3px solid #c7000b;
     background: #d9c6ae;
+    *+left:0;
+    *+padding-top:30px;
     min-height: 67px;}
 #nav_wrapper ul li:hover span{display:block;}
 
@@ -235,6 +239,7 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
     width: auto;
     margin: 0 auto;
     position: relative;
+    *+z-index: -1;
 }
 #billboard .purchase{
     width: 1004px;
@@ -248,7 +253,8 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
 #billboard .purchase .detail{
     position: absolute;
     right: 10px;
-    top:49px
+    top:49px;
+    *+width:472px!important;
 }
 #billboard .purchase .detail .detail-img-1{
     background: url("../../images/3_01.png") center top no-repeat;

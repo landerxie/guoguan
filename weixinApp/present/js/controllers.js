@@ -234,11 +234,11 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
 
     var dataForWeixin = {
         appId: "",//微信公众号ID
-        MsgImg: "图片决对地址,http的那种", //分享给朋友和收藏时显示的缩略图
-        TLImg: "图片决对地址,http的那种", //分享到朋友圈时显示的缩略图
+        MsgImg: "http://www.guoguan.com/ceshi/present/images/zhongguodao.jpg", //分享给朋友和收藏时显示的缩略图
+        TLImg: "http://www.guoguan.com/ceshi/present/images/zhongguodao.jpg", //分享到朋友圈时显示的缩略图
         url: location.href,//分享地址
-        title: "酒量排名大赛", //分享至微博、朋友圈、朋友都会用到
-        desc: "您酒量真行 ^-^", //分享给 朋友时会用到
+        title: "潜意识测试：从送礼测你潜在的性格", //分享至微博、朋友圈、朋友都会用到
+        desc: "已有32万网友参与测试！^-^", //分享给 朋友时会用到
         fakeid: "",
         callback: function () {
             //分享成功回调方法，其中分享给朋友、分享到微博、收藏都是成功后回调，而分享到朋友圈是点分享按钮就会调用

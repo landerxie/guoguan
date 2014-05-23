@@ -269,12 +269,12 @@ label.address-label{color: grey;
 }
 .address-choose>li>div>span{
     width: 250px;
-    display: inline-block;
+    float: left;
     vertical-align: top;
 }
 .address-choose>li>div>span:first-child{
     width: 50px;
-    display: inline-block;
+    float: left;
 }
 .address-choose>li>div{
     width: 316px;
@@ -292,8 +292,8 @@ label.address-label{color: grey;
     height: 110px;
 }
 .address-choose>li.active{
-    border: 1px solid #ff0014;
-    box-shadow: 0px 0px 1px #ff0014;
+    border: 1px solid #ff0014!important;
+    box-shadow: 0px 0px 1px #ff0014!important;
 }
 .icon-edit-adjust{
     position: absolute;

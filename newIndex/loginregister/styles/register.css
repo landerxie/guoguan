@@ -18,8 +18,6 @@
     padding-left:44px;
     padding-right: 44px;
     background:rgba(255,255,255,0.1);
-    background:#3a3a3a 9;/*CSS Hack,只能对ie9以下浏览器ie6,ie7,ie8有效，否侧ie10,FF,Cherome会失去透明效果*/
-    filter:Alpha(opacity=10);/*只对ie7,ie8有效*/
 }
 .register-title{
     font-size: 20px;

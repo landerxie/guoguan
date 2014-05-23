@@ -1,3 +1,6 @@
+html,body{
+    background-color: #fff;
+}
 .good-information1 {
     background: url("../../img/2222_01.jpg") no-repeat center #000;
     height: 1162px;
@@ -155,4 +158,43 @@
     top: 270px;
     left: 50%;
     margin-left:-45px;
+}
+.s-content{
+    max-width: 1124px;
+    min-width: 960px;
+    margin: 0 auto
+}
+.s-title{
+    text-align: center;
+    padding-top: 170px;
+}
+.s-wenzhang{
+    width: 792px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.s-wenzhang p{
+    text-indent: 2em;
+    line-height: 28px;
+}
+.four-div{
+    width: 742px;
+    margin: 0 auto;
+}
+.four-div img{
+    float: left;
+}
+.four-div>div{
+    color: #b28850;
+    font-size: 14px;
+    margin-left: 97px;
+    margin-bottom: 5px;
+    margin-top:50px;
+    font-weight: bold;
+}
+.text-detail{
+    color: #505050;
+    font-size: 12px;
+    margin-top:5px;
+    margin-bottom: 20px;
 }

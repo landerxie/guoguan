@@ -20,10 +20,19 @@
     moz-background-size: cover;
 }
 .part-one{
-    width: 80%;
+    width: 90%;
     margin:0 auto;
     margin-bottom: 2rem;
     max-width: 45rem;
+}
+@-moz-document url-prefix(){
+    .part-one{
+        width: 90%;
+        margin:0 auto;
+        margin-bottom: 2rem;
+        max-width: 45rem;
+        margin-top: 8rem;
+    }
 }
 .part-one-title{
     font-size: 2.6rem;
@@ -31,7 +40,7 @@
     font-weight: bold;
     padding: 1rem;
     color: #333;
-    width: 80%;
+    width: 90%;
     max-width: 45rem;
     margin: 0 auto;
 }
@@ -39,7 +48,7 @@
     font-size: 1.6rem;
     line-height: 2rem;
     color: #333;
-    width: 80%;
+    width: 90%;
     max-width: 45rem;
     margin: 0 auto;
 }
@@ -48,28 +57,32 @@
     margin-top: 1.6rem;
     margin-bottom: 0.4rem;
     font-weight: bold;
+    color: #333;
 }
 .part-one-content ul li {
-    text-indent: 2em;
+    margin-top: 30px;
+    color: #333;
+}
+.part-one-content ul li:first-child{
+    margin-top: 20px;
 }
 .part-one-content span{
     text-indent: 2em;
 }
 .app-title-banner{
     height: 7.8rem;
-    padding-top: 4rem;
+    padding-top: 3rem;
     color: #fff;
 }
 .title-number{
     font-size: 1rem;
-    width: 80%;
+    width: 90%;
     margin:0 auto;
     max-width: 32rem;
 }
 .item-title{
     font-size: 1.8rem;
     color: #000;
-    width: 70%;
 }
 .item-choose-img{
     display: inline-block;
@@ -93,9 +106,7 @@
     margin-top: 1rem;
 }
 .app-logo{
-    position: absolute;
-    right: 0;
-    top: 25px;
+    text-align: center;
 }
 .item-choose:active{
     background-color: #b28850;
@@ -153,33 +164,39 @@
     height: 100%;
 }
 .today-hot-one{
-    background-color: #fff;
     margin-top: 3rem;
     padding:0.4rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 .today-hot-one ul li {
-    line-height: 2.5rem;
-    background: url("../images/tag.jpg") left no-repeat;
-    margin: 1rem;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    position: relative;
     text-align: left;
-    border: 1px dashed #d0d0d0;
-    padding: 0.4rem;
-    padding-left: 4.6rem;
+    border: 1px solid #333;
+    border-top:none;
+    padding-left: 7.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
 }
-.today-hot-one ul li img{
-    vertical-align: middle;
-    margin-right:0.6rem;
+.today-hot-one ul li:first-child{
+    border-top: 1px solid #333;
 }
+.list-img{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left:1.5rem;
+    top:50%;
+    margin-top:-2.5rem;
+}
+
+
 .today-hot{
-    background-color: #f4f4f4;
-    margin-top: 3rem;
+    text-align: center;
     padding:0.4rem;
 }
 .today-hot ul li {
     line-height: 3rem;
-    margin: 1rem;
     text-align: center;
 }
 .today-hot ul li img{
@@ -220,7 +237,7 @@ body{
         font-weight: bold;
         padding: 1rem;
         color: #333;
-        width: 80%;
+        width: 90%;
         max-width: 45rem;
         margin: 0 auto;
     }
@@ -240,7 +257,7 @@ body{
     .part-one-content {
         font-size: 1.8rem;
         color: #333;
-        width: 80%;
+        width: 90%;
         max-width: 45rem;
         line-height: 2.4rem;
         margin: 0 auto;
@@ -251,7 +268,7 @@ body{
         font-size: 1.4rem;
         line-height: 2rem;
         color: #333;
-        width: 80%;
+        width: 90%;
         max-width: 45rem;
         margin: 0 auto;
     }

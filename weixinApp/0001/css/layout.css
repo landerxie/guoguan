@@ -57,9 +57,14 @@
     margin-top: 1.6rem;
     margin-bottom: 0.4rem;
     font-weight: bold;
+    color: #333;
 }
 .part-one-content ul li {
-    text-indent: 2em;
+    margin-top: 30px;
+    color: #333;
+}
+.part-one-content ul li:first-child{
+    margin-top: 20px;
 }
 .part-one-content span{
     text-indent: 2em;
@@ -161,22 +166,31 @@
 .today-hot-one{
     margin-top: 3rem;
     padding:0.4rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 .today-hot-one ul li {
-    line-height: 2.5rem;
     position: relative;
-    margin: 1rem;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
     text-align: left;
-    border: 2px dashed #8c6d44;
-    padding: 0.4rem;
-    padding-left: 4.6rem;
+    border: 1px solid #333;
+    border-top:none;
+    padding-left: 7.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
 }
-.today-hot-one ul li img{
-    vertical-align: middle;
-    margin-right:0.6rem;
+.today-hot-one ul li:first-child{
+    border-top: 1px solid #333;
 }
+.list-img{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left:1.5rem;
+    top:50%;
+    margin-top:-2.5rem;
+}
+
+
 .today-hot{
     text-align: center;
     padding:0.4rem;

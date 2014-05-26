@@ -7,6 +7,8 @@
 html {
     color:black;
     height: 100%;
+    width: 100%;
+    overflow-x:hidden;
     font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/
 }
 body {font-size: 14px;
@@ -66,7 +68,8 @@ caption,th {
 }
 /* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
 h1,h2,h3,h4,h5,h6 {
-    font-weight:500;
+    font-weight: bold;
+    color: #333;
 }
 q:before,q:after {
     content:'';
@@ -209,6 +212,14 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
 }
 /* content */
 .content{
+    width: 100%;
+    position: relative;
+    margin:0 auto;
+    max-width: 45rem;
+    padding-top: 4rem;
+    margin-bottom: 6rem;
+}
+.content-next{
     width: 90%;
     position: relative;
     margin:0 auto;

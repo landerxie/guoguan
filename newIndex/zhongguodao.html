@@ -32,7 +32,7 @@
     #tabs1-four{background-color: #eee;}
 </style>
 <!--head-->
-<div id="homenav" style="position:relative;z-index:9998;">
+<div id="homenav" style="z-index: 9999">
     <div class="banner">
         <a href="http://www.guoguan.com">
             <div class="logo"></div>
@@ -40,7 +40,7 @@
         <a href="">
             <div class="title"></div>
         </a>
-        <div id="nav_wrapper">
+        <div id="nav_wrapper" style="z-index: 9999;">
             <ul id="nav_menu">
                 <li>
                     <a href="index.html">
@@ -89,15 +89,15 @@
 
 
 
-<div id="tab-container" class='tab-container'>
-    <ul class='etabs' style="z-index: 9999;">
+<div id="tab-container" class='tab-container'  style="z-index:1 ; position: static">
+    <ul class='etabs'>
         <li class='tab'><a href="#tabs1-four">卷轴诞生</a></li>
         <li class='tab'><a href="#tabs1-three">顶级酒品</a></li>
         <li class='tab'><a href="#tabs1-two">品牌故事</a></li>
         <li class='tab'><a href="#tabs1-one">概述</a></li>
 
     </ul>
-    <div class='panel-container'>
+    <div class="panel-container" style="z-index: 0; position: static">
         <div id="tabs1-one">
             <div class="good-information1 ">
                 <img src="images/111.png" style="width:625px; display:block; margin-left:auto; margin-right:auto; padding-top: 124px;">

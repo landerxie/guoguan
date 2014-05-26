@@ -249,6 +249,7 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
     top: 0;
     position: relative;
     margin-left: -502px;
+    z-index: 9999;
 }
 #billboard .purchase .detail{
     position: absolute;
@@ -298,6 +299,19 @@ body { min-height:1103px; *height:865px; overflow-x:hidden;/* max-height:1472px;
     display: inline-block;
     height: 10px;
     width: 10px;
+}
+
+.detail-ie7{
+    position: absolute;
+    right: 300px;
+    top: -58px;
+*+width:472px!important;
+    }
+.detail-img-ie7{
+    background: url("../../images/zhongguodao-ie7.png") center top no-repeat;
+    height: 384px;
+    width: 472px;
+    margin-top: 160px;
 }
 
 

@@ -209,11 +209,11 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
 }
 /* content */
 .content{
-    width: 80%;
+    width: 90%;
     position: relative;
     margin:0 auto;
     max-width: 45rem;
-    padding-top: 9rem;
+    padding-top: 4rem;
     margin-bottom: 6rem;
 }
 /* button */
@@ -222,12 +222,12 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
     height: 4rem;
     text-align: center;
     min-width: 7rem;
-    background-color: #8c6d44;
+    background-color: #c7000b;
     border-radius: 0.416666rem;
     color: #fff;
 }
 .m-button:active{
-    background-color: #b28850;
+    background-color: #e60012;
 }
 .m-button-content{
     line-height: 4rem;

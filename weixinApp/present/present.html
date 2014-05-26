@@ -65,48 +65,64 @@
 
 <div ng-style="{display: action == 'index' ? 'block' : 'none'}" class="index-bg" >
     <div class="app-title-banner">
-        <h3 class="part-one-title " >潜意识测试：从送礼测你潜在的性格</h3>
-        <div class="part-one-content " style="padding-top: 0; ">
-            已有32万网友参与测试！
+        <div style="text-align: center">
+            <img src="images/111.png" style="width: 90%; text-align: center ; max-width: 400px; ">
+        </div>
+        <div class="part-one-content " style="padding-top: 0; color: #9c9c9c">
+            已有132万网友参与测试！
         </div>
     </div>
     <!--<div class="part-one-banner"></div>-->
     <div class="part-one">
-        <div class="part-one-content" style="color:#9c9c9c; width: 100%; margin-top: 6rem;">
-            每个人都会把最真实的自己隐藏起来，而我们又总是在不经意的某个细节出卖了自己最深层的性格特质。这个心理测试，可以从你喜好、送出的礼物，分析你潜意识的性格。
+        <div class="part-one-content" style="color:#333; width: 100%; margin-top: 4rem;">
+            每个人都会把最真实的自己隐藏起来，而我们又总是在不经意的某个细节出卖了自己最深层的性格特质。
+            <br>
+            <br>
+            这个心理测试，可以从你喜好、送出的礼物，分析你潜意识的性格。
             看看你送礼的细节，了解你的潜意识。
         </div>
-        <div class="content" ng-click="enterApp()" style="width: 100%">
+        <div class="content" ng-click="enterApp()" style="width: 100% ; padding-top: 4rem; margin-bottom: 3rem;">
             <div class="m-button width100 enter-app-button">
                 <div class="m-button-content">
-                    进入测试
+                    立即测试
                 </div>
             </div>
+        </div>
+        <div style="text-align: center">
+            <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd">
+                <img src="images/logoindex2.png"style=" width: 60% ; max-width: 200px;">
+            </a>
         </div>
     </div>
 </div>
 
 <div class="part-two" style="display: none" ng-style="{display: action == 'itemOne' ? 'block' : 'none'}">
-    <div class="content ">
+    <div style="width: 90%; margin: 0 auto; max-width: 436px;">
         <div class="app-logo">
-            <img src="images/logo.png" style="width: 70px;">
+            <img src="images/2-1.png" style="width: 100%">
         </div>
+    </div>
+    <div class="content ">
         <div class="item-title">{{item[0].name}}</div>
         <div class="item-choose" ng-click="itemOneChoose(2)">{{item[0].choose[0].text}}</div>
         <div class="item-choose" ng-click="itemOneChoose(1)">{{item[0].choose[1].text}}</div>
         <div class="item-choose" ng-click="itemOneChoose(1)">{{item[0].choose[2].text}}</div>
         <div class="item-choose" ng-click="itemOneChoose(1)">{{item[0].choose[3].text}}</div>
     </div>
-    <div class="title-number">
-        <img src="images/2-1.png" style="width: 100%;">
+    <div style="text-align: center">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd">
+            <img src="images/logoindex2.png"style=" width: 60% ; max-width: 200px;">
+        </a>
     </div>
 </div>
 
 <div class="part-two" style="display: none" ng-style="{display: action == 'itemTwo' ? 'block' : 'none'}">
-    <div class="content ">
+    <div style="width: 90%; margin: 0 auto; max-width: 436px;">
         <div class="app-logo">
-            <img src="images/logo.png" style="width: 70px;">
+            <img src="images/2-2.png" style="width: 100%">
         </div>
+    </div>
+    <div class="content ">
         <div class="item-title">{{item[1].name}}</div>
         <div class="item-choose-img" ng-click="itemTwoChoose(1)">
             <img src="images/2_01.jpg" width="100" height="100">
@@ -127,30 +143,38 @@
             <img src="images/2_06.jpg" width="100" height="100">
         </div>
     </div>
-    <div class="title-number">
-        <img src="images/2-2.png" style="width: 100%;">
+    <div style="text-align: center">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd">
+            <img src="images/logoindex2.png"style=" width: 60% ; max-width: 200px;">
+        </a>
     </div>
 </div>
 <div class="part-two"  style="display: none" ng-style="{display: action == 'itemThree' ? 'block' : 'none'}">
-    <div class="content ">
+    <div style="width: 90%; margin: 0 auto; max-width: 436px;">
         <div class="app-logo">
-            <img src="images/logo.png" style="width: 70px;">
+            <img src="images/2-3.png" style="width: 100%">
         </div>
+    </div>
+    <div class="content ">
         <div class="item-title">{{item[2].name}}</div>
         <div class="item-choose" ng-click="itemThreeChoose(2)">{{item[2].choose[0].text}}</div>
         <div class="item-choose" ng-click="itemThreeChoose(1)">{{item[2].choose[1].text}}</div>
         <div class="item-choose" ng-click="itemThreeChoose(2)">{{item[2].choose[2].text}}</div>
         <div class="item-choose" ng-click="itemThreeChoose(3)">{{item[2].choose[3].text}}</div>
     </div>
-    <div class="title-number">
-        <img src="images/2-3.png" style="width: 100%;">
+    <div style="text-align: center">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd">
+            <img src="images/logoindex2.png"style=" width: 60% ; max-width: 200px;">
+        </a>
     </div>
 </div>
 <div class="part-two" style="display: none" ng-style="{display: action == 'itemFour' ? 'block' : 'none'}">
-    <div class="content ">
+    <div style="width: 90%; margin: 0 auto; max-width: 436px;">
         <div class="app-logo">
-            <img src="images/logo.png" style="width: 70px;">
+            <img src="images/2-4.png" style="width: 100%">
         </div>
+    </div>
+    <div class="content ">
         <div class="item-title">{{item[3].name}}</div>
         <div class="item-choose" ng-click="itemFourChoose(2)">{{item[3].choose[0].text}}</div>
         <div class="item-choose" ng-click="itemFourChoose(1)">{{item[3].choose[1].text}}</div>
@@ -159,33 +183,41 @@
         <div class="item-choose" ng-click="itemFourChoose(2)">{{item[3].choose[4].text}}</div>
         <div class="item-choose" ng-click="itemFourChoose(2)">{{item[3].choose[5].text}}</div>
     </div>
-    <div class="title-number">
-        <img src="images/2-4.png" style="width: 100%;">
+    <div style="text-align: center">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd">
+            <img src="images/logoindex2.png"style=" width: 60% ; max-width: 200px;">
+        </a>
     </div>
 </div>
 <div class="part-two" style="display: none" ng-style="{display: action == 'itemFive' ? 'block' : 'none'}">
-    <div class="content ">
+    <div style="width: 90%; margin: 0 auto; max-width: 436px;">
         <div class="app-logo">
-            <img src="images/logo.png" style="width: 70px;">
+            <img src="images/2-5.png" style="width: 100%">
         </div>
+    </div>
+    <div class="content ">
         <div class="item-title">{{item[4].name}}</div>
         <div class="five-banner">
-            <img src="images/zhongguodao.jpg" style="width: 90%">
+            <img src="images/zhongguodao.jpg" style="width: 90%; 4px solid #fff">
         </div>
         <div class="item-choose" ng-click="itemFiveChoose(1)">{{item[4].choose[0].text}}</div>
         <div class="item-choose" ng-click="itemFiveChoose(2)">{{item[4].choose[1].text}}</div>
         <div class="item-choose" ng-click="itemFiveChoose(3)">{{item[4].choose[2].text}}</div>
         <div class="item-choose" ng-click="itemFiveChoose(3)">{{item[4].choose[3].text}}</div>
     </div>
-    <div class="title-number">
-        <img src="images/2-5.png" style="width: 100%;">
+    <div style="text-align: center">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd">
+            <img src="images/logoindex2.png"style=" width: 60% ; max-width: 200px;">
+        </a>
     </div>
 </div>
 <div class="part-two" style="display: none" ng-style="{display: action == 'itemSix' ? 'block' : 'none'}">
-    <div class="content ">
+    <div style="width: 90%; margin: 0 auto; max-width: 436px;">
         <div class="app-logo">
-            <img src="images/logo.png" style="width: 70px;">
+            <img src="images/2-6.png" style="width: 100%">
         </div>
+    </div>
+    <div class="content ">
         <div class="item-title">{{item[5].name}}</div>
         <div class="item-choose" ng-click="itemSixChoose('s')">{{item[5].choose[0].text}}</div>
         <div class="item-choose" ng-click="itemSixChoose('e')">{{item[5].choose[1].text}}</div>
@@ -194,15 +226,19 @@
         <div class="item-choose" ng-click="itemSixChoose('i')">{{item[5].choose[4].text}}</div>
         <div class="item-choose" ng-click="itemSixChoose('a')">{{item[5].choose[5].text}}</div>
     </div>
-    <div class="title-number">
-        <img src="images/2-6.png" style="width: 100%;">
+    <div style="text-align: center">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd">
+            <img src="images/logoindex2.png"style=" width: 60% ; max-width: 200px;">
+        </a>
     </div>
 </div>
 <div class="part-two show-result-class" style="display: none" ng-style="{display: action == 'itemSeven' ? 'block' : 'none'}">
-    <div class="content ">
+    <div style="width: 90%; margin: 0 auto; max-width: 436px;">
         <div class="app-logo">
-            <img src="images/logo.png" style="width: 70px;">
+            <img src="images/2-7.png" style="width: 100%">
         </div>
+    </div>
+    <div class="content ">
         <div class="item-title">{{item[6].name}}</div>
         <div class="item-choose" ng-click="itemSevenChoose(1)">{{item[6].choose[0].text}}</div>
         <div class="item-choose" ng-click="itemSevenChoose(0)">{{item[6].choose[1].text}}</div>
@@ -211,8 +247,10 @@
         <div class="item-choose" ng-click="itemSevenChoose(0)">{{item[6].choose[4].text}}</div>
         <div class="item-choose" ng-click="itemSevenChoose(0)">{{item[6].choose[5].text}}</div>
     </div>
-    <div class="title-number">
-        <img src="images/2-7.png" style="width: 100%;">
+    <div style="text-align: center">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd">
+            <img src="images/logoindex2.png"style=" width: 60% ; max-width: 200px;">
+        </a>
     </div>
 </div>
 
@@ -254,9 +292,16 @@
 
         <div class="bdsharebuttonbox pc-share" id="bdsharebuttonbox" style="margin-top: 2rem"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
         <script>window._bd_share_config={"common":{"bdSnsKey":{"tsina":"2106128267","tqq":"101030289"},"bdText":"潜意识测试：从你送的礼品分析人品","bdMini":"2","bdMiniList":false,"bdPic":"http://www.guoguan.com/public/front/guoguan/images/banner_01.jpg","bdStyle":"1","bdSize":"32"},"share":{},"image":{"tag" : "img_1","viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"32"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-        <div class="m-button width100 enter-app-button weixin-share share-to-sina-button">
+        <div class="m-button width49 enter-app-button weixin-share share-to-sina-button" style="margin-top:2rem;">
             <div class="m-button-content">
                 分享给朋友
+            </div>
+        </div>
+        <div class="m-button width49 weixin-share" style="margin-top:2rem;">
+            <div class="m-button-content">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" style="color: #fff">
+                    关注国馆微信
+                </a>
             </div>
         </div>
     </div>
@@ -264,39 +309,95 @@
     <div class="content today-hot-one"  style="margin-bottom:20px;">
         <ul>
             <li class="pc-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://www.guoguan.com/zhongguodao" target="_blank">
-                有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                       <div style="float: left">国馆·中国道 首发</div>
+                       <div style="float: right ; color: #9c9c9c">阅读90万</div>
+                        <div class="clear"></div>
+                    </div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://wx.guoguan.com/zhongguodao">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right; color: #9c9c9c">阅读90万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="pc-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="pc-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475" target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="weixin-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475 " target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
         </ul>
     </div>
 
-    <div class="content today-hot"  style="margin-bottom:20px;">
+    <div class="content today-hot pc-share"  style="margin-bottom:20px;">
         <ul>
-            <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODc2ODY2NA==&mid=200322542&idx=1&sn=a87b8eba6ec74bf246efb187f8542d09&scene=1&from=singlemessage&isappinstalled=0#rd" >
+            <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" >
                 <li style="font-size: 2rem; margin-bottom: 0;">
                     关注国馆
                 </li>
-                <li style="font-size: 1.2rem; color: #66c4ca; margin:0!important; ">
-                    guoguan5000
-                </li>
+
                 <li style="line-height: 2rem">
-                    国馆，让文化温暖人心的自媒体平台。我们致力于联合文化艺术界大师，重新发现中国文化，做最具人文情怀的中国收藏级文化白酒。
+                    <img src="images/qrcode.jpg" style="width: 200px">
                 </li>
             </a>
         </ul>
@@ -343,9 +444,16 @@
 
         <div class="bdsharebuttonbox pc-share" id="bdsharebuttonbox" style="margin-top: 2rem"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
         <script>window._bd_share_config={"common":{"bdSnsKey":{"tsina":"2106128267","tqq":"101030289"},"bdText":"潜意识测试：从你送的礼品分析人品","bdMini":"2","bdMiniList":false,"bdPic":"http://www.guoguan.com/public/front/guoguan/images/banner_01.jpg","bdStyle":"1","bdSize":"32"},"share":{},"image":{"tag" : "img_1","viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"32"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-        <div class="m-button width100 enter-app-button weixin-share share-to-sina-button">
+        <div class="m-button width49 enter-app-button weixin-share share-to-sina-button" style="margin-top:2rem;">
             <div class="m-button-content">
                 分享给朋友
+            </div>
+        </div>
+        <div class="m-button width49 weixin-share" style="margin-top:2rem;">
+            <div class="m-button-content">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" style="color: #fff">
+                    关注国馆微信
+                </a>
             </div>
         </div>
     </div>
@@ -353,39 +461,95 @@
     <div class="content today-hot-one"  style="margin-bottom:20px;">
         <ul>
             <li class="pc-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://www.guoguan.com/zhongguodao" target="_blank">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right ; color: #9c9c9c">阅读90万</div>
+                        <div class="clear"></div>
+                    </div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://wx.guoguan.com/zhongguodao">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right; color: #9c9c9c">阅读90万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="pc-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="pc-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475" target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="weixin-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475 " target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
         </ul>
     </div>
 
-    <div class="content today-hot"  style="margin-bottom:20px;">
+    <div class="content today-hot pc-share"  style="margin-bottom:20px;">
         <ul>
-            <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODc2ODY2NA==&mid=200322542&idx=1&sn=a87b8eba6ec74bf246efb187f8542d09&scene=1&from=singlemessage&isappinstalled=0#rd" >
+            <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" >
                 <li style="font-size: 2rem; margin-bottom: 0;">
                     关注国馆
                 </li>
-                <li style="font-size: 1.2rem; color: #66c4ca; margin:0!important; ">
-                    guoguan5000
-                </li>
+
                 <li style="line-height: 2rem">
-                    国馆，让文化温暖人心的自媒体平台。我们致力于联合文化艺术界大师，重新发现中国文化，做最具人文情怀的中国收藏级文化白酒。
+                    <img src="images/qrcode.jpg" style="width: 200px">
                 </li>
             </a>
         </ul>
@@ -431,9 +595,16 @@
 
         <div class="bdsharebuttonbox pc-share" id="bdsharebuttonbox" style="margin-top: 2rem"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
         <script>window._bd_share_config={"common":{"bdSnsKey":{"tsina":"2106128267","tqq":"101030289"},"bdText":"潜意识测试：从你送的礼品分析人品","bdMini":"2","bdMiniList":false,"bdPic":"http://www.guoguan.com/public/front/guoguan/images/banner_01.jpg","bdStyle":"1","bdSize":"32"},"share":{},"image":{"tag" : "img_1","viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"32"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-        <div class="m-button width100 enter-app-button weixin-share share-to-sina-button">
+        <div class="m-button width49 enter-app-button weixin-share share-to-sina-button" style="margin-top:2rem;">
             <div class="m-button-content">
                 分享给朋友
+            </div>
+        </div>
+        <div class="m-button width49 weixin-share" style="margin-top:2rem;">
+            <div class="m-button-content">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" style="color: #fff">
+                    关注国馆微信
+                </a>
             </div>
         </div>
     </div>
@@ -441,39 +612,95 @@
     <div class="content today-hot-one"  style="margin-bottom:20px;">
         <ul>
             <li class="pc-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://www.guoguan.com/zhongguodao" target="_blank">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right ; color: #9c9c9c">阅读90万</div>
+                        <div class="clear"></div>
+                    </div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://wx.guoguan.com/zhongguodao">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right; color: #9c9c9c">阅读90万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="pc-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="pc-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475" target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="weixin-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475 " target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
         </ul>
     </div>
 
-    <div class="content today-hot"  style="margin-bottom:20px;">
+    <div class="content today-hot pc-share"  style="margin-bottom:20px;">
         <ul>
-            <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODc2ODY2NA==&mid=200322542&idx=1&sn=a87b8eba6ec74bf246efb187f8542d09&scene=1&from=singlemessage&isappinstalled=0#rd" >
+            <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" >
                 <li style="font-size: 2rem; margin-bottom: 0;">
                     关注国馆
                 </li>
-                <li style="font-size: 1.2rem; color: #66c4ca; margin:0!important; ">
-                    guoguan5000
-                </li>
+
                 <li style="line-height: 2rem">
-                    国馆，让文化温暖人心的自媒体平台。我们致力于联合文化艺术界大师，重新发现中国文化，做最具人文情怀的中国收藏级文化白酒。
+                    <img src="images/qrcode.jpg" style="width: 200px">
                 </li>
             </a>
         </ul>
@@ -520,9 +747,16 @@
 
         <div class="bdsharebuttonbox pc-share" id="bdsharebuttonbox" style="margin-top: 2rem"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
         <script>window._bd_share_config={"common":{"bdSnsKey":{"tsina":"2106128267","tqq":"101030289"},"bdText":"潜意识测试：从你送的礼品分析人品","bdMini":"2","bdMiniList":false,"bdPic":"http://www.guoguan.com/public/front/guoguan/images/banner_01.jpg","bdStyle":"1","bdSize":"32"},"share":{},"image":{"tag" : "img_1","viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"32"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-        <div class="m-button width100 enter-app-button weixin-share share-to-sina-button">
+        <div class="m-button width49 enter-app-button weixin-share share-to-sina-button" style="margin-top:2rem;">
             <div class="m-button-content">
                 分享给朋友
+            </div>
+        </div>
+        <div class="m-button width49 weixin-share" style="margin-top:2rem;">
+            <div class="m-button-content">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" style="color: #fff">
+                    关注国馆微信
+                </a>
             </div>
         </div>
     </div>
@@ -530,39 +764,95 @@
     <div class="content today-hot-one"  style="margin-bottom:20px;">
         <ul>
             <li class="pc-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://www.guoguan.com/zhongguodao" target="_blank">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right ; color: #9c9c9c">阅读90万</div>
+                        <div class="clear"></div>
+                    </div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://wx.guoguan.com/zhongguodao">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right; color: #9c9c9c">阅读90万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="pc-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="pc-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475" target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="weixin-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475 " target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
         </ul>
     </div>
 
-    <div class="content today-hot"  style="margin-bottom:20px;">
+    <div class="content today-hot pc-share"  style="margin-bottom:20px;">
         <ul>
-            <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODc2ODY2NA==&mid=200322542&idx=1&sn=a87b8eba6ec74bf246efb187f8542d09&scene=1&from=singlemessage&isappinstalled=0#rd" >
+            <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" >
                 <li style="font-size: 2rem; margin-bottom: 0;">
                     关注国馆
                 </li>
-                <li style="font-size: 1.2rem; color: #66c4ca; margin:0!important; ">
-                    guoguan5000
-                </li>
+
                 <li style="line-height: 2rem">
-                    国馆，让文化温暖人心的自媒体平台。我们致力于联合文化艺术界大师，重新发现中国文化，做最具人文情怀的中国收藏级文化白酒。
+                    <img src="images/qrcode.jpg" style="width: 200px">
                 </li>
             </a>
         </ul>
@@ -612,9 +902,16 @@
 
         <div class="bdsharebuttonbox pc-share" id="bdsharebuttonbox" style="margin-top: 2rem"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
         <script>window._bd_share_config={"common":{"bdSnsKey":{"tsina":"2106128267","tqq":"101030289"},"bdText":"潜意识测试：从你送的礼品分析人品","bdMini":"2","bdMiniList":false,"bdPic":"http://www.guoguan.com/public/front/guoguan/images/banner_01.jpg","bdStyle":"1","bdSize":"32"},"share":{},"image":{"tag" : "img_1","viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"32"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-        <div class="m-button width100 enter-app-button weixin-share share-to-sina-button">
+        <div class="m-button width49 enter-app-button weixin-share share-to-sina-button" style="margin-top:2rem;">
             <div class="m-button-content">
                 分享给朋友
+            </div>
+        </div>
+        <div class="m-button width49 weixin-share" style="margin-top:2rem;">
+            <div class="m-button-content">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" style="color: #fff">
+                    关注国馆微信
+                </a>
             </div>
         </div>
     </div>
@@ -622,39 +919,95 @@
     <div class="content today-hot-one"  style="margin-bottom:20px;">
         <ul>
             <li class="pc-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://www.guoguan.com/zhongguodao" target="_blank">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right ; color: #9c9c9c">阅读90万</div>
+                        <div class="clear"></div>
+                    </div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://wx.guoguan.com/zhongguodao">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right; color: #9c9c9c">阅读90万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="pc-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="pc-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475" target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="weixin-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475 " target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
         </ul>
     </div>
 
-    <div class="content today-hot"  style="margin-bottom:20px;">
+    <div class="content today-hot pc-share"  style="margin-bottom:20px;">
         <ul>
-            <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODc2ODY2NA==&mid=200322542&idx=1&sn=a87b8eba6ec74bf246efb187f8542d09&scene=1&from=singlemessage&isappinstalled=0#rd" >
+            <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" >
                 <li style="font-size: 2rem; margin-bottom: 0;">
                     关注国馆
                 </li>
-                <li style="font-size: 1.2rem; color: #66c4ca; margin:0!important; ">
-                    guoguan5000
-                </li>
+
                 <li style="line-height: 2rem">
-                    国馆，让文化温暖人心的自媒体平台。我们致力于联合文化艺术界大师，重新发现中国文化，做最具人文情怀的中国收藏级文化白酒。
+                    <img src="images/qrcode.jpg" style="width: 200px">
                 </li>
             </a>
         </ul>
@@ -701,9 +1054,16 @@
 
         <div class="bdsharebuttonbox pc-share" id="bdsharebuttonbox" style="margin-top: 2rem"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
         <script>window._bd_share_config={"common":{"bdSnsKey":{"tsina":"2106128267","tqq":"101030289"},"bdText":"潜意识测试：从你送的礼品分析人品","bdMini":"2","bdMiniList":false,"bdPic":"http://www.guoguan.com/public/front/guoguan/images/banner_01.jpg","bdStyle":"1","bdSize":"32"},"share":{},"image":{"tag" : "img_1","viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"32"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-        <div class="m-button width100 enter-app-button weixin-share share-to-sina-button">
+        <div class="m-button width49 enter-app-button weixin-share share-to-sina-button" style="margin-top:2rem;">
             <div class="m-button-content">
                 分享给朋友
+            </div>
+        </div>
+        <div class="m-button width49 weixin-share" style="margin-top:2rem;">
+            <div class="m-button-content">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" style="color: #fff">
+                    关注国馆微信
+                </a>
             </div>
         </div>
     </div>
@@ -711,39 +1071,95 @@
     <div class="content today-hot-one"  style="margin-bottom:20px;">
         <ul>
             <li class="pc-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://www.guoguan.com/zhongguodao" target="_blank">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right ; color: #9c9c9c">阅读90万</div>
+                        <div class="clear"></div>
+                    </div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
+                <img src="images/01-3.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
                 <a href="http://wx.guoguan.com/zhongguodao">
-                    有生之年，一定要喝这么美的酒
+                    <h3>2014端午送礼神器</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">国馆·中国道 首发</div>
+                        <div style="float: right; color: #9c9c9c">阅读90万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="pc-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
             <li class="weixin-banner" style="display: none">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200347648&idx=3&sn=e317340c9070c16eb1e3df29aab76d9b#rd" target="_blank">
-                    古人最看重的四种品格
+                <img src="images/01-1.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=453" target="_blank">
+                    <h3>有生之年,一定要尝尝这酒</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">必须给爱酒的爸爸来一套</div>
+                        <div style="float: right; color: #9c9c9c">阅读97万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="pc-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475" target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </li>
+            <li class="weixin-banner" style="display: none">
+                <img src="images/01-2.png" height="40" width="40" style="position: absolute;
+left: 0.6rem;
+top: 0.5rem;">
+                <a href="http://blog.guoguan.com/?p=475 " target="_blank">
+                    <h3>端午节，送礼锦囊</h3>
+                    <div style="color: #9c9c9c; margin-top: -10px;">
+                        <div style="float: left">细数那些最美的礼物</div>
+                        <div style="float: right; color: #9c9c9c">阅读86万</div>
+                    </div>
+                    <div class="clear"></div>
                 </a>
             </li>
         </ul>
     </div>
 
-    <div class="content today-hot"  style="margin-bottom:20px;">
+    <div class="content today-hot pc-share"  style="margin-bottom:20px;">
         <ul>
-            <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODc2ODY2NA==&mid=200322542&idx=1&sn=a87b8eba6ec74bf246efb187f8542d09&scene=1&from=singlemessage&isappinstalled=0#rd" >
+            <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200319859&idx=1&sn=a05219c312aa7323b6de5d296a4cb358#rd" >
                 <li style="font-size: 2rem; margin-bottom: 0;">
                     关注国馆
                 </li>
-                <li style="font-size: 1.2rem; color: #66c4ca; margin:0!important; ">
-                    guoguan5000
-                </li>
+
                 <li style="line-height: 2rem">
-                    国馆，让文化温暖人心的自媒体平台。我们致力于联合文化艺术界大师，重新发现中国文化，做最具人文情怀的中国收藏级文化白酒。
+                    <img src="images/qrcode.jpg" style="width: 200px">
                 </li>
             </a>
         </ul>
@@ -751,12 +1167,15 @@
 </div>
 
 <div class="loading-div" style="display: none;">
-    <div class="spinner-text">结果分析中</div>
+    <div class="spinner-text" style="text-align: center">
+        <img src="images/01-4.png" width="52" height="51">
+    </div>
     <div class="spinner">
         <div class="bounce1"></div>
         <div class="bounce2"></div>
         <div class="bounce3"></div>
     </div>
+    <div class="spinner-text" style="padding-top: 0;">结果分析中</div>
 </div>
 
 

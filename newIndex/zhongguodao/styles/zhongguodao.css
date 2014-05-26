@@ -89,6 +89,9 @@ html,body{
     margin-top:-1px;
     position: relative;
 }
+.mt-18{
+    margin-top: -18px;
+}
 .purchase-content{
     width: 920px;
     margin:0 auto;
@@ -193,8 +196,12 @@ html,body{
     font-weight: bold;
 }
 .text-detail{
-    color: #505050;
+    color: #808080;
     font-size: 12px;
     margin-top:5px;
     margin-bottom: 20px;
+}
+.story-four-img{
+    width: 900px;
+    margin: 0 auto;
 }

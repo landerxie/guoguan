@@ -23,12 +23,12 @@
         text-align: right;
         margin-left: -350px;
     }
-    .tab { float: right; zoom:1; padding-top:4px;  }
+    .tab { float: left; zoom:1; padding-top:4px;  }
     .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
     .tab a:hover { text-decoration: underline; }
     .tab.active { padding-top: 4px; position: relative; top: 1px; }
     .tab a.active { font-weight: bold; color: #b18247; }
-    .panel-container { margin-bottom: 10px; }
+    .panel-container { margin-bottom: -2px; }
     #tabs1-four{background-color: #eee;}
 </style>
 <!--head-->
@@ -91,11 +91,10 @@
 
 <div id="tab-container" class='tab-container'  style="z-index:1 ; position: static">
     <ul class='etabs'>
-        <li class='tab'><a href="#tabs1-four">卷轴诞生</a></li>
-        <li class='tab'><a href="#tabs1-three">顶级酒品</a></li>
+        <li class='tab'><a href="#tabs1-one" style="margin-left: 414px;">概述</a></li>
         <li class='tab'><a href="#tabs1-two">品牌故事</a></li>
-        <li class='tab'><a href="#tabs1-one">概述</a></li>
-
+        <li class='tab'><a href="#tabs1-three">顶级酒品</a></li>
+        <li class='tab'><a href="#tabs1-four">卷轴诞生</a></li>
     </ul>
     <div class="panel-container" style="z-index: 0; position: static">
         <div id="tabs1-one">

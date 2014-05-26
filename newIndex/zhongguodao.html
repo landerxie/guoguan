@@ -23,16 +23,16 @@
         text-align: right;
         margin-left: -350px;
     }
-    .tab { display: inline-block; zoom:1;  }
+    .tab { float: right; zoom:1; padding-top:4px;  }
     .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
     .tab a:hover { text-decoration: underline; }
-    .tab.active { padding-top: 6px; position: relative; top: 1px; }
+    .tab.active { padding-top: 4px; position: relative; top: 1px; }
     .tab a.active { font-weight: bold; color: #b18247; }
     .panel-container { margin-bottom: 10px; }
     #tabs1-four{background-color: #eee;}
 </style>
 <!--head-->
-<div id="homenav">
+<div id="homenav" style="position:relative;z-index:9998;">
     <div class="banner">
         <a href="http://www.guoguan.com">
             <div class="logo"></div>
@@ -90,11 +90,12 @@
 
 
 <div id="tab-container" class='tab-container'>
-    <ul class='etabs'>
-        <li class='tab'><a href="#tabs1-one">概述</a></li>
-        <li class='tab'><a href="#tabs1-two">品牌故事</a></li>
-        <li class='tab'><a href="#tabs1-three">顶级酒品</a></li>
+    <ul class='etabs' style="z-index: 9999;">
         <li class='tab'><a href="#tabs1-four">卷轴诞生</a></li>
+        <li class='tab'><a href="#tabs1-three">顶级酒品</a></li>
+        <li class='tab'><a href="#tabs1-two">品牌故事</a></li>
+        <li class='tab'><a href="#tabs1-one">概述</a></li>
+
     </ul>
     <div class='panel-container'>
         <div id="tabs1-one">

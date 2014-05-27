@@ -1,0 +1,98 @@
+.site-header .header-nav .right{
+    float: right;
+}
+.cart-button{
+    width: 120px;
+    height: 45px;
+    background-color: #ff9900;
+    line-height: 45px;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+.cart-detail{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border:1px solid #c7000b;
+    position: absolute;
+    right: 0;
+    top: 45px;
+}
+.site-header .header-nav .nav-main-list .nav-main-item span.arrow{
+    display: none;
+}
+.index-banner-1{
+    background: url("../../images/banner_01.jpg") center top no-repeat;
+    width: 1440px;
+    height: 600px;
+}
+.index-banner-2{
+    background: url("../../images/banner_02.jpg") center top no-repeat;
+    width: 1440px;
+    height: 600px;
+}
+.index-banner-3{
+    background: url("../../images/banner_03.jpg") center top no-repeat;
+    width: 1440px;
+    height: 600px;
+}
+.index-banner-4{
+    background: url("../../images/banner_04.jpg") center top no-repeat;
+    width: 1440px;
+    height: 600px;
+}
+.index-banner-5{
+    background: url("../../images/banner_05.jpg") center top no-repeat;
+    width: 1440px;
+    height: 600px;
+}
+#billboard{
+    background-color: #f8f8f8;
+    width: auto;
+    margin: 0 auto;
+    height: 600px;
+    position: relative;
+}
+#billboard .swipe{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#billboard .swipe ul{
+    margin:0;
+}
+#pagenavi{
+    position: absolute;
+    left: 50%;
+    right: 0;
+    margin-left: -60px;
+    bottom:10px;
+    width: 120px;
+}
+#pagenavi a.active{
+    background: url("../../images/dot_full.png") center top no-repeat !important;
+    background-size: 10px 10px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+.site-header .header-nav .nav-main-list .nav-main-item ul{
+    background-color: #fff;
+    width: 200px;
+    padding-left: 15px;
+    padding-right:15px;
+}
+.site-header .header-nav .nav-main-list .nav-main-item ul li{
+    border-top:1px solid #ccc;
+}
+
+
+@media (max-width: 1260px) {
+    .site-header .header-nav .nav-main-list .nav-main-item{
+        font-size: 14px;
+        width: 80px;
+    }
+    .site-header .header-nav .nav-main{
+        width: 660px;
+    }
+}

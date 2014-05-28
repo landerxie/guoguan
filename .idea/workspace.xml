@@ -76,9 +76,10 @@
       <file leaf-file-name="m-shoppingCart.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="21" selection-start="3440" selection-end="3440" vertical-scroll-proportion="0.3815029" vertical-offset="1980" max-vertical-offset="3146">
+            <state line="105" column="70" selection-start="3489" selection-end="3489" vertical-scroll-proportion="0.3815029" vertical-offset="1980" max-vertical-offset="3146">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#span#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -712,9 +713,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="21" selection-start="3440" selection-end="3440" vertical-scroll-proportion="0.3815029" vertical-offset="1980" max-vertical-offset="3146">
+        <state line="105" column="70" selection-start="3489" selection-end="3489" vertical-scroll-proportion="0.3815029" vertical-offset="1980" max-vertical-offset="3146">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#span#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

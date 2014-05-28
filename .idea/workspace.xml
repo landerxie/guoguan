@@ -59,14 +59,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m-fcode.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="m-fcode.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/m-fcode.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="59" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.6612717" vertical-offset="330" max-vertical-offset="1430">
+            <state line="29" column="79" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-9.935484" vertical-offset="330" max-vertical-offset="1430">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m-shoppingCart.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="21" selection-start="3440" selection-end="3440" vertical-scroll-proportion="0.3815029" vertical-offset="1980" max-vertical-offset="3146">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,15 +139,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.mnmenu.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newGuo/global/scripts/lib/jquery.mnmenu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="43" selection-start="3600" selection-end="3600" vertical-scroll-proportion="0.0" vertical-offset="2046" max-vertical-offset="7788">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -145,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/newIndex/mall/styles/cart.css" />
         <option value="$PROJECT_DIR$/product/js/jquery.easytabs.min.js" />
         <option value="$PROJECT_DIR$/newIndex/global/scripts/lib/jquery.easytabs.min.js" />
         <option value="$PROJECT_DIR$/newIndex/home/styles/home.css" />
@@ -161,6 +164,7 @@
         <option value="$PROJECT_DIR$/newGuo/index.html" />
         <option value="$PROJECT_DIR$/site/css/base.css" />
         <option value="$PROJECT_DIR$/site/m-fcode.html" />
+        <option value="$PROJECT_DIR$/site/m-shoppingCart.html" />
       </list>
     </option>
   </component>
@@ -584,11 +588,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newIndex/zhongguodao/styles/zhongguodao.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="22" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="4664" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/band-story.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="9" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-20.064516" vertical-offset="38" max-vertical-offset="814" />
@@ -701,11 +700,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/m-fcode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="59" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.6612717" vertical-offset="330" max-vertical-offset="1430">
+        <state line="29" column="79" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-9.935484" vertical-offset="330" max-vertical-offset="1430">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/m-shoppingCart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="21" selection-start="3440" selection-end="3440" vertical-scroll-proportion="0.3815029" vertical-offset="1980" max-vertical-offset="3146">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

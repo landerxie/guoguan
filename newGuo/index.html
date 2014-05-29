@@ -475,6 +475,7 @@
     $(document).ready(function() {
         $('#idmenu').mnmenu();
 
+        /*购物车展开*/
         $(".cart-section").hover(function(){
             $(".cart-section>a").addClass("mini-cart-on");
             $(".mini-cart-list").css("display","block");
@@ -483,12 +484,21 @@
             $(".mini-cart-list").css("display","none");
         });
 
+        /*footer图标点亮*/
+        $(".site-footer .list-service li a").hover(function(){
+            $(this).find("i").css("color","#c33829");
+        },function(){
+            $(this).find("i").css("color","#9c9c9c");
+        });
+
+        /*hover红条出现*/
         $(".model-little").hover(function(){
             $(this).find(".model-bottom").css("background-color","rgba(195,56,41,1)");
         },function(){
             $(this).find(".model-bottom").css("background-color","rgba(0,0,0,0.3)");
         });
 
+        /*图片点亮*/
         $(".model-two-little").hover(function(){
             $(this).find("img").css("opacity","1");
         },function(){
@@ -498,7 +508,7 @@
 </script>
 <script type="text/javascript">
     var active=0,
-            as=document.getElementById('pagenavi').getElementsByTagName('a');
+        as=document.getElementById('pagenavi').getElementsByTagName('a');
 
     for(var i=0;i<as.length;i++){
         (function(){

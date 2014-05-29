@@ -372,6 +372,7 @@ ul{list-style: none;}
     display: block!important;
     color: #9c9c9c;
 }
+
 @media (max-width: 1260px) {
     .model-one{
         height: 347px;

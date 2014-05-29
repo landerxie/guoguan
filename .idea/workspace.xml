@@ -40,7 +40,7 @@
       <file leaf-file-name="youku.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newIndex/youku.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="26" selection-start="833" selection-end="846" vertical-scroll-proportion="0.2178899" vertical-offset="228" max-vertical-offset="893">
+            <state line="24" column="26" selection-start="833" selection-end="836" vertical-scroll-proportion="0.2178899" vertical-offset="228" max-vertical-offset="912">
               <folding />
             </state>
           </provider>
@@ -128,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/weixinApp/present/js/option.js" />
         <option value="$PROJECT_DIR$/weixinApp/present/css/layout.css" />
         <option value="$PROJECT_DIR$/weixinApp/present/present.html" />
         <option value="$PROJECT_DIR$/newIndex/index.html" />
@@ -144,6 +143,7 @@
         <option value="$PROJECT_DIR$/product/js/jquery.easytabs.min.js" />
         <option value="$PROJECT_DIR$/newIndex/global/scripts/lib/jquery.easytabs.min.js" />
         <option value="$PROJECT_DIR$/newIndex/zhongguodao.html" />
+        <option value="$PROJECT_DIR$/newIndex/youku.html" />
       </list>
     </option>
   </component>
@@ -454,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex/youku.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="833" selection-end="846" vertical-scroll-proportion="0.2178899" vertical-offset="228" max-vertical-offset="893">
+        <state line="24" column="26" selection-start="833" selection-end="836" vertical-scroll-proportion="0.2178899" vertical-offset="228" max-vertical-offset="912">
           <folding />
         </state>
       </provider>

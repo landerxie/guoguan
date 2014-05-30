@@ -31,7 +31,7 @@ ul{list-style: none;}
     height: 500px;
 }
 #billboard{
-    background-color: #f8f8f8;
+    background-color: #333;
     width: 100%;
     margin: 0 auto;
     height: 500px;
@@ -92,7 +92,7 @@ ul{list-style: none;}
     z-index: 20;
     width: 292px;
     padding: 20px;
-    border: 1px solid #ff9900;
+    border: 1px solid #c33829;
     font-size: 12px;
     background: #fff;
 }
@@ -101,7 +101,7 @@ ul{list-style: none;}
     top: 0;
     right: 0;
     padding-bottom: 31px;
-    border-color: #ff9900;
+    border-color: #c33829;
     border-bottom: 0;
     color: #ff9900;
     background: #fff;
@@ -292,19 +292,19 @@ ul{list-style: none;}
     width: 110px;
     height: 36px;
     overflow: hidden;
-    margin:15px 0 0 5px;
+    margin:22px 0 0 8px;
     _zoom: 1;
 }
 .cart-section .mini-cart-list .price{
     text-align: right;
     float: left;
-    padding:15px 0;
+    padding:22px 0 10px 0;
     width: 70px;
     height: 36px;
 }
 .cart-section .mini-cart-list .delItem{
     float: right;
-    padding: 15px 10px;
+    padding:22px 10px 10px 10px;
     height: 36px;
 }
 .cart-section .mini-cart-list ul li{
@@ -322,6 +322,7 @@ ul{list-style: none;}
 }
 .count .total strong em{
     color: #c33829;
+    font-style: normal;
 }
 .btn-red{
     background-color: #c33829;
@@ -336,6 +337,7 @@ ul{list-style: none;}
     color: #ccc;
     width: 50px;
     height: 50px;
+    left: 135px;
     text-align: center;
     line-height: 50px;
     position: absolute;
@@ -356,7 +358,7 @@ ul{list-style: none;}
     position: absolute;
     font-size: 36px;
     top: 50%;
-    right: 0;
+    right: 135px;
     margin-top: -25px;
     cursor: pointer;
 }
@@ -372,8 +374,102 @@ ul{list-style: none;}
     display: block!important;
     color: #9c9c9c;
 }
+.footer-hover-img{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 7px;
+}
+.login-background{
+    background: url("../../images/login-bg.jpg") center top no-repeat;
+    height: 602px;
+    position: relative;
+}
+.login-input-area{
+    margin-top: 10px;
+    position: relative;
+}
+.error-tip-bg{
+    position: absolute;
+    width: 236px;
+    height: 50px;
+    background: url("../../images/error-bg.png") center top no-repeat;
+    top: 0;
+    left: -236px;
+    color: #fff;
+    line-height: 45px;
+}
+.error-tip-bg span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.input-style{
+    height: 44px;
+    border: none;
+    background-color: #fff;
+}
+.model-one-left .detail .link a:hover,.model-one-left .detail .link a:focus {
+    text-decoration: underline;
+}
+.login-title{
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    padding: 0 0 15px 0;
+}
+.btn-valite{
+    width: 110px;
+    height: 45px;
+    border:none;
+    line-height: 45px;
+    background-color: #ccc;
+    color: #333;
+    *+width:108px;
+}
+.btn-valite:hover,.btn-valite:focus{
+    background-color: #f8f8f8;
+    border:none;
+    color: #333;
+}
+.valite-code{
+    width: 110px;
+    margin-right: 10px;
+    float: left;
+}
+.login-form{
+    position: absolute;
+    right: 125px;
+    top: 50px;
+    width: 230px;
+}
 
 @media (max-width: 1260px) {
+    .left-angle{
+        color: #ccc;
+        width: 50px;
+        height: 50px;
+        left: 25px;
+        text-align: center;
+        line-height: 50px;
+        position: absolute;
+        font-size: 36px;
+        top: 50%;
+        margin-top: -25px;
+        cursor: pointer;
+    }
+    .right-angle{
+        color: #ccc;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        position: absolute;
+        font-size: 36px;
+        top: 50%;
+        right: 25px;
+        margin-top: -25px;
+        cursor: pointer;
+    }
     .model-one{
         height: 347px;
     }
@@ -382,6 +478,10 @@ ul{list-style: none;}
     }
     .site-header .header-nav .nav-main{
         width: 660px;
+    }
+    .app-image{
+        height: 230px;
+        width: 230px;
     }
     .model-one-left{
         float: left;

@@ -410,6 +410,12 @@ ul{list-style: none;}
     font-family: "Microsoft Yahei";
     background-color: #fff;
 }
+.input-style-border{
+    height: 44px;
+    border: 1px solid #ccc;
+    font-family: "Microsoft Yahei";
+    background-color: #fff;
+}
 .model-one-left .detail .link a:hover,.model-one-left .detail .link a:focus {
     text-decoration: underline;
 }
@@ -443,6 +449,10 @@ ul{list-style: none;}
     right: 125px;
     top: 50px;
     width: 230px;
+}
+.login-form-find{
+   width: 230px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1260px) {

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" charset="utf-8" content="width=1024">
+    <meta name="keywords" content="地址管理">
+    <meta name="description" content="地址管理">
+    <link href="global/styles/base.css" type="text/css" rel="stylesheet">
+    <link href="global/styles/layout.css" type="text/css" rel="stylesheet">
+    <link href="cart/styles/cart.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h2 class="order-title">添加地址</h2>
+<form>
+    <div class="address-input-area">
+        <label class="address-label">收件人</label>
+        <input class="address-input" placeholder="请填写收件人姓名" maxlength="15">
+        <span class="required_mark">*</span>
+        <span class="error_msg" style="display: inline-block;">请填写正确的收件人姓名</span>
+    </div>
+    <div class="address-input-area mt20">
+        <label class="address-label">手机</label>
+        <input class="address-input" placeholder="请输入11位手机号码">
+        <span class="required_mark">*</span>
+        <span class="error_msg" style="display: inline-block;">请填写正确的手机号</span>
+    </div>
+    <div class="address-input-area mt20">
+        <label class="address-label">地址</label>
+        <select class="simuselect">
+            <option>省份/直辖市</option>
+            <option>湖南</option>
+            <option>广州</option>
+        </select>
+        <select class="simuselect">
+            <option>城市</option>
+            <option>湖南</option>
+            <option>广州</option>
+        </select>
+        <select class="simuselect">
+            <option>区/县</option>
+            <option>湖南</option>
+            <option>广州</option>
+        </select>
+    </div>
+    <div class="address-input-area mt20">
+        <label class="address-label">详细街道地址</label>
+        <textarea class="area-input" rows="3" maxlength="50" placeholder="请输入详细街道地址">                </textarea>
+        <span class="required_mark">*</span>
+        <span class="error_msg" style="display: inline-block;">请详细填写地址信息</span>
+    </div>
+    <div class="address-input-area mt20">
+        <label class="address-label">邮编</label>
+        <input class="address-input" placeholder="请输入6位邮编">
+        <span class="required_mark">*</span>
+        <span class="error_msg" style="display: inline-block;"></span>
+    </div>
+    <div class="address-input-area mt20">
+        <label class="address-label">备注</label>
+        <input class="address-input">
+    </div>
+</form>
+
+<a href="address.html" class="btn btn-red" style="float: right; width: 100px; margin-top:50px; margin-right: 20px;">保存地址</a>
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+.my-cart h1{
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.my-cart{
+    position: relative;
+    margin-left: 139px;
+    margin-top: 25px;
+}
+.my-cart ul{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.my-cart ul li{
+    float: left;
+    text-align: center;
+}
+.table-name{
+    height: 40px;
+    line-height: 40px;
+    background-color: #f8f8f8;
+    border-top:1px solid #ccc;
+}
+.table-name li{
+}
+.table-content{
+    border-bottom: 1px solid #ccc;
+    height: 190px;
+}
+.table-content li>a.pic img{
+     width: 150px;
+     height: 150px;
+ }
+.table-content li>a.name{
+    font-size: 20px;
+    width: 50%;
+    font-weight: 200;
+    margin-left: 20px;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.table-content li>a span{
+    line-height: 15px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.table-content li{
+    padding: 20px 0 20px 0;
+}
+.cart-number-oprate{
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 60px;
+    *+margin-top:80px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.cart-number-oprate>div{
+    float: left;
+}
+.number-minus{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-right: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+.number-plus{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    float: right!important;
+    line-height: 30px;
+    border-left: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+.number-middle{
+    line-height: 30px;
+    padding-left: 10px;
+}
+.cart-total>div{
+    float: left;
+}
+.cart-total-one{
+    font-size: 16px;
+    margin-top: 12px;
+}
+.cart-total-two{
+    font-size: 28px;
+    color:#ff9900
+}
+
+
+/*address*/
+.selected{
+    border:1px solid #c33829!important;
+}
+.address-list{
+    margin-top:10px;
+    margin-bottom:20px;
+    padding-top: 10px;
+
+}
+.address-list>div>div{
+    width: 295px;
+    height: 125px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    padding:10px;
+    margin-left: 15px;
+    font-size: 13px;
+    margin-top: 10px;
+    cursor: pointer;
+    float: left;
+}
+.address-user-name{
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.product-display{
+    border-bottom: 1px solid #ccc;
+}
+.product-display li>a img{
+    width: 70px;
+    height: 70px;
+}
+.product-display li>a.name{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.product-display li{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.address-input-area {
+    margin-left: 15px;
+}
+label.address-label {
+    color: grey;
+    width: 85px;
+    display: inline-block;
+    font-size: 12px;
+}
+.mt20{
+    margin-top:20px;
+}
+.address-input {
+    height: 20px;
+    line-height: 20px;
+    width: 315px;
+    border: 1px solid #e6e6e6;
+    background-color: #f9f9f9;
+    padding: 7px 5px;
+}
+.area-input {
+    width: 315px;
+    padding: 5px;
+    border: 1px solid #e6e6e6;
+    background-color: #f9f9f9;
+    vertical-align: middle;
+    font-size: 13px;
+}
+.simuselect {
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 97px;
+    width: auto;
+    padding: 7px 5px;
+    border: 1px solid #e3e5e6;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+h2.order-title {
+    font-size: 18px;
+    color: #000;
+    padding: 10px 0 27px 15px;
+    border-bottom: #e6e6e6 1px solid;
+    font-family: "microsoft yahei";
+    font-weight: normal;
+}
+.error_msg {
+    color: red;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+.required_mark {
+    color: #F00;
+    padding: 0 5px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+}
+@media (max-width: 1260px) {
+    .address-list>div>div{
+        width: 230px;
+        height: 135px;
+        background-color: #f8f8f8;
+        padding:10px;
+        border: 1px solid #ccc;
+        margin-left: 15px;
+        font-size: 13px;
+        cursor: pointer;
+        margin-top: 13px;
+        float: left;
+    }
+}

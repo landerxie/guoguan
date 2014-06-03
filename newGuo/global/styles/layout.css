@@ -1,6 +1,7 @@
 .site-header .header-nav .right{
     float: right;
 }
+input:focus{outline:none}
 ul{list-style: none;}
 .site-header .header-nav .nav-main-list .nav-main-item span.arrow{
     display: none;
@@ -395,7 +396,7 @@ ul{list-style: none;}
     background: url("../../images/error-bg.png") center top no-repeat;
     top: 0;
     left: -236px;
-    color: #fff;
+    color: #333;
     line-height: 45px;
 }
 .error-tip-bg span{
@@ -406,6 +407,7 @@ ul{list-style: none;}
 .input-style{
     height: 44px;
     border: none;
+    font-family: "Microsoft Yahei";
     background-color: #fff;
 }
 .model-one-left .detail .link a:hover,.model-one-left .detail .link a:focus {
@@ -448,7 +450,7 @@ ul{list-style: none;}
         color: #ccc;
         width: 50px;
         height: 50px;
-        left: 25px;
+        left: 0;
         text-align: center;
         line-height: 50px;
         position: absolute;
@@ -466,7 +468,7 @@ ul{list-style: none;}
         position: absolute;
         font-size: 36px;
         top: 50%;
-        right: 25px;
+        right: 0;
         margin-top: -25px;
         cursor: pointer;
     }

@@ -150,7 +150,6 @@ label.address-label {
     margin-top:20px;
 }
 .address-input {
-    height: 20px;
     line-height: 20px;
     width: 315px;
     border: 1px solid #e6e6e6;
@@ -192,6 +191,14 @@ h2.order-title {
     vertical-align: middle;
     font-size: 12px;
 }
+.edit-icon{
+    float: right;
+    *+margin-top: -22px;
+}
+.edit-icon a i {
+    width: 20px;
+    display: inline-block;
+}
 .required_mark {
     color: #F00;
     padding: 0 5px;
@@ -199,6 +206,56 @@ h2.order-title {
     height: 36px;
     line-height: 36px;
     vertical-align: middle;
+}
+.pay-detail{
+    height: 160px;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.pay-detail-two{
+    height: 200px;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.order-number{
+    width: 300px;
+    margin-left: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.order-money{
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.order-money p{
+    margin:0;
+}
+.pay-method{
+    border: 1px solid #f8f8f8;
+    height: 100px;
+    margin-top: 20px;
+}
+.pay-method-detail{
+    height: 100px;
+    background-color: #f8f8f8;
+    width: 200px;
+    float: left;
+}
+.pay-method-detail p{
+    font-size: 12px;
+    padding-left: 30px;
+    padding-top:10px;
+    padding-right: 20px;
+}
+.pay-method-detail p span{
+    font-size: 14px;
+}
+.pay-methos-aliy{
+    margin-top: 25px;
+    float: left;
+    margin-left: 30px;
 }
 @media (max-width: 1260px) {
     .address-list>div>div{

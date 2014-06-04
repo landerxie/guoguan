@@ -305,6 +305,58 @@ h2.order-title {
     *+width: 510px;
     margin: 50px auto 30px auto;
 }
+.contact-bottom{
+    margin-top:20px;
+}
+.contact-bottom ul li{
+    float: none;
+    text-align: left;
+}
+.contact-bottom ul li:first-child{
+    font-size: 18px;
+}
+.contact-bottom ul{
+    width: 33%;
+    float: left;
+    margin-bottom:50px;
+}
+
+/*顶级酒品*/
+.s-title {
+    text-align: center;
+    padding-top: 55px;
+}
+.s-wenzhang {
+    width: 792px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.s-wenzhang p {
+    text-indent: 2em;
+    line-height: 28px;
+}
+.four-div {
+    width: 742px;
+    margin: 0 auto;
+}
+.four-div>div {
+    color: #b28850;
+    font-size: 14px;
+    margin-left: 97px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.story-four-img {
+    width: 900px;
+    margin: 0 auto;
+}
+.text-detail {
+    color: #808080;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
 @media (max-width: 1260px) {
     .address-list>div>div{
         width: 230px;

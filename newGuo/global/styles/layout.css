@@ -76,11 +76,10 @@ ul{list-style: none;}
     position: relative;
     z-index: 21;
     display: block;
-    width: 104px;
-    height: 20px;
-    padding: 9px 10px;
+    width: 108px;
+    height: 43px;
+    line-height: 43px!important;
     border: 1px solid #ff9900;
-    line-height: 20px;
     text-align: center;
     color: #333;
     background: #ff9900;
@@ -101,7 +100,7 @@ ul{list-style: none;}
     position: absolute;
     top: 0;
     right: 0;
-    padding-bottom: 31px;
+    padding-bottom: 17px;
     border-color: #c33829;
     border-bottom: 0;
     color: #ff9900;
@@ -420,6 +419,9 @@ ul{list-style: none;}
 .model-one-left .detail .link a:hover,.model-one-left .detail .link a:focus {
     text-decoration: underline;
 }
+button{
+
+}
 .login-title{
     font-size: 28px;
     text-align: center;
@@ -443,6 +445,7 @@ ul{list-style: none;}
 .valite-code{
     width: 110px;
     margin-right: 10px;
+    margin-right: 8px;
     float: left;
 }
 .login-form{

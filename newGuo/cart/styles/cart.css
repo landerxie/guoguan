@@ -1,12 +1,12 @@
 .my-cart h1{
     font-weight: 200;
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .my-cart{
     position: relative;
     margin-left: 139px;
-    margin-top: 25px;
 }
 .my-cart ul{
     width: 100%;
@@ -319,6 +319,21 @@ h2.order-title {
     width: 33%;
     float: left;
     margin-bottom:50px;
+}
+.person-order-ul{
+    border: 1px solid #f8f8f8;
+    width: 293px!important;
+    padding: 12px!important;
+    margin-right: 20px!important;
+}
+.cart-content {
+    width: 820px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.un-success {
+    margin: 40px auto 40px auto;
+    text-align: center;
 }
 
 /*顶级酒品*/

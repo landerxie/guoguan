@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+    <title>无标题文档</title>
+    <style type="text/css">
+        *{ margin:0; padding:0;}
+        body{margin:0}
+        #floatTips{ margin:0 auto 0 auto; border:1px solid red; width:400px; height:80px;position:absolute}
+        #floatTips ul li{list-style-type:none;margin-left:20px;float:left;}
+        .main{
+            margin:5px auto 0 auto;
+            border:1px solid #232;
+            width:800px;
+            height:1300px;
+        }
+    </style>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+
+    <script>
+        function dhDiv(ee1){
+            //导航距离屏幕顶部距离
+            var _defautlTop = $("#"+ee1).offset().top - $(window).scrollTop();
+            //导航距离屏幕左侧距离
+            var _defautlLeft = $("#"+ee1).offset().left - $(window).scrollLeft();
+            //导航默认样式记录，还原初始样式时候需要
+            var _position = $("#"+ee1).css('position');
+            var _top = $("#"+ee1).css('top');
+            var _left = $("#"+ee1).css('left');
+            var _zIndex = $("#"+ee1).css('z-index');
+            //鼠标滚动事件
+            $(window).scroll(function(){
+                if($(this).scrollTop() > _defautlTop){
+                    //IE6不认识position:fixed，单独用position:absolute模拟
+                    if($.browser.msie && $.browser.version=="6.0"){
+                        $("#"+ee1).css({'position':'absolute','top':eval(document.documentElement.scrollTop),'left':_defautlLeft,'z-index':99999});
+                        //防止出现抖动
+                        $("html,body").css({'background-image':'url(about:blank)','background-attachment':'fixed'});
+                    }else{
+                        $("#"+ee1).css({'position':'fixed','top':0,'left':_defautlLeft,'z-index':99999});
+                    }
+                }else{
+                    $("#"+ee1).css({'position':_position,'top':_top,'left':_left,'z-index':_zIndex});
+                }
+            });
+        }
+
+        var ass = document.getElementById("floatTips");
+
+        dhDiv(ass);
+    </script>
+
+</head>
+<body>
+<div id="floatTips">
+    <ul>
+        <li><a href="#" >首页</a></li>
+        <li><a href="#" >音乐下载</a></li>
+        <li><a href="#" >音乐下载</a></li>
+        <li><a href="#" >音乐下载</a></li>
+        <li><a href="#" >音乐下载</a></li>
+    </ul>
+</div>
+
+<div class="main">
+    <div>
+</body>
+</html>

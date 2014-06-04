@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>购物车</title>
+    <title>个人订购</title>
     <meta name="viewport" charset="utf-8" content="width=1024">
-    <meta name="keywords" content="购物车">
-    <meta name="description" content="购物车">
+    <meta name="keywords" content="个人订购">
+    <meta name="description" content="个人订购">
     <link href="global/styles/base.css" type="text/css" rel="stylesheet">
     <link href="global/styles/layout.css" type="text/css" rel="stylesheet">
     <link href="cart/styles/cart.css" type="text/css" rel="stylesheet">
@@ -115,137 +115,45 @@
 
 <!--content-->
 <div class="container">
-    <!--购物车为空时显示-->
-    <div class="cart-empty"  style="display: none">
-        <div class="cart-empty-left">
-            <h1>你的购物车还是空的赶紧行动吧！</h1>
-            <a href="#" class="btn btn-red" style="margin-top: 35px">
-                马上去购物
-            </a>
-
+    <div class="my-cart">
+        <h1>个人订购</h1>
+        <div style="border-bottom: 1px solid #ccc;"></div>
+        <p style="margin-top: 30px;">为方便没有或不方便使用在线支付方式购买国馆产品的用户，我们提供线下转账购买方式。
+            用户货款汇出后，请及时通过客户热线：400 900 5000或者微信服务号：国馆酒等方式联系客服人员，并详细告知客服人员汇款人姓名，汇款时间，汇款银行和汇款金额等信息，以及收货人姓名，电话，地址信息。我们在一个工作日内完成汇款核实工作，并第一时间尽快安排发货，以免造成延迟发货。
+        </p>
+        <p>
+            温馨提示：以下为我们唯一指定的汇款帐号方式，请客户辩认清楚，除此之外其它汇款帐号或方式一律无效，如因客户的失误造成的损失，国馆不承担任何责任。
+        </p>
+        <div style="border-bottom: 1px solid #f8f8f8;"></div>
+        <div class="contact-bottom">
+            <ul class="person-order-ul" style="margin-bottom: 100px;">
+                <li style="font-size: 14px;">
+                    单位名称：广东国馆酒业有限公司
+                </li>
+                <li>
+                    开户行：招商银行广州分行金穗支行
+                </li>
+                <li>
+                    账号：120907905210302
+                </li>
+            </ul>
+            <ul class="person-order-ul">
+                <li style="font-size: 14px;">
+                    单位名称：广东国馆酒业有限公司
+                </li>
+                <li>
+                    开户行：中行广州双城国际大厦支行
+                </li>
+                <li>
+                    账号：636663486325
+                </li>
+            </ul>
         </div>
-        <div class="cart-empty-right">
-
-        </div>
-        <div style="clear: both"></div>
     </div>
 
-
-   <div class="my-cart">
-       <h1>我的购物车</h1>
-       <!--购物车标题-->
-       <ul class="table-name">
-           <li style="width: 43%;text-align: left;margin-left: 55px;">名称</li>
-           <li style="width: 10%">单价</li>
-           <li style="width: 19%">数量</li>
-           <li style="width: 10%">小计</li>
-           <li style="width: 10%">操作</li>
-       </ul>
-       <!--购物车标题-->
-
-       <!--购物车内容-->
-       <ul class="table-content">
-           <li class="clear" style="width: 48%; text-align: left">
-               <a href="#" class="pic">
-                   <img src="images/5_01.jpg">
-               </a>
-               <a class="name">
-                   国馆·中国道
-                   <br>
-                   <span>
-                       首款收藏级文化白酒<br>
-                       一套两支卷轴，共四瓶，每瓶500ml
-                   </span>
-               </a>
-           </li>
-           <li style="width: 10%; height: 150px; line-height: 150px;">
-                2399元
-           </li>
-           <li style="width: 19%;">
-               <div class="cart-number-oprate">
-                   <div class="number-minus">
-                       <a href="#" style="color: #333;display: block">
-                           -
-                       </a>
-                   </div>
-                   <div class="number-middle">
-                       99
-                   </div>
-                   <div class="number-plus">
-                       <a href="#" style="color: #333;display: block">
-                           +
-                       </a>
-                   </div>
-               </div>
-           </li>
-           <li style="width: 10%; height: 150px; line-height: 150px; color: #ff9900">2399元</li>
-           <li style="width: 10%; margin-top:66px;*+margin-top: 70px;">
-               <a href="#" >
-                   <i class="icon-remove"></i>
-               </a>
-           </li>
-       </ul>
-       <ul class="table-content">
-           <li class="clear" style="width: 48%; text-align: left">
-               <a href="#" class="pic">
-                   <img src="images/5_01.jpg">
-               </a>
-               <a class="name">
-                   国馆·中国道
-                   <br>
-                   <span>
-                       首款收藏级文化白酒<br>
-                       一套两支卷轴，共四瓶，每瓶500ml
-                   </span>
-               </a>
-           </li>
-           <li style="width: 10%; height: 150px; line-height: 150px;">
-               2399元
-           </li>
-           <li style="width: 19%;">
-               <div class="cart-number-oprate">
-                   <div class="number-minus">
-                       <a href="#" style="color: #333;display: block">
-                           -
-                       </a>
-                   </div>
-                   <div class="number-middle">
-                       99
-                   </div>
-                   <div class="number-plus">
-                       <a href="#" style="color: #333;display: block">
-                           +
-                       </a>
-                   </div>
-               </div>
-           </li>
-           <li style="width: 10%; height: 150px; line-height: 150px; color: #ff9900">2399元</li>
-           <li style="width: 10%; margin-top:66px;*+margin-top: 70px;">
-               <a href="#" >
-                   <i class="icon-remove"></i>
-               </a>
-           </li>
-       </ul>
-       <!--购物车内容-->
-
-       <!--购物车底部-->
-       <ul class="table-content" style="margin-bottom: 30px;">
-           <li class="clear" style="width: 255px; text-align: right;float: right">
-               <div class="cart-total">
-                   <div class="cart-total-one">总计：</div>
-                   <div class="cart-total-two">20000<span style="font-size: 16px;">元</span></div>
-               </div>
-               <div class="clear"></div>
-
-               <a href="address.html" class="btn btn-red" style="float: right; width: 110px; margin-top:50px;">去结账</a>
-           </li>
-
-       </ul>
-       <!--购物车底部-->
-
-   </div>
 </div>
 <!--content end-->
+
 
 <!--footer-->
 <div class="site-footer mt0">

@@ -81,7 +81,7 @@
 }
 .number-middle{
     line-height: 30px;
-    padding-left: 10px;
+    width: 78px;
 }
 .cart-total>div{
     float: left;
@@ -94,8 +94,23 @@
     font-size: 28px;
     color:#ff9900
 }
-
-
+.cart-empty{
+    width: 600px;
+    margin: 84px auto 100px auto;
+}
+.cart-empty-left{
+    float: left;
+    width: 380px;
+}
+.cart-empty-left h1{
+    font-weight: 500;
+}
+.cart-empty-right{
+    background: url("../../global/images/cart.png") center top no-repeat;
+    width: 218px;
+    height: 247px;
+    float: left;
+}
 /*address*/
 .selected{
     border:1px solid #c33829!important;
@@ -287,6 +302,7 @@ h2.order-title {
 }
 .find-process{
     width: 470px;
+    *+width: 510px;
     margin: 50px auto 30px auto;
 }
 @media (max-width: 1260px) {

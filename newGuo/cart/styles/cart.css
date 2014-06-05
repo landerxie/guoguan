@@ -121,7 +121,7 @@
     padding-top: 10px;
 
 }
-.address-list>div>div{
+.address-square{
     width: 295px;
     height: 125px;
     border: 1px solid #ccc;
@@ -372,17 +372,86 @@ h2.order-title {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+.nav-top-bottom {
+    position: fixed;
+    right: 30px;
+    color: #fff;
+    z-index: 999;
+    bottom: 70px;
+}
+.icon-chevron-up {
+    background: url("../../images/angle-up.png") center no-repeat;
+    color: #fff;
+    background-size: 25px 25px;
+}
+.displaybl {
+    display: block!important;
+}
+.nav-button-style {
+    height: 50px!important;
+    text-align: center;
+    line-height: 50px!important;
+    width: 50px!important;
+}
+.icon-chevron-down {
+    background: url("../../images/angle-down.png") center no-repeat;
+    color: #fff;
+    background-size: 25px 25px;
+}
+.good-information1{
+    background: url("../../zhongguodao/images/6_01.jpg") no-repeat center #000;
+    height: 876px;
+    position: relative;
+    width: 100%;
+}
+.good-information2{
+    background: url("../../zhongguodao/images/6_02.jpg") no-repeat center #000;
+    height: 1219px;
+    position: relative;
+    width: 100%;
+}
+.good-information3{
+    background: url("../../zhongguodao/images/6_03.jpg") no-repeat center #000;
+    height: 1219px;
+    position: relative;
+    width: 100%;
+}
+.good-information4{
+    background: url("../../zhongguodao/images/6_04.jpg") no-repeat center #000;
+    height: 781px;
+    position: relative;
+    width: 100%;
+}
+.good-information5{
+     background: url("../../zhongguodao/images/6_05.jpg") no-repeat center #000;
+     height: 1234px;
+     position: relative;
+     width: 100%;
+ }
+.good-information6{
+    background: url("../../zhongguodao/images/6_06.jpg") no-repeat center #000;
+    height: 907px;
+    position: relative;
+    width: 100%;
+}
+.good-information7{
+    background: url("../../zhongguodao/images/6_07.jpg") no-repeat center #000;
+    height: 1261px;
+    position: relative;
+    width: 100%;
+}
+.good-information8{
+    background: url("../../zhongguodao/images/6_08.jpg") no-repeat center #000;
+    height: 1200px;
+    position: relative;
+    width: 100%;
+}
+.good-information9{
+    background: url("../../zhongguodao/images/6_09.jpg") no-repeat center #000;
+    height: 1042px;
+    position: relative;
+    width: 100%;
+}
 @media (max-width: 1260px) {
-    .address-list>div>div{
-        width: 230px;
-        height: 135px;
-        background-color: #f8f8f8;
-        padding:10px;
-        border: 1px solid #ccc;
-        margin-left: 15px;
-        font-size: 13px;
-        cursor: pointer;
-        margin-top: 13px;
-        float: left;
-    }
+
 }

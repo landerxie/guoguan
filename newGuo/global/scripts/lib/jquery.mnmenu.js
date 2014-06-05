@@ -253,7 +253,7 @@
         clearTimeout($menu.data('timer'));
         var $link = $menu.children('a');
         if ($link.attr('href')) {
-            window.location.href = $link.attr('href');
+            //window.location.href = $link.attr('href');
         }
     };
 

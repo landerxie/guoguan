@@ -6,11 +6,18 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="keywords" content="国馆中国道,国馆,国馆酒">
     <meta name="description" content="国馆·中国道，中国收藏级文化白酒，酿酒大师与艺术大师匠心之作。它开创性地将艺术和美酒跨界联姻，融为一体，是你收藏、送礼、品饮的绝佳选择。">
+    <link href="<{$tplpub}>img/icon/144x144@2x.png" sizes="144x144" rel="apple-touch-icon-precomposed">
+    <link href="<{$tplpub}>img/icon/114x114@2x.png" sizes="114x114" rel="apple-touch-icon-precomposed">
+    <link href="<{$tplpub}>img/icon/72x72@2x.png" sizes="72x72" rel="apple-touch-icon-precomposed">
+    <link href="<{$tplpub}>img/icon/57x57@2x.png" rel="apple-touch-icon-precomposed">
+    <link href="<{$tplpub}>img/icon/favicon.png" rel="shortcut icon">
     <!-- styles style sheet -->
-    <link href="global/styles/base.css?v=00000001" type="text/css" rel="stylesheet">
-    <link href="home/styles/home.css?v=00000001" type="text/css" rel="stylesheet">
+    <link href="global/styles/base.css" type="text/css" rel="stylesheet">
+    <link href="global/styles/layout.css" type="text/css" rel="stylesheet">
+    <link href="cart/styles/cart.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="global/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="global/styles/font-awesome-ie7.min.css">
     <link href="global/scripts/lib/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet">
-    <link href="zhongguodao/styles/zhongguodao.css?v=00000001" type="text/css" rel="stylesheet">
 </head>
 <body style="overflow-y:auto;">
 <style>
@@ -21,6 +28,7 @@
         width: 692px;
         left: 50%;
         text-align: right;
+        top: 125px;
         margin-left: -400px;
 
     }
@@ -33,59 +41,113 @@
     #tabs1-four{background-color: #eee;}
 </style>
 <!--head-->
-<div id="homenav" style="position:relative;z-index:9999;">
-    <div class="banner">
-        <a href="http://www.guoguan.com">
-            <div class="logo"></div>
-        </a>
-        <a href="">
-            <div class="title"></div>
-        </a>
-        <div id="nav_wrapper" style="z-index: 9999;">
-            <ul id="nav_menu">
-                <li>
-                    <a href="index.html">
-                        首页
-                    </a>
-                </li>
-                <li>
-                    <a href="http://blog.guoguan.com/?p=131" target="_blank"  id="current_nav">品牌故事</a>
-                </li>
-                <li>
-                    <a href="http://blog.guoguan.com/?p=151" target="_blank">顶级酒品</a>
-                </li>
-                <li>
-                    <a href="#" class="culture-app" target="_blank">文化应用</a>
-                        <span>
-                            <a href="http://www.guoguan.com/wenzhang/" target="_blank">每日一文</a>
-                            <a href="http://www.guoguan.com/fm/" target="_blank">国馆电台</a>
-                        </span>
-                </li>
-                <li>
-                    <a href="http://blog.guoguan.com/?page_id=9" target="_blank">联系我们</a>
-                </li>
-                <li>
-                    <a href="#" class="culture-app" target="_blank">我的账号</a>
-                        <span>
-                            <a href="http://www.guoguan.com/wenzhang/" target="_blank">注册/登录</a>
-                            <a href="http://www.guoguan.com/fm/" target="_blank">购物车</a>
-                            <a href="http://www.guoguan.com/fm/" target="_blank">订单查询</a>
-                        </span>
-                </li>
-            </ul>
-            <!-- <div id="nav_animate_block"></div>-->
+<!--head-->
+<div class="site-topbar">
+    <div class="container">
+        <div class="topbar-info ">
+            <a href="#" target="_blank">登录</a>&nbsp;/&nbsp;<a href="#" target="_blank">注册</a>
+            <span class="sep"></span>
+            <a href="#" target="_blank"><i class="icon-file-alt" style="margin-right: 3px"></i>我的订单</a>
+                <span class="sep">
+                </span><a href="#" target="_blank"><i class="icon-user" style="margin-right: 3px"></i>我的账户</a>
         </div>
     </div>
 </div>
-<div class="second-banner" style="">
-    <div class="purchase-content " style="margin-top: 5px;">
-        <a href="http://box.guoguan.com/cart/gotocart">
-            <div class="small-button" style="float: right">
-                <div class="small-button-content">立即购买</div>
+<div class="site-header container">
+    <div class="site-logo">
+        <a class="logo" href="http://www.guoguan.com" title="国馆官网"><i class="iconfont"></i></a>
+    </div>
+    <div class="header-nav clearfix">
+        <div class="nav-main">
+            <ul class="nav-main-list clearfix" id="idmenu">
+                <li class="nav-main-item">
+                    <a href="#" class="nav-selected">
+                        首页
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="#">
+                        中国道
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="super-wine.html">
+                        顶级酒品
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="band-story.html">
+                        品牌故事
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="#">
+                        文化社区
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="#">
+                        应用
+                        <i class="icon-caret-down" style="color: #9c9c9c"></i>
+                    </a>
+                    <ul>
+                        <li><a href="#" ><img src="global/images/icon-1.jpg" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;"><span>每日一文</span></a></li>
+                        <li><a href="#" ><img src="global/images/icon-2.jpg" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;"><span>国馆电台</span></a></li>
+                        <li><a href="#" ><img src="global/images/icon-3.jpg" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;"><span>国馆说文化</span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="cart-section">
+                <a href="#" class="mini-cart" style="color: #333;">
+                    <i class="icon-shopping-cart" style="margin-right: 3px; margin-top: -2px;"></i>购物车
+                </a>
+
+                <div class="mini-cart-list" style="display: none;">
+
+                    <!--加载显示内容-->
+                    <!--<p class="loading">数据加载中，请稍后...(没有商品时显示：还没有商品哦)</p>-->
+                    <ul style="padding: 0;margin:0">
+                        <li class="clearfix">
+                            <a href="#" class="pic">
+                                <img src="images/5_01.jpg" >
+                            </a>
+                            <a class="name">国馆·中国道</a>
+                            <span class="price">2399元x1</span>
+                            <a class="delItem">
+                                <i class="icon-remove"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="count">
+                            <span class="total">
+                                共
+                                <b>1</b>
+                                件商品
+                                <br>
+                                <strong>
+                                    合计：
+                                    <em>2399元</em>
+                                </strong>
+                            </span>
+                        <a href="#" class="btn btn-red" style="float: right">去购物车结算</a>
+                    </div>
+                </div>
             </div>
-        </a>
+        </div>
     </div>
 </div>
+<!--head end-->
+<div class="container" style="height: 0; z-index: 1;">
+    <div class="header-nav">
+        <div class="purchase-content " style="margin-top: 5px; float: right">
+            <a class="btn btn-red" href="#">立即购买</a>
+        </div>
+    </div>
+</div>
+
 
 
 
@@ -99,107 +161,28 @@
     <div class="panel-container" style="z-index: 0; position: static">
         <div id="tabs1-one">
             <div class="good-information1 ">
-                <img src="images/111.png" style="width:625px; display:block; margin-left:auto; margin-right:auto; padding-top: 124px;">
-                <div class="watch-tv">
-                    <a href="youku.html" style="text-decoration: underline">
-                        观看视频
-                        <img src="images/play_icon.png" width="15" height="15" style="vertical-align: middle;
-margin-top: -3px;">
-                    </a>
-                </div>
-     <span class="hidden">这一次，我们重新定义白酒,在主流之外，我们终于以全新的方式做出了这款白酒，它代表了当前国内酿酒技术、器型工艺的最高水平，它和所有品牌都不一样，它承载的是中国的文化、艺术和情感，没有其他。
-     </span>
             </div>
             <div class="good-information2">
             </div>
             <div class="good-information3">
-                <div class="shape">
-                    <a href="http://blog.guoguan.com/?p=180" target="_blank" style="text-decoration: underline">
-                        了解详情 >
-                    </a>
-                </div>
             </div>
             <div class="good-information4">
-                <span class="hidden">书法大师李正天，亲笔题写“天道酬勤”“地道酬善”“商道酬信”“业道酬精”，极致创作细致到每一个字。</span>
-                <span class="hidden">酿酒大师李家顺亲自酿酒，用顶级窖龄老酒作为国馆·中国道的专属酒体。</span>
             </div>
             <div class="good-information5">
-                <div class="dashi">
-                    <a href="http://blog.guoguan.com/?p=170" target="_blank" style="text-decoration: underline">
-                        了解详情 >
-                    </a>
-                </div>
-        <span class="hidden">最具中国气质的卷轴器型
-                             最中国的人生哲学,国内顶尖艺术团队，磨砺多年，设计出以卷轴为形，
-              景泰蓝纹饰为轴的酒器，中国气质，淋漓尽致。
-              四瓶酒，分天、地、商、业，说的是为人处世的四种境界。
-              天地之间，以善为先，商业之道，以诚为本。</span>
             </div>
             <div class="good-information6">
             </div>
             <div class="good-information7">
-                <div class="zuofang">
-                    <a href="http://blog.guoguan.com/?p=151" target="_blank" style="text-decoration: underline">
-                        了解详情 >
-                    </a>
-                </div>
-
-            <span class="hidden">明清泰安作坊
-                                 老窖池原址酿造,“千年老窖万年糟”，窖池越老，酿酒越好。
-                                         我们选用沱牌舍得明清泰安作坊窖龄老酒作为专属酒体，
-                                         数百年老窖酿出来的酒绝非寻常可比，在浓香之中堪称极品。</span>
             </div>
             <div class="good-information8">
-            <span class="hidden">
-            客厅里的绝佳收藏,有没有可能，有一种酒是能看、能品、能把玩的？
-                     国馆 · 中国道做到了这一点。
-            </span>
             </div>
             <div class="good-information9">
-            </div>
-            <div class="good-information10">
-            <span class="hidden">
-            这酒，你只会用来招待，最知心的朋友
-            有生之年，斗酒相逢，忘却山川湖海。生命就该浪费在美好的事物之上。
-            我们沉浮于物欲之间，为名利颠沛奔忙，我们身边的人，都去了哪儿？
-            有生之年，欣喜相逢，杯酒赠故人，管他妈的生旦净末丑。
-            错过美好的事物，都是我们对生命的辜负。
-            </span>
-            <span class="hidden">
-            不喝酒的人，请不要说这与你无关
-            送礼头疼的时候，你总会想起它。那些在我们生命中出现的贵人，何以为报？国馆 · 中国道，浓浓的中国情怀，让心意化作情义。
-            </span>
-            </div>
-            <div class="good-information11">
-                <a href="http://www.guoguan.com/index/qore/" class="qore-code">
-                    <div class="small-button zhongguodao-purchase">
-                        <div class="small-button-content">立即购买</div>
-                    </div>
-                </a>
-       <span class="hidden">
-       送长辈，
-       还有什么比中国道更加体面？
-       也许平时我们对长辈说的话不多，但总有一些东西，能帮我表达对他们的尊重，并让他们满心欢喜？中国道，真正打动父辈的中国礼，晚辈送给长者的“玩具”。
-       </span>
-            </div>
-            <div class="good-information12">
-                 <span class="hidden">
-                  如果礼物没有玩味，跟直接送出一沓人民币有什么区别？
-                  我们都不想被说，你送的东西俗！廉价！满大街是！不实用！
-                  中国道，一种关于爱和内涵的新鲜表达方式。
-                  这是一套猜不出价格的作品，我们做到了让大部分人消费的起。
-                  这是一套磨砺多年的作品，全是精华，只能限量发售。
-
-                  同等酒体的白酒在市场售价超过6000元，
-                  而国馆·中国道首次发售，预售价为
-                  2399元
-                  并且，首批限量5000套。
-                 </span>
             </div>
         </div>
 
         <div id="tabs1-two">
             <div class="story-banner">
+                <img src="zhongguodao/images/banner_02.jpg" style="width: 100%; margin-top: -45px; *+margin-top:0;">
                 <div class="s-content">
                     <div class="s-wenzhang">
                         <p style="margin-top:50px;">
@@ -224,8 +207,8 @@ margin-top: -3px;">
                     <div class="story-four-img">
                         <img src="zhongguodao/images/5_02.jpg" width="532" height="331">
                         <img src="zhongguodao/images/5_03.jpg" width="357" height="331">
-                        <img src="zhongguodao/images/5_04.jpg" width="447" height="331" style="margin-top: 4px;">
-                        <img src="zhongguodao/images/5_05.jpg" width="442" height="331" style="margin-top: 4px;">
+                        <img src="zhongguodao/images/5_04.jpg" width="447" height="331">
+                        <img src="zhongguodao/images/5_05.jpg" width="442" height="331">
                     </div>
                     <div class="s-wenzhang">
                         <p style="margin-top:50px;">
@@ -238,7 +221,7 @@ margin-top: -3px;">
                             为了酿造心中的这杯酒，我们对几乎所有的环节，都做到了极致的追求。
                         </p>
                         <p class="mt-18">
-                            <b> 最重要的——酒体。</b>为了你能喝到最好的酒，我们的专业品酒师访遍天下名酒厂，最终把目光锁定在川酒六朵金花之一的——沱牌舍得，泰安作坊老窖池原址酿造的顶级窖龄酒。懂白酒的都知道，“千年老窖万年糟”，窖池越老，酿酒越好。泰安作坊老窖池从明清传承到现在，不间断持续酿造，窖池内微生物世代繁衍，酿造出来的酒绝非寻常可比。我们特别邀请首届中国酿酒大师李家顺调制酒体，幽雅馥郁，醇厚绵长，粮香、窖香交织，堪称浓香一绝。为了测试酒体口感，我们邀请多位业内专家把它和几款同档次名牌酒进行盲品比较，得出来的结论是：这款酒的品质，可以秒杀市面上绝大多数白酒。
+                           <b> 最重要的——酒体。</b>为了你能喝到最好的酒，我们的专业品酒师访遍天下名酒厂，最终把目光锁定在川酒六朵金花之一的——沱牌舍得，泰安作坊老窖池原址酿造的顶级窖龄酒。懂白酒的都知道，“千年老窖万年糟”，窖池越老，酿酒越好。泰安作坊老窖池从明清传承到现在，不间断持续酿造，窖池内微生物世代繁衍，酿造出来的酒绝非寻常可比。我们特别邀请首届中国酿酒大师李家顺调制酒体，幽雅馥郁，醇厚绵长，粮香、窖香交织，堪称浓香一绝。为了测试酒体口感，我们邀请多位业内专家把它和几款同档次名牌酒进行盲品比较，得出来的结论是：这款酒的品质，可以秒杀市面上绝大多数白酒。
                         </p>
                     </div>
                     <div style="text-align: center">
@@ -254,7 +237,7 @@ margin-top: -3px;">
                         </div>
                     </div>
                     <div class="s-wenzhang">
-                        <p>
+                        <p >
                             <b> 更彻底的颠覆——文化。</b>尽管几乎所有的白酒都宣称自己是文化酒，但唯一彻底地将文化基因注入白酒之中的，只有国馆。仿效著名的木桐酒庄，国馆的每一款产品都会与艺术家跨界创作，这足以让国馆的产品气质完爆普通白酒十几条街。譬如，我们邀请国学大师饶宗颐为国馆题写“酒以载道”，邀请著名艺术家、书法家李正天先生为国馆首款产品“中国道”题写瓶身书法。有人说，白酒不过是附庸风雅，而我们从一开始就为国馆注入文化、艺术的生命基因。国馆酒，你可以喝，可以把玩，更可以收藏。
                         </p>
                     </div>
@@ -268,7 +251,7 @@ margin-top: -3px;">
                         <img src="zhongguodao/images/5_09.jpg" width="891" height="595">
                     </div>
                     <div class="s-wenzhang">
-                        <p>
+                        <p >
                             <b>包装——我们同样追求极致。</b>国内顶尖的酒类包装设计团队，十余年产品设计经验，历时两年反复打磨一款包装，从几百款古代器型中汲取灵感，不计成本打样数十次（据说供应商都快哭了）。如此苛刻，试问国内有几个酒品牌能做到？这还不够，这帮吹毛求疵的设计师还找到了国内最专业的包装制作团队，为“中国道”定制了惊艳的景泰蓝卷外轴套……还不够！为了达到最佳陈设效果，他们又量身定制了高档陈列底座。喏，就是下面这样：
                         </p>
                     </div>
@@ -276,7 +259,7 @@ margin-top: -3px;">
                         <img src="zhongguodao/images/5_10.jpg" width="891" height="583">
                     </div>
                     <div class="s-wenzhang">
-                        <p>
+                        <p >
                             <b>更极致的考验——物流。</b>首先，由于酒是液体和易碎品，只能发陆运，陆运意味着漫长的周转时间，为了让你不用等太久，我们果断选择了价格偏贵、但速度更有保障的XX物流。其次，如果你在网上买过酒，一定会被那些简陋、粗暴的包装震惊到，如果运气不好，漏酒破损什么的更令人揪心。为了彻底改变白酒物流低劣、粗暴的消费体验，我们再一次豁出去了！——定制！根据每一款酒的不同大小，量身定做高硬度重型纸箱（比苹果电脑用的那种外纸箱还要厚、还要硬）。不，这还不够，为了确保安全，我们将破坏性测试进行到底，让公司里身高一米八、重约0.2吨的西北大汉踩上去……结果：毫无压力，完好无损。
                         </p>
                         <p style="margin-top:50px;">
@@ -544,134 +527,180 @@ margin-top: -3px;">
         </div>
     </a>
 </div>
+<div id="homefooter"></div>
 
 
 <!--footer-->
-<div id="homefooter" style="margin-top: -20px" data-hires="true">
-    <div>
-        <dl>
-            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
-                <dt>国馆中国道</dt>
-                <dd>
-                    <a href="http://weibo.com/guoguan5000" target="_blank">
-                        <img src="images/sina-icon.png" style="margin-left: -10px;">
+<div class="site-footer">
+    <div class="container">
+        <div class="footer-service">
+            <ul class="list-service clearfix">
+                <li>
+                    <a rel="nofollow" class="lq-icon-footer" href="#" target="_blank">
+                        <i class="icon-tint icon-style"></i>
+                        <strong>100% 酒品保证</strong>
+                        <span>中国道白酒可以秒杀同价位一切白酒</span>
                     </a>
-                    <a href="qore.html" class="qore-code" >
-                        <img src="images/weixin.png" style="width: 25px; height: 18px; vertical-align: middle; margin-top: -20px;">
-                    </a>
-                </dd>
-            </a>
-        </dl>
-        <dl>
-            <a href="http://www.guoguan.com/wenzhang/" target="_blank">
-                <dt>每日一文</dt>
-            </a>
-            <a href="http://www.guoguan.com/fm/" target="_blank">
-                <dt>国馆电台</dt>
-            </a>
-        </dl>
-        <dl>
-            <a href="http://weibo.com/guoguan5000" target="_blank">
-                <dt>动态</dt>
-            </a>
-            <a href="http://weibo.com/guoguan5000" target="_blank">
-                <dd>新浪微博</dd>
-            </a>
-        </dl>
-        <dl>
-            <a href="http://blog.guoguan.com/?page_id=9" target="_blank">
-                <dt>联系我们</dt>
-            </a>
-            <!--<a href="#" target="_blank">
-                <dd>商业合作</dd>
-            </a>
-            <a href="#" target="_blank">
-                <dd>品牌合作</dd>
-            </a>
-            <a href="#" target="_blank">
-                <dd>媒体报道</dd>
-            </a>
-            <a href="#" target="_blank">
-                <dd>拜访国馆</dd>
-            </a>-->
-        </dl>
-        <dl>
-            <a href="qore.html" class="qore-code">
-                <dt>购买</dt>
-            </a>
-            <a href="http://www.guoguan.com/zhongguodao" target="_blank">
-                <dd>国馆中国道</dd>
-            </a>
-            <!-- <a href="#" target="_blank">
-                 <dd>个人订购</dd>
-             </a>
-             <a href="#" target="_blank">
-                 <dd>企业团购</dd>
-             </a>
-             <a href="#" target="_blank">
-                 <dd>成为会员</dd>
-             </a>-->
-        </dl>
-        <dl>
-            <a href="http://blog.guoguan.com/?page_id=30" target="_blank">
-                <dt>关于国馆</dt>
-            </a>
-            <a href="http://blog.guoguan.com/?p=131" target="_blank">
-                <dd>品牌故事</dd>
-            </a>
-            <a href="http://blog.guoguan.com/?p=188" target="_blank">
-                <dd>管理团队</dd>
-            </a>
-            <a href="http://blog.guoguan.com/?p=151" target="_blank">
-                <dd>顶级好酒</dd>
-            </a>
-            <a href="http://blog.guoguan.com/?p=170" target="_blank">
-                <dd>跨界大师合作</dd>
-            </a>
-            <a href="http://blog.guoguan.com/?page_id=39" target="_blank">
-                <dd>工作机会</dd>
-            </a>
-        </dl>
-    </div>
-    <div class="clear"></div>
-    <div class="bottom">
-    </div>
-    <div class="wrapper">
-        <div class="clear left">
-            <p class="copyright">Copyright © 2014 国馆
-                <a target="_blank" href="http://www.miitbeian.gov.cn" class="btn btn-link" rel="nofollow" title="粤ICP备13087127号">
-                    粤ICP备13087127号
-                </a>
-            </p>
-        </div><!--/bottom-->
-        <!--
-        <div class="right">
-            <ul class="piped">
-                <li class="first">
-                    <a href="#">隐私协议</a>
                 </li>
                 <li>
-                    <a href="#">服务政策</a>
+                    <a href="#" target="_blank" class="lq-icon-footer">
+                        <i class="icon-paste icon-style"></i>
+                        <strong>独家专利</strong>
+                        <span>国馆已申请多项专利，彻底杜绝山寨</span>
+                    </a>
                 </li>
                 <li>
-                    <a href="#">联系我们</a>
+                    <a href="#" target="_blank" class="lq-icon-footer">
+                        <i class="icon-credit-card icon-style"></i>
+                        <strong>VIP专享特权</strong>
+                        <span>VIP客户均享受馆友会诸多特权</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="lq-img-footer">
+                        <img src="global/images/sf_logo_gray_bg.png" class="footer-hover-img">
+                        <strong>满100元包邮</strong>
+                        <span>在线支付满百元免邮费</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="lq-icon-footer">
+                        <i class="icon-umbrella icon-style"></i>
+                        <strong>破损必赔</strong>
+                        <span>拆箱验货发现破损无条件退货</span>
+                    </a>
                 </li>
             </ul>
         </div>
-        -->
-
-    </div><!--/wrapper-->
+        <div class="footer-links clearfix">
+            <dl class="col-links col-links-first">
+                <dt>帮助中心</dt>
+                <dd><a rel="nofollow" href="#" target="_blank">购物指南</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">支付方式</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">配送方式</a></dd>
+            </dl>
+            <dl class="col-links">
+                <dt>关于国馆</dt>
+                <dd><a rel="nofollow" href="#" target="_blank">了解国馆</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">加入我们</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">联系我们</a></dd>
+            </dl>
+            <dl class="col-links">
+                <dt>购买方式</dt>
+                <dd><a href="#" target="_blank">个人订购</a></dd>
+                <dd><a href="#" target="_blank">企业团购</a></dd>
+            </dl>
+            <dl class="col-links">
+                <dt>国馆动态</dt>
+                <dd><a rel="nofollow" href="#" target="_blank">新闻中心</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">馆友会</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">场地申请</a></dd>
+            </dl>
+            <dl class="col-links">
+                <dt>关注国馆</dt>
+                <dd><a href="#" target="_blank">新浪微博</a></dd>
+                <dd><a class="" href="javascript: void(0);">官方微信</a></dd>
+            </dl>
+            <div class="col-contact">
+                <p class="phone">400-900-5000</p>
+                <p>周一至周五 9:00-18:00<br>（仅收市话费）</p>
+                <a rel="nofollow" class="btn btn-primary btn-small qore-code" href="qore.html" target="_blank">微信咨询：国馆酒</a>
+                <a rel="nofollow" class="btn btn-primary btn-small" href="#" target="_blank" style="width: 50px;">QQ</a>
+            </div>
+        </div>
+        <div class="footer-info clearfix">
+            <div class="info-text">
+                <p style="float: left">国馆旗下网站与应用：<a href="#" target="_blank" title="每日一文">每日一文</a><span class="sep">|</span><a href="#" target="_blank" title="国馆电台">国馆电台</a><span class="sep">|</span><a href="#" title="国馆故事 ">国馆故事 </a><span class="sep">|</span><a href="#" target="_blank" title="国馆天猫店">国馆天猫店</a></p>
+                <p style="float: right">©<a href="http://www.guoguan.com/" target="_blank" title="guoguan.com"> 2014 国馆</a><a href="http://www.miitbeian.gov.cn" target="_blank"> 粤ICP备13087127号</a></p>
+            </div>
+        </div>
+    </div>
 </div>
-<script src="global/scripts/lib/angular.min.js" type="text/javascript"></script>
+<!--footer end-->
+</body>
 <script src="global/scripts/lib/jquery-1.8.0.js" type="text/javascript"></script>
-<script src="global/scripts/controllers.js" type="text/javascript"></script>
+<script src="global/scripts/lib/jquery.mnmenu.js" type="text/javascript"></script>
 <script src="global/scripts/lib/touchslider.js" type="text/javascript"></script>
-<script src="home/scripts/slidenav.js" type="text/javascript"></script>
 <script src="global/scripts/lib/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
 <script src="global/scripts/lib/fancybox/jquery.easing-1.3.pack.js" type="text/javascript"></script>
 <script src="global/scripts/lib/jquery.hashchange.min.js" type="text/javascript"></script>
 <script src="global/scripts/lib/jquery.easytabs.min.js" type="text/javascript"></script>
 
+
+<script>
+    $(document).ready(function() {
+        $('#idmenu').mnmenu();
+
+        /*购物车展开*/
+        $(".cart-section").hover(function(){
+            $(".cart-section>a").addClass("mini-cart-on");
+            $(".mini-cart-list").css("display","block");
+        },function(){
+            $(".cart-section>a").removeClass("mini-cart-on");
+            $(".mini-cart-list").css("display","none");
+        });
+
+        /*footer图标点亮*/
+        $(".site-footer .list-service li a.lq-icon-footer").hover(function(){
+            $(this).find("i").css("color","#c33829");
+        },function(){
+            $(this).find("i").css("color","#9c9c9c");
+        });
+        $(".site-footer .list-service li a.lq-img-footer").hover(function(){
+            $(this).find("img").attr("src","global/images/sf_logo_red_bg.png");
+        },function(){
+            $(this).find("img").attr("src","global/images/sf_logo_gray_bg.png");
+        });
+
+        /*hover红条出现*/
+        $(".model-little").hover(function(){
+            $(this).find(".model-bottom").css("background-color","rgba(195,56,41,1)");
+        },function(){
+            $(this).find(".model-bottom").css("background-color","rgba(0,0,0,0.3)");
+        });
+
+        /*图片点亮*/
+        $(".model-two-little").hover(function(){
+            $(this).find("img").css("opacity","1");
+        },function(){
+            $(this).find("img").css("opacity","0.7");
+        });
+    })
+</script>
+<script type="text/javascript">
+    var active=0,
+            as=document.getElementById('pagenavi').getElementsByTagName('a');
+
+    for(var i=0;i<as.length;i++){
+        (function(){
+            var j=i;
+            as[i].onclick=function(){
+                t4.slide(j);
+                return false;
+            }
+        })();
+    }
+
+    $(".left-angle").on("click",function(){
+        t4.prev();
+    })
+
+    $(".right-angle").on("click",function(){
+        t4.next();
+    })
+
+    var t4 = new TouchSlider({id:'slide', speed:600, timeout:6000, before:function(index){
+        as[active].className='';
+        active=index;
+        as[active].className='active';
+    }});
+
+    $("#slide li").hover(function(){
+        t4.pause();
+    },function(){
+        t4.play();
+    })
+</script>
 <script>
     $(document).ready(function() {
         $(".qore-code").fancybox({
@@ -680,11 +709,12 @@ margin-top: -3px;">
             'autoScale'			: false,
             'transitionIn'		: 'fade',
             'transitionOut'		: 'fade',
-            'scrolling'		: 'no',
+            'overlayOpacity'	: '0.7',
+            'overlayColor'		: '#fff',
+            'scrolling'		    : 'no',
             'type'				: 'iframe'
         });
         $('#tab-container').easytabs();
     });
 </script>
-</body>
 </html>

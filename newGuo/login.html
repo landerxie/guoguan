@@ -129,7 +129,8 @@
                 </div>
             </div>
             <div class="login-input-area">
-                <input type="text" placeholder="&nbsp;密码" class="input-style width100">
+                <input type="password" placeholder="&nbsp;密码" class="input-style width100 password-psw"  style="display: none">
+                <input type="text" placeholder="&nbsp;密码" class="input-style width100 password-text">
                 <div class="error-tip-bg">
                         <span>
                         密码错误
@@ -315,6 +316,20 @@
             }
         });
     });
+
+    //密码placeholder处理
+    $("input.password-text").focus(function(){
+        $(this).css("display","none");
+        $("input.password-psw").css("display","block");
+        $("input.password-psw").focus();
+    })
+    $("input.password-psw").focusout(function(){
+        if(!$(this).val()){
+            $(this).css("display","none");
+            $("input.password-text").css("display","block");
+        }
+    });
+
 </script>
 <script>
     $(document).ready(function() {

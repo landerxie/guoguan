@@ -19,7 +19,7 @@
 }
 /* tab切换页 */
 .etabs { margin: 0; padding: 0; background-color: #fff;margin-bottom: 0rem;}
-.tab {display: inline-block; zoom:1; *display:inline; border-bottom: none; text-align: center; width: 7rem; border-right: 0.1rem solid #ebebeb; }
+.tab {display: inline-block; zoom:1; *display:inline; border-bottom: none; text-align: center; width: 7rem; }
 .tab a { line-height: 2.5rem; display: block; padding: 0 1rem; outline: none; }
 .tab.active { background: #fff; position: relative;  }
 .tab a.active { font-weight: bold; color: #f66900; text-decoration: none}

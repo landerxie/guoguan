@@ -157,13 +157,13 @@
 
 <div id="tab-container" class='tab-container'  style="z-index:1 ; position: static">
     <ul class='etabs'>
-        <li class='tab'><a href="#tabs1-one" style="margin-left: 380px;">概述</a></li>
+        <li class='tab'><a href="#tabs1-one" class="mlgbd">概述</a></li>
         <li class='tab'><a href="#tabs1-two">酒体</a></li>
         <li class='tab'><a href="#tabs1-three">设计</a></li>
         <li class='tab'><a href="#tabs1-four">文化</a></li>
         <li class='tab'><a href="#tabs1-five">艺术</a></li>
         <li class='tab'><a href="#tabs1-six">收藏</a></li>
-        <li class='tab'><a href="#tabs1-seven">拆开步骤</a></li>
+        <li class='tab'><a href="#tabs1-seven">规格</a></li>
     </ul>
     <div class="panel-container" style="z-index: 0; position: static">
         <div id="tabs1-one">
@@ -171,7 +171,7 @@
                 <div class="good-information1-png">
                    <img src="zhongguodao/images/2_01.png" style="margin-top: 115px; margin-bottom: 30px;">
                     <div class="watch-tv">
-                        <a href="http://box.guoguan.com/index/youku" style="text-decoration: underline; color: #fff;">
+                        <a href="http://box.guoguan.com/index/youku" style="text-decoration: underline; color: #b63333;">
                             观看中国道视频
                             <i class="icon-angle-right"></i>
                         </a>
@@ -805,6 +805,29 @@
 <div class="container" style="height: 47px; z-index: 1;">
     <div class="header-nav" style="position: relative">
         <div style="position: absolute; top: 10px; left: 0; font-size: 20px;">国馆中国道</div>
+        <ul class="bottom-nav">
+            <li>
+                <a href="#tabs1-one" class="go-top">概述</a>
+            </li>
+            <li>
+                <a href="#tabs1-two" class="go-top">酒体</a>
+            </li>
+            <li>
+                <a href="#tabs1-three" class="go-top">设计</a>
+            </li>
+            <li>
+                <a href="#tabs1-four" class="go-top">文化</a>
+            </li>
+            <li>
+                <a href="#tabs1-five" class="go-top">艺术</a>
+            </li>
+            <li>
+                <a href="#tabs1-six" class="go-top">收藏</a>
+            </li>
+            <li>
+                <a href="#tabs1-seven" class="go-top">规格</a>
+            </li>
+        </ul>
         <div class="purchase-content " style="margin-top: 8px; float: right">
             <a class="btn btn-red" href="#" style="height: 30px; line-height: 30px; width: 110px; font-size: 12px;">立即购买</a>
         </div>
@@ -1027,6 +1050,9 @@
             'type'				: 'iframe'
         });
         $('#tab-container').easytabs();
+        $(".go-top").on("click",function(){
+            scrollTo(0,0);
+        })
     });
 </script>
 </html>

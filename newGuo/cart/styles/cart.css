@@ -878,7 +878,59 @@ h2.order-title {
     height: 845px;
     margin: 0 auto;
 }
+.mlgbd{
+    margin-left: 513px;
+}
+.left-nav-two {
+    width: 109px;
+    top: 51px;
+    position: absolute;
+    left: 0;
+}
+.left-nav-two ul {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.left-nav-two ul li{
+    text-align: center;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bottom-nav{
+    margin-left: 675px;
+    height: 45px;
+    line-height: 45px;
+    width: 361px;
+    float: left;
+}
+.bottom-nav li{
+    float: left;
+    margin-right: 22px;
+}
+
 @media (max-width: 1260px) {
+    .mlgbd{
+        margin-left: 410px;
+    }
+    .bottom-nav{
+        margin-left: 476px;
+        height: 45px;
+        line-height: 45px;
+        width: 361px;
+        float: left;
+    }
+    .nimalegebide{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .cha{
+        margin-left: 0;
+    }
     #zhongguodao-billboard {
         background-color: #333;
         width: 100%;

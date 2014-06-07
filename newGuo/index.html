@@ -120,16 +120,17 @@
             <ul id="slide" style="">
                 <li style='display:block;'>
                     <div class="index-banner-1" onclick="window.open('http://baidu.com')">
+                        <a href="javascript:window.open('http://sina.com','_self')" class="btn btn-red purchase-button-position" style="width: 200px; height: 45px;">立即购买</a>
                     </div>
                 </li>
                 <li style='display:none;'>
                     <div class="index-banner-2" onclick="window.open('http://baidu.com')">
-
+                        <a href="#" class="btn btn-red purchase-button-position" style="width: 200px; height: 45px;margin-left: 5px;position: absolute;right: 330px;bottom: 49px;">立即购买</a>
                     </div>
                 </li>
                 <li style='display:none;'>
                     <div class="index-banner-3" onclick="window.open('http://baidu.com')">
-
+                        <a href="#" class="btn btn-red purchase-button-position" style="width: 200px; height: 45px;position: absolute;right: 330px;bottom: 49px;">立即购买</a>
                     </div>
                 </li>
             </ul>
@@ -182,7 +183,7 @@
         </ul>
         <div class="clear"></div>
         <div class="model-one">
-            <div class="model-one-left">
+            <div class="model-one-left" onclick="window.open('www.baidu.com')">
                 <div class="detail">
                     <div class="title">国馆中国道</div>
                     <div class="text">这一次,人们重新定义白酒</div>
@@ -499,6 +500,19 @@
         },function(){
             $(this).find("img").css("opacity","0.7");
         });
+
+        /*a冒泡*/
+        /*$("div").bind("click",function(event){
+            var element = event.target;
+            if(element.tagName == 'DIV'){
+                event.stopPropagation();
+            }else if(element.tagName == 'A'){
+                event.stopPropagation();
+            }
+        })*/
+        $("a").bind("click",function(event){
+            event.stopPropagation();
+        })
     })
 </script>
 <script type="text/javascript">

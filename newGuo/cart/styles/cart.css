@@ -407,26 +407,26 @@ h2.order-title {
     background-size: 25px 25px;
 }
 .good-information1{
-    background: url("../../zhongguodao/images/6_01.jpg") no-repeat center #000;
-    height: 876px;
+    background: url("../../zhongguodao/images/6_01.jpg") no-repeat bottom #000;
+    height: 975px;
     position: relative;
     width: 100%;
 }
 .good-information2{
     background: url("../../zhongguodao/images/6_02.jpg") no-repeat center #000;
-    height: 1219px;
+    height: 1354px;
     position: relative;
     width: 100%;
 }
 .good-information3{
     background: url("../../zhongguodao/images/6_03.jpg") no-repeat center #000;
-    height: 1219px;
+    height: 1068px;
     position: relative;
     width: 100%;
 }
 .good-information4{
     background: url("../../zhongguodao/images/6_04.jpg") no-repeat center #000;
-    height: 781px;
+    height: 793px;
     position: relative;
     width: 100%;
 }
@@ -444,22 +444,273 @@ h2.order-title {
 }
 .good-information7{
     background: url("../../zhongguodao/images/6_07.jpg") no-repeat center #000;
-    height: 1261px;
+    height: 1263px;
     position: relative;
     width: 100%;
 }
-.good-information8{
+/*.good-information8{
     background: url("../../zhongguodao/images/6_08.jpg") no-repeat center #000;
-    height: 1200px;
+    height: 1197px;
     position: relative;
     width: 100%;
-}
+}*/
 .good-information9{
     background: url("../../zhongguodao/images/6_09.jpg") no-repeat center #000;
     height: 1042px;
     position: relative;
     width: 100%;
 }
+.good-information1-png{
+    width: 540px;
+    margin: 0 auto;
+}
+.watch-tv {
+    position: absolute;
+    top: 590px;
+    width: 400px;
+    left: 50%;
+    text-align: center;
+    font-size: 16px;
+    margin-left: -200px;
+}
+.good-information2-content{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.good-information2-content p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.good-information2-content-imgOne{
+    width: 199px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_01.jpg") center top no-repeat;
+    float: left;
+}
+.good-information2-content-imgOneHover{
+    width: 199px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_01_01.jpg") center top no-repeat;
+    float: left;
+}
+.good-information2-content-imgTwo{
+    width: 197px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_02.jpg") center top no-repeat;
+    float: left;
+}
+.good-information2-content-imgTwoHover{
+    width: 197px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_02_02.jpg") center top no-repeat;
+    float: left;
+}
+.good-information2-content-imgThree{
+    width: 197px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_03.jpg") center top no-repeat;
+    float: left;
+}
+.good-information2-content-imgThreeHover{
+    width: 197px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_03_03.jpg") center top no-repeat;
+    float: left;
+}
+.good-information2-content-imgFour{
+    width: 199px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_04.jpg") center top no-repeat;
+    float: left;
+}
+.good-information2-content-imgFourHover{
+    width: 199px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_04_04.jpg") center top no-repeat;
+    float: left;
+}
+.good-information2-content-imgFive{
+    width: 199px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_05.jpg") center top no-repeat;
+    float: left;
+}
+.good-information2-content-imgFiveHover{
+    width: 199px;
+    height: 261px;
+    cursor: pointer;
+    background: url("../../zhongguodao/images/7_05_05.jpg") center top no-repeat;
+    float: left;
+}
+.good-information3-content{
+    width: 960px;
+    margin: 0 auto;
+}
+.good-information3-content p{
+    width: 500px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.good-information3-content a{
+    color: #b63333;
+}
+.good-information3-content a:hover{
+    text-decoration: underline;
+}
+#zhongguodao-billboard {
+    background-color: #333;
+    width: 100%;
+    margin: 0 auto;
+    height: 1197px;
+    position: relative;
+}
+.zhongguodao-banner-1 {
+    background: url("../../zhongguodao/images/6_08.jpg") center top no-repeat;
+    width: 1920px;
+    height: 1197px;
+    position: relative;
+    cursor: pointer;
+}
+.zhongguodao-banner-2{
+    background: url("../../zhongguodao/images/6_08_02.jpg") center top no-repeat;
+    width: 1920px;
+    height: 1197px;
+    position: relative;
+    cursor: pointer;
+}
+.zhongguodao-banner-3{
+    background: url("../../zhongguodao/images/6_08_03.jpg") center top no-repeat;
+    width: 1920px;
+    height: 1197px;
+    position: relative;
+    cursor: pointer;
+}
+.zhongguodao-left-angle {
+    color: #ccc;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+    float: left;
+    cursor: pointer;
+}
+.zhongguodao-right-angle {
+    color: #ccc;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+    float: right;
+    cursor: pointer;
+}
+.zhongguodao-left-right{
+    width: 1280px; position:absolute; margin: 0 auto; top: 50%;
+    margin-top: -25px;
+    left: 0;
+    right: 0;
+}
+.zhongguodao-banner-1-title{
+    width: 730px; margin: 0 auto; padding-top: 532px;
+}
+.zhongguodao-banner-2-title{
+    width: 730px; margin: 0 auto; font-size: 24px; color: #fff; padding-top: 706px;
+    padding-left: 661px;
+}
+.join-model{
+    width: 245px;
+    height: 190px;
+    background-color: #f8f8f8;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.join-model-two{
+    width: 245px;
+    height: 190px;
+    background-color: #f8f8f8;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.join-model-bottom{
+    position: absolute;
+    left: 0;
+    bottom:0;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.join-model-bottom>span{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.join-bottom ul li{
+    display: block;
+    float: none;
+    text-align: left;
+}
+.join-bottom ul li:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
 @media (max-width: 1260px) {
-
+    #zhongguodao-billboard {
+        background-color: #333;
+        width: 100%;
+        margin: 0 auto;
+        height: 798px;
+        position: relative;
+    }
+    .zhongguodao-banner-1 {
+        background: url("../../zhongguodao/images/made_01.jpg") center top no-repeat;
+        width: 1280px;
+        height: 798px;
+        position: relative;
+        cursor: pointer;
+    }
+    .zhongguodao-banner-2{
+        background: url("../../zhongguodao/images/made_02.jpg") center top no-repeat;
+        width: 1280px;
+        height: 798px;
+        position: relative;
+        cursor: pointer;
+    }
+    .zhongguodao-banner-3{
+        background: url("../../zhongguodao/images/made_03.jpg") center top no-repeat;
+        width: 1280px;
+        height: 798px;
+        position: relative;
+        cursor: pointer;
+    }
+    .zhongguodao-left-right{
+        width: 960px; position:absolute; margin: 0 auto; top: 50%;
+        margin-top: -25px;
+        left: 0;
+        right: 0;
+    }
+    .zhongguodao-banner-1-title{
+        width: 730px; margin: 0 auto; padding-top: 340px;margin-left: 119px;
+    }
+    .zhongguodao-banner-2-title{
+        width: 730px; margin: 0 auto; font-size: 24px; color: #fff; padding-top: 506px;
+        padding-left: 255px;
+    }
 }

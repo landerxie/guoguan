@@ -105,7 +105,7 @@ ul{list-style: none;}
 .mini-cart-list {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 44px;
     right: 0;
     z-index: 20;
     width: 292px;
@@ -118,7 +118,7 @@ ul{list-style: none;}
     position: absolute;
     top: 0;
     right: 0;
-    padding-bottom: 17px;
+    padding-bottom: 1px;
     border-color: #c33829;
     border-bottom: 0;
     color: #ff9900;
@@ -134,6 +134,7 @@ ul{list-style: none;}
 }
 .model-nav li{
     display: inline-block;
+    margin-bottom: 6px;
     _zoom: 1;
     *display: inline;
     padding-right: 15px;
@@ -148,6 +149,7 @@ ul{list-style: none;}
     float: left;
     width: 570px;
     height: 430px;
+    cursor: pointer;
     position: relative;
     background: url("../../images/index_01.jpg") center top no-repeat;
 }
@@ -288,7 +290,7 @@ ul{list-style: none;}
     text-align: left;
     height: 39px;
     font-size: 12px;
-    margin:10px 15px 10px 15px;
+    margin:3px 15px 10px 15px;
     overflow: hidden;
 }
 .app-author{
@@ -537,7 +539,7 @@ button{
         font-size: 14px;
     }
     .site-header .header-nav .nav-main{
-        width: 660px;
+        width: 690px;
     }
     .app-image{
         height: 230px;

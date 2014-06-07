@@ -671,6 +671,213 @@ h2.order-title {
     font-weight: bold;
     margin-top: 40px;
 }
+.tabb-five-bg-1{
+    background: url("../../zhongguodao/images/yishu_01.jpg") center top no-repeat;
+    width: 100%;
+    height: 906px;
+    margin: 0 auto;
+}
+.tabb-five-bg-2{
+    background: url("../../zhongguodao/images/yishu_02.jpg") center top no-repeat;
+    width: 100%;
+    height: 2485px;
+    margin: 0 auto;
+}
+.tabb-five-bg-3{
+    background: url("../../zhongguodao/images/yishu_03.jpg") center top no-repeat;
+    width: 100%;
+    height: 1219px;
+    margin: 0 auto;
+}
+.tabb-five-bg-4{
+    background: url("../../zhongguodao/images/yishu_04.jpg") center top no-repeat;
+    width: 100%;
+    height: 1024px;
+    margin: 0 auto;
+}
+.tabb-seven-bg-1{
+    background: url("../../zhongguodao/images/caikai_01.jpg") center top no-repeat;
+    width: 1148px;
+    height: 1170px;
+    margin: 0 auto;
+}
+
+.tabb-seven-bg-2{
+    background: url("../../zhongguodao/images/caikai_02.jpg") center top no-repeat;
+    width: 1148px;
+    height: 676px;
+    margin: 0 auto;
+}
+.tabb-seven-bg-3{
+    background: url("../../zhongguodao/images/caikai_03.jpg") center top no-repeat;
+    width: 1148px;
+    height: 783px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.tabb-seven-bg-4{
+    background: url("../../zhongguodao/images/caikai_04.jpg") center top no-repeat;
+    width: 1148px;
+    height: 783px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.tabb-six-bg-1{
+    background: url("../../zhongguodao/images/shoucan_01.jpg") center top no-repeat;
+    width: 100%;
+    height: 1954px;
+    margin: 0 auto;
+}
+.tabb-six-bg-2{
+    background: url("../../zhongguodao/images/shoucan_02.jpg") center top no-repeat;
+    width: 100%;
+    height: 1065px;
+    margin: 0 auto;
+}
+.tabb-six-bg-3{
+    background: url("../../zhongguodao/images/shoucan_04.jpg") center top no-repeat;
+    width: 100%;
+    height: 1065px;
+    margin: 0 auto;
+}
+.tabb-six-bg-4{
+    background: url("../../zhongguodao/images/shoucan_05.jpg") center top no-repeat;
+    width: 100%;
+    height: 1055px;
+    margin: 0 auto;
+}
+.tabb-six-bg-5{
+    background: url("../../zhongguodao/images/shoucan_06.jpg") center top no-repeat;
+    width: 100%;
+    height: 1059px;
+    margin: 0 auto;
+}
+.tabb-six-bg-6{
+    background: url("../../zhongguodao/images/shoucan_07.jpg") center top no-repeat;
+    width: 100%;
+    height: 1066px;
+    margin: 0 auto;
+}
+.tabb-two-bg-1{
+    background: url("../../zhongguodao/images/jiuti_01.jpg") center top no-repeat;
+    width: 100%;
+    height: 1061px;
+    margin: 0 auto;
+}
+.tabb-two-bg-2{
+    background: url("../../zhongguodao/images/jiuti_02.jpg") center top no-repeat;
+    width: 100%;
+    height: 783px;
+    margin: 0 auto;
+}
+.tabb-two-bg-3{
+    background: url("../../zhongguodao/images/jiuti_03.jpg") center top no-repeat;
+    width: 100%;
+    height: 1042px;
+    margin: 0 auto;
+}
+.tabb-two-bg-4{
+    background: url("../../zhongguodao/images/jiuti_04.jpg") center top no-repeat;
+    width: 100%;
+    height: 983px;
+    margin: 0 auto;
+}
+.tabb-two-bg-5{
+    background: url("../../zhongguodao/images/jiuti_05.jpg") center top no-repeat;
+    width: 100%;
+    height: 1064px;
+    margin: 0 auto;
+}
+.tabb-two-bg-6{
+    background: url("../../zhongguodao/images/jiuti_06.jpg") center top no-repeat;
+    width: 100%;
+    height: 981px;
+    margin: 0 auto;
+}
+.tabb-two-bg-7{
+    background: url("../../zhongguodao/images/jiuti_07.jpg") center top no-repeat;
+    width: 100%;
+    height: 1011px;
+    margin: 0 auto;
+}
+.tabb-two-bg-8{
+    background: url("../../zhongguodao/images/jiuti_08.jpg") center top no-repeat;
+    width: 100%;
+    height: 1060px;
+    margin: 0 auto;
+}
+.tabb-two-bg-9{
+    background: url("../../zhongguodao/images/jiuti_09.jpg") center top no-repeat;
+    width: 100%;
+    height: 1065px;
+    margin: 0 auto;
+}
+.tabb-three-bg-1{
+    background: url("../../zhongguodao/images/sheji_01.jpg") center top no-repeat;
+    width: 100%;
+    height: 793px;
+    margin: 0 auto;
+}
+.tabb-three-bg-2{
+    background: url("../../zhongguodao/images/sheji_02.jpg") center top no-repeat;
+    width: 100%;
+    height: 982px;
+    margin: 0 auto;
+}
+.tabb-three-bg-3{
+    background: url("../../zhongguodao/images/sheji_03.jpg") center top no-repeat;
+    width: 100%;
+    height: 1024px;
+    margin: 0 auto;
+}
+.tabb-three-bg-4{
+    background: url("../../zhongguodao/images/sheji_04.jpg") center top no-repeat;
+    width: 100%;
+    height: 1138px;
+    margin: 0 auto;
+}
+.tabb-three-bg-5{
+    background: url("../../zhongguodao/images/sheji_05.jpg") center top no-repeat;
+    width: 100%;
+    height: 780px;
+    margin: 0 auto;
+}
+.tabb-three-bg-6{
+    background: url("../../zhongguodao/images/sheji_06.jpg") center top no-repeat;
+    width: 100%;
+    height: 803px;
+    margin: 0 auto;
+}
+.tabb-three-bg-7{
+    background: url("../../zhongguodao/images/sheji_07.jpg") center top no-repeat;
+    width: 100%;
+    height: 880px;
+    margin: 0 auto;
+}
+.tabb-four-bg-1{
+    background: url("../../zhongguodao/images/wenhua_01.jpg") center top no-repeat;
+    width: 100%;
+    height: 1006px;
+    margin: 0 auto;
+}
+.tabb-four-bg-2{
+    background: url("../../zhongguodao/images/wenhua_02.jpg") center top no-repeat;
+    width: 100%;
+    height: 941px;
+    margin: 0 auto;
+}
+.tabb-four-bg-3{
+    background: url("../../zhongguodao/images/wenhua_03.jpg") center top no-repeat;
+    width: 100%;
+    height: 911px;
+    margin: 0 auto;
+}
+.tabb-four-bg-4{
+    background: url("../../zhongguodao/images/wenhua_04.jpg") center top no-repeat;
+    width: 100%;
+    height: 845px;
+    margin: 0 auto;
+}
 @media (max-width: 1260px) {
     #zhongguodao-billboard {
         background-color: #333;

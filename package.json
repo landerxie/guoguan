@@ -1,0 +1,26 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "coffee -w server.coffee"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "jade": "*",
+    "coffee-script": "latest",
+    "passport-http": "latest",
+    "passport-http-bearer": "latest",
+    "passport-oauth2-client-password": "latest",
+    "oauth2orize": "latest",
+    "debug": "~0.7.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cmd-concat": "~0.2.0",
+    "grunt-cmd-transport": "~0.2.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-cssmin": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.0"
+  }
+}

@@ -127,7 +127,7 @@
     border: 1px solid #ccc;
     background-color: #f8f8f8;
     padding:10px;
-    margin-left: 15px;
+    margin-right: 10px;
     font-size: 13px;
     margin-top: 10px;
     cursor: pointer;
@@ -388,7 +388,7 @@ h2.order-title {
     bottom: 70px;
 }
 .icon-chevron-up {
-    background: url("../../images/angle-up.png") center no-repeat;
+    background: url("../../images/angle-up-0.png") center no-repeat;
     color: #fff;
     background-size: 25px 25px;
 }
@@ -402,7 +402,7 @@ h2.order-title {
     width: 50px!important;
 }
 .icon-chevron-down {
-    background: url("../../images/angle-down.png") center no-repeat;
+    background: url("../../images/angle-down-0.png") center no-repeat;
     color: #fff;
     background-size: 25px 25px;
 }
@@ -624,11 +624,11 @@ h2.order-title {
     right: 0;
 }
 .zhongguodao-banner-1-title{
-    width: 730px; margin: 0 auto; padding-top: 532px;
+    width: 1120px; margin: 0 auto; padding-top: 532px;
 }
 .zhongguodao-banner-2-title{
     width: 730px; margin: 0 auto; font-size: 24px; color: #fff; padding-top: 706px;
-    padding-left: 661px;
+    padding-left: 161px;
 }
 .join-model{
     width: 245px;
@@ -697,27 +697,27 @@ h2.order-title {
 }
 .tabb-seven-bg-1{
     background: url("../../zhongguodao/images/caikai_01.jpg") center top no-repeat;
-    width: 1148px;
+    width: 100%;
     height: 1170px;
     margin: 0 auto;
 }
 
 .tabb-seven-bg-2{
     background: url("../../zhongguodao/images/caikai_02.jpg") center top no-repeat;
-    width: 1148px;
+    width: 100%;
     height: 676px;
     margin: 0 auto;
 }
 .tabb-seven-bg-3{
     background: url("../../zhongguodao/images/caikai_03.jpg") center top no-repeat;
-    width: 1148px;
+    width: 100%;
     height: 783px;
     margin: 0 auto;
     margin-top: 20px;
 }
 .tabb-seven-bg-4{
     background: url("../../zhongguodao/images/caikai_04.jpg") center top no-repeat;
-    width: 1148px;
+    width: 100%;
     height: 783px;
     margin: 0 auto;
     margin-top: 20px;

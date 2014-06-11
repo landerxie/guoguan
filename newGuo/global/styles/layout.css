@@ -355,7 +355,7 @@ ul{list-style: none;}
     color: #ccc;
     width: 50px;
     height: 50px;
-    left: 135px;
+    left: 0;
     text-align: center;
     line-height: 50px;
     position: absolute;
@@ -367,6 +367,13 @@ ul{list-style: none;}
 .left-angle:hover,.left-angle:focus{
     background-color: rgba(0,0,0,0.3);
 }
+.index-angle{
+    width: 1150px;
+    position: absolute;
+    left: 50%;
+    margin-left: -575px;
+    margin-top: -250px;
+}
 .right-angle{
     color: #ccc;
     width: 50px;
@@ -376,7 +383,7 @@ ul{list-style: none;}
     position: absolute;
     font-size: 36px;
     top: 50%;
-    right: 135px;
+    right: 0;
     margin-top: -25px;
     cursor: pointer;
 }
@@ -426,6 +433,8 @@ ul{list-style: none;}
     border: none;
     font-family: "Microsoft Yahei";
     background-color: #fff;
+    color: #ccc;
+    font-size: 12px;
 }
 .input-style-border{
     height: 44px;
@@ -451,8 +460,30 @@ button{
     border:none;
     line-height: 45px;
     background-color: #ccc;
+    position: absolute;
+    right: 0;
+    top: 0;
     color: #333;
     *+width:108px;
+
+}
+/*ipad处理*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    /* Styles */
+    .btn-valite{
+        width: 100px;
+        height: 45px;
+        border:none;
+        line-height: 45px;
+        background-color: #ccc;
+        position: absolute;
+        right: 0px;
+        top: 0;
+        color: #333;
+        *+width:108px;
+}
 }
 .btn-valite:hover,.btn-valite:focus{
     background-color: #f8f8f8;
@@ -462,7 +493,6 @@ button{
 .valite-code{
     width: 110px;
     margin-right: 10px;
-    margin-right: 8px;
     float: left;
 }
 .login-form{
@@ -503,6 +533,13 @@ button{
     font-weight: 600;
 }
 @media (max-width: 1260px) {
+    .index-angle{
+        width: 950px;
+        position: absolute;
+        left: 50%;
+        margin-left: -475px;
+        margin-top: -188px;
+    }
     .left-angle{
         color: #ccc;
         width: 50px;

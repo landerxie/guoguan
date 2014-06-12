@@ -23,14 +23,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newGuo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="0" selection-start="5932" selection-end="5932" vertical-scroll-proportion="-12.592972" vertical-offset="11483" max-vertical-offset="12166">
+            <state line="13" column="74" selection-start="502" selection-end="502" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="12430">
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newGuo/global/styles/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="50899" selection-start="50899" selection-end="50899" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="132">
+              <folding>
+                <element signature="e#2438#20284#1" expanded="true" />
+                <element signature="e#20304#40593#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.fancybox-1.3.4.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newGuo/global/scripts/lib/fancybox/jquery.fancybox-1.3.4.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="218" column="18" selection-start="3720" selection-end="3720" vertical-scroll-proportion="-18.92" vertical-offset="4323" max-vertical-offset="7964">
+              <folding>
+                <marker date="1402542870925" expanded="true" signature="7196:7231" placeholder="{...}" />
+                <marker date="1402542870925" expanded="true" signature="7323:7567" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youku.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newGuo/youku.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="49" selection-start="174" selection-end="174" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="1056">
+              <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1402537653112" expanded="true" signature="148:177" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/father/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="16" selection-start="2690" selection-end="2690" vertical-scroll-proportion="0.9192825" vertical-offset="1799" max-vertical-offset="3410">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qore.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newGuo/qore.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="7" selection-start="476" selection-end="476" vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="462">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/father/one.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="51" selection-start="1283" selection-end="1283" vertical-scroll-proportion="-11.225806" vertical-offset="202" max-vertical-offset="2200">
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,19 +113,8 @@
       <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newGuo/global/styles/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="662" column="23" selection-start="13298" selection-end="13298" vertical-scroll-proportion="0.0" vertical-offset="14079" max-vertical-offset="15136">
+            <state line="681" column="0" selection-start="13670" selection-end="13670" vertical-scroll-proportion="0.0" vertical-offset="14409" max-vertical-offset="15136">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newGuo/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="73" selection-start="5818" selection-end="5818" vertical-scroll-proportion="-3.9285715" vertical-offset="2684" max-vertical-offset="8690">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -59,33 +122,21 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/father/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="93" selection-start="869" selection-end="869" vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="792">
+            <state line="83" column="27" selection-start="3511" selection-end="3511" vertical-scroll-proportion="-27.129032" vertical-offset="985" max-vertical-offset="2750">
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/father/css/layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="22" selection-start="887" selection-end="887" vertical-scroll-proportion="-16.8" vertical-offset="438" max-vertical-offset="1144">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="one.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/father/one.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="46" selection-start="1274" selection-end="1278" vertical-scroll-proportion="-4.192771" vertical-offset="202" max-vertical-offset="2200">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1402557170367" expanded="true" signature="3751:3770" placeholder="..." />
+                <marker date="1402557170367" expanded="true" signature="4094:4157" placeholder="..." />
+                <marker date="1402557170367" expanded="true" signature="4199:4211" placeholder="..." />
+                <marker date="1402557170367" expanded="true" signature="4230:4242" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -94,66 +145,8 @@
       <file leaf-file-name="four.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/father/four.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="9" selection-start="1744" selection-end="1744" vertical-scroll-proportion="-13.4838705" vertical-offset="396" max-vertical-offset="1122">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="address.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newGuo/address.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="54" selection-start="9719" selection-end="9719" vertical-scroll-proportion="-7.903226" vertical-offset="4903" max-vertical-offset="9438">
-              <folding>
-                <element signature="n#style#0;n#i#0;n#a#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#2;n#li#0;n#ul#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="three.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/father/three.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="12" selection-start="4033" selection-end="4033" vertical-scroll-proportion="-12.225806" vertical-offset="2107" max-vertical-offset="3212">
-              <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="two.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/father/two.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="48" selection-start="1277" selection-end="1283" vertical-scroll-proportion="-4.1445785" vertical-offset="206" max-vertical-offset="1430">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="37" column="9" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1122">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,30 +161,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/newGuo/cart.html" />
-        <option value="$PROJECT_DIR$/product/js/option.js" />
-        <option value="$PROJECT_DIR$/newGuo/band-story.html" />
-        <option value="$PROJECT_DIR$/newGuo/zhongguodao.html" />
         <option value="$PROJECT_DIR$/newGuo/cart/styles/cart.css" />
         <option value="$PROJECT_DIR$/father/css/base.css" />
-        <option value="$PROJECT_DIR$/father/index.html" />
         <option value="$PROJECT_DIR$/newGuo/address.html" />
         <option value="$PROJECT_DIR$/newGuo/register.html" />
         <option value="$PROJECT_DIR$/father/two.html" />
         <option value="$PROJECT_DIR$/father/one.html" />
-        <option value="$PROJECT_DIR$/father/css/layout.css" />
         <option value="$PROJECT_DIR$/father/three.html" />
         <option value="$PROJECT_DIR$/father/four.html" />
-        <option value="$PROJECT_DIR$/newGuo/index.html" />
+        <option value="$PROJECT_DIR$/newGuo/youku.html" />
+        <option value="$PROJECT_DIR$/newGuo/qore.html" />
         <option value="$PROJECT_DIR$/newGuo/global/styles/layout.css" />
+        <option value="$PROJECT_DIR$/newGuo/index.html" />
+        <option value="$PROJECT_DIR$/newGuo/global/scripts/lib/fancybox/jquery.fancybox-1.3.4.css" />
+        <option value="$PROJECT_DIR$/newGuo/global/styles/base.css" />
+        <option value="$PROJECT_DIR$/father/index.html" />
+        <option value="$PROJECT_DIR$/father/css/layout.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
+    <option name="x" value="1916" />
     <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1044" />
+    <option name="width" value="1088" />
+    <option name="height" value="1928" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -445,6 +438,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guoguan-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newGuo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -493,12 +508,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="D:/Documents/Downloads/jq22.com-zfb" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -515,6 +530,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -525,19 +548,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -554,10 +573,6 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <list size="0" />
@@ -589,17 +604,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <frame x="1916" y="-4" width="1088" height="1928" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21776815" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23697917" sideWeight="0.8169014" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22407408" sideWeight="0.9064748" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18309858" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10902048" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -623,39 +638,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newGuo/pay-method.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3828" max-vertical-offset="7524">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newGuo/job.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newGuo/zhongguodao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="23408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex/address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="-9.935484" vertical-offset="0" max-vertical-offset="5764">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newGuo/cart/styles/cart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="32" selection-start="2463" selection-end="2463" vertical-scroll-proportion="0.0" vertical-offset="2530" max-vertical-offset="21560">
-          <folding />
-        </state>
+        <state line="137" column="32" selection-start="2463" selection-end="2463" vertical-scroll-proportion="0.0" vertical-offset="2530" max-vertical-offset="21560" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/father/css/base.css">
@@ -667,116 +652,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newGuo/address.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="54" selection-start="9719" selection-end="9719" vertical-scroll-proportion="-7.903226" vertical-offset="4903" max-vertical-offset="9438">
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#2;n#li#0;n#ul#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="234" column="54" selection-start="9719" selection-end="9719" vertical-scroll-proportion="0.0" vertical-offset="4903" max-vertical-offset="9438">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/father/two.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="48" selection-start="1277" selection-end="1283" vertical-scroll-proportion="-4.1445785" vertical-offset="206" max-vertical-offset="1430">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/father/one.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="46" selection-start="1274" selection-end="1278" vertical-scroll-proportion="-4.192771" vertical-offset="202" max-vertical-offset="2200">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/father/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="22" selection-start="887" selection-end="887" vertical-scroll-proportion="-16.8" vertical-offset="438" max-vertical-offset="1144">
+        <state line="25" column="48" selection-start="1277" selection-end="1283" vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1430">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/father/three.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="12" selection-start="4033" selection-end="4033" vertical-scroll-proportion="-12.225806" vertical-offset="2107" max-vertical-offset="3212">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="113" column="12" selection-start="4033" selection-end="4033" vertical-scroll-proportion="0.0" vertical-offset="2107" max-vertical-offset="3212">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newGuo/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="73" selection-start="5818" selection-end="5818" vertical-scroll-proportion="-3.9285715" vertical-offset="2684" max-vertical-offset="8690">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/father/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="93" selection-start="869" selection-end="869" vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="792">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="132" column="73" selection-start="5818" selection-end="5818" vertical-scroll-proportion="0.0" vertical-offset="2684" max-vertical-offset="8690">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/father/four.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="9" selection-start="1744" selection-end="1744" vertical-scroll-proportion="-13.4838705" vertical-offset="396" max-vertical-offset="1122">
+        <state line="37" column="9" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGuo/youku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="49" selection-start="174" selection-end="174" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="1056">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1402537653112" expanded="true" signature="148:177" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGuo/qore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="476" selection-end="476" vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="462">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newGuo/global/styles/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="662" column="23" selection-start="13298" selection-end="13298" vertical-scroll-proportion="0.0" vertical-offset="14079" max-vertical-offset="15136">
+        <state line="681" column="0" selection-start="13670" selection-end="13670" vertical-scroll-proportion="0.0" vertical-offset="14409" max-vertical-offset="15136">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/father/one.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="51" selection-start="1283" selection-end="1283" vertical-scroll-proportion="-11.225806" vertical-offset="202" max-vertical-offset="2200">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGuo/global/scripts/lib/fancybox/jquery.fancybox-1.3.4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="18" selection-start="3720" selection-end="3720" vertical-scroll-proportion="-18.92" vertical-offset="4323" max-vertical-offset="7964">
+          <folding>
+            <marker date="1402542870925" expanded="true" signature="7196:7231" placeholder="{...}" />
+            <marker date="1402542870925" expanded="true" signature="7323:7567" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGuo/global/styles/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="50899" selection-start="50899" selection-end="50899" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="132">
+          <folding>
+            <element signature="e#2438#20284#1" expanded="true" />
+            <element signature="e#20304#40593#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newGuo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="0" selection-start="5932" selection-end="5932" vertical-scroll-proportion="-12.592972" vertical-offset="11483" max-vertical-offset="12166">
+        <state line="13" column="74" selection-start="502" selection-end="502" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="12430">
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/father/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="27" selection-start="3511" selection-end="3511" vertical-scroll-proportion="-27.129032" vertical-offset="985" max-vertical-offset="2750">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1402557170367" expanded="true" signature="3751:3770" placeholder="..." />
+            <marker date="1402557170367" expanded="true" signature="4094:4157" placeholder="..." />
+            <marker date="1402557170367" expanded="true" signature="4199:4211" placeholder="..." />
+            <marker date="1402557170367" expanded="true" signature="4230:4242" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/father/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="16" selection-start="2690" selection-end="2690" vertical-scroll-proportion="0.9192825" vertical-offset="1799" max-vertical-offset="3410">
+          <folding />
         </state>
       </provider>
     </entry>

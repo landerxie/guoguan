@@ -45,3 +45,105 @@ body{
     line-height: 29px;
     color: #333;
 }
+.avi-div{
+    width: 100%;
+    height: 482px;
+    background-color: #000;
+}
+.right-fixed{
+    z-index: 100;
+    width: 147px;
+    font-size: 16px;
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+}
+.right-fixed li a {
+    color: #000;
+}
+.right-fixed li{
+    text-align: center;
+}
+.right-fixed-one{
+    background-color: #f5e2cb;
+    height: 140px;
+}
+.right-fixed-two{
+    background-color: #e3d0b9;
+    height: 59px;
+    line-height: 59px;
+}
+.right-fixed-three{
+    background-color: #c5b29b;
+    height: 59px;
+    line-height: 59px;
+}
+.right-fixed-four{
+    background-color: #99866f;
+    height: 59px;
+    line-height: 59px;
+    font-size: 13px;
+}
+.wenzhang{
+    text-align: center;
+}
+.wenzhang p.color-one {
+    font-size: 16px;
+    line-height: 29px;
+    color: #7d7d7d;
+    text-align: left;
+    text-indent: 2em;
+}
+.wenzhang-two{
+    margin-top: 30px;
+}
+.wenzhang-two span{
+    color: #535353;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wenzhang-two p.color-two {
+    font-size: 16px;
+    line-height: 29px;
+    color: #707070;
+    text-align: left;
+    margin-top: 20px;
+    text-indent: 2em;
+}
+.bg-two{
+    background: url("../images/1_14.jpg") center top no-repeat;
+    height: 805px;
+
+}
+.bg-two>div{
+    padding-top: 300px;
+}
+.bg-two>div span{
+    font-size: 60px;
+    color: #e60012;
+}
+.bg-two>div>div {
+    margin-top: 24px;
+    font-size: 42px;
+    color: #000;
+}
+.middle-left{
+    width: 590px;
+    float: left;
+    height: 612px;
+    border:1px solid #ccc ;
+    margin-right: 10px;
+}
+.middle-right{
+    width: 340px;
+    float: left;
+    height: 612px;
+    border:1px solid #ccc ;
+}
+.left-one{
+    float: left;
+    margin-right:10px;
+}
+.left-two{
+    float: left;
+}

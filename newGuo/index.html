@@ -196,7 +196,7 @@
                 </div>
             </div>
             <div class="model-one-right">
-                <div class="model-little-one model-little" onclick="window.open('youku.html','_self')">
+                <div class="model-little-one model-little ">
                     <div class="model-bottom" >
                             <div class="left" >
                                 <div class="title">
@@ -211,7 +211,7 @@
                                 </div>
                             </div>
                         <div class="right">
-                            <a href="youku.html" style="color: #fff">
+                            <a href="youku.html" style="color: #fff" class="youku">
                                 <img src="images/play_icon.png" style="width:20px;height: 20px;">
                             </a>
                         </div>
@@ -559,7 +559,19 @@
             'transitionIn'		: 'fade',
             'transitionOut'		: 'fade',
             'overlayOpacity'	: '0.7',
-            'overlayColor'		: '#fff',
+            'overlayColor'		: '#000',
+            'scrolling'		    : 'no',
+            'type'				: 'iframe'
+        });
+        $(".youku").fancybox({
+            'width'				: 900,
+            'height'			: 520,
+            'autoScale'			: false,
+            'transitionIn'		: 'fade',
+            'transitionOut'		: 'fade',
+            'centerOnScroll'		: 'true',
+            'overlayOpacity'	: '0.7',
+            'overlayColor'		: '#000',
             'scrolling'		    : 'no',
             'type'				: 'iframe'
         });

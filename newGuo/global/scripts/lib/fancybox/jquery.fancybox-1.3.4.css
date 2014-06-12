@@ -35,7 +35,7 @@
 	left: 0;
 	width: 40px;
 	height: 480px;
-	background-image: url('fancybox.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox.png');
 }
 
 #fancybox-overlay {
@@ -69,7 +69,6 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: #fff;
 }
 
 #fancybox-content {
@@ -80,7 +79,6 @@
 	position: relative;
 	overflow: hidden;
 	z-index: 10000;
-	border: 0px solid #fff;
 }
 
 #fancybox-hide-sel-frame {
@@ -93,17 +91,17 @@
 	z-index: 1101;
 }
 
-#fancybox-close {
+/*#fancybox-close {
 	position: absolute;
-	top: -40px;
-	right: -40px;
+	top: 0;
+	right: 0;
 	width: 30px;
 	height: 30px;
-	background: transparent url('fancybox.png') -40px 0px;
+	background: transparent url('../../global/scripts/lib/fancybox/fancybox.png') -40px 0px;
 	cursor: pointer;
 	z-index: 1103;
 	display: none;
-}
+}*/
 
 #fancybox-error {
 	color: #444;
@@ -137,7 +135,7 @@
 	width: 35%;
 	cursor: pointer;
 	outline: none;
-	background: transparent url('blank.gif');
+	background: transparent url('../../global/scripts/lib/fancybox/blank.gif');
 	z-index: 1102;
 	display: none;
 }
@@ -163,12 +161,12 @@
 }
 
 #fancybox-left-ico {
-	background-image: url('fancybox.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox.png');
 	background-position: -40px -30px;
 }
 
 #fancybox-right-ico {
-	background-image: url('fancybox.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox.png');
 	background-position: -40px -60px;
 }
 
@@ -199,59 +197,59 @@
 	top: -20px;
 	left: 0;
 	width: 100%;
-	background-image: url('fancybox-x.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox-x.png');
 }
 
-#fancybox-bg-ne {
+/*#fancybox-bg-ne {
 	top: -20px;
 	right: -20px;
-	background-image: url('fancybox.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox.png');
 	background-position: -40px -162px;
-}
+}*/
 
 #fancybox-bg-e {
 	top: 0;
 	right: -20px;
 	height: 100%;
-	background-image: url('fancybox-y.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox-y.png');
 	background-position: -20px 0px;
 }
 
-#fancybox-bg-se {
+/*#fancybox-bg-se {
 	bottom: -20px;
 	right: -20px;
-	background-image: url('fancybox.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox.png');
 	background-position: -40px -182px; 
-}
+}*/
 
 #fancybox-bg-s {
 	bottom: -20px;
 	left: 0;
 	width: 100%;
-	background-image: url('fancybox-x.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox-x.png');
 	background-position: 0px -20px;
 }
 
-#fancybox-bg-sw {
+/*#fancybox-bg-sw {
 	bottom: -20px;
 	left: -20px;
-	background-image: url('fancybox.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox.png');
 	background-position: -40px -142px;
-}
+}*/
 
 #fancybox-bg-w {
 	top: 0;
 	left: -20px;
 	height: 100%;
-	background-image: url('fancybox-y.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox-y.png');
 }
 
-#fancybox-bg-nw {
+/*#fancybox-bg-nw {
 	top: -20px;
 	left: -20px;
-	background-image: url('fancybox.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancybox.png');
 	background-position: -40px -122px;
-}
+}*/
 
 #fancybox-title {
 	font-family: Helvetica;
@@ -282,7 +280,7 @@
 
 #fancybox-title-over {
 	padding: 10px;
-	background-image: url('fancy_title_over.png');
+	background-image: url('../../global/scripts/lib/fancybox/fancy_title_over.png');
 	display: block;
 }
 
@@ -306,7 +304,7 @@
 
 #fancybox-title-float-left {
 	padding: 0 0 0 15px;
-	background: url('fancybox.png') -40px -90px no-repeat;
+	background: url('../../global/scripts/lib/fancybox/fancybox.png') -40px -90px no-repeat;
 }
 
 #fancybox-title-float-main {
@@ -314,12 +312,12 @@
 	line-height: 29px;
 	font-weight: bold;
 	padding: 0 0 3px 0;
-	background: url('fancybox-x.png') 0px -40px;
+	background: url('../../global/scripts/lib/fancybox/fancybox-x.png') 0px -40px;
 }
 
 #fancybox-title-float-right {
 	padding: 0 0 0 15px;
-	background: url('fancybox.png') -55px -90px no-repeat;
+	background: url('../../global/scripts/lib/fancybox/fancybox.png') -55px -90px no-repeat;
 }
 
 /* IE6 */

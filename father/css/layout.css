@@ -2,9 +2,22 @@
 .container-big{ width: 1440px; margin: 0 auto; position: relative;}
 .banner{
     background:url("../images/1_01.jpg") center top no-repeat;
-    width: 100%;
-    height: 500px;
+    width: 1440px;
+    height: 494px;
 
+}
+.banner-second{
+    background:url("../images/1_01_01.png") center top no-repeat;
+    width: 1440px;
+    height: 251px;
+}
+body{
+    background: url("../images/bg.png") repeat center top;
+}
+.footer{
+    background:url("../images/1_13.jpg") center top no-repeat;
+    width: 1440px;
+    height: 228px;
 }
 .second-title {
     font-size: 42px;
@@ -29,5 +42,6 @@
 }
 .second-title-content p{
     font-size: 16px;
-    color: #7d7d7d;
+    line-height: 29px;
+    color: #333;
 }

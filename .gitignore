@@ -24,7 +24,5 @@ build/Release
 # see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
 node_modules
 
-$mv gitignore .gitignore 
-[root@~/workspace]
-$git status
-# On branch master
+# .idea/
+/.idea/workspace.xml

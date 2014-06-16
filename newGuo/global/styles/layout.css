@@ -537,36 +537,6 @@ and (max-device-width : 1024px) {
     color: #c33829!important;
     font-weight: 600;
 }
-.right-fixed{
-    position: fixed;
-    right: 10px;
-    top: 50%;
-    margin-top: -108px;
-    color: #ccc;
-    font-size: 12px;
-}
-.right-fixed li{
-    text-align: center;
-    width: 70px;
-    height: 70px;
-    border: 1px solid #f8f8f8;
-    background-color: #fff;
-}
-.right-fixed-color{
-    color: #333;
-    margin-top: 5px;
-}
-.right-fixed-img{
-    margin-top: 10px;
-    width: 30px;
-    height: 30px
-}
-
-.right-fixed li:hover{
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
-}
-
 @media (max-width: 1260px) {
     .index-angle{
         width: 950px;

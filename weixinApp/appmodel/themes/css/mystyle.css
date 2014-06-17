@@ -1322,6 +1322,7 @@ body {
   font-weight: bold;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
+    color: #ccc;
   position: absolute;
   right: 0;
   top: 50%;
@@ -1426,7 +1427,8 @@ body {
 #jqt .whiteButton, #jqt .grayButton, #jqt .redButton, #jqt .blueButton, #jqt .greenButton {
   display: block;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
+    font-family: "microsoft yahei";
   margin: 10px 10px;
   padding: 19px;
   text-align: center;
@@ -1752,15 +1754,62 @@ body {
 /* line 435, ../../../themes/scss/include/_skeleton.scss */
 #jqt ul.metal li {
   background-image: none;
-  border-top: 1px solid white;
-  border-bottom: 1px solid #666666;
   font-size: 26px;
+    width: 150px;
+    padding:0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-left: 10px;
+}
+#jqt ul.metal li img{
+    width: 150px;
+    height: 150px;
+
 }
 /* line 442, ../../../themes/scss/include/_skeleton.scss */
 #jqt ul.metal li a {
   line-height: 26px;
   margin: 0;
   padding: 13px 0;
+    padding-left: 50px;
+}
+#jqt ul.metal li.arrow:after{
+    content: '›';
+    width: 22px;
+    height: 20px;
+    vertical-align: middle;
+    font-size: 30px;
+    line-height: 20px;
+    font-family: Futura, "Futura Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    position: absolute;
+    color: #ccc;
+    right: 0;
+    top: 50%;
+    margin-top: -10000px;
+    pointer-events: none;
+    z-index: 10;
+}
+#jqt ul.metal li a:after{
+    content: '›';
+    width: 22px;
+    height: 20px;
+    vertical-align: middle;
+    font-size: 30px;
+    line-height: 20px;
+    font-family: Futura, "Futura Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    position: absolute;
+    color: #ccc;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+    pointer-events: none;
+    z-index: 10;
 }
 /* line 448, ../../../themes/scss/include/_skeleton.scss */
 #jqt ul.metal li em {
@@ -2053,6 +2102,24 @@ body {
     max-width: 720px;
     text-align: center;
     margin:0 auto;
+}
+.detail-result{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.detail-result h3{
+    font-family: "microsoft yahei";
+    color: #333;
+    margin-top: 30px;
+    font-weight: normal;
+}
+.detail-result h1{
+    font-size: 24px!important;
+    font-family: "microsoft yahei";
+    font-weight: normal!important;
+    margin-top: 30px!important;
+    color: #b74a36!important;
 }
 
 

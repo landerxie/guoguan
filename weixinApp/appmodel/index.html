@@ -505,6 +505,16 @@
     function hidead()
     {
         document.getElementById("ad").style.display="none";
+        var nodeOne = document.getElementsByClassName("etabs");
+        var nodeTwo = document.getElementsByClassName("item-title");
+        for(var i= 0,l=nodeOne.length; i < l; i++){
+            nodeOne[i].style.marginTop = "0";
+        }
+        for(var i= 0,l=nodeTwo.length; i < l; i++){
+            nodeTwo[i].style.marginTop = "0";
+        }
+        /*$(".item-title").css("margin-top","0")
+        $(".etabs").css("margin-top","0")*/
     }
 
     var x = 50,y = 60

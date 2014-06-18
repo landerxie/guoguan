@@ -17,9 +17,10 @@
     <!-- <script src="src/jqt.min.js" type="text/javascript" charset="utf-8"></script> -->
     <!-- <script src="src/jqtouch-jquery.min.js" type="application/x-javascript" charset="utf-8"></script> -->
 
-    <script src="extensions/jqt.themeswitcher.min.js" type="application/x-javascript" charset="utf-8"></script>
+    <!--<script src="extensions/jqt.themeswitcher.min.js" type="application/x-javascript" charset="utf-8"></script>
     <script src="extensions/jqt.actionsheet.min.js" type="application/x-javascript" charset="utf-8"></script>
-    <script src="extensions/jqt.menusheet.min.js" type="application/x-javascript" charset="utf-8"></script>
+    <script src="extensions/jqt.menusheet.min.js" type="application/x-javascript" charset="utf-8"></script>-->
+
 
     <script type="text/javascript" charset="utf-8">
         var jQT = new $.jQT({
@@ -34,17 +35,6 @@
         // Some sample Javascript functions:
         $(function(){
 
-            // Show a swipe event on swipe test
-            $('#swipeme').swipe(function(evt, data) {
-                var details = !data ? '': '<strong>' + data.direction + '/' + data.deltaX +':' + data.deltaY + '</strong>!';
-                $(this).html('You swiped ' + details );
-                $(this).parent().after('<li>swiped!</li>')
-            });
-
-            $('#tapme').tap(function(){
-                $(this).parent().after('<li>tapped!</li>')
-            });
-
             $('a[target="_blank"]').bind('click', function() {
                 if (confirm('This link opens in a new window.')) {
                     return true;
@@ -53,38 +43,25 @@
                 }
             });
 
-            // Page animation callback events
-            $('#pageevents').
-                    bind('pageAnimationStart', function(e, info){
-                        $(this).find('.info').append('Started animating ' + info.direction + '&hellip;  And the link ' +
-                                'had this custom data: ' + $(this).data('referrer').data('custom') + '<br>');
-                    }).
-                    bind('pageAnimationEnd', function(e, info){
-                        $(this).find('.info').append('Finished animating ' + info.direction + '.<br><br>');
+            setTimeout(function(){
+                $(".logo").addClass("animated");
+            },1000)
 
-                    });
 
-            // Page animations end with AJAX callback event, example 1 (load remote HTML only first time)
-            $('#callback').bind('pageAnimationEnd', function(e, info){
-
-                // Make sure the data hasn't already been loaded (we'll set 'loaded' to true a couple lines further down)
-                if (!$(this).data('loaded')) {
-
-                    // Append a placeholder in case the remote HTML takes its sweet time making it back
-                    // Then, overwrite the "Loading" placeholder text with the remote HTML
-                    $(this).append($('<div>Loading</div>').load('ajax.html .info', function() {
-                        // Set the 'loaded' var to true so we know not to reload
-                        // the HTML next time the #callback div animation ends
-                        $(this).parent().data('loaded', true);
-                    }));
-                }
-            });
             // Orientation callback event
             $('#jqt').bind('turn', function(e, data){
                 $('#orient').html('Orientation: ' + data.orientation);
             });
-
         });
+
+        //手机号校验
+        function startTest(){
+            if(!$('#some_name').val()|| $('#some_name').val().length != 11){
+                alert('请输入正确的手机号码');
+            } else{
+                window.location.href = "#item-one";
+            }
+        }
     </script>
     <style type="text/css" media="screen">
         #jqt.fullscreen #home .info {
@@ -109,8 +86,16 @@
     </style>
 </head>
 <body>
-<div id="jqt" class="">
+<div id="ad">
+    <a href="http://www.guoguan.com">
+        <img src="themes/images/banner_ad.jpg">
+    </a>
+    <div onclick="hidead();" style="font-size: 9pt; cursor: pointer; max-width: 720px; margin: 0 auto; margin-top: -39px;" align=right>
+        <img src="themes/img/error_five.png" style="height: 20px; width: 20px; margin-right: 30px" alt=""/>
+    </div>
+</div>
 
+<div id="jqt" class="">
     <div id="home" class="current">
         <div class="home-banner">
             <img src="themes/images/zhongguodao.jpg">
@@ -129,7 +114,7 @@
                     <li><input type="number" pattern="[0-9]*" name="number" placeholder="请输入手机号码" id="some_name"></li>
                 </ul>
             </form>
-            <a href="#item-one" class="redButton">开始测试</a>
+            <a href="javascript:startTest();" class="redButton">开始测试</a>
         </div>
         <div class="info">
             <p>已有333333人参加测试<br>测试提供：国馆，中国收藏级文化白酒</p>
@@ -138,10 +123,6 @@
 
 
     <div id="item-one">
-        <div class="toolbar">
-            <h1>第一题</h1>
-            <a href="#" class="back">返回</a>
-        </div>
         <div class="item-title">
             <h1>
                 你的失败值是多少？
@@ -187,10 +168,6 @@
     </div>
 
     <div id="item-two">
-        <div class="toolbar">
-            <h1>第二题</h1>
-            <a class="back" href="#">上一题</a>
-        </div>
         <div class="item-title">
             <h1>
                 你的失败值是多少？
@@ -240,10 +217,6 @@
     </div>
 
     <div id="item-three">
-        <div class="toolbar">
-            <h1>第三题</h1>
-            <a class="back" href="#">上一题</a>
-        </div>
         <div class="item-title">
             <h1>
                 你的失败值是多少？
@@ -301,10 +274,6 @@
     </div>
 
     <div id="show-result">
-        <div class="toolbar">
-            <h1>想看结果吗？</h1>
-            <a class="back" href="#">上一题</a>
-        </div>
         <div class="item-title">
             <h1>
                 你的失败值是多少？
@@ -342,18 +311,222 @@
         </div>
 
         <div class="scroll">
-            <a href="#item-one" class="redButton" style="margin-bottom: 100px;">查看详细分析</a>
+            <a href="#result" class="redButton" style="margin-bottom: 100px;">查看详细分析</a>
         </div>
 
         <div class="info">
             <p>测试提供：国馆，中国收藏级文化白酒</p>
         </div>
     </div>
+
+
+    <!--结果页面-->
+    <div id="result" class="scroll">
+        <div class='etabs'>
+            <span class='tab tab-selected'><a href="#result" class="dissolve">测试结果</a></span><span class='tab'><a href="#cluster" class="dissolve">改变企业的秘密</a></span>
+        </div>
+        <div class='panel-container'>
+            <div class="result-title">
+                <h1>
+                    你的失败值是多少？
+                </h1>
+                <div class="logo animated">
+                    <img src="themes/img/logo.jpg">
+                </div>
+            </div>
+            <div class="brief-result">
+                <h3>
+                    你的测试结果
+                </h3>
+                <h1>
+                    析出八万项雨
+                </h1>
+            </div>
+            <div class="brief-result">
+                <h3>
+                    结果分析:
+                </h3>
+                <p>
+                    是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是 ooo 是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是
+                </p>
+            </div>
+            <div class="scroll">
+                <a href="#actionsheet" class="redButton action" style="margin:0; width: 39%; float: left;font-size: 14px">邀请朋友测试</a>
+                <a href="#result" class="redButton" style="margin:0; width: 39%; float: right;font-size: 14px">关注“国馆”微信</a>
+                <div style="clear: both"></div>
+            </div>
+            <div class="restart">
+                <a href="#home" class="swap">
+                    对结果不满意？请重新测试
+                </a>
+            </div>
+
+            <div class="brief-result">
+                <h3>
+                    大家都在玩
+                </h3>
+            </div>
+            <ul class="plastic scroll">
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>已有23878人参与</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>已有23878人参与</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+            </ul>
+            <div class="scroll">
+                <a href="#cluster" class="redButton pop" style="margin-bottom: 100px;">下一步</a>
+            </div>
+
+            <div class="info">
+                <p>测试提供：国馆，中国收藏级文化白酒</p>
+            </div>
+        </div>
+    </div>
+    <div id="cluster" class="scroll">
+        <div class='etabs '>
+            <span class='tab'><a href="#result" class="dissolve">测试结果</a></span><span class='tab tab-selected'><a href="#cluster" class="dissolve">改变企业的秘密</a></span>
+        </div>
+        <div class='panel-container'>
+            <div class="result-title">
+                <h1>
+                    改变企业的十个微信号
+                </h1>
+            </div>
+            <div class="brief-result">
+                <p>
+                    是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是 ooo 是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是
+                </p>
+            </div>
+            <ul class="plastic scroll">
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>描述描述描述描述描述描述</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>描述描述描述描述描述描述</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>描述描述描述描述描述描述</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>描述描述描述描述描述描述</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>描述描述描述描述描述描述</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>描述描述描述描述描述描述</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>描述描述描述描述描述描述</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>描述描述描述描述描述描述</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+                <li>
+                    <img src="themes/images/2_03.jpg">
+                    <a href="#">
+                        新文盲测试<br>
+                        <span>描述描述描述描述描述描述</span>
+                    </a>
+                    <button class="look-button">去看看</button>
+                </li>
+            </ul>
+            <div class="scroll" style="margin-top: 30px; margin-bottom: 30px">
+                <a href="#result" class="redButton pop" style="margin:0; width: 39%; float: left;font-size: 14px">返回看测试结果</a>
+                <a href="#result" class="redButton" style="margin:0; width: 39%; float: right;font-size: 14px">分享到朋友圈</a>
+                <div style="clear: both"></div>
+            </div>
+            <div class="info">
+                <p>测试提供：国馆，中国收藏级文化白酒</p>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 </body>
 <script>
     if (window.navigator.standalone) {
         $("meta[name='apple-mobile-web-app-status-bar-style']").remove();
     }
+</script>
+<script type="text/javascript">
+    function hidead()
+    {
+        document.getElementById("ad").style.display="none";
+    }
+
+    var x = 50,y = 60
+    var xin = true, yin = true
+    var step = 1
+    var delay = 1
+    var obj=document.getElementById("ad")
+    function floatAD() {
+        var L=T=0
+        var R= document.body.clientWidth-obj.offsetWidth
+        var B = document.body.clientHeight-obj.offsetHeight
+        obj.style.left = x + document.body.scrollLeft
+        obj.style.top = y + document.body.scrollTop
+        x = x + step*(xin?1:-1)
+        if (x < L) { xin = true; x = L}
+        if (x > R){ xin = false; x = R}
+        y = y + step*(yin?1:-1)
+        if (y < T) { yin = true; y = T }
+        if (y > B) { yin = false; y = B }
+    }
+    var itl= setInterval("floatAD()", delay)
+    obj.onmouseover=function(){clearInterval(itl)}
+    obj.onmouseout=function(){itl=setInterval("floatAD()", delay)}
 </script>
 </html>

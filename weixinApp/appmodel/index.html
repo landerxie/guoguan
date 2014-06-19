@@ -31,11 +31,29 @@
                 statusBar: 'black-translucent',
                 preloadImages: []
             });
-
+            function GetQueryString(name)
+            {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                var r = window.location.search.substr(1).match(reg);
+                if (r !== null)
+                    return unescape(r[2]);
+                return null;
+            }
             // Some sample Javascript functions:
             $(function() {
+                var id = GetQueryString("id");
                 $.ajax({
-                    url: 'http://box.guoguan.com/test/MentalTestApi.php?a=getinfo&id=1&tmp=12316554654',type: 'get',dataType : "jsonp",async: true, success: function(data) {}
+                    url: '/test/MentalTestApi.php?a=getinfo&id=' + id + '&tmp=' + Math.random(), type: 'get', async: true,
+                    error: function(data) {
+                        alert("err:" + data);
+                    },
+                    success: function(data) {
+                        var obj = eval("("+data+")"); 
+                        if(obj.err===0){
+                            $(".home-title h1").html(obj.msg.mentaltest_title);
+                            $(".home-title p").html(obj.msg.mentaltest_content);
+                        }
+                    }
                 });
                 $('a[target="_blank"]').bind('click', function() {
                     if (confirm('This link opens in a new window.')) {
@@ -111,7 +129,6 @@
                     <h1>
                         你的失败值是多少？
                     </h1>
-                    {{item[0].name}}
                     <p>
                         王八将相宁有种笠？来测测你在前世是英雄，还是狗熊，是男人，还是女人，是官宦，还是宦官？
                     </p>
@@ -164,11 +181,11 @@
                 </div>
                 <!--以上都一样-->
 
-                <ul class="rounded scroll">
-                    <li class="arrow"><a href="#item-two">你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理</a> </li>
-                    <li class="arrow"><a href="#item-two">你心理</a></li>
-                    <li class="arrow"><a href="#item-two">你心理</a></li>
-                    <li class="arrow"><a href="#item-two">你心理</a></li>
+                <ul class="rounded scroll item">
+                    <li class="arrow"><a href="#item-two" data-cent="1">你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理</a> </li>
+                    <li class="arrow"><a href="#item-two" data-cent="3">你心理</a></li>
+                    <li class="arrow"><a href="#item-two" data-cent="2">你心理</a></li>
+                    <li class="arrow"><a href="#item-two" data-cent="4">你心理</a></li>
                 </ul>
                 <div class="info">
                     <p>测试提供：国馆，中国收藏级文化白酒</p>
@@ -213,11 +230,11 @@
                     <img src="themes/images/zhongguodao.jpg">
                 </div>
 
-                <ul class="rounded scroll ">
-                    <li class="arrow"><a href="#item-three">你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理</a> </li>
-                    <li class="arrow"><a href="#item-three">你心理</a></li>
-                    <li class="arrow"><a href="#item-three">你心理</a></li>
-                    <li class="arrow"><a href="#item-three">你心理</a></li>
+                <ul class="rounded scroll item">
+                    <li class="arrow"><a href="#item-three" data-cent="1">你心理你心理你心理你心理你心理你心理你心理你心理你心理你心理</a> </li>
+                    <li class="arrow"><a href="#item-three" data-cent="2">你心理</a></li>
+                    <li class="arrow"><a href="#item-three" data-cent="3">你心理</a></li>
+                    <li class="arrow"><a href="#item-three" data-cent="4">你心理</a></li>
                 </ul>
                 <div class="info">
                     <p>测试提供：国馆，中国收藏级文化白酒</p>
@@ -258,22 +275,22 @@
                 </div>
                 <!--以上都一样-->
 
-                <ul class="metal scroll ">
+                <ul class="metal scroll item">
                     <li class="arrow">
                         <img src="themes/images/2_01.jpg">
-                        <a href="#show-result">美酒</a>
+                        <a href="#show-result" data-cent="1">美酒</a>
                     </li>
                     <li class="arrow">
                         <img src="themes/images/2_02.jpg">
-                        <a href="#show-result">美酒</a>
+                        <a href="#show-result" data-cent="2">美酒</a>
                     </li>
                     <li class="arrow">
                         <img src="themes/images/2_03.jpg">
-                        <a href="#show-result">美酒</a>
+                        <a href="#show-result" data-cent="3">美酒</a>
                     </li>
                     <li class="arrow">
                         <img src="themes/images/2_04.jpg">
-                        <a href="#show-result">美酒</a>
+                        <a href="#show-result" data-cent="20">美酒</a>
                     </li>
                 </ul>
                 <div class="info">
@@ -314,12 +331,12 @@
                         你的测试结果
                     </h3>
                     <h1>
-                        析出八万项雨
+                        {{result.result}}
                     </h1>
                 </div>
 
                 <div class="scroll">
-                    <a href="#result" class="redButton" style="margin-bottom: 100px;">查看详细分析</a>
+                    <a href="javascript:void(0)" class="redButton" style="margin-bottom: 100px;" ng-click="showResult()">查看详细分析</a>
                 </div>
 
                 <div class="info">
@@ -336,7 +353,7 @@
                 <div class='panel-container'>
                     <div class="result-title">
                         <h1>
-                            你的失败值是多少？
+                            {{result.title}}
                         </h1>
                         <div class="logo animated">
                             <img src="themes/img/logo.jpg">
@@ -347,7 +364,7 @@
                             你的测试结果
                         </h3>
                         <h1>
-                            析出八万项雨
+                            {{result.result}}
                         </h1>
                     </div>
                     <div class="brief-result">
@@ -355,12 +372,12 @@
                             结果分析:
                         </h3>
                         <p>
-                            是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是 ooo 是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是
+                            {{result.analysis}}
                         </p>
                     </div>
                     <div class="scroll">
-                        <a href="#actionsheet" class="redButton action" style="margin:0; width: 39%; float: left;font-size: 14px">邀请朋友测试</a>
-                        <a href="#result" class="redButton" style="margin:0; width: 39%; float: right;font-size: 14px">关注“国馆”微信</a>
+                        <a href="#actionsheet" class="redButton action" style="margin:0; width: 37%; float: left;font-size: 14px">邀请朋友测试</a>
+                        <a href="#result" class="redButton" style="margin:0; width: 37%; float: right;font-size: 14px">关注“国馆”微信</a>
                         <div style="clear: both"></div>
                     </div>
                     <div class="restart">
@@ -375,19 +392,12 @@
                         </h3>
                     </div>
                     <ul class="plastic scroll">
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>已有23878人参与</span>
-                            </a>
-                            <button class="look-button">去看看</button>
-                        </li>
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>已有23878人参与</span>
+                        <li ng-repeat="item in wxapp">
+                            <img src="{{item.img}}">
+                            <a href="{{item.href}}" target="_blank">
+                                {{item.title}}
+                                <br>
+                                <span>已有{{item.count}}人参与</span>
                             </a>
                             <button class="look-button">去看看</button>
                         </li>
@@ -417,82 +427,19 @@
                         </p>
                     </div>
                     <ul class="plastic scroll">
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>描述描述描述描述描述描述</span>
-                            </a>
-                            <button class="look-button">去看看</button>
-                        </li>
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>描述描述描述描述描述描述</span>
-                            </a>
-                            <button class="look-button">去看看</button>
-                        </li>
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>描述描述描述描述描述描述</span>
-                            </a>
-                            <button class="look-button">去看看</button>
-                        </li>
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>描述描述描述描述描述描述</span>
-                            </a>
-                            <button class="look-button">去看看</button>
-                        </li>
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>描述描述描述描述描述描述</span>
-                            </a>
-                            <button class="look-button">去看看</button>
-                        </li>
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>描述描述描述描述描述描述</span>
-                            </a>
-                            <button class="look-button">去看看</button>
-                        </li>
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>描述描述描述描述描述描述</span>
-                            </a>
-                            <button class="look-button">去看看</button>
-                        </li>
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>描述描述描述描述描述描述</span>
-                            </a>
-                            <button class="look-button">去看看</button>
-                        </li>
-                        <li>
-                            <img src="themes/images/2_03.jpg">
-                            <a href="#">
-                                新文盲测试<br>
-                                <span>描述描述描述描述描述描述</span>
+                        <li ng-repeat="item in postCluster">
+                            <img src="{{item.img}}">
+                            <a href="{{item.href}}" target="_blank">
+                                {{item.title}}
+                                <br>
+                                <span>{{item.detail}}</span>
                             </a>
                             <button class="look-button">去看看</button>
                         </li>
                     </ul>
                     <div class="scroll" style="margin-top: 30px; margin-bottom: 30px">
-                        <a href="#result" class="redButton pop" style="margin:0; width: 39%; float: left;font-size: 14px">返回看测试结果</a>
-                        <a href="#result" class="redButton" style="margin:0; width: 39%; float: right;font-size: 14px">分享到朋友圈</a>
+                        <a href="#result" class="redButton pop" style="margin:0; width: 37%; float: left;font-size: 14px">返回看测试结果</a>
+                        <a href="#result" class="redButton" style="margin:0; width: 37%; float: right;font-size: 14px">分享到朋友圈</a>
                         <div style="clear: both"></div>
                     </div>
                     <div class="info">

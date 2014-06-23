@@ -249,11 +249,11 @@ h2.order-title {
 }
 .pay-method{
     border: 1px solid #f8f8f8;
-    height: 100px;
+    height: 160px;
     margin-top: 20px;
 }
 .pay-method-detail{
-    height: 100px;
+    height: 160px;
     background-color: #f8f8f8;
     width: 200px;
     float: left;

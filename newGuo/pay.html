@@ -140,6 +140,7 @@
         <!--支付方式选择-->
         <h1 style="margin-top: 50px;">选择支付方式</h1>
         <div style="border-bottom: 1px solid #f8f8f8;"></div>
+
         <div class="pay-method">
             <div class="pay-method-detail">
                 <p>
@@ -153,10 +154,112 @@
             </div>
             <div class="pay-methos-aliy">
                 <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/chinapay.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/chinapay2.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
                 <img src="global/images/cft.gif">
             </div>
+            <div style="clear: both "></div>
+        </div>
+        <div style="clear: both "></div>
+
+        <div class="pay-method" style="height: 430px;">
+            <div class="pay-method-detail" style="height: 430px">
+                <p>
+                    <span>银行网银</span><br>
+                    支持以下各银行借记卡及信用卡。
+                </p>
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_cmb.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_icbc.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_ccb.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_abc.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_boc.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_bcom.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_psbc.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_gdb.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_spdb.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_ceb.gif">
+            </div>
+
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_pab.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_cib.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_cmbc.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_citic.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_sdb.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_shb.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_bjrcb.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_nbcb.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_hzb.gif">
+            </div>
+            <div class="pay-methos-aliy">
+                <input type="radio" checked style="vertical-align: middle">
+                <img src="global/images/bank_shrcc.gif">
+            </div>
+            <div style="clear: both;"></div>
         </div>
 
+        <div style="clear: both;"></div>
         <!--配送方式-->
         <h1 style="margin-top: 50px;">配送方式</h1>
         <div style="border-bottom: 1px solid #f8f8f8;"></div>
@@ -167,7 +270,7 @@
         <!--支付页面底部-->
         <ul class="table-content" style="margin-bottom: 30px; height: 135px;">
             <li class="clear" style="width: 255px; text-align: right;float: right">
-                <a href="pay-success.html" class="btn btn-red" style="float: right; width: 100px; margin-top:50px;">下一步</a>
+                <a href="pay-caution.html" target="_blank" class="btn btn-red pay-caution" onclick="window.open('http://guoguan.com')" style="float: right; width: 100px; margin-top:50px;">下一步</a>
                 <a href="#" class="btn btn-valite" style=" margin-top:50px; float: right;height: 40px;line-height: 40px;margin-right: 10px;">修改订单</a>
             </li>
 
@@ -342,6 +445,18 @@
             'scrolling'		    : 'no',
             'type'				: 'iframe'
         });
+        $(".pay-caution").fancybox({
+            'width'				: 590,
+            'height'			: 307,
+            'autoScale'			: false,
+            'transitionIn'		: 'fade',
+            'transitionOut'		: 'fade',
+            'overlayOpacity'	: '0.7',
+            'overlayColor'		: '#000',
+            'scrolling'		    : 'no',
+            'type'				: 'iframe'
+        });
+
     });
 </script>
 </html>

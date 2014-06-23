@@ -913,6 +913,12 @@ h2.order-title {
 }
 
 @media (max-width: 1260px) {
+    .pay-method{
+        height: 160px;
+    }
+    .pay-method-detail{
+        height: 160px;
+    }
     .mlgbd{
         margin-left: 410px;
     }

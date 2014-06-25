@@ -6,29 +6,19 @@ ul{list-style: none;}
 .site-header .header-nav .nav-main-list .nav-main-item span.arrow{
     display: none;
 }
-.index-banner-1{
-    background: url("../../images/banner_01.jpg") center top no-repeat;
+.index-banner{
     width: 1440px;
     height: 500px;
     margin: 0 auto;
     position: relative;
     cursor: pointer
 }
-.index-banner-2{
-    background: url("../../images/banner_02.jpg") center top no-repeat;
+.index-banner img{
     width: 1440px;
     height: 500px;
-    margin: 0 auto;
-    position: relative;
-    cursor: pointer
-}
-.index-banner-3{
-    background: url("../../images/banner_03.jpg") center top no-repeat;
-    width: 1440px;
-    height: 500px;
-    margin: 0 auto;
-    position: relative;
-    cursor: pointer
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .index-purchase-button{
     line-height:45px; width: 200px; height: 45px;
@@ -36,13 +26,6 @@ ul{list-style: none;}
 
 .button-disable{
     color: #9c9c9c!important;
-}
-.index-banner-5{
-    background: url("../../images/banner_05.jpg") center top no-repeat;
-    width: 1440px;
-    height: 500px;
-    position: relative;
-    cursor: pointer
 }
 .purchase-button-position{
     position: absolute;
@@ -668,30 +651,21 @@ and (max-device-width : 1024px) {
         float: right;
         margin-right: 10px;
     }
-    .index-banner-1{
-        background: url("../../images/banner_01_ipad.jpg") center top no-repeat;
+    .index-banner{
         width: 1140px;
         height: 396px;
         margin: 0 auto;
         position: relative;
         cursor: pointer
     }
-    .index-banner-2{
-        background: url("../../images/banner_02_ipad.jpg") center top no-repeat;
+    .index-banner img{
         width: 1140px;
         height: 396px;
-        margin: 0 auto;
-        position: relative;
-        cursor: pointer
+        position: absolute;
+        top: 0;
+        left: 0;
     }
-    .index-banner-3{
-        background: url("../../images/banner_03_ipad.jpg") center top no-repeat;
-        width: 1140px;
-        height: 396px;
-        margin: 0 auto;
-        position: relative;
-        cursor: pointer
-    }
+
     .index-purchase-button{
         line-height: 38px;
         width: 155px;

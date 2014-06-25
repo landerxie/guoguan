@@ -270,7 +270,7 @@
         <!--支付页面底部-->
         <ul class="table-content" style="margin-bottom: 30px; height: 135px;">
             <li class="clear" style="width: 255px; text-align: right;float: right">
-                <a href="pay-caution.html" target="_blank" class="btn btn-red pay-caution" onclick="window.open('http://guoguan.com')" style="float: right; width: 100px; margin-top:50px;">下一步</a>
+                <a href="#" class="btn btn-red pay-caution" style="float: right; width: 100px; margin-top:50px;">下一步</a>
                 <a href="#" class="btn btn-valite" style=" margin-top:50px; float: right;height: 40px;line-height: 40px;margin-right: 10px;">修改订单</a>
             </li>
 
@@ -280,6 +280,30 @@
 </div>
 <!--content end-->
 
+<div class="popup">
+    <div class="modal-header">
+    <span class="close" style="font-size: 20px; position: absolute; right: 0; top: 14px;">
+        <a href="javascript:void (0);" class="closeDialog" style="font-size: 12px;">
+            关闭
+        </a>
+        </span>
+        <h3>正在支付...</h3>
+    </div>
+    <div class="modal-body" style="padding-top: 0;">
+        <div class="pay-tip clearfix">
+            <div class="fail">
+                <h4>如果支付失败...</h4>
+                <p>额度问题，推荐&nbsp;&nbsp;<a href="#" id="alipayTrigger" style="color: #ee330a">支付宝快捷支付 &gt;</a></p>
+                <p>其他问题，查看&nbsp;&nbsp;<a href="http://bbs.xiaomi.com/article-4310-1.html" style="color: #ee330a">支付常见问题 &gt;</a></p>
+            </div>
+            <div class="success">
+                <h4>支付成功了</h4>
+                <p>立即查看&nbsp;&nbsp;<a href="http://order.mi.com/user/orderView/1140623830008309" target="_blank" style="color: #ee330a">订单详情 &gt;</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="avgrund-cover"></div>
 
 <!--footer-->
 <div class="site-footer mt0">
@@ -411,6 +435,24 @@
         },function(){
             $(this).find("img").css("opacity","0.7");
         });
+
+        /*弹出层*/
+        $(".pay-caution").bind("click",function(){
+            if($(".popup:hidden") && $(".avgrund-cover:hidden")){
+                $(".popup").css("visibility","visible");
+                $(".avgrund-cover").css("visibility","visible");
+            } else{
+                return;
+            }
+        });
+        $(".closeDialog").bind("click",function(){
+            if($(".popup:visible") && $(".avgrund-cover:visible")){
+                $(".popup").css("visibility","hidden");
+                $(".avgrund-cover").css("visibility","hidden");
+            } else{
+                return;
+            }
+        });
     })
 </script>
 <script>
@@ -442,17 +484,6 @@
             'transitionOut'		: 'fade',
             'overlayOpacity'	: '0.7',
             'overlayColor'		: '#fff',
-            'scrolling'		    : 'no',
-            'type'				: 'iframe'
-        });
-        $(".pay-caution").fancybox({
-            'width'				: 590,
-            'height'			: 307,
-            'autoScale'			: false,
-            'transitionIn'		: 'fade',
-            'transitionOut'		: 'fade',
-            'overlayOpacity'	: '0.7',
-            'overlayColor'		: '#000',
             'scrolling'		    : 'no',
             'type'				: 'iframe'
         });

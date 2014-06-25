@@ -1755,15 +1755,15 @@ body {
 #jqt ul.metal li {
   background-image: none;
   font-size: 26px;
-    width: 150px;
+    width: 140px;
     padding:0;
     border: 1px solid #ccc;
     display: inline-block;
     margin-left: 10px;
 }
 #jqt ul.metal li img{
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
 
 }
 /* line 442, ../../../themes/scss/include/_skeleton.scss */
@@ -1883,9 +1883,17 @@ body {
     padding-left: 80px;
     padding-top: 30px;
     height: 80px;
+    width: 140px;
+    font-size: 15px;
+    white-space: nowrap;
 }
 #jqt ul.plastic li a span{
-    font-size: 14px;
+    font-size: 12px;
+    width: 140px;
+    height: 34px;
+    overflow: hidden;
+    white-space: normal;
+    display: inline-block;
     color: #999;
 }
 #jqt ul.plastic li a.active{
@@ -1901,10 +1909,10 @@ body {
     left: 10px;
 }
 .look-button{
-    width: 100px;
-    height: 40px!important;
-    line-height: 40px!important;
-    font-size: 14px;
+    width: 80px;
+    height: 30px!important;
+    line-height: 30px!important;
+    font-size: 12px;
     cursor: pointer;
     color: #fff!important;
     border: none;
@@ -1914,7 +1922,7 @@ body {
     position: absolute;
     right: 10px;
     top: 50%;
-    margin-top: -20px;
+    margin-top: -15px;
 }
 .look-button:active,.look-button:hover{
     background-color: #c12926;
@@ -2122,7 +2130,7 @@ body {
     top: 18px;
 }
 .logo img{
-    -webkit-transform: scale(0.7) rotateY(60deg) rotateX(-50deg) translateX(-10px);
+   /* -webkit-transform: scale(0.7) rotateY(60deg) rotateX(-50deg) translateX(-10px);
     -moz-transform: scale(0.7) rotateY(60deg) rotateX(-50deg) translateX(-10px);
     -ms-transform: scale(0.7) rotateY(60deg) rotateX(-50deg) translateX(-10px);
     -o-transform: scale(0.7) rotateY(60deg) rotateX(-50deg) translateX(-10px);
@@ -2130,7 +2138,7 @@ body {
     -webkit-transition: all 1.2s ease;
     -moz-transition: all 1.2s ease;
     -o-transition: all 1.2s ease;
-    transition: all 1.2s ease;
+    transition: all 1.2s ease;*/
     height: 60px;
     width: 60px;
 }
@@ -2146,7 +2154,7 @@ body {
     line-height: 24px;
     font-size: 14px;
     color: #333;
-    width: 78%;
+    width: 70%;
     font-family: "microsoft yahei";
 }
 .has-img{
@@ -2161,7 +2169,7 @@ body {
 /*进度条*/
 .Bar ,.Bars {
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 3px;
     background-color: #ccc;
      }
@@ -2171,7 +2179,7 @@ body {
     /* 必须和高度一致，文本才能垂直居中 */ }
 .cent{
     margin:0 auto;
-    width:300px;
+    width:250px;
     overflow:hidden;
     vertical-align: middle;
     margin-left: 20px;
@@ -2184,6 +2192,7 @@ body {
 .process{
     max-width: 720px;
     text-align: center;
+    height: 30px;
     margin:0 auto;
 }
 .detail-result{
@@ -2207,7 +2216,7 @@ body {
 
 .brief-result{
     text-align: left;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 30px;
 }
 .brief-result h3{
@@ -2226,6 +2235,7 @@ body {
 .brief-result p{
     font-family: "microsoft yahei";
     margin:10px 20px 20px 20px ;
+    font-size: 16px;
     line-height: 24px;
 }
 #ad{
@@ -2267,6 +2277,9 @@ body {
     background-color: #f8f8f8;
 }
 
+.panel-container{
+    margin-top: 20px;
+}
 
 .result-title h1{
     margin-top: 20px;
@@ -2284,4 +2297,51 @@ body {
     text-decoration: none;
     font-family: "microsoft yahei";
     font-size: 18px;
+}
+
+
+/*微信分享*/
+#weixin-guide{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/guide.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}
+#mobile-guide{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url("../images/mobile-guide.png");
+    background-size: 26.5rem 26.5rem;
+    background-repeat: no-repeat;
+    background-position:bottom ;
+    z-index: 9999;
+}
+.share-cover{
+    position: fixed;
+    display: none;
+    z-index: 99;
+    background: rgba(0,0,0,0.7) ;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.percent-result{
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .logo {
+        position: absolute;
+        right: 10px;
+        top: 4px;
+    }
 }

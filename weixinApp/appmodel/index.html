@@ -1,21 +1,22 @@
-<!doctype html>
+﻿<!doctype html>
 <html ng-app="phonecatApp">
     <head>
         <meta charset="UTF-8" />
-        <title>心理测试模板 &beta;</title>
+        <title>心理测试</title>
         <link rel="stylesheet" href="themes/css/mystyle.css" data-jqt-theme>
+        <link rel="stylesheet" href="themes/css/charts.css" data-jqt-theme>
 
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
         <!-- Either, (1) Zepto:  Un-comment these 2 lines (order matters)  -->
-        <script src="lib/zepto/zepto.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="src/jqt.min.js" type="text/javascript" charset="utf-8"></script>
+        <!--<script src="lib/zepto/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="src/jqt.min.js" type="text/javascript" charset="utf-8"></script>-->
 
         <!-- Or,     (2) jQuery: Un-comment these 3 lines (order matters)  -->
-        <!-- <script src="lib/jquery/jquery-1.7.min.js" type="application/x-javascript" charset="utf-8"></script> -->
-        <!-- <script src="src/jqt.min.js" type="text/javascript" charset="utf-8"></script> -->
-        <!-- <script src="src/jqtouch-jquery.min.js" type="application/x-javascript" charset="utf-8"></script> -->
+         <script src="lib/jquery/jquery-1.7.min.js" type="application/x-javascript" charset="utf-8"></script>
+         <script src="src/jqt.min.js" type="text/javascript" charset="utf-8"></script>
+         <script src="src/jqtouch-jquery.min.js" type="application/x-javascript" charset="utf-8"></script>
 
         <!--<script src="extensions/jqt.themeswitcher.min.js" type="application/x-javascript" charset="utf-8"></script>
         <script src="extensions/jqt.actionsheet.min.js" type="application/x-javascript" charset="utf-8"></script>
@@ -23,6 +24,8 @@
 
 
         <script type="text/javascript" charset="utf-8">
+            var testurl = "http://box.guoguan.com/html/weixinApp/appmodel/index.html";
+            var sharetitle = "";
             var jQT = new $.jQT({
                 icon: 'jqtouch.png',
                 icon4: 'jqtouch4.png',
@@ -39,22 +42,94 @@
                     return unescape(r[2]);
                 return null;
             }
+            function setCookie(name, value)
+            {
+                var Days = 30;
+                var exp = new Date();
+                exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+                document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+            }
+            function getCookie(name)
+            {
+                var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+                if (arr === document.cookie.match(reg))
+                    return unescape(arr[2]);
+                else
+                    return null;
+            }
             // Some sample Javascript functions:
+            var start = "";
+            var score_cent = 0;
+            var resultjson = "";
+            var id = 0;
             $(function() {
-                var id = GetQueryString("id");
+                id = GetQueryString("id");
+                testurl = testurl + "?id=" + id;
                 $.ajax({
                     url: '/test/MentalTestApi.php?a=getinfo&id=' + id + '&tmp=' + Math.random(), type: 'get', async: true,
                     error: function(data) {
                         alert("err:" + data);
                     },
                     success: function(data) {
-                        var obj = eval("("+data+")"); 
-                        if(obj.err===0){
+                        var obj = eval("(" + data + ")");
+                        if (obj.err === 0) {
+                            $(".peoplenum").html(obj.peoplenum);
+                            sharetitle = obj.msg.mentaltest_title;
                             $(".home-title h1").html(obj.msg.mentaltest_title);
+                            $(".test-title h1").html(obj.msg.mentaltest_title);
                             $(".home-title p").html(obj.msg.mentaltest_content);
+                            var html = [];
+                            var resulthtml = [];
+                            $(".rseultnumber").html((obj.result.length - 1) + "/" + (obj.result.length - 1));
+                            for (var i = 0; i < obj.result.length; i++) {
+                                if (obj.result[i].item_isresult === "0") {
+                                    if (i === 0) {
+                                        start = "item-" + obj.result[i].item_id;
+                                    }
+                                    html.push('<div id="item-' + obj.result[i].item_id + '"><div class="item-title"><h1>' + obj.msg.mentaltest_title + '</h1><p>国馆提醒你：请在三秒以内回答以下问题，结果才会准确</p>');
+                                    html.push('<div class="logo"><img src="themes/img/logo.jpg"></div></div><div class="process"><div class="number">' + (i + 1) + '/' + (obj.result.length - 1) + '</div><div class="cent">');
+                                    html.push('<p><div class="Bars"><div style="width: ' + 100 * (i + 1) / (obj.result.length - 1) + '%;"></div></div></p></div></div><div class="second-title"><h3>' + obj.result[i].item_title + '</h3></div>');
+                                    if (obj.result[i].item_titlephoto !== "") {
+                                        html.push('<div class="has-img"><img src="' + obj.result[i].item_titlephoto + '"></div>');
+                                    }
+                                    var content = eval("(" + obj.result[i].item_itemcontent + ")");
+                                    if (content && content.length > 0 && content[0].photo !== "") {
+                                        html.push('<ul class="metal scroll item">');
+                                    } else {
+                                        html.push('<ul class="rounded scroll item">');
+                                    }
+                                    for (var j = 0; j < content.length; j++) {
+                                        html.push('<li class="arrow">');
+                                        if (content[j].photo !== "") {
+                                            html.push('<img src="' + content[j].photo + '">');
+                                        }
+                                        if (i === obj.result.length - 2)
+                                        {
+                                            html.push('<a href="javascript:void(0)" onclick="showResult2()" data-cent="' + content[j].cent + '">' + content[j].title + '</a> </li>');
+                                        }
+                                        else
+                                        {
+                                            html.push('<a href="javascript:void(0)" onclick="goto(' + obj.result[i + 1].item_id + ',' + content[j].cent + ')"  data-cent="' + content[j].cent + '">' + content[j].title + '</a> </li>');
+                                        }
+                                    }
+                                    html.push('</ul><div class="info"> <p>测试提供：国馆，中国收藏级文化白酒</p></div></div>');
+                                } else {
+                                    var item = eval("(" + obj.result[i].item_itemcontent + ")");
+                                    resultjson = item;
+                                }
+                            }
+                            $(".itemfooter").before(html.join(''));
+                            //判断检查用户是否参与过
+                            var phone = getCookie("phone");
+                            $('#some_name').val(phone);
+                            console.info(phone);
+                            score_cent = getCookie("item_"+id+"_result");
+                            console.info(score_cent);
+                            //showResult2();
                         }
                     }
                 });
+
                 $('a[target="_blank"]').bind('click', function() {
                     if (confirm('This link opens in a new window.')) {
                         return true;
@@ -62,12 +137,9 @@
                         return false;
                     }
                 });
-
                 setTimeout(function() {
                     $(".logo").addClass("animated");
-                }, 1000)
-
-
+                }, 1000);
                 // Orientation callback event
                 $('#jqt').bind('turn', function(e, data) {
                     $('#orient').html('Orientation: ' + data.orientation);
@@ -76,15 +148,37 @@
 
             //手机号校验
             function startTest() {
-                if (!$('#some_name').val() || $('#some_name').val().length != 11) {
+                if (!$('#some_name').val() || $('#some_name').val().length !== 11) {
                     alert('请输入正确的手机号码');
                 } else {
                     $.ajax({
-                        url: 'http://box.guoguan.com/test/MentalTestApi.php?a=savephone&phone='+$('#some_name').val()+'&id=1&tmp='+Math.random(),type: 'get',dataType : "jsonp",async: true, success: function(data) {
+                        url: '/test/MentalTestApi.php?a=savephone&phone=' + $('#some_name').val() + '&id=' + id + '&tmp=' + Math.random(), type: 'get', async: true, success: function(data) {
 
                         }
                     });
-                    window.location.href = "#item-one";
+                    setCookie("phone",$('#some_name').val());
+                    window.location.href = "#" + start;
+                }
+            }
+            function goto(tag, cent) {
+                score_cent += cent;
+                window.location.hash = "item-" + tag;
+            }
+            function showResult2() {
+                var r = resultjson;
+                for (var i = 0; i < r.length; i++) {
+                    if (score_cent >= r[i].mincent && score_cent < r[i].maxcent) {
+                        $.ajax({
+                            url: '/test/MentalTestApi.php?a=saveresult&phone=' + $('#some_name').val() + '&id=' + id + '&result=' + r[i].no + '&tmp=' + Math.random(), type: 'get', async: true, success: function(data) {
+                            }
+                        });
+                        $(".detail-result h1").html(r[i].title);
+                        $(".result-item-content h1").html(r[i].title);
+                        $(".result-item-remark h3").html(r[i].remark);
+                        window.location.hash = "show-result";
+                        score_cent = 0;
+                        setCookie("item_"+id+"_result",score_cent);
+                    }
                 }
             }
         </script>
@@ -111,6 +205,11 @@
         </style>
     </head>
     <body >
+        <div class="share-cover">
+            <div class="share-guide" id="weixin-guide" ng-click="closeCover()"></div>
+            <div class="share-guide" id="mobile-guide"></div>
+        </div>
+
         <div id="ad">
             <a href="http://www.guoguan.com">
                 <img src="themes/images/banner_ad.jpg">
@@ -127,10 +226,8 @@
                 </div>
                 <div class="home-title">
                     <h1>
-                        你的失败值是多少？
                     </h1>
                     <p>
-                        王八将相宁有种笠？来测测你在前世是英雄，还是狗熊，是男人，还是女人，是官宦，还是宦官？
                     </p>
                 </div>
                 <div class="scroll">
@@ -142,11 +239,11 @@
                     <a href="javascript:startTest();" class="redButton">开始测试</a>
                 </div>
                 <div class="info">
-                    <p>已有333333人参加测试<br>测试提供：国馆，中国收藏级文化白酒</p>
+                    <p>已有<span class="peoplenum">333</span>人参加测试<br>测试提供：国馆，中国收藏级文化白酒</p>
                 </div>
             </div>
 
-
+            <div class="itemfooter"></div>
             <div id="item-one">
                 <div class="item-title">
                     <h1>
@@ -299,7 +396,7 @@
             </div>
 
             <div id="show-result">
-                <div class="item-title">
+                <div class="item-title test-title">
                     <h1>
                         你的失败值是多少？
                     </h1>
@@ -312,7 +409,7 @@
                 </div>
                 <!--进度条-->
                 <div class="process">
-                    <div class="number">
+                    <div class="number rseultnumber">
                         10/10
                     </div>
                     <div class="cent">
@@ -351,33 +448,38 @@
                     <span class='tab tab-selected'><a href="#result" class="dissolve">测试结果</a></span><span class='tab'><a href="#cluster" class="dissolve">改变企业的秘密</a></span>
                 </div>
                 <div class='panel-container'>
-                    <div class="result-title">
+                    <div class="result-title test-title">
                         <h1>
-                            {{result.title}}
                         </h1>
                         <div class="logo animated">
                             <img src="themes/img/logo.jpg">
                         </div>
                     </div>
-                    <div class="brief-result">
+                    <div class="brief-result result-item-content">
                         <h3>
                             你的测试结果
                         </h3>
                         <h1>
-                            {{result.result}}
                         </h1>
                     </div>
-                    <div class="brief-result">
+                    <div class="brief-result result-item-remark">
                         <h3>
                             结果分析:
                         </h3>
                         <p>
-                            {{result.analysis}}
                         </p>
                     </div>
                     <div class="scroll">
-                        <a href="#actionsheet" class="redButton action" style="margin:0; width: 37%; float: left;font-size: 14px">邀请朋友测试</a>
-                        <a href="#result" class="redButton" style="margin:0; width: 37%; float: right;font-size: 14px">关注“国馆”微信</a>
+                        <img src="themes/images/zhongguodao.jpg" style="width: 100%;" alt=""/>
+                        <div class="percent-result">有32%的人测试结果和我一样</div>
+                    </div>
+                    <div class="scroll">
+                        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto; text-align: center; margin-bottom: 30px; border-bottom: 1px solid #999;">
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <a href="javascript:void (0)" class="redButton action share-to-sina-button" style="margin:0; width: 34%; margin-left: 10px; float: left;font-size: 14px">邀请朋友测试</a>
+                        <a href="#result" class="redButton" style="margin:0; width: 34%;margin-right: 10px; float: right;font-size: 14px">关注“国馆”微信</a>
                         <div style="clear: both"></div>
                     </div>
                     <div class="restart">
@@ -438,8 +540,8 @@
                         </li>
                     </ul>
                     <div class="scroll" style="margin-top: 30px; margin-bottom: 30px">
-                        <a href="#result" class="redButton pop" style="margin:0; width: 37%; float: left;font-size: 14px">返回看测试结果</a>
-                        <a href="#result" class="redButton" style="margin:0; width: 37%; float: right;font-size: 14px">分享到朋友圈</a>
+                        <a href="#result" class="redButton pop" style="margin:0; width: 34%; float: left;font-size: 14px; margin-left: 10px;">返回看测试结果</a>
+                        <a href="javascript:void(0)" class="redButton share-to-sina-button" style="margin:0; width: 34%; float: right;font-size: 14px;margin-right: 10px">分享到朋友圈</a>
                         <div style="clear: both"></div>
                     </div>
                     <div class="info">
@@ -453,12 +555,12 @@
     </body>
     <script src="lib/js/angular.min.js" type="text/javascript"></script>
     <script src="lib/js/controllers.js" type="text/javascript"></script>
+    <script src="lib/js/option.js" type="text/javascript"></script>
+    <script src="lib/js/charts.js" type="text/javascript"></script>
     <script>
         if (window.navigator.standalone) {
             $("meta[name='apple-mobile-web-app-status-bar-style']").remove();
         }
-    </script>
-    <script type="text/javascript">
         function hidead()
         {
             document.getElementById("ad").style.display = "none";
@@ -468,7 +570,7 @@
                 nodeOne[i].style.marginTop = "0";
             }
             for (var i = 0, l = nodeTwo.length; i < l; i++) {
-                nodeTwo[i].style.marginTop = "0";
+                nodeTwo[i].style.marginTop = "10px";
             }
             /*$(".item-title").css("margin-top","0")
              $(".etabs").css("margin-top","0")*/
@@ -511,52 +613,53 @@
         obj.onmouseout = function() {
             itl = setInterval("floatAD()", delay)
         }
-    </script>
-    <script>
         var dataForWeixin = {
-            appId: "",//微信公众号ID
-            MsgImg: "http://www.guoguan.com/ceshi/0001/images/zhongguodao.jpg", //分享给朋友和收藏时显示的缩略图
-            TLImg: "http://www.guoguan.com/ceshi/0001/images/zhongguodao.jpg", //分享到朋友圈时显示的缩略图
-            url: location.href,//分享地址
-            title: "潜意识测试：从送礼测你潜在的性格", //分享至微博、朋友圈、朋友都会用到
+            appId: "wxf65f82289ec9134a", //微信公众号ID
+            MsgImg: "http://box.guoguan.com/html/weixinApp/appmodel/themes/images/zhongguodao.jpg", //分享给朋友和收藏时显示的缩略图
+            TLImg: "http://box.guoguan.com/html/weixinApp/appmodel/themes/images/zhongguodao.jpg", //分享到朋友圈时显示的缩略图
+            url: testurl, //分享地址
+            title: sharetitle, //"潜意识测试：从送礼测你潜在的性格", //分享至微博、朋友圈、朋友都会用到
             desc: "已有132万网友参与测试！^-^", //分享给 朋友时会用到
             fakeid: "",
-            callback: function () {
+            callback: function() {
                 //分享成功回调方法，其中分享给朋友、分享到微博、收藏都是成功后回调，而分享到朋友圈是点分享按钮就会调用
             }
         };
-        (function(){
-            var onBridgeReady=function(){
+        (function() {
+            var onBridgeReady = function() {
                 //分享给朋友
-                WeixinJSBridge.on('menu:share:appmessage', function(argv){
-                    WeixinJSBridge.invoke('sendAppMessage',{
-                        "appid":dataForWeixin.appId,
-                        "img_url":dataForWeixin.MsgImg,
-                        "img_width":"120",
-                        "img_height":"120",
-                        "link":dataForWeixin.url,
-                        "desc":dataForWeixin.desc,
-                        "title":dataForWeixin.title
-                    }, function(res){(dataForWeixin.callback)();});
+                WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+                    WeixinJSBridge.invoke('sendAppMessage', {
+                        "appid": dataForWeixin.appId,
+                        "img_url": dataForWeixin.MsgImg,
+                        "img_width": "120",
+                        "img_height": "120",
+                        "link": dataForWeixin.url,
+                        "desc": dataForWeixin.desc,
+                        "title": dataForWeixin.title
+                    }, function(res) {
+                        (dataForWeixin.callback)();
+                    });
                 });
                 //分享至朋友圈
-                WeixinJSBridge.on('menu:share:timeline', function(argv){
+                WeixinJSBridge.on('menu:share:timeline', function(argv) {
                     (dataForWeixin.callback)();
-                    WeixinJSBridge.invoke('shareTimeline',{
-                        "img_url":dataForWeixin.TLImg,
-                        "img_width":"120",
-                        "img_height":"120",
-                        "link":dataForWeixin.url,
-                        "desc":dataForWeixin.desc,
-                        "title":dataForWeixin.title
-                    }, function(res){});
+                    WeixinJSBridge.invoke('shareTimeline', {
+                        "img_url": dataForWeixin.TLImg,
+                        "img_width": "120",
+                        "img_height": "120",
+                        "link": dataForWeixin.url,
+                        "desc": dataForWeixin.desc,
+                        "title": dataForWeixin.title
+                    }, function(res) {
+                    });
                 });
             };
-            if(document.addEventListener){
-                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
-            }else if(document.attachEvent){
-                document.attachEvent('WeixinJSBridgeReady'   , onBridgeReady);
-                document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
+            if (document.addEventListener) {
+                document.addEventListener('WeixinJSBridgeaReady', onBridgeReady, false);
+            } else if (document.attachEvent) {
+                document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+                document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
             }
         })();
     </script>

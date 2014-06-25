@@ -1,0 +1,48 @@
+.chart-bar{
+    width: 80px;
+    display: inline-block;
+    margin-left: 5px;
+    height: 100%;
+    position: relative;
+}
+.chart-bar-zhu{
+    background-color: #d8d8d8;
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+}
+.top-border{
+    height: 4px;
+    width: 100%;
+    background-color: #999999;
+    border-bottom: 2px solid #fff;
+}
+.selected{
+    background-color: #ebd5d1;
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+}
+.selected .top-border{
+    height: 4px;
+    width: 100%;
+    background-color: #b74a36;
+    border-bottom: 2px solid #fff;
+}
+.test-number{
+    font-size: 12px;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-top: -15px;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .chart-bar{
+        width: 40px;
+        display: inline-block;
+        margin-left: 5px;
+        height: 100%;
+        position: relative;
+    }
+}

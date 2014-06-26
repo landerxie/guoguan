@@ -2311,6 +2311,7 @@ body {
     background-repeat: no-repeat;
     z-index: 9999;
 }
+
 .share-cover{
     position: fixed;
     display: none;

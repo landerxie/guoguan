@@ -3,7 +3,7 @@
  */
 
 var chartJs = (function($){
-    var data = [{
+    var /*data = [{
             value:"278463",
             current: false,
             title:"结果一"
@@ -33,17 +33,12 @@ var chartJs = (function($){
                 current: false,
                 title:"结果六"
             }
-        ],
+        ]*/
         chartHeight = 0,
         chartNum = 0,
         templateOne,
         bigest = 0,
         templateTwo;
-
-
-    for(var m = 0; m < data.length; m++){
-        bigest = compare(parseInt(data[m].value), bigest);
-    }
 
     function compare(value1, value2){
         if ((value1 - value2) < 0) {
@@ -53,33 +48,39 @@ var chartJs = (function($){
         }
     }
 
-    for (var l =0; l< data.length; l++) {
-        chartHeight = 100 * data[l].value/bigest;
-        chartNum = data[l].value;
-
-        if(data[l].value === bigest){
-            chartHeight = 100;
+    function calculate (data){
+        for(var m = 0; m < data.length; m++){
+            bigest = compare(parseInt(data[m].value), bigest);
         }
 
-        var resultTitle = data[l].title;
+        for (var l =0; l< data.length; l++) {
+            chartHeight = 100 * data[l].value/bigest;
+            chartNum = data[l].value;
 
-        templateOne = "<div class='chart-bar'>" +
-            "<div class='chart-bar-zhu selected' onclick='chartJs.showTitle(\"" + resultTitle + "\")'" +
-            "style='height:" + chartHeight + "%'>" +
-            "<div class='test-number'>" + chartNum + "</div>" +
-            "<div class='top-border'></div></div></div>";
+            if(data[l].value === bigest){
+                chartHeight = 100;
+            }
 
-        templateTwo = "<div class='chart-bar'>" +
-            "<div class='chart-bar-zhu' onclick='chartJs.showTitle(\"" + resultTitle + "\")'" +
-            "style='height:" + chartHeight + "%'>" +
-            "<div class='test-number'>" + chartNum + "</div>" +
-            "<div class='top-border'></div></div></div>";
+            var resultTitle = data[l].title;
 
-        if (!data[l].current){
-            $("#container").append(templateTwo);
-        }
-        else{
-            $("#container").append(templateOne);
+            templateOne = "<div class='chart-bar'>" +
+                "<div class='chart-bar-zhu selected' onclick='chartJs.showTitle(\"" + resultTitle + "\")'" +
+                "style='height:" + chartHeight + "%'>" +
+                "<div class='test-number'>" + chartNum + "</div>" +
+                "<div class='top-border'></div></div></div>";
+
+            templateTwo = "<div class='chart-bar'>" +
+                "<div class='chart-bar-zhu' onclick='chartJs.showTitle(\"" + resultTitle + "\")'" +
+                "style='height:" + chartHeight + "%'>" +
+                "<div class='test-number'>" + chartNum + "</div>" +
+                "<div class='top-border'></div></div></div>";
+
+            if (!data[l].current){
+                $("#container").append(templateTwo);
+            }
+            else{
+                $("#container").append(templateOne);
+            }
         }
     }
 
@@ -88,7 +89,8 @@ var chartJs = (function($){
     }
 
     return {
-        showTitle: showTitle
+        showTitle: showTitle,
+        calculate: calculate
     }
 
 

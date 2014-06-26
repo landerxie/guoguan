@@ -1,30 +1,24 @@
-﻿<!doctype html>
+<!doctype html>
 <html ng-app="phonecatApp">
     <head>
         <meta charset="UTF-8" />
         <title>心理测试</title>
         <link rel="stylesheet" href="themes/css/mystyle.css" data-jqt-theme>
         <link rel="stylesheet" href="themes/css/charts.css" data-jqt-theme>
-
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-        <!-- Either, (1) Zepto:  Un-comment these 2 lines (order matters)  -->
-        <!--<script src="lib/zepto/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+        <!-- Either, (1) Zepto:  Un-comment these 2 lines (order matters)  
+        <script src="lib/zepto/zepto.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="src/jqt.min.js" type="text/javascript" charset="utf-8"></script>-->
-
         <!-- Or,     (2) jQuery: Un-comment these 3 lines (order matters)  -->
-         <script src="lib/jquery/jquery-1.7.min.js" type="application/x-javascript" charset="utf-8"></script>
-         <script src="src/jqt.min.js" type="text/javascript" charset="utf-8"></script>
-         <script src="src/jqtouch-jquery.min.js" type="application/x-javascript" charset="utf-8"></script>
-
+        <script src="lib/jquery/jquery-1.7.min.js" type="application/x-javascript" charset="utf-8"></script>
+        <script src="src/jqt.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="src/jqtouch-jquery.min.js" type="application/x-javascript" charset="utf-8"></script> 
         <!--<script src="extensions/jqt.themeswitcher.min.js" type="application/x-javascript" charset="utf-8"></script>
         <script src="extensions/jqt.actionsheet.min.js" type="application/x-javascript" charset="utf-8"></script>
         <script src="extensions/jqt.menusheet.min.js" type="application/x-javascript" charset="utf-8"></script>-->
-
-
         <script type="text/javascript" charset="utf-8">
-            var testurl = "http://box.guoguan.com/html/weixinApp/appmodel/index.html";
+            var testurl = "http://box.guoguan.com/ceshi/appmodel/index.html";
             var sharetitle = "";
             var jQT = new $.jQT({
                 icon: 'jqtouch.png',
@@ -51,11 +45,16 @@
             }
             function getCookie(name)
             {
-                var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
-                if (arr === document.cookie.match(reg))
-                    return unescape(arr[2]);
-                else
-                    return null;
+                var acookie = document.cookie.split("; ");
+                for (var i = 0; i < acookie.length; i++) {
+                    var arr = acookie[i].split("=");
+                    if (name === arr[0]) {
+                        if (arr.length > 1) {
+                            return unescape(arr[1]);
+                        }
+                    }
+                }
+                return null;
             }
             // Some sample Javascript functions:
             var start = "";
@@ -75,9 +74,13 @@
                         if (obj.err === 0) {
                             $(".peoplenum").html(obj.peoplenum);
                             sharetitle = obj.msg.mentaltest_title;
+                            document.title = sharetitle;
                             $(".home-title h1").html(obj.msg.mentaltest_title);
                             $(".test-title h1").html(obj.msg.mentaltest_title);
                             $(".home-title p").html(obj.msg.mentaltest_content);
+                            $(".resx-tag").html('<a href="#cluster" class="dissolve">'+obj.msg.resxtag+'</a>');
+                            $(".resx-title h1").html(obj.msg.resxtitle);
+                            $(".resx-content p").html(obj.msg.resxcontent);
                             var html = [];
                             var resulthtml = [];
                             $(".rseultnumber").html((obj.result.length - 1) + "/" + (obj.result.length - 1));
@@ -119,13 +122,22 @@
                                 }
                             }
                             $(".itemfooter").before(html.join(''));
+                            //alert(obj.orderlist[0].num);
                             //判断检查用户是否参与过
                             var phone = getCookie("phone");
-                            $('#some_name').val(phone);
+                            if (phone) {
+                                $('#some_name').val(phone);
+                            }
                             console.info(phone);
-                            score_cent = getCookie("item_"+id+"_result");
+                            var s = getCookie("item_" + id + "_result");
+                            if (s) {
+                                score_cent = parseInt(s);
+                                showResult2();
+                            }
+                            else {
+                                score_cent = 0;
+                            }
                             console.info(score_cent);
-                            //showResult2();
                         }
                     }
                 });
@@ -156,13 +168,17 @@
 
                         }
                     });
-                    setCookie("phone",$('#some_name').val());
+                    setCookie("phone", $('#some_name').val());
                     window.location.href = "#" + start;
                 }
             }
             function goto(tag, cent) {
                 score_cent += cent;
                 window.location.hash = "item-" + tag;
+            }
+            function retest() {
+                score_cent = 0;
+                window.location.hash = "home";
             }
             function showResult2() {
                 var r = resultjson;
@@ -174,10 +190,9 @@
                         });
                         $(".detail-result h1").html(r[i].title);
                         $(".result-item-content h1").html(r[i].title);
-                        $(".result-item-remark h3").html(r[i].remark);
+                        $(".result-item-remark p").html(r[i].remark);
                         window.location.hash = "show-result";
-                        score_cent = 0;
-                        setCookie("item_"+id+"_result",score_cent);
+                        setCookie("item_" + id + "_result", score_cent);
                     }
                 }
             }
@@ -226,8 +241,10 @@
                 </div>
                 <div class="home-title">
                     <h1>
+
                     </h1>
                     <p>
+
                     </p>
                 </div>
                 <div class="scroll">
@@ -445,7 +462,7 @@
             <!--结果页面-->
             <div id="result" class="scroll">
                 <div class='etabs'>
-                    <span class='tab tab-selected'><a href="#result" class="dissolve">测试结果</a></span><span class='tab'><a href="#cluster" class="dissolve">改变企业的秘密</a></span>
+                    <span class='tab tab-selected'><a href="#result" class="dissolve">测试结果</a></span><span class='tab resx-tag'><a href="#cluster" class="dissolve">改变企业的秘密</a></span>
                 </div>
                 <div class='panel-container'>
                     <div class="result-title test-title">
@@ -474,16 +491,17 @@
                         <div class="percent-result">有32%的人测试结果和我一样</div>
                     </div>
                     <div class="scroll">
-                        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto; text-align: center; margin-bottom: 30px; border-bottom: 1px solid #999;">
+                        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto; text-align: center; margin-bottom: 30px;">
                         </div>
                     </div>
                     <div class="scroll">
                         <a href="javascript:void (0)" class="redButton action share-to-sina-button" style="margin:0; width: 34%; margin-left: 10px; float: left;font-size: 14px">邀请朋友测试</a>
                         <a href="#result" class="redButton" style="margin:0; width: 34%;margin-right: 10px; float: right;font-size: 14px">关注“国馆”微信</a>
+
                         <div style="clear: both"></div>
                     </div>
                     <div class="restart">
-                        <a href="#home" class="swap">
+                        <a onclick="retest()" class="swap">
                             对结果不满意？请重新测试
                         </a>
                     </div>
@@ -499,7 +517,7 @@
                             <a href="{{item.href}}" target="_blank">
                                 {{item.title}}
                                 <br>
-                                <span>已有{{item.count}}人参与</span>
+                                <span>{{item.count}}</span>
                             </a>
                             <button class="look-button">去看看</button>
                         </li>
@@ -515,26 +533,26 @@
             </div>
             <div id="cluster" class="scroll">
                 <div class='etabs '>
-                    <span class='tab'><a href="#result" class="dissolve">测试结果</a></span><span class='tab tab-selected'><a href="#cluster" class="dissolve">改变企业的秘密</a></span>
+                    <span class='tab'><a href="#result" class="dissolve">测试结果</a></span><span class='tab tab-selected resx-tag'><a href="#cluster" class="dissolve">改变企业的秘密</a></span>
                 </div>
                 <div class='panel-container'>
-                    <div class="result-title">
+                    <div class="result-title resx-title">
                         <h1>
                             改变企业的十个微信号
                         </h1>
                     </div>
-                    <div class="brief-result">
+                    <div class="brief-result resx-content">
                         <p>
                             是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是 ooo 是是是是是是是 是是是是是是是 是是是是是是是 是是是是是是是
                         </p>
                     </div>
                     <ul class="plastic scroll">
                         <li ng-repeat="item in postCluster">
-                            <img src="{{item.img}}">
-                            <a href="{{item.href}}" target="_blank">
-                                {{item.title}}
+                            <img src="{{item.resx_photo}}">
+                            <a href="{{item.resx_url}}" target="_blank">
+                                {{item.resx_title}}
                                 <br>
-                                <span>{{item.detail}}</span>
+                                <span>{{item.resx_smalltitle}}</span>
                             </a>
                             <button class="look-button">去看看</button>
                         </li>
@@ -558,6 +576,11 @@
     <script src="lib/js/option.js" type="text/javascript"></script>
     <script src="lib/js/charts.js" type="text/javascript"></script>
     <script>
+        $(document).ready(function(){
+            chartJs();
+        })
+
+
         if (window.navigator.standalone) {
             $("meta[name='apple-mobile-web-app-status-bar-style']").remove();
         }
@@ -574,6 +597,7 @@
             }
             /*$(".item-title").css("margin-top","0")
              $(".etabs").css("margin-top","0")*/
+             $('.result-title .logo').css("margin-top", "50px;")
         }
 
         var x = 50, y = 60
@@ -656,11 +680,12 @@
                 });
             };
             if (document.addEventListener) {
-                document.addEventListener('WeixinJSBridgeaReady', onBridgeReady, false);
+                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
             } else if (document.attachEvent) {
                 document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
                 document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
             }
         })();
+
     </script>
 </html>

@@ -8,6 +8,7 @@
 .chart-bar-zhu{
     background-color: #d8d8d8;
     position: absolute;
+    cursor: pointer;
     width: 100%;
     bottom: 5px;
 }
@@ -35,6 +36,9 @@
     text-align: center;
     margin-top: -15px;
 }
+#container{
+    margin-top: 30px!important;
+}
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
@@ -44,5 +48,22 @@ and (max-device-width : 568px) {
         margin-left: 5px;
         height: 100%;
         position: relative;
+    }
+    #container{
+        margin-top: 30px!important;
+        height: 150px!important;
+    }
+}
+@media (max-width: 730px) {
+    .chart-bar{
+        width: 40px;
+        display: inline-block;
+        margin-left: 5px;
+        height: 100%;
+        position: relative;
+    }
+    #container{
+        margin-top: 30px!important;
+        height: 150px!important;
     }
 }

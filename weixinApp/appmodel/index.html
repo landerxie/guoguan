@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html ng-app="phonecatApp">
     <head>
         <meta charset="UTF-8" />
@@ -18,184 +18,207 @@
         <script src="extensions/jqt.actionsheet.min.js" type="application/x-javascript" charset="utf-8"></script>
         <script src="extensions/jqt.menusheet.min.js" type="application/x-javascript" charset="utf-8"></script>-->
         <script type="text/javascript" charset="utf-8">
-            var testurl = "http://box.guoguan.com/ceshi/appmodel/index.html";
-            var sharetitle = "";
-            var jQT = new $.jQT({
-                icon: 'jqtouch.png',
-                icon4: 'jqtouch4.png',
-                addGlossToIcon: false,
-                startupScreen: 'jqt_startup.png',
-                statusBar: 'black-translucent',
-                preloadImages: []
-            });
-            function GetQueryString(name)
-            {
-                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-                var r = window.location.search.substr(1).match(reg);
-                if (r !== null)
-                    return unescape(r[2]);
-                return null;
-            }
+                    var testurl = "http://box.guoguan.com/ceshi/appmodel/index.html";
+                    var sharetitle = "";
+                    var jQT = new $.jQT({
+                        icon: 'jqtouch.png',
+                                icon4: 'jqtouch4.png',
+                                addGlossToIcon: false,
+                                startupScreen: 'jqt_startup.png',
+                                statusBar: 'black-translucent',
+                                preloadImages: []
+                        });
+                    function GetQueryString(name)
+                    {
+                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                            var r = window.location.search.substr(1).match(reg);
+                            if (r !== null)
+                            return unescape(r[2]);
+                            return null;
+                    }
             function setCookie(name, value)
             {
-                var Days = 30;
-                var exp = new Date();
-                exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
-                document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+            var Days = 30;
+                    var exp = new Date();
+                    exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+                    document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
             }
             function getCookie(name)
             {
-                var acookie = document.cookie.split("; ");
-                for (var i = 0; i < acookie.length; i++) {
-                    var arr = acookie[i].split("=");
+            var acookie = document.cookie.split("; ");
+                    for (var i = 0; i < acookie.length; i++) {
+            var arr = acookie[i].split("=");
                     if (name === arr[0]) {
-                        if (arr.length > 1) {
-                            return unescape(arr[1]);
-                        }
-                    }
-                }
-                return null;
+            if (arr.length > 1) {
+            return unescape(arr[1]);
+            }
+            }
+            }
+            return null;
             }
             // Some sample Javascript functions:
             var start = "";
-            var score_cent = 0;
-            var resultjson = "";
-            var id = 0;
-            $(function() {
-                id = GetQueryString("id");
-                testurl = testurl + "?id=" + id;
-                $.ajax({
-                    url: '/test/MentalTestApi.php?a=getinfo&id=' + id + '&tmp=' + Math.random(), type: 'get', async: true,
-                    error: function(data) {
-                        alert("err:" + data);
-                    },
-                    success: function(data) {
-                        var obj = eval("(" + data + ")");
-                        if (obj.err === 0) {
-                            $(".peoplenum").html(obj.peoplenum);
-                            sharetitle = obj.msg.mentaltest_title;
-                            document.title = sharetitle;
-                            $(".home-title h1").html(obj.msg.mentaltest_title);
-                            $(".test-title h1").html(obj.msg.mentaltest_title);
-                            $(".home-title p").html(obj.msg.mentaltest_content);
-                            $(".resx-tag").html('<a href="#cluster" class="dissolve">'+obj.msg.resxtag+'</a>');
-                            $(".resx-title h1").html(obj.msg.resxtitle);
-                            $(".resx-content p").html(obj.msg.resxcontent);
-                            var html = [];
-                            var resulthtml = [];
-                            $(".rseultnumber").html((obj.result.length - 1) + "/" + (obj.result.length - 1));
-                            for (var i = 0; i < obj.result.length; i++) {
-                                if (obj.result[i].item_isresult === "0") {
-                                    if (i === 0) {
-                                        start = "item-" + obj.result[i].item_id;
+                    var score_cent = 0;
+                    var resultjson = "";
+                    var id = 0;
+                    var orderlist = [];
+                    $(function() {
+                    id = GetQueryString("id");
+                            testurl = testurl + "?id=" + id;
+                            $.ajax({
+                            url: '/test/MentalTestApi.php?a=getinfo&id=' + id + '&tmp=' + Math.random(), type: 'get', async: true,
+                                    error: function(data) {
+                                    alert("err:" + data);
+                                    },
+                                    success: function(data) {
+                                    var obj = eval("(" + data + ")");
+                                            if (obj.err === 0) {
+                                    $(".peoplenum").html(obj.peoplenum);
+                                            sharetitle = obj.msg.mentaltest_title;
+                                            document.title = sharetitle;
+                                            $(".home-title h1").html(obj.msg.mentaltest_title);
+                                            $(".test-title h1").html(obj.msg.mentaltest_title);
+                                            $(".home-title p").html(obj.msg.mentaltest_content);
+                                            if (obj.msg.mentaltest_titlephoto){
+                                    $(".home-banner").html('<img src="' + obj.msg.mentaltest_titlephoto + '">');
                                     }
-                                    html.push('<div id="item-' + obj.result[i].item_id + '"><div class="item-title"><h1>' + obj.msg.mentaltest_title + '</h1><p>国馆提醒你：请在三秒以内回答以下问题，结果才会准确</p>');
-                                    html.push('<div class="logo"><img src="themes/img/logo.jpg"></div></div><div class="process"><div class="number">' + (i + 1) + '/' + (obj.result.length - 1) + '</div><div class="cent">');
-                                    html.push('<p><div class="Bars"><div style="width: ' + 100 * (i + 1) / (obj.result.length - 1) + '%;"></div></div></p></div></div><div class="second-title"><h3>' + obj.result[i].item_title + '</h3></div>');
-                                    if (obj.result[i].item_titlephoto !== "") {
-                                        html.push('<div class="has-img"><img src="' + obj.result[i].item_titlephoto + '"></div>');
+                                    $(".resx-tag").html('<a href="#cluster" class="dissolve">' + obj.msg.resxtag + '</a>');
+                                            $(".resx-title h1").html(obj.msg.resxtitle);
+                                            $(".resx-content p").html(obj.msg.resxcontent);
+                                            var html = [];
+                                            var resulthtml = [];
+                                            $(".rseultnumber").html((obj.result.length - 1) + "/" + (obj.result.length - 1));
+                                            for (var i = 0; i < obj.result.length; i++) {
+                                    if (obj.result[i].item_isresult === "0") {
+                                    if (i === 0) {
+                                    start = "item-" + obj.result[i].item_id;
+                                    }
+                                    html.push('<div id="item-' + obj.result[i].item_id + '"><div class="item-title"><h1>' + obj.msg.mentaltest_title + '</h1><p>国馆提醒你：答题越快，结果越准</p>');
+                                            html.push('<div class="logo"><img src="themes/img/logo.jpg"></div></div><div class="process"><div class="number">' + (i + 1) + '/' + (obj.result.length - 1) + '</div><div class="cent">');
+                                            html.push('<p><div class="Bars"><div style="width: ' + 100 * (i + 1) / (obj.result.length - 1) + '%;"></div></div></p></div></div><div class="second-title"><h3>' + obj.result[i].item_title + '</h3></div>');
+                                            if (obj.result[i].item_titlephoto !== "") {
+                                    html.push('<div class="has-img"><img src="' + obj.result[i].item_titlephoto + '"></div>');
                                     }
                                     var content = eval("(" + obj.result[i].item_itemcontent + ")");
-                                    if (content && content.length > 0 && content[0].photo !== "") {
-                                        html.push('<ul class="metal scroll item">');
+                                            if (content && content.length > 0 && content[0].photo !== "") {
+                                    html.push('<ul class="metal scroll item">');
                                     } else {
-                                        html.push('<ul class="rounded scroll item">');
+                                    html.push('<ul class="rounded scroll item">');
                                     }
                                     for (var j = 0; j < content.length; j++) {
-                                        html.push('<li class="arrow">');
-                                        if (content[j].photo !== "") {
-                                            html.push('<img src="' + content[j].photo + '">');
-                                        }
-                                        if (i === obj.result.length - 2)
-                                        {
-                                            html.push('<a href="javascript:void(0)" onclick="showResult2()" data-cent="' + content[j].cent + '">' + content[j].title + '</a> </li>');
-                                        }
-                                        else
-                                        {
-                                            html.push('<a href="javascript:void(0)" onclick="goto(' + obj.result[i + 1].item_id + ',' + content[j].cent + ')"  data-cent="' + content[j].cent + '">' + content[j].title + '</a> </li>');
-                                        }
+                                    html.push('<li class="arrow">');
+                                            if (content[j].photo !== "") {
+                                    html.push('<img src="' + content[j].photo + '">');
+                                    }
+                                    if (i === obj.result.length - 2)
+                                    {
+                                    html.push('<a href="javascript:void(0)" onclick="showResult2(2)" data-cent="' + content[j].cent + '">' + content[j].title + '</a> </li>');
+                                    }
+                                    else
+                                    {
+                                    html.push('<a href="javascript:void(0)" onclick="goto(' + obj.result[i + 1].item_id + ',' + content[j].cent + ')"  data-cent="' + content[j].cent + '">' + content[j].title + '</a> </li>');
+                                    }
                                     }
                                     html.push('</ul><div class="info"> <p>测试提供：国馆，中国收藏级文化白酒</p></div></div>');
-                                } else {
+                                    } else {
                                     var item = eval("(" + obj.result[i].item_itemcontent + ")");
-                                    resultjson = item;
-                                }
-                            }
-                            $(".itemfooter").before(html.join(''));
-                            //alert(obj.orderlist[0].num);
-                            //判断检查用户是否参与过
-                            var phone = getCookie("phone");
-                            if (phone) {
-                                $('#some_name').val(phone);
-                            }
-                            console.info(phone);
-                            var s = getCookie("item_" + id + "_result");
-                            if (s) {
-                                score_cent = parseInt(s);
-                                showResult2();
-                            }
-                            else {
-                                score_cent = 0;
-                            }
-                            console.info(score_cent);
-                        }
-                    }
-                });
-
-                $('a[target="_blank"]').bind('click', function() {
+                                            resultjson = item;
+                                    }
+                                    }
+                                    $(".itemfooter").before(html.join(''));
+                                            for (var i = 0; i < obj.orderlist.length; i++){
+                                    for (var j = 0; j < resultjson.length; j++){
+                                    if (obj.orderlist[i].result_id === resultjson[j].no.toString())
+                                    {
+                                    orderlist.push({no:resultjson[j].no, value:obj.orderlist[i].num, current: false, title:resultjson[j].title});
+                                    }
+                                    }
+                                    }
+                                    //判断检查用户是否参与过
+                                    var phone = getCookie("phone");
+                                            if (phone) {
+                                    $('#some_name').val(phone);
+                                    }
+                                    console.info(phone);
+                                            var s = getCookie("item_" + id + "_result");
+                                            if (s) {
+                                    score_cent = parseInt(s);
+                                            showResult2(1);
+                                    }
+                                    else {
+                                    score_cent = 0;
+                                    }
+                                    console.info(score_cent);
+                                    }
+                                    }
+                            });
+                            $('a[target="_blank"]').bind('click', function() {
                     if (confirm('This link opens in a new window.')) {
-                        return true;
+                    return true;
                     } else {
-                        return false;
+                    return false;
                     }
-                });
-                setTimeout(function() {
-                    $(".logo").addClass("animated");
-                }, 1000);
-                // Orientation callback event
-                $('#jqt').bind('turn', function(e, data) {
-                    $('#orient').html('Orientation: ' + data.orientation);
-                });
-            });
-
-            //手机号校验
-            function startTest() {
-                if (!$('#some_name').val() || $('#some_name').val().length !== 11) {
-                    alert('请输入正确的手机号码');
-                } else {
-                    $.ajax({
-                        url: '/test/MentalTestApi.php?a=savephone&phone=' + $('#some_name').val() + '&id=' + id + '&tmp=' + Math.random(), type: 'get', async: true, success: function(data) {
-
-                        }
                     });
-                    setCookie("phone", $('#some_name').val());
-                    window.location.href = "#" + start;
-                }
-            }
-            function goto(tag, cent) {
-                score_cent += cent;
-                window.location.hash = "item-" + tag;
-            }
-            function retest() {
-                score_cent = 0;
-                window.location.hash = "home";
-            }
-            function showResult2() {
-                var r = resultjson;
-                for (var i = 0; i < r.length; i++) {
-                    if (score_cent >= r[i].mincent && score_cent < r[i].maxcent) {
-                        $.ajax({
-                            url: '/test/MentalTestApi.php?a=saveresult&phone=' + $('#some_name').val() + '&id=' + id + '&result=' + r[i].no + '&tmp=' + Math.random(), type: 'get', async: true, success: function(data) {
+                            setTimeout(function() {
+                            $(".logo").addClass("animated");
+                            }, 1000);
+                            // Orientation callback event
+                            $('#jqt').bind('turn', function(e, data) {
+                    $('#orient').html('Orientation: ' + data.orientation);
+                    });
+                    });
+                    //手机号校验
+                            function startTest() {
+                            if (!$('#some_name').val() || $('#some_name').val().length !== 11) {
+                            alert('请输入正确的手机号码');
+                            } else {
+                            var ua = navigator.userAgent;
+                                    $.ajax({
+                                    url: '/test/MentalTestApi.php?a=savephone&client=' + ua + '&fromdata=box-weixin&phone=' + $('#some_name').val() + '&id=' + id + '&tmp=' + Math.random(), type: 'get', async: true, success: function(data) {
+
+                                    }
+                                    });
+                                    setCookie("phone", $('#some_name').val());
+                                    window.location.href = "#" + start;
                             }
-                        });
-                        $(".detail-result h1").html(r[i].title);
-                        $(".result-item-content h1").html(r[i].title);
-                        $(".result-item-remark p").html(r[i].remark);
-                        window.location.hash = "show-result";
-                        setCookie("item_" + id + "_result", score_cent);
+                            }
+                    function goto(tag, cent) {
+                    score_cent += cent;
+                            window.location.hash = "item-" + tag;
                     }
-                }
-            }
+                    function retest() {
+                    score_cent = 0;
+                            window.location.hash = "home";
+                    }
+                    function showResult2(hashtag) {
+                    var r = resultjson;
+                            for (var i = 0; i < r.length; i++) {
+                    if (score_cent >= r[i].mincent && score_cent < r[i].maxcent) {
+                    $.ajax({
+                    url: '/test/MentalTestApi.php?a=saveresult&phone=' + $('#some_name').val() + '&id=' + id + '&result=' + r[i].no + '&tmp=' + Math.random(), type: 'get', async: true, success: function(data) {
+                    }
+                    });
+                            $(".detail-result h1").html(r[i].title);
+                            $(".result-item-content h1").html(r[i].title);
+                            $(".result-item-remark p").html(r[i].remark);
+                            for (var j = 0; j < orderlist.length; j++){
+                    if (orderlist[j].no === r[i].no){
+                    orderlist[j].current = true;
+                    }
+                    else{
+                    orderlist[j].current = false;
+                    }
+                    }
+                    chartJs.calculate(orderlist);
+                            if (hashtag === 1){
+                    window.location.hash = "show-result";
+                    } else{
+                    window.location.hash = "show-result";
+                    }
+                    setCookie("item_" + id + "_result", score_cent);
+                    }
+                    }
+                    }
         </script>
         <style type="text/css" media="screen">
             #jqt.fullscreen #home .info {
@@ -267,7 +290,7 @@
                         你的失败值是多少？
                     </h1>
                     <p>
-                        国馆提醒你：请在三秒以内回答以下问题，结果才会准确
+                        国馆提醒你：答题越快，结果越准
                     </p>
                     <div class="logo">
                         <img src="themes/img/logo.jpg">
@@ -361,7 +384,7 @@
                         你的失败值是多少？
                     </h1>
                     <p>
-                        国馆提醒你：请在三秒以内回答以下问题，结果才会准确
+                        国馆提醒你：答题越快，结果越准
                     </p>
                     <div class="logo">
                         <img src="themes/img/logo.jpg">
@@ -418,7 +441,7 @@
                         你的失败值是多少？
                     </h1>
                     <p>
-                        国馆提醒你：请在三秒以内回答以下问题，结果才会准确
+                        国馆提醒你：答题越快，结果越准
                     </p>
                     <div class="logo">
                         <img src="themes/img/logo.jpg">
@@ -467,8 +490,9 @@
                 <div class='panel-container'>
                     <div class="result-title test-title">
                         <h1>
-                        </h1>
-                        <div class="logo animated">
+                            你的失败值是多少？
+                        </h1>                       
+                        <div class="logo">
                             <img src="themes/img/logo.jpg">
                         </div>
                     </div>
@@ -486,9 +510,9 @@
                         <p>
                         </p>
                     </div>
-                    <div class="scroll">
-                        <img src="themes/images/zhongguodao.jpg" style="width: 100%;" alt=""/>
-                        <div class="percent-result">有32%的人测试结果和我一样</div>
+                    <div class="scroll result-img">
+                        <img src="themes/images/zhongguodao.jpg" alt=""/>
+                        <div class="percent-result" id="percent-result">有32%的人测试结果和我一样</div>
                     </div>
                     <div class="scroll">
                         <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto; text-align: center; margin-bottom: 30px;">
@@ -506,7 +530,7 @@
                         </a>
                     </div>
 
-                    <div class="brief-result">
+                    <div class="all-play">
                         <h3>
                             大家都在玩
                         </h3>
@@ -519,7 +543,7 @@
                                 <br>
                                 <span>{{item.count}}</span>
                             </a>
-                            <button class="look-button">去看看</button>
+                            <a href="{{item.href}}" target="_blank" class="look-button">去看看</a>
                         </li>
                     </ul>
                     <div class="scroll">
@@ -554,7 +578,7 @@
                                 <br>
                                 <span>{{item.resx_smalltitle}}</span>
                             </a>
-                            <button class="look-button">去看看</button>
+                            <a href="{{item.resx_url}}" target="_blank" class="look-button">+关注</a>
                         </li>
                     </ul>
                     <div class="scroll" style="margin-top: 30px; margin-bottom: 30px">
@@ -570,121 +594,127 @@
 
 
         </div>
+        <script type="text/javascript">
+                            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffc13730a718ed588aa5623f0e6e07346' type='text/javascript'%3E%3C/script%3E"));</script>
+
     </body>
     <script src="lib/js/angular.min.js" type="text/javascript"></script>
     <script src="lib/js/controllers.js" type="text/javascript"></script>
     <script src="lib/js/option.js" type="text/javascript"></script>
     <script src="lib/js/charts.js" type="text/javascript"></script>
     <script>
-        $(document).ready(function(){
-            $("#some_name").focus();
-        })
+                            $(document).ready(function(){
 
-        if (window.navigator.standalone) {
-            $("meta[name='apple-mobile-web-app-status-bar-style']").remove();
-        }
-        function hidead()
-        {
-            document.getElementById("ad").style.display = "none";
-            var nodeOne = document.getElementsByClassName("etabs");
-            var nodeTwo = document.getElementsByClassName("item-title");
-            for (var i = 0, l = nodeOne.length; i < l; i++) {
-                nodeOne[i].style.marginTop = "0";
-            }
-            for (var i = 0, l = nodeTwo.length; i < l; i++) {
-                nodeTwo[i].style.marginTop = "10px";
-            }
-            /*$(".item-title").css("margin-top","0")
-             $(".etabs").css("margin-top","0")*/
-             $('.result-title .logo').css("margin-top", "50px;")
-        }
+                    })
 
-        var x = 50, y = 60
-        var xin = true, yin = true
-        var step = 1
-        var delay = 1
-        var obj = document.getElementById("ad")
-        function floatAD() {
-            var L = T = 0
-            var R = document.body.clientWidth - obj.offsetWidth
-            var B = document.body.clientHeight - obj.offsetHeight
-            obj.style.left = x + document.body.scrollLeft
-            obj.style.top = y + document.body.scrollTop
-            x = x + step * (xin ? 1 : -1)
-            if (x < L) {
-                xin = true;
-                x = L
-            }
-            if (x > R) {
-                xin = false;
-                x = R
-            }
-            y = y + step * (yin ? 1 : -1)
-            if (y < T) {
-                yin = true;
-                y = T
-            }
-            if (y > B) {
-                yin = false;
-                y = B
-            }
-        }
-        var itl = setInterval("floatAD()", delay)
-        obj.onmouseover = function() {
-            clearInterval(itl)
-        }
-        obj.onmouseout = function() {
-            itl = setInterval("floatAD()", delay)
-        }
-        var dataForWeixin = {
-            appId: "wxf65f82289ec9134a", //微信公众号ID
-            MsgImg: "http://box.guoguan.com/html/weixinApp/appmodel/themes/images/zhongguodao.jpg", //分享给朋友和收藏时显示的缩略图
-            TLImg: "http://box.guoguan.com/html/weixinApp/appmodel/themes/images/zhongguodao.jpg", //分享到朋友圈时显示的缩略图
-            url: testurl, //分享地址
-            title: sharetitle, //"潜意识测试：从送礼测你潜在的性格", //分享至微博、朋友圈、朋友都会用到
-            desc: "已有132万网友参与测试！^-^", //分享给 朋友时会用到
-            fakeid: "",
-            callback: function() {
-                //分享成功回调方法，其中分享给朋友、分享到微博、收藏都是成功后回调，而分享到朋友圈是点分享按钮就会调用
-            }
-        };
-        (function() {
-            var onBridgeReady = function() {
-                //分享给朋友
-                WeixinJSBridge.on('menu:share:appmessage', function(argv) {
-                    WeixinJSBridge.invoke('sendAppMessage', {
-                        "appid": dataForWeixin.appId,
-                        "img_url": dataForWeixin.MsgImg,
-                        "img_width": "120",
-                        "img_height": "120",
-                        "link": dataForWeixin.url,
-                        "desc": dataForWeixin.desc,
-                        "title": dataForWeixin.title
-                    }, function(res) {
-                        (dataForWeixin.callback)();
-                    });
-                });
-                //分享至朋友圈
-                WeixinJSBridge.on('menu:share:timeline', function(argv) {
-                    (dataForWeixin.callback)();
-                    WeixinJSBridge.invoke('shareTimeline', {
-                        "img_url": dataForWeixin.TLImg,
-                        "img_width": "120",
-                        "img_height": "120",
-                        "link": dataForWeixin.url,
-                        "desc": dataForWeixin.desc,
-                        "title": dataForWeixin.title
-                    }, function(res) {
-                    });
-                });
-            };
-            if (document.addEventListener) {
-                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
-            } else if (document.attachEvent) {
-                document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
-                document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
-            }
-        })();
+
+                            if (window.navigator.standalone) {
+                    $("meta[name='apple-mobile-web-app-status-bar-style']").remove();
+                    }
+                    function hidead()
+                    {
+                    document.getElementById("ad").style.display = "none";
+                            var nodeOne = document.getElementsByClassName("etabs");
+                            var nodeTwo = document.getElementsByClassName("item-title");
+                            for (var i = 0, l = nodeOne.length; i < l; i++) {
+                    nodeOne[i].style.marginTop = "0";
+                    }
+                    for (var i = 0, l = nodeTwo.length; i < l; i++) {
+                    nodeTwo[i].style.marginTop = "10px";
+                    }
+                    /*$(".item-title").css("margin-top","0")
+                     $(".etabs").css("margin-top","0")*/
+                    $('.result-title .logo').css("margin-top", "50px;");
+                    $('.home-banner').css("margin-top", "0");
+                    }
+
+                    var x = 50, y = 60
+                            var xin = true, yin = true
+                            var step = 1
+                            var delay = 1
+                            var obj = document.getElementById("ad")
+                            function floatAD() {
+                            var L = T = 0
+                                    var R = document.body.clientWidth - obj.offsetWidth
+                                    var B = document.body.clientHeight - obj.offsetHeight
+                                    obj.style.left = x + document.body.scrollLeft
+                                    obj.style.top = y + document.body.scrollTop
+                                    x = x + step * (xin ? 1 : - 1)
+                                    if (x < L) {
+                            xin = true;
+                                    x = L
+                            }
+                            if (x > R) {
+                            xin = false;
+                                    x = R
+                            }
+                            y = y + step * (yin ? 1 : - 1)
+                                    if (y < T) {
+                            yin = true;
+                                    y = T
+                            }
+                            if (y > B) {
+                            yin = false;
+                                    y = B
+                            }
+                            }
+                    var itl = setInterval("floatAD()", delay)
+                            obj.onmouseover = function() {
+                            clearInterval(itl)
+                            }
+                    obj.onmouseout = function() {
+                    itl = setInterval("floatAD()", delay)
+                    }
+                    var dataForWeixin = {
+                    appId: "wxf65f82289ec9134a", //微信公众号ID
+                            MsgImg: "http://box.guoguan.com/html/weixinApp/appmodel/themes/images/zhongguodao.jpg", //分享给朋友和收藏时显示的缩略图
+                            TLImg: "http://box.guoguan.com/html/weixinApp/appmodel/themes/images/zhongguodao.jpg", //分享到朋友圈时显示的缩略图
+                            url: testurl, //分享地址
+                            title: sharetitle, //"潜意识测试：从送礼测你潜在的性格", //分享至微博、朋友圈、朋友都会用到
+                            desc: "已有132万网友参与测试！^-^", //分享给 朋友时会用到
+                            fakeid: "",
+                            callback: function() {
+                            //分享成功回调方法，其中分享给朋友、分享到微博、收藏都是成功后回调，而分享到朋友圈是点分享按钮就会调用
+                            }
+                    };
+                            (function() {
+                            var onBridgeReady = function() {
+                            //分享给朋友
+                            WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+                            WeixinJSBridge.invoke('sendAppMessage', {
+                            "appid": dataForWeixin.appId,
+                                    "img_url": dataForWeixin.MsgImg,
+                                    "img_width": "120",
+                                    "img_height": "120",
+                                    "link": dataForWeixin.url,
+                                    "desc": dataForWeixin.desc,
+                                    "title": dataForWeixin.title
+                            }, function(res) {
+                            (dataForWeixin.callback)();
+                            });
+                            });
+                                    //分享至朋友圈
+                                    WeixinJSBridge.on('menu:share:timeline', function(argv) {
+                                    (dataForWeixin.callback)();
+                                            WeixinJSBridge.invoke('shareTimeline', {
+                                            "img_url": dataForWeixin.TLImg,
+                                                    "img_width": "120",
+                                                    "img_height": "120",
+                                                    "link": dataForWeixin.url,
+                                                    "desc": dataForWeixin.desc,
+                                                    "title": dataForWeixin.title
+                                            }, function(res) {
+                                            });
+                                    });
+                            };
+                                    if (document.addEventListener) {
+                            document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+                            } else if (document.attachEvent) {
+                            document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+                                    document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+                            }
+                            })();
 
     </script>
 </html>

@@ -1880,7 +1880,7 @@ body {
 
 
 #jqt ul.plastic li a{
-    padding-left: 80px;
+    padding-left: 70px;
     padding-top: 30px;
     height: 80px;
     width: 140px;
@@ -1909,10 +1909,13 @@ body {
     left: 10px;
 }
 .look-button{
-    width: 80px;
+    width: 70px!important;
     height: 30px!important;
+    padding: 0!important;
+    font-weight: normal!important;
     line-height: 30px!important;
-    font-size: 12px;
+    font-size: 12px!important;
+    text-shadow: none!important;
     cursor: pointer;
     color: #fff!important;
     border: none;
@@ -1920,9 +1923,9 @@ body {
     background-color: #d83b38;
     font-family: "microsoft yahei";
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 50%;
-    margin-top: -15px;
+    margin-top: -15px!important;
 }
 .look-button:active,.look-button:hover{
     background-color: #c12926;
@@ -2068,6 +2071,7 @@ body {
 /*mystyle*/
 .home-banner{
     text-align: center;
+    margin-top: 50px;
 }
 .home-banner img{
    width: 100%;
@@ -2111,6 +2115,7 @@ body {
 .second-title{
     max-width: 720px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 .second-title h3{
     font-size: 18px!important;
@@ -2118,11 +2123,11 @@ body {
     font-family: "microsoft yahei";
     text-align: left;
     margin-left: 10px!important;
+    margin-right: 10px!important;
     margin-top: 18px!important;
     font-weight: normal;
     margin-bottom: 5px;
     color: #333;
-    width: 78%;
 }
 .logo{
     position: absolute;
@@ -2152,8 +2157,8 @@ body {
 .item-title p{
     padding:0 10px 10px 10px;
     line-height: 24px;
-    font-size: 14px;
-    color: #333;
+    font-size: 12px;
+    color: #999999;
     width: 70%;
     font-family: "microsoft yahei";
 }
@@ -2203,6 +2208,7 @@ body {
 .detail-result h3{
     font-family: "microsoft yahei";
     color: #333;
+    font-size: 16px;
     margin-top: 30px;
     font-weight: normal;
 }
@@ -2216,13 +2222,14 @@ body {
 
 .brief-result{
     text-align: left;
-    margin-top: 15px;
+    margin-top: 29px;
     margin-bottom: 30px;
 }
 .brief-result h3{
     font-family: "microsoft yahei";
     color: #333;
-    margin-left: 20px;
+    font-size: 16px;
+    margin-left: 10px;
     font-weight: normal;
 }
 .brief-result h1{
@@ -2234,9 +2241,20 @@ body {
 }
 .brief-result p{
     font-family: "microsoft yahei";
-    margin:10px 20px 20px 20px ;
+    margin:10px 20px 20px 10px ;
     font-size: 16px;
     line-height: 24px;
+}
+.all-play{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.all-play h3{
+    font-family: "microsoft yahei";
+    color: #333;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: normal;
 }
 #ad{
     position: absolute;
@@ -2281,14 +2299,35 @@ body {
     margin-top: 20px;
 }
 .result-title{
+    max-width: 720px;
+    margin: 0 auto;
     position: relative;
+    -webkit-transition: all 1.2s ease;
+    -moz-transition: all 1.2s ease;
+    -o-transition: all 1.2s ease;
+    transition: all 1.2s ease;
 }
 .result-title h1{
-    margin-top: 20px;
+    font-size: 24px!important;
     color: #333!important;
+    text-align: left;
+    margin-left: 10px!important;
+    margin-top: 18px!important;
+    color: #333;
+    width: 84%;
+}
+.result-title p{
+    padding: 0 10px 10px 10px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #999999;
+    width: 70%;
+    font-family: "microsoft yahei";
 }
 .result-title .logo{
-    margin-top: 0px;
+    position: absolute;
+    right: 10px;
+    top: 0;
 }
 .restart{
     text-align: center;
@@ -2298,7 +2337,7 @@ body {
     color: #999;
     text-decoration: none;
     font-family: "microsoft yahei";
-    font-size: 18px;
+    font-size: 14px;
 }
 
 
@@ -2311,7 +2350,6 @@ body {
     background-repeat: no-repeat;
     z-index: 9999;
 }
-
 .share-cover{
     position: fixed;
     display: none;
@@ -2329,6 +2367,12 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.result-img{
+   text-align: center;
+}
+.result-img img{
+    width: 70%;
+}
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
@@ -2336,5 +2380,14 @@ and (max-device-width : 568px) {
         position: absolute;
         right: 10px;
         top: 4px;
+    }
+    #jqt ul.plastic li a span{
+        font-size: 12px;
+        width: 140px;
+        height: 30px;
+        overflow: hidden;
+        white-space: normal;
+        display: inline-block;
+        color: #999;
     }
 }

@@ -19,8 +19,167 @@
     height: 100%;
 }
 
+#ad{
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+#ad a {
+    position: relative;
+    display: block;
+}
+#ad img{
+    width: 100%;
+    border-radius: 0.416666rem;
+}
+
+.head-nav{
+    height: 4.5rem;
+    line-height: 4.5rem;
+    position: relative;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(1, #f8f8f8), to(rgb(255, 0, 0)));
+    border-bottom: 1px solid #ccc;
+}
+.head-nav h3{
+    font-size: 1.6rem;
+    display: inline-block;
+}
+.head-nav a{
+    font-size: 1.6rem;
+    margin-left: 1.4rem;
+    color: #45bf14;
+}
+.head-nav-a-last{
+    position: absolute;
+    right: 0;
+}
+.home-banner img{
+    width: 100%;
+    vertical-align: middle;
+}
+.home-content{
+    border-top: 0.1rem solid #bbb;
+}
+.home-title{
+    padding-top: 1.5rem;
+    padding-bottom: 1.1rem;
+}
+.home-title h2{
+    font-size: 2.8rem;
+}
+.home-detail{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.start-button{
+    width: 12rem;
+    display: block;
+    margin: 1.5rem auto 0 auto;
+}
+.home-footer-detail{
+    color: #999;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.test-title{
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: #fff;
+    height: 3rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+/*进度条*/
+.Bar ,.Bars {
+    position: relative;
+    width: 23rem;
+    height: 0.4rem;
+    background-color: #ccc;
+}
+.Bar div,.Bars div { display: block; position: relative;
+    background:#45bf14;/* 进度条背景颜色 */ color: #333333;
+    height: 20px; /* 高度 */ line-height: 20px;
+    /* 必须和高度一致，文本才能垂直居中 */ }
+.cent{
+    margin:0 auto;
+    width:23rem;
+    overflow:hidden;
+    vertical-align: middle;
+    margin-left: 1rem;
+    display: inline-block;
+}
+.number{
+    display: inline-block;
+    font-size: 1rem;
+}
+.process{
+    text-align: center;
+    height: 2rem;
+    margin:0 auto;
+    margin-top: 2rem;
+}
+
+.item-title{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.ul-type-one li{
+    height: 4.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 0.8rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.416666rem;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.ul-type-one li:before{
+    content: ' ';
+    vertical-align: middle;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -13px;
+    z-index: 10;
+    font-size: 24pt;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-size: 2rem 2rem;
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+}
+.ul-type-one li:active:after{
+    content: ' ';
+    vertical-align: middle;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -13px;
+    z-index: 10;
+    font-size: 24pt;
+    text-align: center;
+    background-size: 2.2rem 2.2rem;
+    background-color: #45bf14;
+    display: block;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 1.1rem;
+}
+.ul-type-one li span{
+    font-size: 1.6rem;
+    margin-left: 4rem;
+}
+
+
 @media (min-width: 768px) {
 }
 @media (max-width: 768px) {
+    .content{
+        border: none;
+    }
 }
 

@@ -12,10 +12,9 @@ html {
     font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/
 }
 body {font-size: 14px;
-    background-color:#f8f8f8;
+    background-color:#fff;
     height: 100%;
     width: 100%;
-    min-height: 40rem;
 }
 /* 内外边距通常让各个浏览器样式的表现位置不同 */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -151,6 +150,10 @@ a{color: #565656;}
 .mb0{margin-bottom: 0!important;}
 .mb1{margin-bottom: 1rem!important;}
 .mb2{margin-bottom: 2rem!important;}
+.mb5{margin-bottom: 5rem!important;}
+.mb8{margin-bottom: 8rem!important;}
+.pd8{padding-bottom: 8rem!important;}
+.pd1-5{padding-bottom: 1.5rem!important;}
 .color-f66900{color: #f66900!important;}
 .width100{width: 100%!important;}
 .width98{width: 98%!important;}
@@ -213,17 +216,18 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
 /* content */
 .content{
     width: 100%;
+    height: 100%;
     position: relative;
+    background-color: #f3f3f3;
     margin:0 auto;
     max-width: 60rem;
+    border: 0.1rem solid #ccc;
 }
 .content-next{
     width: 90%;
     position: relative;
     margin:0 auto;
     max-width: 60rem;
-    padding-top: 4rem;
-    margin-bottom: 6rem;
 }
 /* button */
 .m-button{
@@ -231,12 +235,13 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
     height: 4rem;
     text-align: center;
     min-width: 7rem;
-    background-color: #c7000b;
+    background-color: #45bf14;
     border-radius: 0.416666rem;
     color: #fff;
+    cursor: pointer;
 }
 .m-button:active{
-    background-color: #e60012;
+    background-color: #278608;
 }
 .m-button-content{
     line-height: 4rem;

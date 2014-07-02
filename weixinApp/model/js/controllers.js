@@ -156,19 +156,23 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
     ];
 
     $scope.enterApp = function(){
+        $scope.action = "item-1";
     }
 
     $scope.showResult = function(){
-        $(".share-cover").css("display","block");
-        $(".share-guide").css("display","none");
-        $("#weixin-guide").css("display","block");
-        $(".loading-div").css("display","none");
+    }
+
+    $scope.hideAd = function(){
+        document.getElementById("ad").style.display = "none";
+        $("#ad a").click(function(){return false});
     }
 
     $scope.closeCover = function(){
         $(".share-cover").css("display","none");
         $(".show-result-class-two").css("display","none");
     }
+
+
 
     var dataForWeixin = {
         appId: "",//微信公众号ID

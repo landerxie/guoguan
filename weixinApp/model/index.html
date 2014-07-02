@@ -65,15 +65,107 @@
 
 <!--content-->
 <div class="content">
-    <div class="ad">
-        <img src="images/banner_ad.jpg" alt="banner广告" title="前往中国道"/>
+    <!--头部导航-->
+    <div class="head-nav">
+        <div class="content-next">
+            <h3>国馆潜意识测试</h3>
+            <!--        <a href="#">所有测试</a>-->
+            <a href="#" class="head-nav-a-last">国馆商城</a>
+        </div>
     </div>
+
+    <!--首页-->
+    <div class="home pd1-5" id="home" ng-style="{display: action == 'index1111' ? 'block' : 'none'}">
+        <div class="home-banner">
+            <img src="images/zhongguodao.jpg" alt="中国道" title="中国道"/>
+        </div>
+        <div class="home-content">
+            <div class="content-next">
+                <div class="home-title">
+                    <h2>你的企业失败值是多少</h2>
+                </div>
+                <div class="home-detail">
+                    <p>
+                        王候将相，宁有种乎？来测测你在古代是英雄还是狗熊，是官宦还是宦官？
+                    </p>
+                </div>
+                <div class="m-button start-button" ng-click="enterApp()">
+                    <div class="m-button-content">
+                        开始测试
+                    </div>
+                </div>
+                <div class="home-footer-detail">
+                    <p>已有23456位企业人事通过测试</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--题目页-->
+    <div class="item-1" ng-style="{display: action == 'index' ? 'block' : 'none'}">
+        <div class="test-title">
+            你的企业失败值是多少？
+        </div>
+        <div class="home-content">
+            <div class="content-next">
+                <!--进度条-->
+                <div class="process">
+                    <div class="number">
+                        1/10
+                    </div>
+                    <div class="cent">
+                        <p>
+                        </p>
+                        <div class="Bars">
+                             <div style="width: 10%;">
+                             </div>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="item-title">
+                    1.你愿意用何种身份穿越回古代？
+                </div>
+
+                <ul class="ul-type-one">
+                    <li>
+                        <span>A.权倾天下的皇帝</span>
+                    </li>
+                    <li>
+                        <span>A.权倾天下的皇帝</span>
+                    </li>
+                    <li>
+                        <span>A.权倾天下的皇帝</span>
+                    </li>
+                    <li>
+                        <span>A.权倾天下的皇帝</span>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--底部广告位-->
+    <div class="content-next">
+        <div id="ad">
+            <a href="http://www.guoguan.com">
+                <img src="images/banner_ad.jpg">
+                <div ng-click="hideAd();" style="font-size: 9pt; cursor: pointer; position: absolute; right: 5px; top: 50%; margin-top: -12px;">
+                    <img src="img/error_five.png" style="height: 20px; width: 20px; " alt=""/>
+                </div>
+            </a>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+
 </div>
 
 <!--加载图片-->
 <div class="loading-div" style="display: none;">
     <div class="spinner-text" style="text-align: center">
-        <img src="images/01-4.png" width="52" height="51">
+        <img src="img/01-4.png" width="52" height="51">
     </div>
     <div class="spinner">
         <div class="bounce1"></div>

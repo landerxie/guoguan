@@ -3,7 +3,7 @@
  */
 
 var chartJs = (function($){
-    var /*data = [{
+    var data = /*[{
             value:"278463",
             current: false,
             title:"结果一"
@@ -66,8 +66,10 @@ var chartJs = (function($){
                 chartHeight = 100;
             }
 
-            if(data[l].current){
+            if(data[l].current && totalResult != 0){
                 percentResult = parseInt(100*data[l].value/totalResult);
+            }else if(totalResult == 0){
+                percentResult = 100;
             }
 
             var resultTitle = data[l].title;
@@ -98,7 +100,7 @@ var chartJs = (function($){
     function showTitle(item){
         alert(item)
     }
-    /*calculate(data);*/
+    //calculate(data);
 
     return {
         showTitle: showTitle,

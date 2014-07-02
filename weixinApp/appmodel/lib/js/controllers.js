@@ -20,7 +20,7 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
             img:"0003/01.jpg"
         },
         {
-            title:"用户故事：三十多岁的男人缺什么",
+            title:"三十多岁的男人缺什么",
             count:"三十多岁的男人缺什么？进来看看你就知道进来看看你就知道！" ,
             href:"http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200521400&idx=1&sn=f96e73fc7ee4e2b96934a69e4f0fe65a&scene=1#rd" ,
              img:"0003/02.jpg"

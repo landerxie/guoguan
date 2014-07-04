@@ -1,184 +1,471 @@
 <!DOCTYPE html>
 <html ng-app="phonecatApp">
-<head>
-    <title>心理测试模板</title>
-    <meta name="viewport" charset="utf-8" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/layout.css">
-</head>
-<style>
-    .spinner {
-        text-align: center;
-        margin-top: 1rem;
-    }
-    .spinner-text{
-        text-align: center;
-        padding-top: 20rem;
-        color: #9c9c9c;
-    }
-
-    .spinner > div {
-        width: 18px;
-        height: 18px;
-        background-color: #8c6d44;
-        border-radius: 100%;
-        display: inline-block;
-        -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
-        animation: bouncedelay 1.4s infinite ease-in-out;
-        /* Prevent first frame from flickering when animation starts */
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-    }
-
-    .spinner .bounce1 {
-        -webkit-animation-delay: -0.32s;
-        animation-delay: -0.32s;
-    }
-
-    .spinner .bounce2 {
-        -webkit-animation-delay: -0.16s;
-        animation-delay: -0.16s;
-    }
-
-    @-webkit-keyframes bouncedelay {
-        0%, 80%, 100% { -webkit-transform: scale(0.0) }
-        40% { -webkit-transform: scale(1.0) }
-    }
-
-    @keyframes bouncedelay {
-        0%, 80%, 100% {
-            transform: scale(0.0);
-            -webkit-transform: scale(0.0);
-        } 40% {
-              transform: scale(1.0);
-              -webkit-transform: scale(1.0);
-          }
-    }
-</style>
-<body ng-controller="PhoneListCtrl">
-<!--微信遮罩层-->
-<div class="share-cover">
-    <div class="share-guide" id="weixin-guide" ng-click="closeCover()"></div>
-    <div class="share-guide" id="mobile-guide"></div>
-</div>
-
-<!--content-->
-<div class="content">
-    <!--头部导航-->
-    <div class="head-nav">
-        <div class="content-next">
-            <h3>国馆潜意识测试</h3>
-            <!--        <a href="#">所有测试</a>-->
-            <a href="#" class="head-nav-a-last">国馆商城</a>
+    <head>
+        <title>心理测试模板</title>
+        <meta name="viewport" charset="utf-8" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="global/styles/font-awesome.min.css">
+        <link rel="stylesheet" href="global/styles/font-awesome-ie7.min.css">
+    </head>
+    <body ng-controller="PhoneListCtrl">
+        <!--微信遮罩层-->
+        <div class="share-cover">
+            <div class="share-guide" id="weixin-guide" ng-click="closeCover()"></div>
+            <div class="share-guide" id="mobile-guide"></div>
         </div>
-    </div>
 
-    <!--首页-->
-    <div class="home pd1-5" id="home" ng-style="{display: action == 'index1111' ? 'block' : 'none'}">
-        <div class="home-banner">
-            <img src="images/zhongguodao.jpg" alt="中国道" title="中国道"/>
-        </div>
-        <div class="home-content">
-            <div class="content-next">
-                <div class="home-title">
-                    <h2>你的企业失败值是多少</h2>
-                </div>
-                <div class="home-detail">
-                    <p>
-                        王候将相，宁有种乎？来测测你在古代是英雄还是狗熊，是官宦还是宦官？
-                    </p>
-                </div>
-                <div class="m-button start-button" ng-click="enterApp()">
-                    <div class="m-button-content">
-                        开始测试
-                    </div>
-                </div>
-                <div class="home-footer-detail">
-                    <p>已有23456位企业人事通过测试</p>
+        <!--content-->
+        <div class="content">
+            <!--头部导航-->
+            <div class="head-nav">
+                <div class="content-next">
+                    <h3>国馆潜意识测试</h3>
+                    <!--        <a href="#">所有测试</a>-->
+                    <a href="http://wx.guoguan.com" class="head-nav-a-last">国馆商城</a>
                 </div>
             </div>
-        </div>
-    </div>
-    <!--题目页-->
-    <div class="item-1" ng-style="{display: action == 'index' ? 'block' : 'none'}">
-        <div class="test-title">
-            你的企业失败值是多少？
-        </div>
-        <div class="home-content">
-            <div class="content-next">
-                <!--进度条-->
-                <div class="process">
-                    <div class="number">
-                        1/10
-                    </div>
-                    <div class="cent">
-                        <p>
-                        </p>
-                        <div class="Bars">
-                             <div style="width: 10%;">
-                             </div>
+            <div class="test-title">
+            </div>
+
+            <!--首页-->
+            <div class="home pd1-5" id="home" ng-style="{display: action == 'index' ? 'block' : 'none'}">
+                <div class="home-banner">
+                    <img src="{{test_title_photo}}" alt="中国道" title="中国道"/>
+                </div>
+                <div class="description">
+                    <div class="content-next">
+                        <div class="home-detail">
+                            <p>
+                                王候将相，宁有种乎？来测测你在古代是英雄还是狗熊，是官宦还是宦官？
+                            </p>
                         </div>
-                        <p></p>
+                        <div class="m-button start-button" ng-click="enterApp()">
+                            <div class="m-button-content">
+                                开始测试
+                            </div>
+                        </div>
+                        <div class="home-footer-detail">
+                            <p>已有<span id="peoplenum">0</span>位企业人事通过测试</p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="item-title">
-                    1.你愿意用何种身份穿越回古代？
-                </div>
-
-                <ul class="ul-type-one">
-                    <li>
-                        <span>A.权倾天下的皇帝</span>
-                    </li>
-                    <li>
-                        <span>A.权倾天下的皇帝</span>
-                    </li>
-                    <li>
-                        <span>A.权倾天下的皇帝</span>
-                    </li>
-                    <li>
-                        <span>A.权倾天下的皇帝</span>
-                    </li>
-                </ul>
-
             </div>
-        </div>
-    </div>
+            <div id="itemstart"></div>
+            <!--题目一页-->
+            <div class="item-1" style="display: none;" ng-style="{display: action == 'item-1' ? 'block' : 'none'}">
+                <div class="home-content">
+                    <div class="content-next">
+                        <!--进度条-->
+                        <div class="process">
+                            <div class="number">
+                                1/10
+                            </div>
+                            <div class="cent">
+                                <p>
+                                </p>
+                                <div class="Bars">
+                                    <div style="width: 10%;">
+                                    </div>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
 
+                        <div class="item-title">
+                            1.你愿意用何种身份穿越回古代？
+                        </div>
 
-    <!--底部广告位-->
-    <div class="content-next">
-        <div id="ad">
-            <a href="http://www.guoguan.com">
-                <img src="images/banner_ad.jpg">
-                <div ng-click="hideAd();" style="font-size: 9pt; cursor: pointer; position: absolute; right: 5px; top: 50%; margin-top: -12px;">
-                    <img src="img/error_five.png" style="height: 20px; width: 20px; " alt=""/>
+                        <ul class="ul-type-one">
+                            <li>
+                                <span>A.权倾天下的皇帝</span>
+                            </li>
+                            <li>
+                                <span>A.权倾天下的皇帝</span>
+                            </li>
+                            <li>
+                                <span>A.权倾天下的皇帝</span>
+                            </li>
+                            <li>
+                                <span>A.权倾天下的皇帝</span>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
-            </a>
-            <div style="clear: both;"></div>
+            </div>
+            <!--题目二-->
+            <div class="item-2" style="display: none;"  ng-style="{display: action == 'item-2' ? 'block' : 'none'}">
+                <div class="home-content">
+                    <div class="content-next">
+                        <!--进度条-->
+                        <div class="process">
+                            <div class="number">
+                                1/10
+                            </div>
+                            <div class="cent">
+                                <p>
+                                </p>
+                                <div class="Bars">
+                                    <div style="width: 10%;">
+                                    </div>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="item-title">
+                            1.你猜这是什么？
+                        </div>
+
+                        <div class="item-img">
+                            <img src="images/zhongguodao.jpg" alt="中国道" title="中国道"/>
+                        </div>
+
+                        <ul class="ul-type-one">
+                            <li>
+                                <span>A.权倾天下的皇帝</span>
+                            </li>
+                            <li>
+                                <span>A.权倾天下的皇帝</span>
+                            </li>
+                            <li>
+                                <span>A.权倾天下的皇帝</span>
+                            </li>
+                            <li>
+                                <span>A.权倾天下的皇帝</span>
+                            </li>
+                        </ul>
+
+                        <div class="bottom-button">
+                            <div class="m-button pre-item-button" style=" ">
+                                <div class="m-button-content" style="line-height: 3rem">
+                                    上一题
+                                </div>
+                            </div>
+                            <div class="m-button" style="height: 3rem; margin-left: 1rem">
+                                <div class="m-button-content" style="line-height: 3rem">
+                                    查看结果
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--题目三-->
+            <div class="item-3" style="display: none;"  ng-style="{display: action == 'item-3' ? 'block' : 'none'}">
+                <div class="home-content">
+                    <div class="content-next">
+                        <!--进度条-->
+                        <div class="process">
+                            <div class="number">
+                                1/10
+                            </div>
+                            <div class="cent">
+                                <p>
+                                </p>
+                                <div class="Bars">
+                                    <div style="width: 10%;">
+                                    </div>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="item-title">
+                            1.你猜这是什么？ <br>
+                            <p>您的测试已完成，请点击下方“查看结果”按钮</p>
+                        </div>
+
+                        <ul class="ul-type-three">
+                            <li>
+                                <div class="img-item">
+                                    <div class="little-img">
+                                        <img src="images/2_01.jpg" alt=""/>
+                                    </div>
+                                    <div class="img-choose">
+                                        <span>美酒</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img-item">
+                                    <div class="little-img">
+                                        <img src="images/2_02.jpg" alt=""/>
+                                    </div>
+                                    <div class="img-choose">
+                                        <span>美酒</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img-item">
+                                    <div class="little-img">
+                                        <img src="images/2_03.jpg" alt=""/>
+                                    </div>
+                                    <div class="img-choose">
+                                        <span>美酒</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img-item">
+                                    <div class="little-img">
+                                        <img src="images/2_04.jpg" alt=""/>
+                                    </div>
+                                    <div class="img-choose">
+                                        <span>美酒</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div style="clear: both;"></div>
+
+                        <div class="bottom-button">
+                            <div class="m-button pre-item-button">
+                                <div class="m-button-content" style="line-height: 3rem">
+                                    上一题
+                                </div>
+                            </div>
+                            <div class="m-button" style="height: 3rem; margin-left: 1rem">
+                                <div class="m-button-content" style="line-height: 3rem">
+                                    查看结果
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--结果页-->
+            <div class="result" style="display: none;"  ng-style="{display: action == 'result' ? 'block' : 'none'}">
+                <div class="home-content">
+                    <div class="content-next">
+                        <div class="item-title">
+                            你的测试结果是D
+                            <span>注：点击字母查看其他答案</span>
+                        </div>
+
+                        <div class="chart-bar">
+                            <div class="bar-left">
+                                <!--重复-->
+                                <div class="bar-part" style="width: 30%; color: #6d459e;">
+                                    <div class="num">
+                                        120
+                                    </div>
+                                    <div class="bar-body" style="background-color: #6d459e;"></div>
+                                    <div class="bar-tag">A</div>
+                                </div>
+                                <div class="bar-part" style="width: 30%; color: #499a33;">
+                                    <div class="num">
+                                        20
+                                    </div>
+                                    <div class="bar-body" style="background-color: #499a33;"></div>
+                                    <div class="bar-tag">B</div>
+                                </div>
+                                <div class="bar-part" style="width: 10%; color: #9fe220;">
+                                    <div class="num">
+                                        10
+                                    </div>
+                                    <div class="bar-body" style="background-color: #9fe220;"></div>
+                                    <div class="bar-tag">D</div>
+                                </div>
+                                <div class="bar-part" style="width: 10%; color: #6d459e;">
+                                    <div class="num">
+                                        120
+                                    </div>
+                                    <div class="bar-body" style="background-color: #6d459e;"></div>
+                                    <div class="bar-tag">A</div>
+                                </div>
+                                <div class="bar-part" style="width: 10%; color: #01acf4;">
+                                    <div class="num">
+                                        20
+                                    </div>
+                                    <div class="bar-body" style="background-color: #01acf4;"></div>
+                                    <div class="bar-tag selected">C</div>
+                                </div>
+                                <div class="bar-part" style="width: 10%; color: #9fe220;">
+                                    <div class="num">
+                                        10
+                                    </div>
+                                    <div class="bar-body" style="background-color: #9fe220;"></div>
+                                    <div class="bar-tag">D</div>
+                                </div>
+                            </div>
+                            <div class="bar-right">%</div>
+                            <div style="clear: both"></div>
+                        </div>
+
+                        <div class="item-title mb0-6">
+                            答案D
+                        </div>
+                        <div class="answer-title">
+                            西楚霸王项羽
+                        </div>
+                        <div class="result-title">
+                            结果分析：
+                        </div>
+                        <div class="result-content">
+                            <p>
+                                是不兴人但他但因东阿加西东东东功功膦肋戈它地是不兴人但他但因东阿加西东东东功功膦肋戈它地是不兴人但他但因东阿加西东东东功功膦肋戈它地
+                            </p>
+                        </div>
+                        <div class="ad-img">
+                            <img src="images/zhongguodao.jpg" alt="ijefow"/>
+                        </div>
+
+                        <div class="result-button">
+                            <div class="left">
+                                <div class=" pre-item-button m-button" style="height: 4rem">
+                                    <div class="m-button-content" style="line-height: 1.4rem;padding-top: 0.6rem">
+                                        <i class="icon-thumbs-up"></i>
+                                        准<br>
+                                        <span style="font-size: 1.2rem">
+                                            (298)
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="m-button pre-item-button" style="height: 4rem">
+                                    <div class="m-button-content" style="line-height: 1.4rem;padding-top: 0.6rem;">
+                                        <i class="icon-thumbs-down"></i>
+                                        不准<br>
+                                        <span style="font-size: 1.2rem">
+                                            (298)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="m-button  pre-item-button" ng-click="goto('index')" style="width: 100%; height: 4rem">
+                                    <div class="m-button-content">
+                                        重新测试
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-button share-to-sina-button" style="width: 100%;margin-top: 1.5rem">
+                            <div class="m-button-content">
+                                分享到朋友圈
+                            </div>
+                        </div>
+                    </div>
+                    <!--tab切换页-->
+                    <div id="tab-container" class='tab-container' style="border-top: 0.1rem solid #bbb">
+                        <ul class='etabs'>
+                            <li class='tab'><a href="#tabs1-one">其他测试</a></li>
+                            <li class='tab'><a href="#tabs1-two">有成长</a></li>
+                            <li class='tab'><a href="#tabs1-three">事业有成</a></li>
+                        </ul>
+                        <div class='panel-container'>
+                            <div id="tabs1-one" class="tab-bottom">
+                                <div class="content-next">
+                                    <ul class="tab-one">
+                                        <li>
+                                            <a href="#">一年之后你的美貌可以打几一年之后你的美貌可以打几一年之后你的美貌可以打几一年之后你的美貌可以打几</a>
+                                            <span>18.7万人</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">一年之后你的美貌可以打几</a>
+                                            <span>18.7万人</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">一年之后你的美貌可以打几</a>
+                                            <span>18.7万人</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">一年之后你的美貌可以打几</a>
+                                            <span>18.7万人</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div id="tabs1-two" class="tab-bottom">
+                                <div class="content-next">
+                                    <ul class="tab-two">
+                                        <li>
+                                            <img src="images/2_01.jpg" alt=""/>
+                                            <a href="# " target="_blank" class="">
+                                                这个广告碉堡了！
+                                                <br>
+                                                <span >什么小米、锤子都弱爆了，这才是让民族自豪的品牌！</span>
+                                            </a>
+                                            <a href="#" target="_blank" class="look-button">去看看</a>
+                                        </li>
+                                        <li>
+                                            <img src="images/2_01.jpg" alt=""/>
+                                            <a href="# " target="_blank" class="">
+                                                这个广告碉堡了！
+                                                <br>
+                                                <span >什么小米、锤子都弱爆了，这才是让民族自豪的品牌！</span>
+                                            </a>
+                                            <a href="#" target="_blank" class="look-button">去看看</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div id="tabs1-three" class="tab-bottom">
+                                <div class="ad-img">
+                                    <img src="images/zhongguodao.jpg" alt="ijefow"/>
+                                </div>
+                                <div class="ad-img">
+                                    <img src="images/zhongguodao.jpg" alt="ijefow"/>
+                                </div>
+                                <div class="ad-img">
+                                    <img src="images/zhongguodao.jpg" alt="ijefow"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--tab页结束-->
+                </div>
+            </div>
+
+            <!--底部广告位-->
+            <div class="content-next">
+                <div id="ad">
+                    <a href="http://www.guoguan.com">
+                        <img src="images/banner_ad.jpg">
+                        <div ng-click="hideAd();" style="font-size: 9pt; cursor: pointer; position: absolute; right: 5px; top: 50%; margin-top: -12px;">
+                            <img src="img/error_five.png" style="height: 20px; width: 20px; " alt=""/>
+                        </div>
+                    </a>
+                    <div style="clear: both;"></div>
+                </div>
+            </div>
+
         </div>
-    </div>
 
-</div>
-
-<!--加载图片-->
-<div class="loading-div" style="display: none;">
-    <div class="spinner-text" style="text-align: center">
-        <img src="img/01-4.png" width="52" height="51">
-    </div>
-    <div class="spinner">
-        <div class="bounce1"></div>
-        <div class="bounce2"></div>
-        <div class="bounce3"></div>
-    </div>
-    <div class="spinner-text" style="padding-top: 0;">结果分析中</div>
-</div>
+        <!--加载图片-->
+        <div class="loading-div" style="display: none;">
+            <div class="spinner-text" style="text-align: center">
+                <img src="img/01-4.png" width="52" height="51">
+            </div>
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+            <div class="spinner-text" style="padding-top: 0;">结果分析中</div>
+        </div>
 
 
-</body>
-<script src="js/jquery-1.8.0.js" type="text/javascript"></script>
-<script src="js/angular.min.js" type="text/javascript"></script>
-<script src="js/controllers.js" type="text/javascript"></script>
-<script src="js/option.js" type="text/javascript"></script>
+    </body>
+    <script src="js/jquery-1.8.0.js" type="text/javascript"></script>
+    <script src="js/test.js" type="text/javascript"></script>
+    <script src="js/angular.min.js" type="text/javascript"></script>
+    <script src="js/controllers.js" type="text/javascript"></script>
+    <script src="js/option.js" type="text/javascript"></script>
+    <script src="js/jquery.easytabs.min.js" type="text/javascript"></script>
+    <script src="js/jquery.hashchange.min.js" type="text/javascript"></script>
+    <script>
+                            $(document).ready(function() {
+                                $('#tab-container').easytabs();
+                            });
+                            document.addEventListener("touchstart", function() {
+                            }, false);
+    </script>
 </html>

@@ -11,12 +11,50 @@
 .share-cover{
     position: fixed;
     display: none;
-    z-index: 99;
+    z-index: 9999;
     background: rgba(0,0,0,0.7) ;
     top: 0;
     right: 0;
     width: 100%;
     height: 100%;
+}
+
+/*颜色数组*/
+.color0{
+    color: #6d459e;
+}
+.color0-bg{
+    background-color: #6d459e;
+}
+.color1{
+    color: #499a33;
+}
+.color1-bg{
+    background-color: #499a33;
+}
+.color2{
+    color: #9fe220;
+}
+.color2-bg{
+    background-color: #9fe220;
+}
+.color3{
+    color: #01acf4;
+}
+.color3-bg{
+    background-color: #01acf4;
+}
+.color4{
+    color:#45bf14;
+}
+.color4-bg{
+    background-color:#45bf14;
+}
+.color5{
+    color: #ed4b40;
+}
+.color5-bg{
+    background-color: #ed4b40;
 }
 
 #ad{
@@ -35,13 +73,19 @@
 .head-nav{
     height: 4.5rem;
     line-height: 4.5rem;
-    position: relative;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(1, #f8f8f8), to(rgb(255, 0, 0)));
-    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), color-stop(1, #e1e1e1), to(rgb(255, 0, 0)));*/
+    background-color: #21292c;
+    border-bottom: 0.1rem solid #141c1f;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 .head-nav h3{
     font-size: 1.6rem;
     display: inline-block;
+    color: #fff;
 }
 .head-nav a{
     font-size: 1.6rem;
@@ -52,23 +96,41 @@
     position: absolute;
     right: 0;
 }
+.home-banner{
+    padding-top: 8.1rem;
+}
 .home-banner img{
     width: 100%;
     vertical-align: middle;
 }
-.home-content{
-    border-top: 0.1rem solid #bbb;
+.result-button{
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    margin-top: 1.5rem;
 }
-.home-title{
-    padding-top: 1.5rem;
-    padding-bottom: 1.1rem;
+.result-button >div.left{
+    width: 15rem;
+}
+.result-button >div.right{
+    box-flex:1;
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+}
+.home-content{
+    padding-top: 8.1rem;
 }
 .home-title h2{
     font-size: 2.8rem;
 }
 .home-detail{
     font-size: 1.6rem;
-    line-height: 2rem;
+}
+.home-detail p{
+    line-height: 2.4rem;
+}
+.description{
+    margin-top: 1.5rem;
 }
 .start-button{
     width: 12rem;
@@ -82,11 +144,17 @@
 }
 .test-title{
     font-size: 1.8rem;
+    top: 4.6rem;
     text-align: center;
     background-color: #fff;
-    height: 3rem;
-    line-height: 3rem;
+    height: 3.5rem;
+    position: fixed;
+    z-index: 999;
+    line-height: 3.5rem;
     font-weight: bold;
+    left: 0;
+    right: 0;
+    border-bottom: 0.1rem solid #bbb;
 }
 /*进度条*/
 .Bar ,.Bars {
@@ -115,7 +183,7 @@
     text-align: center;
     height: 2rem;
     margin:0 auto;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .item-title{
@@ -123,9 +191,16 @@
     margin-top: 1rem;
     margin-bottom: 1.5rem;
 }
+.item-title span{
+    float: right;
+    vertical-align: bottom;
+    margin-top: 0.4rem;
+    color: #666;
+    font-size: 1rem;
+}
 .ul-type-one li{
-    height: 4.5rem;
-    line-height: 4.5rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
     margin-bottom: 0.8rem;
     border: 0.1rem solid #ccc;
     border-radius: 0.416666rem;
@@ -140,7 +215,7 @@
     position: absolute;
     left: 10px;
     top: 50%;
-    margin-top: -13px;
+    margin-top: -1rem;
     z-index: 10;
     font-size: 24pt;
     text-align: center;
@@ -151,27 +226,309 @@
     width: 2rem;
     border-radius: 1rem;
 }
-.ul-type-one li:active:after{
+.ul-type-one li:active:before{
     content: ' ';
     vertical-align: middle;
     font-weight: bold;
     position: absolute;
     left: 10px;
     top: 50%;
-    margin-top: -13px;
+    margin-top: -1rem;
     z-index: 10;
     font-size: 24pt;
     text-align: center;
-    background-size: 2.2rem 2.2rem;
+    background-size: 2rem 2rem;
     background-color: #45bf14;
     display: block;
-    height: 2.2rem;
-    width: 2.2rem;
-    border-radius: 1.1rem;
+    height: 2rem;
+    width: 2rem;
+    border: 0.1rem solid #45bf14;
+    border-radius: 50%;
 }
 .ul-type-one li span{
     font-size: 1.6rem;
     margin-left: 4rem;
+    display: inline-block;
+    *display: inline;
+}
+.item-img img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.ul-type-three li {
+    width: 50%;
+    float: left;
+}
+.ul-type-three li:nth-child(odd)>div.img-item{
+    margin-right: 5px;
+}
+.ul-type-three li:nth-child(even)>div.img-item{
+    margin-left: 5px;
+}
+.little-img img{
+    width: 100%;
+}
+.img-choose{
+    height: 4.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 2.4rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.416666rem;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    margin-top: 0.6rem;
+}
+.img-choose span{
+    margin-left: 4rem;
+    font-size: 1.6rem;
+}
+.img-choose:before{
+    content: ' ';
+    vertical-align: middle;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -1rem;
+    z-index: 10;
+    font-size: 24pt;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-size: 2rem 2rem;
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+}
+.active-choose:before{
+    content: ' ';
+    vertical-align: middle;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -1rem;
+    z-index: 10;
+    font-size: 24pt;
+    text-align: center;
+    background-size: 2rem 2rem;
+    background-color: #45bf14!important;
+    display: block;
+    border: 0.1rem solid #45bf14!important;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+}
+
+.img-choose:active:after{
+    content: ' ';
+    vertical-align: middle;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -1rem;
+    z-index: 10;
+    font-size: 24pt;
+    text-align: center;
+    background-size: 2rem 2rem;
+    background-color: #45bf14;
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    border: 0.1rem solid #45bf14;
+    border-radius: 50%;
+}
+.bottom-button{
+    width: 100%;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.pre-item{
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0.416666rem;
+    width: 5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0.1rem solid #ccc;
+}
+.pre-item-button{
+    height: 3rem; background-color: #fff; color: #333; border:0.1rem solid #eee;
+}
+.pre-item-button:active{
+    background-color: #45bf14;
+    color: #fff;
+}
+
+.bar-left{
+    width: 95%;
+    float: left;
+}
+.bar-part:first-child .bar-body {
+    border-bottom-left-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+}
+.bar-part:last-child .bar-body {
+    border-bottom-right-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+.bar-right{
+    width: 2%;
+    margin-top: 1.9rem;
+    float: right;
+}
+.bar-part{
+    float: left;
+    text-align: center;
+}
+.bar-part .num{
+    height: 2.4rem;
+    line-height: 2.4rem;
+}
+.bar-part .bar-tag{
+    width: 2.1rem;
+    margin: 1rem auto 0 auto;
+    position: relative;
+}
+.bar-body{
+    height: 0.8rem;
+    cursor: pointer;
+}
+.selected{
+    background-color: #ed4b40;
+    color: #fff;
+}
+.selected:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 0.6rem solid transparent;
+    border-right: 0.6rem solid transparent;
+    border-top: none;
+    border-bottom: 0.8rem solid #ed4b40;
+    position: absolute;
+    left: 0.5rem;
+    top: -0.6rem;
+}
+.answer-title{
+    color: #ed4b40;
+    font-size: 3rem;
+}
+.result-title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.result-content p{
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+}
+.ad-img{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.ad-img a img{
+    width: 80%;
+    border: 2px solid #bbb;
+}
+/* tab切换页 */
+.tab-container{
+    background-color: #fff;
+    margin-top: 3.5rem;
+}
+.etabs { margin: 0; padding: 0; background-color: #fff;margin-bottom: 1rem;display: box;display: -moz-box;display: -webkit-box;border-bottom: 0.1rem solid #bbb;height: 4rem; line-height: 4rem;}
+.etabs li{border-left:0.1rem solid #bbb;}
+.etabs li:first-child{border-left:none;}
+.tab {zoom:1; *display:inline; border-bottom: none; text-align: center; width: 33%;padding-top: 0.8rem; }
+.tab a { line-height: 2.5rem; display: block; padding: 0 1rem; outline: none; }
+.tab.active { background: #fff; position: relative;  }
+.tab a.active { font-weight: bold; color: #f66900; text-decoration: none}
+.tab-container .panel-container { background: #fff; }
+.panel-container { margin-bottom: 1rem; min-height: 20rem}
+
+.tab-one li{
+    line-height: 4rem;
+    height: 4rem;
+    border-bottom: 0.1rem solid #f8f8f8;
+    border-top: 0.1rem solid #fff;
+}
+.tab-one li a {
+    font-size: 1.6rem;
+    width: 70%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.tab-one li span{
+    float: right;
+    font-size: 1rem;
+}
+.tab-two li{
+    position: relative;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #f8f8f8;
+}
+.tab-two li img{
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    margin-top: -2rem;
+    top: 50%;
+    left: 0;
+    border-radius: 0.416666rem;
+
+}
+.tab-two li a{
+    padding-left: 5rem;
+    width: 60%;
+    padding-top: 0.8rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.tab-two li span{
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    overflow: hidden;
+    white-space: normal;
+    display: inline-block;
+    color: #999;
+}
+.look-button{
+    width: 6rem!important;
+    height: 2.5rem!important;
+    padding: 0!important;
+    font-weight: normal!important;
+    line-height: 2.5rem!important;
+    font-size: 1rem!important;
+    text-shadow: none!important;
+    cursor: pointer;
+    border-radius: 0.416666rem;
+    color: #fff!important;
+    border: none;
+    text-align: center;
+    background-color: #45bf14;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -1.25rem!important;
+}
+.tab-bottom{
+    padding-bottom: 1.5rem;
+}
+.look-button:active{
+    background-color: #278608;
+}
+.item-title p{
+    font-size: 1.2rem;
+    color: #ff4a00;
 }
 
 

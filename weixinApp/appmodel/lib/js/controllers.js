@@ -14,9 +14,9 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
 
     $scope.wxapp = [
         {
-            title:"这酒就是用来把玩的" ,
-            count:"已有 23874 人 参与" ,
-            href:"http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200303134&idx=1&sn=da12f74fac977c32c2e7c840ed705057&scene=1#rd" ,
+            title:"这个广告碉堡了！" ,
+            count:"什么小米、锤子都弱爆了，这才是让民族自豪的品牌！" ,
+            href:"http://mp.weixin.qq.com/s?__biz=MzA5NjQ2NTIyNw==&mid=200641909&idx=1&sn=a2dada5141765e8ed777a999680b5a69#rd " ,
             img:"0003/01.jpg"
         },
         {

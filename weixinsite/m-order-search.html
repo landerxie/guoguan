@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的订单</title>
+    <meta name="viewport" charset="utf-8" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+    <link rel="stylesheet" href="css/m-cart.css">
+    <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+</head>
+
+<body>
+<nav>
+    <div class="icon-home icon-home-appearance icon-active" ></div>
+    <h3 class=" head-title-appearance">我的订单</h3>
+    <a href="m-shoppingCart.html">
+        <div class="icon-shopping-cart icon-shopping-cart-appearance icon-active"></div>
+    </a>
+</nav>
+<div class="content">
+    <!--未生成订单-->
+    <ul>
+        <li class="content m-order-detail-content m-online-detail-content-new">
+            <div class="no-order-list">
+                <div class="order-title-label" style="width:auto;">
+                    你还没生成任何订单哦，支付成功后，订单及物流信息将出现在这里。
+                </div>
+                <div class="m-order-detail-partTwo" style="border-bottom: none; line-height: 1.6rem; margin-left: 0;">
+                    注：如果你已经付款成功，但仍未见订单信息，请在微信公众号<span class="color-f66900">“guoguanjiu”</span>中的对话框里提交问题。
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <!--已生成订单-->
+    <ul>
+        <li class="content m-order-detail-content m-online-detail-content-new">
+            <div class="m-order-detail-partTwo " style="padding-top: 0.8rem;">
+                <div class="ml1">
+                    <div><span class="order-title-label">订购时间</span><span>2014-04-27</span></div>
+                </div>
+            </div>
+
+            <div class="m-order-detail-partTwo">
+                <div class="ml1">
+                    <div><span class="order-title-label">订购产品</span><span>国馆中国道 x 7</span><span class="fr mr1 color-f66900">总额：￥5332</span></div>
+                </div>
+            </div>
+            <div class="m-order-detail-partTwo m-order-zhedie" style="border-bottom: none">
+                <div class="ml1">
+                    <div><span class="order-title-label">已受理</span> <span class="color-f66900 fr mr1"><span class="text-plus">+</span><span class="text-minus" style="display: none">-</span> 展开</span></div>
+                </div>
+            </div>
+            <div class="m-order-detail-partTwo mt0" style="display: none; border-bottom: none">
+                <div class="ml1">
+                    <div><span class="order-title-label">订单编号</span><span>5990500009988859</span></div>
+                    <div><span class="order-title-label">收货人称</span><span>谢奇</span></div>
+                    <div><span class="order-title-label">手机号码</span><span>18503014025</span></div>
+                    <div><span class="order-title-label">收货地址</span><span>广东广州市天河区华明路13华普广场东塔702</span></div>
+                    <div><span class="order-title-label">货物状态</span><span>配送中</span></div>
+                </div>
+            </div>
+        </li>
+
+        <li class="content m-order-detail-content m-online-detail-content-new">
+            <div class="m-order-detail-partTwo " style="padding-top: 0.8rem;">
+                <div class="ml1">
+                    <div><span class="order-title-label">订购时间</span><span>2014-04-27</span></div>
+                </div>
+            </div>
+
+            <div class="m-order-detail-partTwo">
+                <div class="ml1">
+                    <div><span class="order-title-label">订购产品</span><span>国馆中国道 x 7</span><span class="fr mr1 color-f66900">总额：￥5332</span></div>
+                </div>
+            </div>
+            <div class="m-order-detail-partTwo m-order-zhedie" style="border-bottom: none">
+                <div class="ml1">
+                    <div><span class="order-title-label">已受理</span><span class="color-f66900 fr mr1"><span class="text-plus">+</span><span class="text-minus" style="display: none">-</span> 展开</span></div>
+                </div>
+            </div>
+            <div class="m-order-detail-partTwo mt0" style="display: none;border-bottom: none">
+                <div class="ml1">
+                    <div><span class="order-title-label">订单编号</span><span>5990500009988859</span></div>
+                    <div><span class="order-title-label">收货人称</span><span>谢奇</span></div>
+                    <div><span class="order-title-label">手机号码</span><span>18503014025</span></div>
+                    <div><span class="order-title-label">收货地址</span><span>广东广州市天河区华明路13华普广场东塔702</span></div>
+                    <div><span class="order-title-label">货物状态</span><span>配送中</span></div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="footer">
+    <div>
+        <span>
+            登录
+        </span>
+        <span>
+            注册
+        </span>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    $(function(){
+        $(".m-order-zhedie").click(function(){
+            $(this).next("div.m-order-detail-partTwo").toggle(100);
+            $(this).find("span.text-plus").toggle();
+            $(this).find("span.text-minus").toggle();
+        })
+    })
+</script>
+</html>

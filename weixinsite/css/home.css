@@ -1,0 +1,71 @@
+.navgation{
+    display: -webkit-box;
+    display: -moz-box;
+}
+.navgation li{
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    border-left: 0.1rem solid #ebebeb;
+    border-bottom: 0.1rem solid #ebebeb;
+    border-top: 0.1rem solid #ebebeb;
+    font-size: 1.6rem;
+}
+.navgation li:first-child{
+    border-left: none;
+}
+.left-and-right{
+}
+.left-and-right .left{
+    width: 50%;
+    float: left;
+    height: 10rem;
+    position: relative;
+    background-size: cover;
+}
+.left-and-right .right{
+    width: 50%;
+    float: left;
+    position: relative;
+    height: 10rem;
+}
+.left-and-right .right .right-one{
+    height: 10rem;
+    background-size: cover;
+    position: relative;
+}
+.left-and-right .right .right-two{
+    height: 10rem;
+    background-size: cover;
+    position: relative;
+}
+.product-slide{
+    position: absolute;
+    text-align: left;
+    left: 1rem;
+    top: 2rem;
+}
+.product-slide .title{
+    font-size: 2rem;
+}
+.product-slide .detail{
+    font-size: 1.4rem;
+}
+.content-model{
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    color: #fff;
+}
+.content-model .title{
+    font-size: 2rem;
+}
+.content-model .detail{
+    font-size: 1.4rem;
+}
+.big-content{
+    margin-top: 1rem;
+    height: 20rem;
+}

@@ -1,6 +1,8 @@
 .navgation{
     display: -webkit-box;
     display: -moz-box;
+    background-color: #fff;
+    margin-top: -0.1rem;
 }
 .navgation li{
     -webkit-box-flex:1;
@@ -21,25 +23,39 @@
 .left-and-right .left{
     width: 50%;
     float: left;
-    height: 10rem;
+    height: 12rem;
+    overflow: hidden;
     position: relative;
     background-size: cover;
+}
+.left-and-right .left img{
+    width: 100%;
 }
 .left-and-right .right{
     width: 50%;
     float: left;
+    overflow: hidden;
     position: relative;
-    height: 10rem;
+    height: 12rem;
+}
+.left-and-right .right img{
+    width: 100%;
 }
 .left-and-right .right .right-one{
-    height: 10rem;
+    height: 12rem;
     background-size: cover;
     position: relative;
 }
+.left-and-right .right .right-one img{
+    height: 100%;
+}
 .left-and-right .right .right-two{
-    height: 10rem;
+    height: 12rem;
     background-size: cover;
     position: relative;
+}
+.left-and-right .right .right-two img{
+    height: 100%;
 }
 .product-slide{
     position: absolute;
@@ -60,12 +76,108 @@
     color: #fff;
 }
 .content-model .title{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .content-model .detail{
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .big-content{
     margin-top: 1rem;
-    height: 20rem;
+    height: 24rem;
+    position: relative;
+}
+.middle{
+    display: table;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.middle .category{
+    font-size: 1.6rem;
+    border-bottom: 0.2rem solid #fff;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+.middle .title{
+    font-size: 2rem;
+}
+.middle .data{
+    font-size: 1rem;
+}
+.bg-gradients-bottom{
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000000));
+}
+.bg-gradients-top{
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(transparent));
+}
+.app-guo{
+    position: absolute;
+    bottom:3rem;
+    left: 1rem;
+    color: #fff;
+}
+.app-guo .category{
+    font-size: 1.6rem;
+}
+.app-guo .title{
+    font-size: 2rem;
+}
+
+/*news*/
+.news-banner{
+    color: #fff;
+    position: absolute;
+    left: 1rem;
+    bottom: 3rem;
+}
+.news-banner .title{
+    font-size: 2rem;
+}
+.news-banner .data{
+    font-size: 1rem;
+}
+.news-lists li{
+    width: 50%;
+    float: left;
+}
+.news-block{
+    width: 90%;
+    background-color: #fff;
+    margin: 0 auto 1rem auto;
+    border-bottom: 0.2rem solid #ccc;
+}
+.news-block img{
+    width: 100%;
+}
+.news-block .title{
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+.news-block .detail{
+    font-size: 1.2rem;
+    padding: 0 1rem 1rem 1rem;
+}
+.news-block .label .data{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    float: left;
+    color: #ccc;
+    font-size: 1rem;
+}
+.news-block .label .company{
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    float: right;
+    color: #ccc;
+    font-size: 1rem;
 }

@@ -36,6 +36,10 @@
 .icon-angle-right-appearance{
     font-size: 2rem;
     color: #e4e4e4;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    margin-top: -0.9rem;
 }
 .m-shopping-checkout{
     height: 5rem;
@@ -47,10 +51,9 @@
     width: 100%;
 }
 .m-check-total-money{
-    display: inline-block;
     color: #565656;
     font-size: 1.6rem;
-    float: left;
+    text-align: center;
     font-weight: bold;
     padding-left: 1rem;
 }
@@ -58,10 +61,8 @@
     color: #f66900;
 }
 .m-button-check{
-    float: right;
-    margin-right: 1rem;
-    width: 9rem;
-    margin-top: -0.6rem;
+    width: 100%;
+    margin-top: 1rem;
 }
 .m-modify-text{
     padding:1rem
@@ -225,19 +226,17 @@
 .m-check-pay-area{
     margin-top: 1rem;
     margin-bottom: 6rem;
-    border-top: 0.1rem solid #d0d0d0;
     padding-top: 1.5rem;
 }
 .m-shopping-cart-new{
     margin-bottom: 6rem;
 }
-.m-shopping-cart-new ul li{border-bottom: 0.1rem solid #d0d0d0;
-}
-.m-shopping-cart-new ul li:last-child{border-bottom: none}
-.m-choose-product-new {
+.m-shopping-cart-new ul li{
+    border-bottom: 0.1rem solid #ebebeb;
     background-color: #fff;
     height: 12.6rem;
-    border-bottom: 0.1rem solid #ebebeb;
+}
+.m-choose-product-new {
 }
 .m-choose-product-new .m-choose-title{
     font-size: 2rem;
@@ -259,13 +258,26 @@
 .icon-minus-adjust{
     height: 6.3rem;
     display: block;
-    background-color: #f1f1f1;
+    border-left: 0.1rem solid #ebebeb;
     width: 6.3rem;
     color: #565656;
     line-height: 6.3rem;
     text-align: center;
 }
 .icon-minus-adjust:active{
+    background-color: #d0d0d0;
+}
+.icon-plus-adjust{
+    height: 6.3rem;
+    display: block;
+    border-left: 0.1rem solid #ebebeb;
+    border-bottom: 0.1rem solid #ebebeb;
+    width: 6.3rem;
+    color: #565656;
+    line-height: 6.3rem;
+    text-align: center;
+}
+.icon-plus-adjust:active{
     background-color: #d0d0d0;
 }
 

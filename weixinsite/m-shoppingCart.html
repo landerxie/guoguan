@@ -27,16 +27,43 @@
         color: #858688;
     }
 </style>
+<!--head-->
 <nav>
-    <div class="icon-home icon-home-appearance icon-active" ></div>
-    <h3 class=" head-title-appearance">购物车</h3>
-    <a href="m-center.html">
-        <div class="icon-user icon-user-appearance icon-active"></div>
+    <a href="m-index.html">
+        <div class="icon-home-appearance icon-active" >
+            国馆商城
+        </div>
     </a>
+    <h3 class=" head-title-appearance">购物车</h3>
     <a href="m-shoppingCart.html">
-        <div class="icon-shopping-cart icon-shopping-cart-appearance icon-active"></div>
+        <div class=" icon-shopping-cart icon-user-appearance icon-active">
+            <span class="cart-number">3</span>
+        </div>
+    </a>
+    <a href="m-center.html">
+        <div class="icon-user icon-shopping-cart-appearance icon-active">
+        </div>
     </a>
 </nav>
+
+<!--content-->
+<ul class="m-choose-product m-choose-product-address">
+    <li>
+        <a href="m-address-confirm.html">
+            <div class="m-choose-detail m-address-display">
+                <div class="m-choose-title">
+                    广东省广州市天河区
+                </div>
+                <div class="m-choose-brief-detail">
+                    华明路13华普广场东塔702（518129）谢奇 18503014025
+                </div>
+            </div>
+            <div class="icon-angle-right icon-angle-right-appearance" style="padding-right:1rem"></div>
+            <div class="clear"></div>
+        </a>
+    </li>
+
+</ul>
 
 <div class="m-shopping-cart-new mb0">
     <ul class="m-choose-product-new">
@@ -64,7 +91,38 @@
                         <span class="m-product-label color-f66900" style="font-weight: bold">￥2666</span>
                     </div>
                 </div>
-                <div class="icon-plus icon-minus-adjust">
+                <div class="icon-plus icon-plus-adjust">
+                </div>
+                <div class="icon-minus icon-minus-adjust">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </li>
+        <li>
+            <div class=" delete-order-button">
+            </div>
+            <div class="m-shopping-cart-detail">
+                <div class="m-choose-detail">
+                    <div class="m-choose-title">
+                        中国道中国道
+                    </div>
+                    <div class="m-choose-brief-detail" style="white-space: nowrap; overflow-x: auto">
+                        第一次，重新定义白酒!
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="m-choose-detail-next">
+                <div class="m-choose-detail m-product-number">
+                    <div>
+                        <span class="m-product-label"  >x 1</span>
+                    </div>
+                    <div>
+                        <span class="m-product-label color-f66900" style="font-weight: bold">￥2666</span>
+                    </div>
+                </div>
+                <div class="icon-plus icon-plus-adjust">
                 </div>
                 <div class="icon-minus icon-minus-adjust">
                 </div>
@@ -72,38 +130,24 @@
             <div class="clear"></div>
         </li>
     </ul>
+    <div class="clear:both;"></div>
 </div>
 
-<ul class="m-choose-product m-choose-product-address">
-    <li>
-        <a href="m-address-confirm.html">
-            <div class="m-choose-detail m-address-display">
-                <div class="m-choose-title">
-                    广东省广州市天河区
-                </div>
-                <div class="m-choose-brief-detail">
-                    华明路13华普广场东塔702（518129）谢奇 18503014025
-                </div>
-            </div>
-            <div class="icon-angle-right icon-angle-right-appearance" style="padding-right:1rem"></div>
-            <div class="clear"></div>
-        </a>
-    </li>
-
-</ul>
 
 <div class="m-order-detail-partThree">
-    <div class=" ml1" style="margin-top: 3rem">
+    <div class=" ml1" style="margin-top: 1rem">
           <div class="m-choose-brief-detail">
-              *国馆酒类产品均采用顺风陆运，物流费用由国馆公司承担
+              -国馆酒类产品均采用顺丰速运，部分偏远地区采用EMS，全场包邮<br>
+              -此交易由太平洋保险担保<br>
+              -微信客服：关注“国馆酒”工作日 9:00 - 18:00 提供咨询
           </div>
     </div>
     <div class="clear"></div>
 </div>
 
-<div class="m-check-pay-area">
+<div class="m-check-pay-area content">
     <div class="m-check-total-money">
-        合计<span>￥2466<b style="font-size: 1.2rem; margin-left: 0.4rem;">(已优惠200)</b></b></span>
+        总计<span>￥5466</span>
     </div>
     <a href="m-online-pay.html">
         <div class="m-button m-button-check">
@@ -112,16 +156,57 @@
             </div>
         </div>
     </a>
-</div>
-<div class="m-order-detail-partThree">
-    <div class=" ml1" style="margin-top: -4rem;margin-bottom: 2rem;">
-        <div class="m-choose-brief-detail">
-            *活动优惠，立减200
+
+    <!--选择更多付款方式-->
+    <div class="m-button-empty m-button-check more-pay-method">
+        <div class="m-button-content">
+            更多支付方式
         </div>
     </div>
-    <div class="clear"></div>
+    <div class="pay-mothod" style="display: none;">
+        <div class="m-button-empty m-button-check">
+            <div class="m-button-content">
+                支付宝支付
+            </div>
+        </div>
+        <div class="m-button-empty m-button-check">
+            <div class="m-button-content">
+                网银支付
+            </div>
+        </div>
+        <div class="m-button-empty m-button-check">
+            <div class="m-button-content">
+                信用卡支付
+            </div>
+        </div>
+        <div class="m-button-empty m-button-check">
+            <div class="m-button-content">
+                银行转账
+            </div>
+        </div>
+        <div class="m-button-empty m-button-check">
+            <div class="m-button-content">
+                财付通支付
+            </div>
+        </div>
+    </div>
+
+    <!--货到付款-->
+    <div class="m-button-empty mt1" style="width: 49%; float: left">
+        <div class="m-button-content">
+            货到付款
+        </div>
+    </div>
+    <a tel="4009005000">
+        <div class="m-button-empty mt1" style="width: 49%; float: right">
+            <div class="m-button-content">
+                电话订购：400-900-5000
+            </div>
+        </div>
+    </a>
 </div>
-<fieldset>
+
+<!--<fieldset>
     <legend>无法支付？</legend>
     <p>
         1.本产品仅在服务号
@@ -133,6 +218,41 @@
     <p>
         2.客服电话：400-900-5000，工作日9:00 - 18:00提供咨询。
     </p>
-</fieldset>
+</fieldset>-->
+
+<!--footer-->
+<div class="footer">
+    <!--    <div class="mb1">
+            <span class="selected">
+                触屏版
+            </span>
+            <span>
+                电脑版
+            </span>
+        </div>-->
+    <ul class="footer-content">
+        <li>
+            <a tel="4009005000">
+                <i class="icon-phone"></i>
+                400-900-5000
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="img/wx_black.png" alt="" style="width: 1.6rem; height: 1.6rem; vertical-align: middle"/>
+                关注“国馆酒”
+            </a>
+        </li>
+    </ul>
+</div>
 </body>
+<script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+        $(".more-pay-method").click(function(){
+            $(this).next("div.pay-mothod").toggle(100);
+        })
+    })
+</script>
 </html>

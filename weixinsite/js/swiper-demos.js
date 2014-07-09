@@ -39,5 +39,16 @@ $(function(){
     $('.pagination2 .swiper-pagination-switch').click(function(){
         swiperDynamic.swipeTo($(this).index())
     })
+
+
+    var swiper3 = new Swiper(".swiper3",{
+        pagination : '.pagination3',
+        loop:true,
+        grabCursor: true
+    })
+    //Clickable pagination
+    $('.pagination3 .swiper-pagination-switch').click(function(){
+        swiper3.swipeTo($(this).index())
+    })
 })
 

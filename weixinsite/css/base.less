@@ -1,0 +1,356 @@
+/**
+ * Created by Administrator on 14-7-10.
+ */
+@charset "utf-8";
+/*颜色*/
+@red:#fe3332;
+@orange:#f66900;
+@ebebeb: #ebebeb;
+@white: #fff;
+@black: #000;
+@headbg: #20282b;
+@green: #45bf14;
+@fontColor: #333;
+@bgColor: #f3f3f3;
+
+/*
+@名称: base
+@功能: 重设浏览器默认样式
+*/
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html {
+  color:black;
+  font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/
+}
+body {font-size: 14px;
+  background-color:@bgColor;
+  height: 100%;
+  width: 100%;
+  min-height: 40rem;
+}
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  margin:0;
+  padding:0;
+}
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,button,input,select,textarea {
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, "Wenquanyi Micro Hei", Arial, sans-serif;
+}
+input,select,textarea {
+}
+/* 去掉各Table cell 的边距并让其边重合 */
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+/* IE bug fixed: th 不继承 text-align*/
+th {
+  text-align:inherit;
+}
+/* 去除默认边框 */
+fieldset,img {
+  border:none;
+}
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe {
+  display:block;
+}
+/* 去掉 firefox 下此元素的边框 */
+abbr,acronym {
+  border:none;
+  font-variant:normal;
+}
+/* 一致的 del 样式 */
+del {
+  text-decoration:line-through;
+}
+address,caption,cite,code,dfn,em,th,var {
+  font-style:normal;
+  font-weight:500;
+}
+/* 去掉列表前的标识, li 会继承 */
+ol,ul {
+  list-style:none;
+}
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption,th {
+  text-align:left;
+}
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 {
+  font-weight:500;
+}
+q:before,q:after {
+  content:'';
+}
+/* 统一上标和下标 */
+sub, sup {
+  line-height:0;
+  position:relative;
+  vertical-align:baseline;
+}
+sup {
+  top:-0.5em;
+}
+sub {
+  bottom:-0.25em;
+}
+/* 让链接在 hover 状态下显示下划线 */
+a:hover {
+  text-decoration:none;
+}
+/* 默认不显示下划线，保持页面简洁 */
+ins,a {
+  text-decoration:none;
+}
+/* IE6,7焦点点状线去除 */
+a:focus,*:focus {
+  outline:none;
+}
+a{color: #565656;}
+/* 清除浮动 */
+.clearfix:before,.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+  overflow:hidden;
+}
+.clearfix {
+  zoom:1; /* for IE6 IE7 */
+}
+.clear{
+  clear:both;
+  display:block;
+  overflow:hidden;
+  height:0;
+  line-height:0;
+  font-size:0;
+}
+
+/* 设置显示和隐藏, 通常用来与 JS 配合 */
+.hide {
+  display:none !important;
+  visibility:hidden;
+}
+.block {
+  display:block !important;
+}
+/* 设置内联, 减少浮动带来的bug */
+.fl {
+  float:left;
+}
+.fr {
+  float:right;
+}
+/* 字体大小 */
+.fs12{font-size: 1.2rem}
+.fs14{font-size: 1.4rem}
+.fs16{font-size: 1.6rem}
+.border-bottom-d0d0d0{border-bottom: #d0d0d0;}
+.inlinebl{display: inline-block}
+.mt0{margin-top: 0!important;}
+.mt1{margin-top:1rem!important; }
+.mt3{margin-top:3rem!important;}
+.ml1{margin-left: 1rem!important;}
+.ml1-8{margin-left: 1.8rem!important;}
+.mb0-6{margin-bottom: 0.6rem!important;}
+.mr1{margin-right: 1rem}
+.mb0{margin-bottom: 0!important;}
+.mb1{margin-bottom: 1rem!important;}
+.mb2{margin-bottom: 2rem!important;}
+.color-f66900{color: @orange!important;}
+.width100{width: 100%!important;}
+.width98{width: 98%!important;}
+.width49{width: 49%!important;}
+/* nav头部  */
+nav{height: 5rem; line-height: 5rem; background-color: @headbg; text-align: center; border-bottom: 0.1rem solid #1b2225;position: relative}
+.head-title-appearance{
+  color: @white;
+}
+.icon-home-appearance{
+  font-size: 2rem;
+  font-weight: bold!important;
+  height: 5rem!important;
+  line-height: 5rem!important;
+  width: 10rem!important;
+  position: absolute;
+  color: @white;
+  background-color: @headbg;
+  left: 0;
+}
+.icon-shopping-cart-appearance{
+  color: #848889!important;
+  font-size: 2rem;
+  height: 5rem!important;
+  line-height: 5rem!important;
+  width: 5rem!important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.icon-user-appearance{
+  color: #848889!important;
+  font-size: 2rem;
+  height: 5rem!important;
+  line-height: 5rem!important;
+  width: 5rem!important;
+  position: absolute;
+  right: 5rem;
+  top: 0;
+}
+.cart-number{
+  position: absolute;
+  top: 0.8rem;
+  right: 0.6rem;
+  font-size: 1.4rem;
+  display: inline-block;
+  color: @white;
+  height: 1.6rem;
+  text-align: center;
+  line-height: 1.6rem;
+  border-radius: 0.8rem;
+  width: 1.6rem;
+  background-color: @red;
+}
+.icon-active:active{
+  background-color: @ebebeb;
+  color: @fontColor;
+}
+/* footer */
+.footer{
+  text-align: center;
+  color: @fontColor;
+  padding-top: 1rem;
+}
+.footer .selected{
+  color: #999999;
+}
+.footer>div>span:first-child{
+  margin-right: 1rem;
+}
+.bottom-logo{
+  width: 15rem;
+  margin: 0.5rem auto 0 auto;
+}
+.bottom-logo img{
+  width: 100%;
+}
+.footer-content{
+  background-color: @white;
+  float: left;
+  width: 100%;
+}
+.footer-content li{
+  float: left;
+  width: 50%;
+  height: 5rem;
+  line-height: 5rem;
+  border-left: 0.1rem solid @ebebeb;
+  border-top: 0.1rem solid @ebebeb;
+  border-bottom: 0.1rem solid @ebebeb;
+  font-size: 1.6rem;
+}
+.footer-content li:first-child{
+  border-left: none;
+}
+.footer-content li:last-child{
+  margin-left: -0.1rem;
+}
+/* content */
+.content{
+  width: 95%;
+  margin:2rem auto 2rem auto;
+}
+/* button */
+.m-button{
+  display: inline-block;
+  height: 4rem;
+  text-align: center;
+  cursor: pointer;
+  min-width: 7rem;
+  background-color: @green;
+  color: @white;
+}
+.m-button:active{
+  background-color: @green - #333;
+}
+.m-button-empty{
+  display: inline-block;
+  height: 4rem;
+  cursor: pointer;
+  text-align: center;
+  min-width: 7rem;
+  background-color: @white;
+  border:0.1rem solid @ebebeb;
+  color: @fontColor;
+}
+.m-button-empty:active{
+  background-color: @green;
+  color: @white;
+}
+.m-button-content{
+  line-height: 4rem;
+}
+.m-delete-button{
+  height: 3rem;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 7rem;
+  background-color: #f8f8f8;
+  color: #565656;
+  text-align: center;
+  border-radius: 0.416666rem;
+  margin-top: 1rem;
+}
+
+.m-underline-d0d0d0{
+  border-bottom: 0.1rem solid #d0d0d0;
+}
+.m-underline-ebebeb{
+  border-bottom: 0.1rem solid @ebebeb;
+}
+.m-input{
+  height: 2rem;
+  background-color: transparent;
+  line-height: 2rem;
+  border: none;
+  border-radius: 0.416666rem;
+  padding-top:0.6rem;
+  padding-bottom:0.6rem;
+  width:100%
+}
+.m-input-fcode{
+  height: 2rem;
+  line-height: 2rem;
+  border: 1px solid @ebebeb;
+  padding-left: 0.6rem;
+  border-radius: 0.416666rem;
+  padding-top:0.6rem;
+  padding-bottom:0.6rem;
+  width:98%
+}
+.m-input-border{
+  border:0.1rem solid @ebebeb;
+}
+/* 提示信息样式  */
+.tips-error{
+  color: @red;
+  margin-left: 8.3rem ;
+  padding-left: 0.6rem;
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.select{
+  border: 0.1rem solid @red!important;
+  border-radius: 0.416666rem!important;
+}
+
+.backgroundsise-cover{
+  background-size: cover!important;
+}

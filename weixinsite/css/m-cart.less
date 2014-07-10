@@ -1,42 +1,51 @@
 /*颜色*/
-.m-choose-product {
-  background-color: #ffffff;
+@red:#fe3332;
+@orange:#f66900;
+@ebebeb: #ebebeb;
+@white: #fff;
+@black: #000;
+@headbg: #20282b;
+@green: #45bf14;
+@fontColor: #333;
+@bgColor: #f3f3f3;
+@cccGrey: #ccc;
+
+.m-choose-product{
+  background-color: @white;
   height: auto;
   border-radius: 0.41666rem;
-  border-bottom: 0.2rem solid #ebebeb;
+  border-bottom: 0.2rem solid @ebebeb;
 }
-.m-shopping-cart {
+.m-shopping-cart{
   margin-bottom: 6rem;
 }
-.m-shopping-cart ul li {
-  border-bottom: 0.1rem solid #ebebeb;
+.m-shopping-cart ul li{
+  border-bottom: 0.1rem solid @ebebeb;
   padding: 1rem;
 }
-.m-shopping-cart ul li:last-child {
-  border-bottom: none;
-}
-.m-choose-image {
+.m-shopping-cart ul li:last-child{border-bottom: none}
+.m-choose-image{
   display: inline-block;
   float: left;
 }
-.m-choose-image img {
+.m-choose-image img{
   height: 6rem;
   width: 6rem;
   display: inline-block;
 }
-.m-choose-detail {
+.m-choose-detail{
   width: 22rem;
   padding-left: 1rem;
   float: left;
 }
-.m-choose-title {
+.m-choose-title{
   color: #565656;
 }
-.m-choose-brief-detail {
+.m-choose-brief-detail{
   font-size: 1rem;
   color: #858688;
 }
-.icon-angle-right-appearance {
+.icon-angle-right-appearance{
   font-size: 2rem;
   color: #e4e4e4;
   position: absolute;
@@ -44,7 +53,7 @@
   top: 50%;
   margin-top: -0.9rem;
 }
-.m-shopping-checkout {
+.m-shopping-checkout{
   height: 5rem;
   background-color: #f4f4f4;
   box-shadow: 0px -2px 8px #d0d0d0;
@@ -53,27 +62,27 @@
   line-height: 5rem;
   width: 100%;
 }
-.m-check-total-money {
+.m-check-total-money{
   color: #565656;
   font-size: 1.6rem;
   text-align: center;
   font-weight: bold;
   padding-left: 1rem;
 }
-.m-check-total-money > span {
-  color: #f66900;
+.m-check-total-money >span{
+  color: @orange;
 }
-.m-button-check {
+.m-button-check{
   width: 100%;
   margin-top: 1rem;
 }
-.m-modify-text {
-  padding: 1rem;
+.m-modify-text{
+  padding:1rem
 }
-.m-modify-price {
-  color: #f66900;
+.m-modify-price{
+  color: @orange;
 }
-.m-modify-name {
+.m-modify-name{
   float: left;
   font-size: 1.4rem;
   width: 5rem;
@@ -82,53 +91,54 @@
   color: #565656;
   font-weight: bold;
 }
-.m-modify-input-wrap {
+.m-modify-input-wrap{
   margin-left: 6rem;
 }
-.m-modify-input {
+.m-modify-input{
   float: left;
   margin-left: -6rem;
-  width: 100% ;
+  width:100% ;
 }
-.m-modify-detail {
+.m-modify-detail{
   font-size: 1rem;
   color: #858688;
 }
-.input-area {
+.input-area{
   position: relative;
   height: 5rem;
   line-height: 5rem;
-  background-color: #ffffff;
+  background-color: @white;
 }
-.select-appearance {
+
+.select-appearance{
   width: 100%;
   height: 4rem;
-  background-color: #ffffff;
-  border: 0.1rem solid #ebebeb;
+  background-color: @white;
+  border: 0.1rem solid @ebebeb;
 }
-.m-order-unpay {
+.m-order-unpay{
   color: red;
 }
-.m-order-payed {
+.m-order-payed{
   color: #00a74b;
 }
-.m-order-expired {
+.m-order-expired{
   color: #c9c9c9;
 }
-.m-order-detail-content {
-  background-color: #ffffff;
+.m-order-detail-content{
+  background-color: @white;
   box-shadow: 0px 1px 1px #d0d0d0;
   margin-top: 0!important;
   height: 29rem;
   border-bottom-left-radius: 0.416666rem;
   border-bottom-right-radius: 0.416666rem;
 }
-.m-online-detail-content-new {
+.m-online-detail-content-new{
   padding-bottom: 0;
   height: auto;
   border-radius: 0.416666rem;
 }
-.m-order-detail-partOne {
+.m-order-detail-partOne{
   color: #565656;
   position: relative;
   border-bottom: 1px dashed #d0d0d0;
@@ -136,24 +146,24 @@
   margin-left: 0.8rem;
   margin-right: 0.8rem;
 }
-.m-order-detail-name {
+.m-order-detail-name{
   position: absolute;
   left: 1rem;
   top: 1rem;
 }
-.m-order-delete {
+.m-order-delete{
   position: absolute;
   right: 1rem;
   top: 1rem;
   color: #858688;
   font-size: 2.4rem;
 }
-.order-title-label {
+.order-title-label{
   font-weight: bold;
   width: 6rem;
   display: inline-block;
 }
-.m-order-detail-partTwo {
+.m-order-detail-partTwo{
   color: #565656;
   position: relative;
   border-bottom: 1px dashed #d0d0d0;
@@ -164,146 +174,151 @@
   line-height: 2rem;
   padding-bottom: 0.8rem;
 }
-.m-online-payOne {
+.m-online-payOne{
   height: 3.8rem;
   line-height: 3.8rem;
   margin-left: 1.8rem;
 }
-.m-online-detail-content {
+.m-online-detail-content{
   height: auto;
   padding-bottom: 3rem;
   margin-bottom: 8rem;
 }
-.m-address-cart {
+.m-address-display{
+}
+.m-address-cart{
   margin-bottom: 1rem;
 }
-.m-address-add-button {
+.m-address-add-button{
   height: 6rem;
   line-height: 4rem;
 }
-.icon-angle-right-address {
+.icon-angle-right-address{
   height: 4rem;
   line-height: 4rem;
 }
-.choose-checkout-style {
-  background-color: #ffffff;
+.choose-checkout-style{
+  background-color: @white;
   border-radius: 0.416666rem;
-  border-bottom: 0.1rem solid #ebebeb;
+  border-bottom: 0.1rem solid @ebebeb;
   color: #565656;
 }
-.choose-checkout-style ul li {
-  padding: 1rem;
-  border-bottom: 0.1rem solid #ebebeb;
+.choose-checkout-style ul li{
+  padding:1rem;
+  border-bottom:0.1rem solid @ebebeb;
 }
-.choose-checkout-style .select {
-  border: 0.1rem solid #f66900;
+.choose-checkout-style .select{
+  border: 0.1rem solid @orange;
   border-radius: 0.416666rem;
 }
-.m-choose-product-submit {
+.m-choose-product-submit{
   border: none;
   width: 94%;
   margin: 0 auto;
 }
-.submit-table-display {
+.submit-table-display{
   color: #565656;
 }
-.submit-table-display ul li {
+.submit-table-display ul li{
   border-bottom: 0.1rem solid #d0d0d0;
 }
-.submit-table-display ul li:last-child {
+.submit-table-display ul li:last-child{
   border-bottom: none;
 }
-.submit-table-display ul li > div {
+.submit-table-display ul li > div{
   display: inline-block;
   padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding-bottom:0.6rem;
   padding-right: 0.6rem;
 }
-.submit-table-display ul li > div:first-child {
+.submit-table-display ul li > div:first-child{
   width: 20%;
   border-right: 0.1rem solid #d0d0d0;
   text-align: right;
 }
-.submit-table-display ul li > div:last-child {
+.submit-table-display ul li > div:last-child{
   width: 71%;
   text-align: right;
 }
-.submit-table-display ul li > div:first-child {
+.submit-table-display ul li > div:first-child{
   font-weight: bold;
 }
-.submit-table-display ul li:last-child > div {
-  color: #f66900;
+.submit-table-display ul li:last-child>div{
+  color: @orange;
 }
-.m-check-pay-area {
+.m-check-pay-area{
   margin-top: 1rem;
   margin-bottom: 6rem;
   padding-top: 1.5rem;
 }
-.m-shopping-cart-new {
+.m-shopping-cart-new{
   margin-bottom: 6rem;
 }
-.m-shopping-cart-new ul li {
-  border-bottom: 0.1rem solid #ebebeb;
-  background-color: #ffffff;
+.m-shopping-cart-new ul li{
+  border-bottom: 0.1rem solid @ebebeb;
+  background-color: @white;
   height: 12.6rem;
 }
-.m-choose-product-new .m-choose-title {
+.m-choose-product-new {
+}
+.m-choose-product-new .m-choose-title{
   font-size: 2rem;
   margin-top: 0;
   font-weight: bold;
 }
-.m-choose-product-new .m-choose-detail {
-  padding: 1rem;
+.m-choose-product-new .m-choose-detail{
+  padding:1rem;
   width: auto;
 }
-.m-choose-product-new .m-choose-brief-detail {
+.m-choose-product-new .m-choose-brief-detail{
   font-size: 1.4rem;
 }
-.m-choose-detail-next {
+.m-choose-detail-next{
   float: right;
   height: 12.6rem;
   position: relative;
 }
-.icon-minus-adjust {
+.icon-minus-adjust{
   height: 6.3rem;
   display: block;
-  border-left: 0.1rem solid #ebebeb;
+  border-left: 0.1rem solid @ebebeb;
   width: 6.3rem;
   color: #565656;
   line-height: 6.3rem;
   text-align: center;
 }
-.icon-minus-adjust:active {
-  background-color: #ebebeb;
+.icon-minus-adjust:active{
+  background-color: @ebebeb;
 }
-.icon-plus-adjust {
+.icon-plus-adjust{
   height: 6.3rem;
   display: block;
-  border-left: 0.1rem solid #ebebeb;
-  border-bottom: 0.1rem solid #ebebeb;
+  border-left: 0.1rem solid @ebebeb;
+  border-bottom: 0.1rem solid @ebebeb;
   width: 6.3rem;
   color: #565656;
   line-height: 6.3rem;
   text-align: center;
 }
-.icon-plus-adjust:active {
-  background-color: #ebebeb;
+.icon-plus-adjust:active{
+  background-color: @ebebeb;
 }
-.m-product-number {
+
+.m-product-number{
   border-bottom: none!important;
   text-align: right;
   position: absolute;
   bottom: 1rem;
-  padding: 0!important;
-  left: -8rem;
+  padding:0!important;
+  left:  -8rem;
 }
-.m-product-label {
+.m-product-label{
   min-width: 5rem;
   display: inline-block;
 }
-.delete-order-button {
+.delete-order-button{
   float: left;
-  width: 5rem;
+  width:5rem;
   background: url("../img/icon-trash.png") center no-repeat;
   background-size: 2rem 2rem;
   height: 5rem;
@@ -312,20 +327,21 @@
   color: #b5b5b5;
   font-size: 2rem;
 }
-.delete-order-button:active {
-  color: #333333;
-  background-color: #ebebeb;
+.delete-order-button:active{
+  color: @fontColor;
+  background-color: @ebebeb;
 }
-.m-choose-product-address {
+
+.m-choose-product-address{
   border-radius: 0;
-  border-bottom: 0.1rem solid #ebebeb;
+  border-bottom: 0.1rem solid @ebebeb;
 }
-.m-choose-product-address li {
-  border-bottom: 0.1rem solid #ebebeb;
+.m-choose-product-address li{
+  border-bottom: 0.1rem solid @ebebeb;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.m-choose-product-address li:last-child {
+.m-choose-product-address li:last-child{
   border-bottom: none;
   position: relative;
 }
@@ -335,51 +351,55 @@
   float: left;
   position: relative;
 }
-.m-order-zhedie {
+.m-order-zhedie{
   cursor: pointer;
 }
+
+
 /*m-center.styles*/
-.m-center-banner {
+.m-center-banner{
   background: url("../image/1-2.jpg") center no-repeat;
   height: 17rem;
-  margin-top: 1rem;
+  margin-top:1rem;
   background-size: 100%;
   position: relative;
 }
-.m-center-partOne ul li {
+.m-center-partOne ul li{
   display: inline-block;
   width: 100%;
   height: 4rem;
   line-height: 4rem;
   position: relative;
-  border-bottom: 0.1rem solid #ebebeb;
+  border-bottom: 0.1rem solid @ebebeb;
 }
-.m-center-partOne ul li > div:last-child {
+.m-center-partOne ul li>div:last-child{
   position: absolute;
   right: 1rem;
   top: 1.2rem;
   font-size: 2rem;
   color: #e4e4e4;
 }
-.m-center-partOne ul li > div:first-child {
+
+.m-center-partOne ul li>div:first-child{
   margin-left: 1rem;
   display: inline-block;
   width: 1.5rem;
 }
 .m-center-partOne ul {
   color: #565656;
-  background-color: #ffffff;
+  background-color: @white;
   border-radius: 0.416666rem;
-  border-bottom: 0.1rem solid #ebebeb;
+  border-bottom: 0.1rem solid @ebebeb;
+
 }
-.m-center-login-button {
+.m-center-login-button{
   font-size: 2rem;
-  color: #f66900;
+  color: @orange;
   font-weight: bold;
   position: absolute;
   top: 40%;
   right: 16%;
 }
-.no-order-list {
+.no-order-list{
   padding: 2rem ;
 }

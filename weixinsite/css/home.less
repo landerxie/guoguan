@@ -1,25 +1,38 @@
 /*颜色*/
-.navgation {
+@red:#fe3332;
+@orange:#f66900;
+@ebebeb: #ebebeb;
+@white: #fff;
+@black: #000;
+@headbg: #20282b;
+@green: #45bf14;
+@fontColor: #333;
+@bgColor: #f3f3f3;
+@cccGrey: #ccc;
+
+.navgation{
   display: -webkit-box;
   display: -moz-box;
-  background-color: #ffffff;
+  background-color: @white;
   margin-top: -0.1rem;
 }
-.navgation li {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
+.navgation li{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
   height: 5rem;
   line-height: 5rem;
   text-align: center;
-  border-left: 0.1rem solid #ebebeb;
-  border-bottom: 0.1rem solid #ebebeb;
-  border-top: 0.1rem solid #ebebeb;
+  border-left: 0.1rem solid @ebebeb;
+  border-bottom: 0.1rem solid @ebebeb;
+  border-top: 0.1rem solid @ebebeb;
   font-size: 1.6rem;
 }
-.navgation li:first-child {
+.navgation li:first-child{
   border-left: none;
 }
-.left-and-right .left {
+.left-and-right{
+}
+.left-and-right .left{
   width: 50%;
   float: left;
   height: 12rem;
@@ -27,71 +40,71 @@
   position: relative;
   background-size: cover;
 }
-.left-and-right .left img {
+.left-and-right .left img{
   width: 100%;
 }
-.left-and-right .right {
+.left-and-right .right{
   width: 50%;
   float: left;
   overflow: hidden;
   position: relative;
   height: 12rem;
 }
-.left-and-right .right img {
+.left-and-right .right img{
   width: 100%;
 }
-.left-and-right .right .right-one {
+.left-and-right .right .right-one{
   height: 12rem;
   background-size: cover;
   position: relative;
 }
-.left-and-right .right .right-one img {
+.left-and-right .right .right-one img{
   height: 100%;
 }
-.left-and-right .right .right-two {
+.left-and-right .right .right-two{
   height: 12rem;
   background-size: cover;
   position: relative;
 }
-.left-and-right .right .right-two img {
+.left-and-right .right .right-two img{
   height: 100%;
 }
-.product-slide {
+.product-slide{
   position: absolute;
   text-align: left;
   left: 1rem;
   top: 2rem;
 }
-.product-slide .title {
+.product-slide .title{
   font-size: 2rem;
 }
-.product-slide .detail {
+.product-slide .detail{
   font-size: 1.4rem;
 }
-.content-model {
+.content-model{
   position: absolute;
   left: 1rem;
   bottom: 1rem;
-  color: #ffffff;
+  color: @white;
 }
-.content-model .title {
+.content-model .title{
   font-size: 1.6rem;
 }
-.content-model .detail {
+.content-model .detail{
   font-size: 1rem;
 }
-.big-content {
+.big-content{
   margin-top: 1rem;
   height: 24rem;
   position: relative;
 }
-.middle {
+.middle{
   display: table;
   vertical-align: middle;
   margin: 0 auto;
   width: auto;
   text-align: center;
-  color: #ffffff;
+  color: @white;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -101,81 +114,82 @@
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.middle .category {
+.middle .category{
   font-size: 1.6rem;
-  border-bottom: 0.2rem solid #ffffff;
+  border-bottom: 0.2rem solid @white;
   margin-bottom: 0.5rem;
   display: inline-block;
 }
-.middle .title {
+.middle .title{
   font-size: 2rem;
 }
-.middle .data {
+.middle .data{
   font-size: 1rem;
 }
-.bg-gradients-bottom {
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000000));
+.bg-gradients-bottom{
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(@black));
 }
-.bg-gradients-top {
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(transparent));
+.bg-gradients-top{
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(@black), to(transparent));
 }
-.app-guo {
+.app-guo{
   position: absolute;
-  bottom: 3rem;
+  bottom:3rem;
   left: 1rem;
-  color: #ffffff;
+  color: @white;
 }
-.app-guo .category {
+.app-guo .category{
   font-size: 1.6rem;
 }
-.app-guo .title {
+.app-guo .title{
   font-size: 2rem;
 }
+
 /*news*/
-.news-banner {
-  color: #ffffff;
+.news-banner{
+  color: @white;
   position: absolute;
   left: 1rem;
   bottom: 3rem;
 }
-.news-banner .title {
+.news-banner .title{
   font-size: 2rem;
 }
-.news-banner .data {
+.news-banner .data{
   font-size: 1rem;
 }
-.news-lists li {
+.news-lists li{
   width: 50%;
   float: left;
 }
-.news-block {
+.news-block{
   width: 90%;
-  background-color: #ffffff;
+  background-color: @white;
   margin: 0 auto 1rem auto;
-  border-bottom: 0.2rem solid #cccccc;
+  border-bottom: 0.2rem solid @cccGrey;
 }
-.news-block img {
+.news-block img{
   width: 100%;
 }
-.news-block .title {
+.news-block .title{
   font-size: 1.6rem;
   padding: 1rem;
 }
-.news-block .detail {
+.news-block .detail{
   font-size: 1.2rem;
   padding: 0 1rem 1rem 1rem;
 }
-.news-block .label .data {
+.news-block .label .data{
   padding-left: 1rem;
   padding-bottom: 1rem;
   float: left;
-  color: #cccccc;
+  color: @cccGrey;
   font-size: 1rem;
 }
-.news-block .label .company {
+.news-block .label .company{
   padding-right: 1rem;
   padding-bottom: 1rem;
   float: right;
-  color: #cccccc;
+  color: @cccGrey;
   font-size: 1rem;
 }

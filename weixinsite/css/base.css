@@ -3,6 +3,7 @@
  */
 @charset "utf-8";
 /*颜色*/
+/*尺寸*/
 /*
 @名称: base
 @功能: 重设浏览器默认样式
@@ -316,7 +317,7 @@ nav {
 }
 .icon-active:active {
   background-color: #ebebeb;
-  color: #333333;
+  color: #333333 !important;
 }
 /* footer */
 .footer {
@@ -372,6 +373,7 @@ nav {
   min-width: 7rem;
   background-color: #45bf14;
   color: #ffffff;
+  border-radius: 0.416666rem;
 }
 .m-button:active {
   background-color: #128c00;
@@ -383,6 +385,7 @@ nav {
   text-align: center;
   min-width: 7rem;
   background-color: #ffffff;
+  border-radius: 0.416666rem;
   border: 0.1rem solid #ebebeb;
   color: #333333;
 }
@@ -392,6 +395,12 @@ nav {
 }
 .m-button-content {
   line-height: 4rem;
+}
+.bg-gradients-bottom {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000000));
+}
+.bg-gradients-top {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(transparent));
 }
 .m-underline-d0d0d0 {
   border-bottom: 0.1rem solid #d0d0d0;

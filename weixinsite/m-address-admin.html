@@ -29,7 +29,7 @@
     <ul class="m-choose-product">
         <li>
             <!--地址选择按钮-->
-            <a href="#">
+            <div class="m-address-left">
                 <div class="m-address-choose">
                 </div>
                 <div class="m-choose-detail m-address-display">
@@ -40,7 +40,7 @@
                         谢奇 18503014025
                     </div>
                 </div>
-            </a>
+            </div>
             <div class="clear"></div>
 
             <!--地址编辑按钮-->
@@ -52,7 +52,7 @@
         </li>
         <li>
             <!--地址选择按钮-->
-            <a href="#">
+            <div class="m-address-left">
                 <div class="m-address-choose address-selected">
                 </div>
                 <div class="m-choose-detail m-address-display">
@@ -63,7 +63,7 @@
                         谢奇 18503014025
                     </div>
                 </div>
-            </a>
+            </div>
             <div class="clear"></div>
 
             <!--地址编辑按钮-->
@@ -75,7 +75,7 @@
         </li>
         <li>
             <!--地址选择按钮-->
-            <a href="#">
+            <div class="m-address-left">
                 <div class="m-address-choose">
                 </div>
                 <div class="m-choose-detail m-address-display">
@@ -86,7 +86,7 @@
                         谢奇 18503014025
                     </div>
                 </div>
-            </a>
+            </div>
             <div class="clear"></div>
 
             <!--地址编辑按钮-->
@@ -107,4 +107,13 @@
 </div>
 
 </body>
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+        $(".m-choose-product li div.m-address-left").on("click",function(){
+            $("div.m-address-choose").removeClass("address-selected");
+            $(this).find("div.m-address-choose").addClass("address-selected");
+        })
+    })
+</script>
 </html>

@@ -99,15 +99,15 @@
 }
 .pagination1 .swiper-pagination-switch {
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
     background: #fff;
     margin: 0 3px;
     cursor: pointer;
 }
 .pagination1 .swiper-active-switch {
-    background: #b64a36;
+    background: rgba(255,255,255,0.3);
 }
 .pagination2 {
     text-align: center;
@@ -119,15 +119,15 @@
 }
 .pagination2 .swiper-pagination-switch {
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
     background: #fff;
     margin: 0 3px;
     cursor: pointer;
 }
 .pagination2 .swiper-active-switch {
-    background: #b64a36;
+    background: rgba(255,255,255,0.3);
 }
 .pagination3 {
     text-align: center;
@@ -139,14 +139,14 @@
 }
 .pagination3 .swiper-pagination-switch {
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
     background: #fff;
     margin: 0 3px;
     cursor: pointer;
 }
 .pagination3 .swiper-active-switch {
-    background: #b64a36;
+    background: rgba(255,255,255,0.3);
 }
 

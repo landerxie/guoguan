@@ -162,6 +162,7 @@
 }
 .news-block .detail {
   font-size: 1.2rem;
+  line-height: 1.6rem;
   padding: 0 1rem 1rem 1rem;
 }
 .news-block .label .data {

@@ -30,18 +30,13 @@
 <!--head-->
 <nav>
     <a href="m-index.html">
-        <div class="icon-home-appearance icon-active" >
-            国馆商城
+        <div class="icon-home icon-home-appearance icon-active" >
         </div>
     </a>
     <h3 class=" head-title-appearance">购物车</h3>
     <a href="m-shoppingCart.html">
-        <div class=" icon-shopping-cart icon-user-appearance icon-active">
+        <div class="icon-shopping-cart icon-shopping-cart-appearance icon-active">
             <span class="cart-number">3</span>
-        </div>
-    </a>
-    <a href="m-center.html">
-        <div class="icon-user icon-shopping-cart-appearance icon-active">
         </div>
     </a>
 </nav>
@@ -49,8 +44,8 @@
 <!--content-->
 <ul class="m-choose-product m-choose-product-address">
     <li>
-        <a href="m-address-confirm.html">
-            <div class="m-choose-detail m-address-display">
+        <a href="m-address-admin.html">
+            <div class="m-choose-detail m-address-display pl2">
                 <div class="m-choose-title">
                     广东省广州市天河区
                 </div>
@@ -75,8 +70,9 @@
                     <div class="m-choose-title">
                         中国道中国道
                     </div>
-                    <div class="m-choose-brief-detail" style="white-space: nowrap; overflow-x: auto">
-                        第一次，重新定义白酒!
+                    <div class="m-choose-brief-detail">
+                        双卷轴四支装<br>
+                        每支500ml，52%VOL，浓香型
                     </div>
                 </div>
 
@@ -106,8 +102,9 @@
                     <div class="m-choose-title">
                         中国道中国道
                     </div>
-                    <div class="m-choose-brief-detail" style="white-space: nowrap; overflow-x: auto">
-                        第一次，重新定义白酒!
+                    <div class="m-choose-brief-detail">
+                        双卷轴四支装<br>
+                        每支500ml，52%VOL，浓香型
                     </div>
                 </div>
 
@@ -149,61 +146,52 @@
     <div class="m-check-total-money">
         总计<span>￥5466</span>
     </div>
-    <a href="m-online-pay.html">
-        <div class="m-button m-button-check">
-            <div class="m-button-content">
-                微信支付
-            </div>
-        </div>
+    <a href="m-online-pay.html" class="m-button m-button-check">
+        <span class="m-button-content">
+            微信支付
+        </span>
     </a>
 
     <!--选择更多付款方式-->
-    <div class="m-button-empty m-button-check more-pay-method">
-        <div class="m-button-content">
-            更多支付方式
-        </div>
-    </div>
+    <a class="m-button-empty m-button-check more-pay-method" href="javascript:void(0)">
+        <span class="m-button-content">
+            更多支付方式<span class="text-plus icon-caret-up" style="margin-left: 0.5rem"></span><span class="text-minus icon-caret-down" style="display: none; margin-left: 0.5rem"></span>
+        </span>
+    </a>
     <div class="pay-mothod" style="display: none;">
-        <div class="m-button-empty m-button-check">
-            <div class="m-button-content">
+        <a class="m-button-empty m-button-check" href="#">
+            <span class="m-button-content">
                 支付宝支付
-            </div>
-        </div>
-        <div class="m-button-empty m-button-check">
-            <div class="m-button-content">
+            </span>
+        </a>
+        <a class="m-button-empty m-button-check" href="#">
+            <span class="m-button-content">
                 网银支付
-            </div>
-        </div>
-        <div class="m-button-empty m-button-check">
-            <div class="m-button-content">
+            </span>
+        </a>
+        <a class="m-button-empty m-button-check" href="#">
+            <span class="m-button-content">
                 信用卡支付
-            </div>
-        </div>
-        <div class="m-button-empty m-button-check">
-            <div class="m-button-content">
+            </span>
+        </a>
+        <a class="m-button-empty m-button-check" href="#">
+            <span class="m-button-content">
                 银行转账
-            </div>
-        </div>
-        <div class="m-button-empty m-button-check">
-            <div class="m-button-content">
+            </span>
+        </a>
+        <a class="m-button-empty m-button-check" href="#">
+            <span class="m-button-content">
                 财付通支付
-            </div>
-        </div>
+            </span>
+        </a>
     </div>
 
-    <!--货到付款-->
-    <div class="m-button-empty mt1" style="width: 49%; float: left">
-        <div class="m-button-content">
-            货到付款
-        </div>
-    </div>
-    <a tel="4009005000">
-        <div class="m-button-empty mt1" style="width: 49%; float: right">
-            <div class="m-button-content">
-                电话订购：400-900-5000
-            </div>
-        </div>
+    <a class="m-button-empty m-button-check" href="tel:4009005000">
+        <span class="m-button-content">
+            电话订购：400-900-5000
+        </span>
     </a>
+
 </div>
 
 <!--<fieldset>
@@ -220,31 +208,6 @@
     </p>
 </fieldset>-->
 
-<!--footer-->
-<div class="footer">
-    <!--    <div class="mb1">
-            <span class="selected">
-                触屏版
-            </span>
-            <span>
-                电脑版
-            </span>
-        </div>-->
-    <ul class="footer-content">
-        <li>
-            <a tel="4009005000">
-                <i class="icon-phone"></i>
-                400-900-5000
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="img/wx_black.png" alt="" style="width: 1.6rem; height: 1.6rem; vertical-align: middle"/>
-                关注“国馆酒”
-            </a>
-        </li>
-    </ul>
-</div>
 </body>
 <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
 
@@ -252,6 +215,8 @@
     $(function(){
         $(".more-pay-method").click(function(){
             $(this).next("div.pay-mothod").toggle(100);
+            $(this).find("span.text-plus").toggle();
+            $(this).find("span.text-minus").toggle();
         })
     })
 </script>

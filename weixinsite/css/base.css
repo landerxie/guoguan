@@ -246,6 +246,9 @@ a {
 .mb2 {
   margin-bottom: 2rem!important;
 }
+.pl2 {
+  padding-left: 2rem!important;
+}
 .color-f66900 {
   color: #f66900 !important;
 }
@@ -275,9 +278,9 @@ nav {
   font-weight: bold!important;
   height: 5rem!important;
   line-height: 5rem!important;
-  width: 10rem!important;
+  width: 5rem!important;
   position: absolute;
-  color: #ffffff;
+  color: #848889;
   background-color: #20282b;
   left: 0;
 }
@@ -372,11 +375,13 @@ nav {
   cursor: pointer;
   min-width: 7rem;
   background-color: #45bf14;
+  border: 0.1rem solid #45bf14;
   color: #ffffff;
   border-radius: 0.416666rem;
 }
 .m-button:active {
   background-color: #128c00;
+  border: 0.1rem solid #128c00;
 }
 .m-button-empty {
   display: inline-block;

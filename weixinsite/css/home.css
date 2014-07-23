@@ -179,3 +179,23 @@
   color: #cccccc;
   font-size: 1rem;
 }
+.news-detail .data {
+  font-size: 1.2rem;
+}
+.news-detail .title {
+  font-size: 2rem;
+  margin: 1rem auto 1rem auto;
+}
+.news-detail .news-content p {
+  line-height: 2rem;
+  text-indent: 2em;
+}
+.news-detail .news-content img {
+  margin: 1.5rem auto 1rem auto;
+  display: block;
+}
+.news-detail .news-content .img-detail {
+  text-align: center;
+  font-size: 1rem;
+  color: #999999;
+}

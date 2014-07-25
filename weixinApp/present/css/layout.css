@@ -95,31 +95,31 @@
   width: 18rem;
   margin-bottom: 5rem;
 }
-/* awardOne*/
-.award-one .title {
+/* 品酒教学*/
+.teach .title {
   font-size: 2rem;
   padding-top: 2rem;
   font-weight: bold;
   padding-bottom: 1rem;
 }
-.award-one .second-title {
+.teach .second-title {
   font-size: 1.6rem;
   line-height: 2rem;
 }
-.award-one .green-title {
+.teach .green-title {
   color: #45bf14;
   font-size: 1.6rem;
   padding-top: 1rem;
   padding-bottom: 0.4rem;
 }
-.award-one p {
+.teach p {
   padding-bottom: 1rem;
   line-height: 1.8rem;
 }
-.award-one img {
+.teach img {
   width: 100%;
 }
-.award-one .go-guo {
+.teach .go-guo {
   color: #607fa6;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -200,4 +200,13 @@
 }
 .form .white-logo img {
   width: 6rem;
+}
+/* 开奖页面*/
+.award img {
+  width: 100%;
+}
+.award .detail {
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 2rem;
 }

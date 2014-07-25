@@ -16,7 +16,7 @@ html {
 }
 body {
   font-size: 14px;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
   height: 100%;
   width: 100%;
   min-height: 40rem;
@@ -225,6 +225,9 @@ a {
 .mt3 {
   margin-top: 3rem!important;
 }
+.mt4-5 {
+  margin-top: 4.5rem!important;
+}
 .ml1 {
   margin-left: 1rem!important;
 }
@@ -374,14 +377,29 @@ nav {
   text-align: center;
   cursor: pointer;
   min-width: 7rem;
-  background-color: #45bf14;
-  border: 0.1rem solid #45bf14;
+  background-color: #fe3332;
+  border: 0.1rem solid #fe3332;
   color: #ffffff;
   border-radius: 0.416666rem;
 }
 .m-button:active {
-  background-color: #128c00;
-  border: 0.1rem solid #128c00;
+  background-color: #cb0000;
+  border: 0.1rem solid #cb0000;
+}
+.m-button-two {
+  display: inline-block;
+  height: 4rem;
+  text-align: center;
+  cursor: pointer;
+  min-width: 7rem;
+  background-color: #c69c6c;
+  border: 0.1rem solid #c69c6c;
+  color: #ffffff;
+  border-radius: 0.416666rem;
+}
+.m-button-two:active {
+  background-color: #936939;
+  border: 0.1rem solid #936939;
 }
 .m-button-empty {
   display: inline-block;
@@ -395,14 +413,11 @@ nav {
   color: #333333;
 }
 .m-button-empty:active {
-  background-color: #45bf14;
+  background-color: #fe3332;
   color: #ffffff;
 }
 .m-button-content {
   line-height: 4rem;
-}
-.m-button-disable {
-  color: #cccccc;
 }
 .bg-gradients-bottom {
   background: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000000));
@@ -416,6 +431,7 @@ nav {
 .m-underline-ebebeb {
   border-bottom: 0.1rem solid #ebebeb;
 }
+/* form表单*/
 .m-input {
   height: 2rem;
   background-color: transparent;
@@ -439,6 +455,26 @@ nav {
 .m-input-border {
   border: 0.1rem solid #ebebeb;
 }
+.input-div {
+  background: #ffffff;
+  height: 4.5rem;
+  border-radius: 0.416666rem;
+  border: 0.1rem solid #cccccc;
+  line-height: 4.5rem;
+}
+.input-label {
+  color: #7f7f7f;
+  width: 8rem;
+  display: inline-block;
+}
+.has-label-input {
+  width: 100%;
+  margin-left: -9rem;
+  display: inline-block;
+}
+.has-label-input-wrap {
+  margin-left: 9rem;
+}
 /* 提示信息样式  */
 .tips-error {
   color: #fe3332;
@@ -456,4 +492,8 @@ nav {
 }
 .backgroundsise-cover {
   background-size: cover!important;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
 }

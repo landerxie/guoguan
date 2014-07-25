@@ -158,9 +158,15 @@
   background-color: @white;
   margin: 0 auto 1rem auto;
   border-bottom: 0.2rem solid @cccGrey;
+  .news-list-img{
+    background-size: cover;
+    height: 15rem;
+  }
   .title{
     font-size: 1.6rem;
-    padding: 1rem;
+    margin: 1rem;
+    height: 3.8rem;
+    overflow: hidden;
   }
   img{
     width: 100%;
@@ -168,7 +174,9 @@
   .detail{
     font-size: 1.2rem;
     line-height: 1.6rem;
-    padding: 0 1rem 1rem 1rem;
+    margin: 0 1rem 1rem 1rem;
+    height: 6rem;
+    overflow: hidden;
   }
   .label{
     .data{
@@ -197,17 +205,54 @@
   }
   .news-content{
     p{
-      line-height: 2rem;
-      text-indent: 2em;
+      line-height: 2rem!important;
+      text-indent: 2em!important;
+      background-color: @bgColor!important;
     }
     img{
       margin: 1.5rem auto 1rem auto;
       display: block;
+      width: 100%;
     }
     .img-detail{
       text-align: center;
       font-size: 1rem;
       color: @fontGrey;
     }
+  }
+}
+
+//404页面找不到
+.cant-find{
+  background-color: #000000;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  .block{
+    position: absolute;
+    width: 30rem;
+    height: 6rem;
+    bottom: 28rem;
+    border-bottom-right-radius: @radius;
+    border-top-right-radius: @radius;
+    background-color: @white;
+    img{
+      width: 100%;
+      vertical-align: middle;
+      margin-bottom: 0.8rem;
+    }
+  }
+  .title{
+    color: @white;
+    font-size: 3rem;
+    margin-left: 3rem;
+    margin-top: 7rem;
+    position: absolute;
+    bottom: 35rem;
+  }
+  img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }

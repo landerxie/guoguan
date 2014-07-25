@@ -1,0 +1,218 @@
+@import "variables.less";
+
+/*微信分享*/
+#weixin-guide{
+  width: 100%;
+  height: 100%;
+  background-image: url("../image/guide.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 9999;
+}
+.share-cover{
+  position: fixed;
+  display: none;
+  z-index: 9999;
+  background: rgba(0,0,0,0.7) ;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.top-content{
+  background: url("../image/bg.jpg") center top no-repeat;
+  background-size: cover;
+}
+//navgation
+.head-nav {
+  height: 4.5rem;
+  line-height: 4.5rem;
+  position: fixed;
+  top: 0;
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), color-stop(1, #e1e1e1), to(rgb(255, 0, 0))); */
+  background-color: #21292c;
+  border-bottom: 0.1rem solid #141c1f;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  h3 {
+    font-size: 1.6rem;
+    display: inline-block;
+    color: #fff;
+  }
+}
+.head-nav-a-last {
+  position: absolute;
+  right: 0;
+  font-size: 1.6rem;
+  margin-left: 1.4rem;
+  color: #45bf14;
+}
+.content-next {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+
+//头部banner
+.top-content{
+  height: 43rem;
+  .head{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: box;
+    height: 12rem;
+    .logo{
+      -webkit-box-flex: 1;-moz-box-flex: 1;-ms-box-flex: 1;box-flex: 1;
+      text-align: center;
+      img{
+        width: 80%;
+      }
+    }
+    .title{
+      -webkit-box-flex: 8;-moz-box-flex: 8;-ms-box-flex: 8;box-flex: 8;
+      text-align: center;
+      img{
+        width:90%;
+        margin-top: 3.2rem;
+      }
+    }
+  }
+}
+
+.bottom-content{
+  text-align: center;
+  .title{
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .m-button{
+    width: 18rem;
+    margin-bottom: 5rem;
+  }
+}
+
+/* awardOne*/
+.award-one{
+  .title{
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+  .second-title{
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .green-title{
+    color: @green;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+  }
+  p{
+    padding-bottom: 1rem;
+    line-height: 1.8rem;
+  };
+  img{
+    width: 100%;
+  }
+  .go-guo{
+    color: #607fa6;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/*盒子选择页面*/
+.box-choose{
+  margin-top: 3rem;
+}
+.box{
+  .title{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+  }
+}
+.img-layout{
+  width: 65%!important;
+}
+.box-bottom{
+  width: 80%;
+  margin: 5rem auto;
+  .m-button{
+    width: 47%;
+  }
+  .m-button-two{
+    width: 47%;
+  }
+}
+
+/*送礼秘籍页面*/
+.secret{
+  .title{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 4rem;
+    text-align: center;
+  }
+  .detail{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+  }
+  a > img {
+    width: 100%;
+  }
+}
+
+/*未中奖页面*/
+.no-award{
+  .title{
+    font-size: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  a {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 2rem;
+    img{
+      border-top: 0.1rem dashed @black;
+      border-bottom: 0.1rem dashed @black;
+      padding-top: 1rem;
+      width: 80%;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+/*表单提交页面*/
+.form{
+  .title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: @fontGreyDeep;
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+  }
+  .white-logo{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    img{
+      width: 6rem;
+    }
+  }
+}

@@ -210,3 +210,13 @@
   margin-top: 2rem;
   line-height: 2rem;
 }
+.result {
+  text-align: center;
+}
+.result img {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+.result .detail {
+  margin-bottom: 4rem;
+}

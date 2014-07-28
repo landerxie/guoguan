@@ -48,6 +48,7 @@ $(function(){
     })
     //Clickable pagination
     $('.pagination3 .swiper-pagination-switch').click(function(){
+        console.log($(this))
         swiper3.swipeTo($(this).index())
     })
 })

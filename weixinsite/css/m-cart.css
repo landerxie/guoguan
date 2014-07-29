@@ -556,3 +556,22 @@
 .show-price label input {
   vertical-align: middle;
 }
+/*帮助页面*/
+.help .title {
+  font-size: 2rem;
+  text-align: center;
+  color: #fe3332;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+.help .detail li {
+  line-height: 2rem;
+}
+.help .detail li a {
+  color: #2469f6;
+}
+.help .detail li:first-child {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}

@@ -26,6 +26,8 @@
            22222222222222
         </div>
     </div>
+
+    <canvas height="200" width="200" id="drawsomething"> </canvas>
 </div>
 
 <div class="footer">
@@ -45,5 +47,31 @@
         $(this).css("left","-20rem");
         $(".show-second").css("left","0");
     })
+</script>
+<script>
+    var c = document.getElementById("drawsomething");
+    var cxt = c.getContext("2d");
+    cxt.fillStyle = "ff0000";
+    cxt.moveTo(10,10);
+    cxt.lineTo(100,110);
+    cxt.lineTo(10,50);
+    cxt.stroke();
+
+    cxt.fillStyle = "ff0000";
+    cxt.beginPath();
+    cxt.arc(10,10,10,0,Math.PI*2,true);
+    cxt.closePath();
+    cxt.fill();
+
+    var grd=cxt.createLinearGradient(0,0,175,50);
+    grd.addColorStop(0,"#FF0000");
+    grd.addColorStop(1,"#00FF00");
+    cxt.fillStyle=grd;
+    cxt.fillRect(0,100,175,50);
+
+    var img = new Image();
+    img.src = "newsImage/11_02.jpg";
+    cxt.drawImage(img,110,110);
+    console.log(img)
 </script>
 </html>

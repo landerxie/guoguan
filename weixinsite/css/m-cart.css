@@ -54,6 +54,11 @@
   right: 0;
   top: 0;
 }
+.no-address {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+}
 .m-choose-detail {
   width: 22rem;
   padding-left: 4rem;

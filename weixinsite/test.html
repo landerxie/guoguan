@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
 </head>
 <body>
+<style type="text/css">
+    #div1, #div2
+    {float:left; width:100px; height:35px; margin:10px;padding:10px;border:1px solid #aaaaaa;}
+</style>
 <nav>
     <div class="icon-home icon-home-appearance icon-active" ></div>
     <h3 class=" head-title-appearance">我的收藏</h3>
@@ -29,6 +33,11 @@
 
     <canvas height="200" width="200" id="drawsomething"> </canvas>
 </div>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="newsImage/11_02.jpg" draggable="true" ondragstart="drag(event)" id="drag1" />
+</div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 <div class="footer">
     <div>
@@ -73,5 +82,24 @@
     img.src = "newsImage/11_02.jpg";
     cxt.drawImage(img,110,110);
     console.log(img)
+</script>
+
+<script type="text/javascript">
+    function allowDrop(ev)
+    {
+        ev.preventDefault();
+    }
+
+    function drag(ev)
+    {
+        ev.dataTransfer.setData("Text",ev.target.id);
+    }
+
+    function drop(ev)
+    {
+        ev.preventDefault();
+        var data=ev.dataTransfer.getData("Text");
+        ev.target.appendChild(document.getElementById(data));
+    }
 </script>
 </html>

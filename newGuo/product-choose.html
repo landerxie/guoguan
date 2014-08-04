@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>产品选择</title>
+    <meta name="viewport" charset="utf-8" content="width=1024">
+    <meta name="keywords" content="产品选择">
+    <meta name="description" content="产品选择">
+    <link href="global/styles/base.css" type="text/css" rel="stylesheet">
+    <link href="global/styles/layout.css" type="text/css" rel="stylesheet">
+    <link href="cart/styles/cart.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="global/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="global/styles/font-awesome-ie7.min.css">
+    <link href="global/scripts/lib/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!--<div class="bg-cover"></div>-->
+<!--head-->
+<div class="site-topbar">
+    <div class="container">
+        <div class="topbar-info ">
+            <a href="#" target="_blank">登录</a>&nbsp;/&nbsp;<a href="#" target="_blank">注册</a>
+            <span class="sep"></span>
+            <a href="#" target="_blank"><i class="icon-file-alt" style="margin-right: 3px"></i>我的订单</a>
+                <span class="sep">
+                </span><a href="#" target="_blank"><i class="icon-user" style="margin-right: 3px"></i>我的账户</a>
+        </div>
+    </div>
+</div>
+<div class="site-header container">
+    <div class="site-logo">
+        <a class="logo" href="http://www.guoguan.com" title="国馆官网"><i class="iconfont"></i></a>
+    </div>
+    <div class="header-nav clearfix">
+        <div class="nav-main">
+            <ul class="nav-main-list clearfix" id="idmenu">
+                <li class="nav-main-item">
+                    <a href="#">
+                        首页
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="#">
+                        中国道
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="#">
+                        顶级酒品
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="#">
+                        品牌故事
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="#">
+                        文化社区
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a href="#">
+                        应用
+                        <i class="icon-caret-down" style="color: #9c9c9c"></i>
+                    </a>
+                    <ul>
+                        <li><a href="#"><img src="images/5_01.jpg"
+                                             style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;"><span>每日一文</span></a>
+                        </li>
+                        <li><a href="#"><img src="images/5_02.jpg"
+                                             style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;"><span>国馆电台</span></a>
+                        </li>
+                        <li><a href="#"><img src="images/5_03.jpg"
+                                             style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;"><span>国馆说文化</span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="cart-section">
+                <a href="#" class="mini-cart" style="color: #333;">
+                    <i class="icon-shopping-cart" style="margin-right: 3px; margin-top: -2px;"></i>购物车
+                </a>
+
+                <!--加载显示内容-->
+                <!--<p class="loading">数据加载中，请稍后...(没有商品时显示：还没有商品哦)</p>-->
+
+                <div class="mini-cart-list" style="display: none;">
+                    <ul style="padding: 0;margin:0">
+                        <li class="clearfix">
+                            <a href="#" class="pic">
+                                <img src="images/5_01.jpg">
+                            </a>
+                            <a class="name">国馆·中国道</a>
+                            <span class="price">2399元x1</span>
+                            <a class="delItem">
+                                <i class="icon-remove"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="count">
+                            <span class="total">
+                                共
+                                <b>1</b>
+                                件商品
+                                <br>
+                                <strong>
+                                    合计：
+                                    <em>2399元</em>
+                                </strong>
+                            </span>
+                        <a href="#" class="btn btn-red" style="float: right">去购物车结算</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--head end-->
+
+<!--content-->
+<div class="container">
+    <div class="my-cart">
+        <h1>请选择产品</h1>
+
+        <div style="border-bottom: 1px solid #ccc;"></div>
+        <div class="choose-step">
+            <div class="choose-content">
+                <!--产品列表-->
+                <ul class="step-content clearfix">
+                    <li class="first">
+                        <div class="version active" data-version="version_1" data-tip="为手机挑选合适的配件方案">
+                            <h4 class="name">国馆·中国道（四只装）</h4>
+                            <div class="descp">4支X500ml&nbsp; 52%vol&nbsp; 浓香型白酒</div>
+                            <h4 class="price">2399元</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="version " data-version="version_2" data-tip="为手机挑选合适的配件方案">
+                            <h4 class="name">国馆·中国道（两只装）</h4>
+                            <div class="descp">2支X500ml&nbsp; 52%vol&nbsp; 浓香型白酒</div>
+                            <h4 class="price">1299元</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+        <!--购物车底部-->
+        <ul class="table-content" style="margin-bottom: 30px; height: 97px">
+            <li class="clear" style="width: 318px; text-align: right;float: right; position: relative; height: 40px;">
+                <div class="clear"></div>
+
+                <div style="position: absolute; bottom: 0; right: 0;">
+                    <a href="#" class="btn btn-red" style="float: right; width: 100px;">加入购物车</a>
+                </div>
+            </li>
+
+        </ul>
+        <!--购物车底部-->
+
+    </div>
+</div>
+<!--content end-->
+
+
+<!--footer-->
+<div class="site-footer mt0">
+    <div class="container">
+        <div class="footer-service">
+            <ul class="list-service clearfix">
+                <li>
+                    <a rel="nofollow" class="lq-icon-footer" href="#" target="_blank">
+                        <i class="icon-tint icon-style"></i>
+                        <strong>100% 酒品保证</strong>
+                        <span>中国道白酒可以秒杀同价位一切白酒</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="lq-icon-footer">
+                        <i class="icon-paste icon-style"></i>
+                        <strong>独家专利</strong>
+                        <span>国馆已申请多项专利，彻底杜绝山寨</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="lq-icon-footer">
+                        <i class="icon-credit-card icon-style"></i>
+                        <strong>VIP专享特权</strong>
+                        <span>VIP客户均享受馆友会诸多特权</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="lq-img-footer">
+                        <img src="global/images/sf_logo_gray_bg.png" class="footer-hover-img">
+                        <strong>满100元包邮</strong>
+                        <span>在线支付满百元免邮费</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="lq-icon-footer">
+                        <i class="icon-umbrella icon-style"></i>
+                        <strong>破损必赔</strong>
+                        <span>拆箱验货发现破损无条件退货</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-links clearfix">
+            <dl class="col-links col-links-first">
+                <dt>帮助中心</dt>
+                <dd><a rel="nofollow" href="#" target="_blank">购物指南</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">支付方式</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">配送方式</a></dd>
+            </dl>
+            <dl class="col-links">
+                <dt>关于国馆</dt>
+                <dd><a rel="nofollow" href="#" target="_blank">了解国馆</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">加入我们</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">联系我们</a></dd>
+            </dl>
+            <dl class="col-links">
+                <dt>购买方式</dt>
+                <dd><a href="#" target="_blank">个人订购</a></dd>
+                <dd><a href="#" target="_blank">企业团购</a></dd>
+            </dl>
+            <dl class="col-links">
+                <dt>国馆动态</dt>
+                <dd><a rel="nofollow" href="#" target="_blank">新闻中心</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">馆友会</a></dd>
+                <dd><a rel="nofollow" href="#" target="_blank">场地申请</a></dd>
+            </dl>
+            <dl class="col-links">
+                <dt>关注国馆</dt>
+                <dd><a href="#" target="_blank">新浪微博</a></dd>
+                <dd><a class="" href="javascript: void(0);">官方微信</a></dd>
+            </dl>
+            <div class="col-contact">
+                <p class="phone">400-900-5000</p>
+
+                <p>周一至周五 9:00-18:00<br>（仅收市话费）</p>
+                <a rel="nofollow" class="btn btn-primary btn-small qore-code" href="qore.html"
+                   target="_blank">微信咨询：国馆酒</a>
+                <a rel="nofollow" class="btn btn-primary btn-small" href="#" target="_blank" style="width: 50px;">QQ</a>
+            </div>
+        </div>
+        <div class="footer-info clearfix">
+            <div class="info-text">
+                <p style="float: left">国馆旗下网站与应用：<a href="#" target="_blank" title="每日一文">每日一文</a><span
+                        class="sep">|</span><a href="#" target="_blank" title="国馆电台">国馆电台</a><span
+                        class="sep">|</span><a href="#" title="国馆故事 ">国馆故事 </a><span class="sep">|</span><a href="#"
+                                                                                                            target="_blank"
+                                                                                                            title="国馆天猫店">国馆天猫店</a>
+                </p>
+
+                <p style="float: right">©<a href="http://www.guoguan.com/" target="_blank" title="guoguan.com"> 2014
+                    国馆</a><a href="http://www.miitbeian.gov.cn" target="_blank"> 粤ICP备13087127号</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer end-->
+</body>
+<script src="global/scripts/lib/jquery-1.8.0.js" type="text/javascript"></script>
+<script src="global/scripts/lib/jquery.mnmenu.js" type="text/javascript"></script>
+<script src="global/scripts/lib/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+<script src="global/scripts/lib/fancybox/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        $('#idmenu').mnmenu();
+        /*选择产品*/
+        $(".container .choose-step .choose-content .step-content li .version").on('click',function(){
+            $(this).toggleClass("active");
+        });
+
+        /*购物车展开*/
+        $(".cart-section").hover(function () {
+            $(".cart-section>a").addClass("mini-cart-on");
+            $(".mini-cart-list").css("display", "block");
+        }, function () {
+            $(".cart-section>a").removeClass("mini-cart-on");
+            $(".mini-cart-list").css("display", "none");
+        });
+
+        /*footer图标点亮*/
+        $(".site-footer .list-service li a.lq-icon-footer").hover(function () {
+            $(this).find("i").css("color", "#c33829");
+        }, function () {
+            $(this).find("i").css("color", "#9c9c9c");
+        });
+        $(".site-footer .list-service li a.lq-img-footer").hover(function () {
+            $(this).find("img").attr("src", "global/images/sf_logo_red_bg.png");
+        }, function () {
+            $(this).find("img").attr("src", "global/images/sf_logo_gray_bg.png");
+        });
+
+        /*hover红条出现*/
+        $(".model-little").hover(function () {
+            $(this).find(".model-bottom").css("background-color", "rgba(195,56,41,1)");
+        }, function () {
+            $(this).find(".model-bottom").css("background-color", "rgba(0,0,0,0.3)");
+        });
+
+        /*图片点亮*/
+        $(".model-two-little").hover(function () {
+            $(this).find("img").css("opacity", "1");
+        }, function () {
+            $(this).find("img").css("opacity", "0.7");
+        });
+    })
+</script>
+<script>
+    //Assign to those input elements that have 'placeholder' attribute
+    $('input[placeholder]').each(function () {
+        var input = $(this);
+        $(input).val(input.attr('placeholder'));
+
+        $(input).focus(function () {
+            if (input.val() == input.attr('placeholder')) {
+                input.val('');
+            }
+        });
+
+        $(input).blur(function () {
+            if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                input.val(input.attr('placeholder'));
+            }
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $(".qore-code").fancybox({
+            'width': 200,
+            'height': 260,
+            'autoScale': false,
+            'transitionIn': 'fade',
+            'transitionOut': 'fade',
+            'overlayOpacity': '0.7',
+            'overlayColor': '#fff',
+            'scrolling': 'no',
+            'type': 'iframe'
+        });
+        $(".address-add").fancybox({
+            'width': 720,
+            'height': 600,
+            'autoScale': false,
+            'transitionIn': 'fade',
+            'transitionOut': 'fade',
+            'overlayOpacity': '0.3',
+            'overlayColor': '#fff',
+            'scrolling': 'no',
+            'type': 'iframe'
+        });
+    });
+</script>
+</html>

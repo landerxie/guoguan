@@ -456,7 +456,7 @@ h2.order-title {
 }*/
 .good-information9{
     background: url("../../zhongguodao/images/6_09.jpg") no-repeat center #000;
-    height: 1042px;
+    height: 1022px;
     position: relative;
     width: 100%;
 }
@@ -569,6 +569,26 @@ h2.order-title {
 .good-information3-content a:hover{
     text-decoration: underline;
 }
+.good-information9-content{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 300px;
+    text-align: center;
+}
+.good-information9-content p{
+    width: 690px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    margin: 5px auto 50px auto;
+}
+.good-information9-content a{
+    color: #b63333;
+}
+.good-information9-content a:hover{
+    text-decoration: underline;
+}
+
 #zhongguodao-billboard {
     background-color: #333;
     width: 100%;
@@ -1001,4 +1021,64 @@ h2.order-title {
         width: 730px; margin: 0 auto; font-size: 24px; color: #fff; padding-top: 506px;
         padding-left: 255px;
     }
+}
+
+
+/*
+产品类别选择*/
+.container .choose-step {
+}
+.container .choose-step .choose-content {
+    padding-right: 30px;
+}
+.container .choose-step .choose-content .step-content {
+    list-style-type: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.container .choose-step .choose-content .step-content li {
+    float: left;
+    margin-right: 20px;
+    width: 306px;
+}
+.container .choose-step .choose-content .step-content .first {
+    margin-left: 0px;
+}
+.container .choose-step .choose-content .step-content li .version {
+    border: 1px solid #dfdfdf;
+    height: 175px;
+    background-color: #fafafa;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.container .choose-step .choose-content .step-content li .version .name {
+    margin-top: 38px;
+    margin-bottom: 0;
+    font-size: 22px;
+    color: #333;
+    font-weight: normal;
+}
+.container .choose-step .choose-content .step-content li .version .price {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 24px;
+    color: #f90;
+    font-weight: normal;
+}
+.container .choose-step .choose-content .step-content li .version .descp {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+.container .choose-step .choose-content .step-content li .version:hover {
+    background-color: #f3f3f3;
+}
+.container .choose-step .choose-content .step-content li .active {
+    border: 1px solid #c33829;
+    background-color: #fff;
+}
+.container .choose-step .choose-content .step-content li .active:hover {
+    background-color: #fff;
 }

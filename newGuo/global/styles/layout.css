@@ -29,7 +29,7 @@ ul{list-style: none;}
 }
 .purchase-button-position{
     position: absolute;
-    right: 362px;
+    right: 307px;
     bottom: 49px;
 }
 #billboard{
@@ -809,7 +809,7 @@ and (max-device-width : 1024px) {
     }
     .purchase-button-position{
         position: absolute;
-        right: 289px;
+        right: 245px;
         bottom: 42px;
     }
     #billboard {

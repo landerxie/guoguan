@@ -22,7 +22,7 @@
     display: inline-block;
 }
 .m-choose-detail{
-    width: 22rem;
+    width: 18rem;
     padding-left: 1rem;
     float: left;
 }
@@ -32,6 +32,9 @@
 .m-choose-brief-detail{
     font-size: 1rem;
     color: #858688;
+}
+.m-choose-price{
+    float: right;
 }
 .icon-angle-right-appearance{
     font-size: 2rem;
@@ -236,6 +239,7 @@
 .m-shopping-cart-new ul li:last-child{border-bottom: none}
 .m-choose-product-new {
     background-color: #fff;
+    height: 12.6rem;
     border-bottom: 0.1rem solid #ebebeb;
 }
 .m-choose-product-new .m-choose-title{

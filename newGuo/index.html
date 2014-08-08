@@ -140,6 +140,11 @@
                         <img src="images/banner_02.jpg" alt="父亲节"/>
                     </div>
                 </li>
+                <li style='display:none;'>
+                    <div class="index-banner" onclick="window.open('http://baidu.com')">
+                        <img src="images/banner_03.jpg" alt="父亲节"/>
+                    </div>
+                </li>
             </ul>
 
             <div class="index-angle">
@@ -470,7 +475,7 @@
     <ul class="right-fixed">
         <li class="right-fixed-one">
             <a href="#">
-                <img src="images/QQ_grey.png" alt="" class="right-fixed-img" />
+                <img src="images/QQ.png" alt="" class="right-fixed-img" />
                 <p class="right-fixed-color">
                     在线客服
                 </p>
@@ -478,7 +483,7 @@
         </li>
         <li class="right-fixed-two">
             <a href="qore.html" class="qore-code">
-                <img src="images/wx_grey.png" alt="" class="right-fixed-img" />
+                <img src="images/wx.png" alt="" class="right-fixed-img" />
                 <p class="right-fixed-color">
                     加我微信
                 </p>
@@ -526,7 +531,7 @@
         });
 
         /*右侧固定图标点亮*/
-        $(".right-fixed li.right-fixed-one").hover(function(){
+/*        $(".right-fixed li.right-fixed-one").hover(function(){
             $(this).find("img").attr("src","images/QQ.png");
         },function(){
             $(this).find("img").attr("src","images/QQ_grey.png");
@@ -535,7 +540,7 @@
             $(this).find("img").attr("src","images/wx.png");
         },function(){
             $(this).find("img").attr("src","images/wx_grey.png");
-        });
+        });*/
 
         /*hover红条出现*/
         $(".model-little").hover(function(){
@@ -588,7 +593,7 @@
         t4.next();
     })
 
-    var t4 = new TouchSlider({id:'slide', speed:600, timeout:6000, before:function(index){
+    var t4 = new TouchSlider({id:'slide', speed:600, timeout:3000, before:function(index){
         as[active].className='';
         active=index;
         as[active].className='active';

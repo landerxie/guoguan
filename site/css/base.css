@@ -216,12 +216,12 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
     height: 4rem;
     text-align: center;
     min-width: 7rem;
-    background-color: #f66900;
+    background-color: #c33829;
     border-radius: 0.416666rem;
     color: #fff;
 }
 .m-button:active{
-    background-color: #f77f25;
+    background-color: #ec4432;
 }
 .m-button-content{
     line-height: 4rem;
@@ -249,16 +249,6 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
     padding-top:0.6rem;
     padding-bottom:0.6rem;
     width:100%
-}
-.m-input-fcode{
-    height: 2rem;
-    line-height: 2rem;
-    border: 1px solid #d0d0d0;
-    padding-left: 0.6rem;
-    border-radius: 0.416666rem;
-    padding-top:0.6rem;
-    padding-bottom:0.6rem;
-    width:98%
 }
 .m-input-border{
     border:0.1rem solid #d0d0d0;

@@ -336,15 +336,32 @@ h2.order-title {
     text-align: center;
 }
 
+/*品牌故事*/
+.story-banner img{
+    width: 100%;
+}
+.story-banner h1{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 40px;
+    color: #333;
+    text-align: center;
+}
+
 /*顶级酒品*/
 .s-title {
     text-align: center;
     padding-top: 55px;
 }
-.s-wenzhang {
-    width: 792px;
+.s-wenzhang{
+    width: 960px;
     margin: 0 auto;
     font-size: 14px;
+}
+@media (max-width: 1260px){
+    .s-wenzhang{
+        width: 810px;
+    }
 }
 .s-wenzhang p {
     text-indent: 2em;

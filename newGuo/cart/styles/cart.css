@@ -652,7 +652,7 @@ h2.order-title {
 }
 .join-model{
     width: 245px;
-    height: 190px;
+    height: 50px;
     background-color: #f8f8f8;
     float: left;
     cursor: pointer;
@@ -660,7 +660,7 @@ h2.order-title {
 }
 .join-model-two{
     width: 245px;
-    height: 190px;
+    height: 50px;
     background-color: #f8f8f8;
     margin-left: 10px;
     float: left;
@@ -674,7 +674,7 @@ h2.order-title {
     height: 50px;
     line-height: 50px;
     width: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: #c33829;
 }
 .join-model-bottom>span{
     margin-left: 10px;
@@ -1158,6 +1158,7 @@ h2.order-title {
 /*联系我们*/
 .img-list{
     margin-top: 10px;
+    margin-bottom: 90px;
 }
 .img-list img{
     width: 100%;

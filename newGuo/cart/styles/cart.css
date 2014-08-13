@@ -1204,11 +1204,11 @@ h2.order-title {
     position: absolute;
     left: 0;
     right: 0;
-    top: -60px;
+    top: -20px;
     text-align: center;
 }
 @media (max-width: 1440px) {
     .center-area img{
-        width: 383px;
+        width: 350px;
     }
 }

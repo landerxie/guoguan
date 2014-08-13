@@ -217,12 +217,12 @@ nav{height: 4rem; line-height: 4rem; background-color: #fff; text-align: center;
     height: 4rem;
     text-align: center;
     min-width: 7rem;
-    background-color: #e63c3c;
+    background-color: #c33829;
     border-radius: 0.416666rem;
     color: #fff;
 }
 .m-button:active{
-    background-color: #f74242;
+    background-color: #ec4432;
 }
 .m-button-content{
     line-height: 4rem;

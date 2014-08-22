@@ -1,25 +1,3 @@
-/*
-           _/    _/_/    _/_/_/_/_/                              _/
-              _/    _/      _/      _/_/    _/    _/    _/_/_/  _/_/_/
-         _/  _/  _/_/      _/    _/    _/  _/    _/  _/        _/    _/
-        _/  _/    _/      _/    _/    _/  _/    _/  _/        _/    _/
-       _/    _/_/  _/    _/      _/_/      _/_/_/    _/_/_/  _/    _/
-      _/
-   _/
-
-   Created by David Kaneda <http://www.davidkaneda.com>
-   Maintained by Thomas Yip <http://beedesk.com/>
-   Sponsored by Sencha Labs <http://www.sencha.com/>
-   Special thanks to Jonathan Stark <http://www.jonathanstark.com/>
-
-   Documentation and issue tracking on GitHub <http://github.com/senchalabs/jQTouch/>
-
-   (c) 2009-2014 Sencha Labs
-
-   Version: 1.0.0- - 2014-05-26
-
-   jQTouch may be freely distributed under the MIT license.
-*/
 (function() {
   $.jQT = (function() {
     var $body, $currentPage, $head, animations, customHistory, newPageCount, tapBuffer, touchSelectors;
@@ -736,3 +714,5 @@
   $.jQTouch = $.jQT;
 
 }).call(this);
+
+//# sourceMappingURL=jqt.map

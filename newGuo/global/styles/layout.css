@@ -685,6 +685,9 @@ and (max-device-width : 1024px) {
 .right-date{
     margin-bottom: 5px;
 }
+.paper-content img{
+    width: 100%!important;
+}
 
 @media (max-width: 1260px) {
     .index-angle{

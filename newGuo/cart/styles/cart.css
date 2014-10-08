@@ -1207,8 +1207,36 @@ h2.order-title {
     top: -20px;
     text-align: center;
 }
+.fulu-center-area{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    text-align: center;
+}
+.bottom-little{
+    margin-top: 30px;
+}
+
+.zgd2-3{
+    position: relative;
+}
+.zgd2-3 .fulu-img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -41%;
+    width: 82%;
+}
 @media (max-width: 1440px) {
     .center-area img{
         width: 350px;
+    }
+    .fulu-center-area img{
+        width: 520px;
+    }
+    .bottom-little{
+        width: 190px!important;
+        margin-top: 8px;
     }
 }

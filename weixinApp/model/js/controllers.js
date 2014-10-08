@@ -13,7 +13,7 @@ phonecatApp.controller('PhoneListCtrl', function($scope) {
     var orderlist = [];
     var score, result;
     $scope.title = "";
-    $scope.action = "item-3";
+    $scope.action = "index";
 
     $scope.enterApp = function() {
         $scope.action = start;

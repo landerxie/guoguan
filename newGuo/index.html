@@ -689,16 +689,6 @@
     $(document).ready(function() {
         $('#idmenu').mnmenu();
 
-        var countLen = 4;
-        while(countLen --){
-            (function(i){
-                setTimeout(function(){
-                    alert(i);
-                },0);
-            })(countLen);
-            alert(countLen);
-        }
-
         /*购物车展开*/
         $(".cart-section").hover(function(){
             $(".cart-section>a").addClass("mini-cart-on");

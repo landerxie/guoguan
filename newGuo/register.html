@@ -130,7 +130,7 @@
                 </div>
                 <div class="login-input-area">
                     <input type="text" placeholder="&nbsp;验证码" class="input-style valite-code">
-                    <a href="#" class="btn btn-valite btn-valite-position">获取手机验证码</a>
+                    <a href="verifyCode.html" class="btn btn-valite btn-valite-position open-valite-code">获取手机验证码</a>
                     <div class="error-tip-bg">
                         <span>
                         手机号码错误
@@ -343,32 +343,6 @@
     });
 
 
-    /*$("input.password-text").focus(function(){
-        console.log(1111)
-        $(this).css("display","none");
-        $("input.password-psw").css("display","block");
-        $("input.password-psw").focus();
-    })
-    $("input.password-psw").focusout(function(){
-        if(!$(this).val()){
-            $(this).css("display","none");
-            $("input.password-text").css("display","block");
-        }
-    });*/
-  /* document.getElementById("password-text").focus(function(){
-        console.log(1111)
-       alert(111)
-        $(this).css("display","none");
-        $("input.password-psw").css("display","block");
-        $("input.password-psw").focus();
-    })
-    $("input.password-psw").focusout(function(){
-        if(!$(this).val()){
-            $(this).css("display","none");
-            $("input.password-text").css("display","block");
-        }
-    });*/
-
 </script>
 <script>
     $(document).ready(function() {
@@ -380,6 +354,17 @@
             'transitionOut'		: 'fade',
             'overlayOpacity'	: '0.7',
             'overlayColor'		: '#fff',
+            'scrolling'		    : 'no',
+            'type'				: 'iframe'
+        });
+        $(".open-valite-code").fancybox({
+            'width'				: 470,
+            'height'			: 340,
+            'autoScale'			: false,
+            'transitionIn'		: 'fade',
+            'transitionOut'		: 'fade',
+            'overlayOpacity'	: '0.7',
+            'overlayColor'		: '#000',
             'scrolling'		    : 'no',
             'type'				: 'iframe'
         });

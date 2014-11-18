@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" charset="utf-8" content="width=1024">
+    <style>
+        .title{
+            height: 43px;
+            border-bottom: 1px solid #eee;
+            line-height: 43px;
+            color: #5d656f;
+            font-size: 16px;
+            text-align: center;
+        }
+        .content{
+            color: #545454;
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+        }
+        a{
+            text-decoration: none;
+        }
+        .content img{
+            vertical-align: middle;
+        }
+        input{
+            height: 44px;
+            font-family: "Microsoft Yahei";
+            background-color: #fff;
+            color: #ccc;
+            font-size: 12px;
+            padding: 0 5px;
+            border: 1px solid #d0d0d0;
+            display: inline-block;
+            zoom: 1;
+            *display: inline;
+            width: 197px;
+            margin: 61px 10px 0 0;
+        }
+
+        .button-area .btn {
+            display: inline-block;
+            margin-bottom: 0;
+            font-size: 14px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #fff;
+            border: 1px solid #ff4a00;
+            color: #ff4a00;
+            padding: 0;
+            width: 148px;
+        }
+        .button-area{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .button-area .btn-red{
+            background-color: #c33829;
+            border: 1px solid #c33829;
+            margin-top: 55px;
+            width: 80%;
+            color: #fff;
+        }
+        .button-area .btn-red:hover,.btn-red:focus{
+            background-color: #ec4432;
+            border: 1px solid #ec4432;
+        }
+        .button-area .btn-red:active{
+            background-color: #c33829;
+            border: 1px solid #c33829;
+        }
+        .error-tips{
+            color: red;
+            position: absolute;
+            bottom: -24px;
+            font-size: 14px;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="overflow: hidden; height: 350px; margin: 0">
+<div style="
+height: 340px;
+width: 470px;
+background-color: #fff;
+border: 1px solid #eee;
+box-shadow: 0px 0px 5px #d0d0d0;
+border-radius: 1px;">
+    <div class="title">
+        <span>
+            请输入验证码
+        </span>
+    </div>
+    <div class="content">
+        <input type="text" placeholder="请输入验证码"/>
+        <span class="error-tips">
+            验证码错误
+        </span>
+        <img src="" alt="验证码" width="150" height="44"/>
+    </div>
+    <div class="button-area">
+        <a href="#" class="btn-red btn" style="height: 50px;line-height: 50px;width: 100%;">提交</a>
+    </div>
+</div>
+</body>
+</html>
